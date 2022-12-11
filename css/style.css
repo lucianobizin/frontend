@@ -154,6 +154,7 @@ input:checked ~ .menu-desplegable {
     width: 100%;
     height: 100%;
     object-fit:scale-down;
+    margin-top: 20px;
 }
 
 .portada-cuadro {
@@ -172,14 +173,14 @@ input:checked ~ .menu-desplegable {
 }
 
 .portada-cuadro-texto h1{
-    font-size: calc(20px + 3vw);
+    font-size: calc(18px + 2vw);
     font-weight: bold;
     color: #404040;
     padding-bottom: 10px;
 }
 
 .portada-cuadro-texto p{
-    font-size: calc(10px + 1.25vw);
+    font-size: calc(12px + 0.5vw);
     color: #404040;
     padding: 0 1px 0 0;
 }
@@ -188,10 +189,10 @@ input:checked ~ .menu-desplegable {
 
 @media screen and (min-width: 768px) {
     .portada{
-        height: 900px;
+        height: 700px;
         display: grid;
         grid-template-columns: repeat(2, 50vw);
-        grid-template-rows: 600px;
+        grid-template-rows: 700px;
 
         justify-content: center;
         align-content: center;
@@ -211,9 +212,9 @@ input:checked ~ .menu-desplegable {
     }
     
     .portada-cuadro-texto{
-        width: 80%;
+        width: 85%;
         max-width: 600px;
-        padding: 30px;
+        padding: 20px;
     }
     
     .portada-cuadro-texto h1{
@@ -221,7 +222,25 @@ input:checked ~ .menu-desplegable {
     }
     
     .portada-cuadro-texto p{
-        font-size: calc(8px + 1vw);
+        font-size: calc(12px + 0.5vw);
+        padding: 0 1px 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+  
+    .portada-cuadro-texto{
+        width: 70%;
+    }
+    
+    .portada-cuadro-texto h1{
+        font-size: calc(20px + 2vw);
+    }
+    
+    .portada-cuadro-texto p{
+        font-size: calc(12px + 0.75vw);
         padding: 0 1px 0 0;
     }
     
@@ -285,14 +304,14 @@ input:checked ~ .menu-desplegable {
     width: 100%;
     height: 50%;
     object-fit: contain;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .seccion-2-imagenes-luciano {
     width: 100%;
     height: 50%;
     object-fit: contain;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .seccion-2-btns {
@@ -300,23 +319,28 @@ input:checked ~ .menu-desplegable {
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
+    gap: 50px;
+    padding: 5px 10px 10px 10px;
 }
 
 .seccion-2-btns-brochure {
+    width: 190px;
     height: 40px;
-    padding: 5px 10px;
     border: 2px #404040 solid;
     background-color: #404040;
     border-radius: 10px;
-    font-weight: 400;
-    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .seccion-2-btns-brochure-texto{
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 300;
     color: white;
 }
 
@@ -336,7 +360,7 @@ input:checked ~ .menu-desplegable {
     .seccion-2-texto{
         width:100%;
         height: 400px;
-        grid-area: "texto";
+        grid-area: texto;
         padding-left: 40px;
         justify-content: flex-start;
         padding-bottom: 20px;
@@ -344,30 +368,23 @@ input:checked ~ .menu-desplegable {
 
     .seccion-2-texto h2{
         font-size: calc(20px + 1.5vw);
-        font-weight: bold;
-        color: #404040;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     .seccion-2-texto-titulo{
         font-size: calc(12px + 1.5vw);
-        font-weight: bold;
-        color: #404040;
         padding-bottom: 20px;
     }
     
     .seccion-2-texto-copete{
-        font-weight: bold;
         font-size: calc(10px + 0.75vw);
-        color: #404040;
         padding: 0 0 20px 0;
     }
     
     .seccion-2-texto-parrafos{
         font-weight: 400;
         font-size: calc(10px + 0.5vw);
-        color: #404040;
         padding: 0 0 20px 0;
     }
 
@@ -378,7 +395,7 @@ input:checked ~ .menu-desplegable {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        grid-area: "fotos";
+        grid-area: fotos;
     }
 
     .seccion-2-imagenes-ramiro {
@@ -396,22 +413,24 @@ input:checked ~ .menu-desplegable {
     }
 
     .seccion-2-btns {
-        grid-area: "botones";
+        grid-area: botones;
         height: 100px;
         display: flex;
         flex-direction: row;
         justify-content: left;
         align-items: center;
-        padding: 30px;
+        padding: 40px;
     }
 
     .seccion-2-btns-brochure {
+        height: 40px;
+        width: 225px;
         margin-right: 60px;
     }
 
     .seccion-2-btns-brochure-texto{
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 400;
     }
 
 }
@@ -425,43 +444,35 @@ input:checked ~ .menu-desplegable {
         grid-template-columns: 50vw;
         grid-template-rows: 600px 200px;
         grid-template-areas: "texto fotos" "botones botones";
+        margin-top: 50px;
     }
 
     .seccion-2-texto{
         width:100%;
         height: 600px;
-        grid-area: "texto";
+        grid-area: texto;
         padding-left: 40px;
         justify-content: flex-start;
     }
 
     .seccion-2-texto h2{
         font-size: calc(30px + 1.5vw);
-        font-weight: bold;
-        color: #404040;
         padding-top: 20px;
         margin-bottom: 20px;
     }
     
     .seccion-2-texto-titulo{
         font-size: calc(18px + 1.5vw);
-        font-weight: bold;
-        color: #404040;
         margin-bottom: 20px;
     }
     
     .seccion-2-texto-copete{
-        font-weight: bold;
         font-size: calc(15px + 0.75vw);
-        color: #404040;
         margin-bottom: 20px;
     }
     
     .seccion-2-texto-parrafos{
-        font-weight: 400;
         font-size: calc(15px + 0.5vw);
-        color: #404040;
-        margin-bottom: 20px;
     }
 
     .seccion-2-imagenes {
@@ -471,29 +482,27 @@ input:checked ~ .menu-desplegable {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        grid-area: "fotos";
-    }
-
-    .seccion-2-imagenes-ramiro {
-        width: 50%;
-        height: 100%;
-        object-fit: contain;
-    }
-    
-    .seccion-2-imagenes-luciano {
-        width: 50%;
-        height: 100%;
-        object-fit: contain;
+        grid-area: fotos;
     }
 
     .seccion-2-btns {
-        height: 200px;
-        grid-area: "botones";
+        height: 100px;
+        grid-area: botones;
         display: flex;
         flex-direction: row;
         justify-content: left;
         align-items: center;
-        padding: 30px;
+        padding: 0px 40px;
+    }
+
+    .seccion-2-btns-brochure {
+        height: 60px;
+        width: 250px;
+    }
+
+    .seccion-2-btns-brochure-texto{
+        font-size: 18px;
+        font-weight: 400;
     }
 
 }
@@ -517,6 +526,7 @@ input:checked ~ .menu-desplegable {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 30px;
 }
 
 .seccion-3-servicios-titulo h2{
@@ -555,6 +565,7 @@ input:checked ~ .menu-desplegable {
     font-size: calc(14px + 2.5vw);
     font-weight: bold;
     color: #404040;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -620,10 +631,10 @@ input:checked ~ .menu-desplegable {
 
     .seccion-3 {
         width: 100vw;
-        height: 1100px;
+        height: 1280px;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: 350px 250px 250px 250px;
+        grid-template-rows: 380px 300px 300px 300px;
         grid-template-areas: "tituloServicios tituloServicios" "servicio2 servicio1" "servicio3 servicio1" "servicio4 servicio1";
     }
 
@@ -635,18 +646,17 @@ input:checked ~ .menu-desplegable {
 
     .seccion-3-servicios-titulo h2 {
         font-size: calc(18px + 2vw);
-        font-weight: bold;
-        color: #404040;
     }
 
     .seccion-3-servicios-1 {
-        height: 750px;
+        height: 900px;
         width: 50vw;
         grid-area: servicio1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0%;
     }
 
     .seccion-3-servicios-1 h2{
@@ -662,7 +672,7 @@ input:checked ~ .menu-desplegable {
     }
 
     .seccion-3-servicios-2 {
-        height: 250px;
+        height: 300px;
         width: 50vw;
         grid-area: servicio2;
     }
@@ -679,7 +689,7 @@ input:checked ~ .menu-desplegable {
     }
 
     .seccion-3-servicios-3 {
-        height: 250px;
+        height: 300px;
         width: 50vw;
         grid-area: servicio3;
     }
@@ -696,7 +706,7 @@ input:checked ~ .menu-desplegable {
     }
 
     .seccion-3-servicios-4 {
-        height: 250px;
+        height: 300px;
         width: 50vw;
         grid-area: servicio4;
     }
