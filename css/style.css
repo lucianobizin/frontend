@@ -727,7 +727,7 @@ input:checked ~ .menu-desplegable {
 
 .seccion-4{
     width: 100vw;
-    height: 1200px;
+    height: 1250px;
 }
 
 .seccion-4-introduccion{
@@ -1125,4 +1125,303 @@ input:checked ~ .menu-desplegable {
     
     }
 
+}
+
+@media screen and (min-width: 1200px) {
+
+    .seccion-4{
+        height: 850px;
+    }
+    
+    .seccion-4-introduccion{
+        height: 425px;
+    }
+    
+    .seccion-4-linea-amarilla-1 {
+        width:125px;
+    }
+    
+    .seccion-4-introduccion-titulo{
+        font-size: calc(14px + 1.5vw);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .seccion-4-introduccion-parrafo{
+        font-size: calc(10px + 0.55vw);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .seccion-4-explicacion{
+        height: 400px;
+        margin-top: 20px;
+        grid-template-columns: repeat(5, 20vw);
+        grid-template-rows: repeat (2, 200px);
+        grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
+    }
+    
+    .seccion-4-explicacion-marketing {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion1;
+    }
+    
+    .seccion-4-explicacion-marketing h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-marketing p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-big-data {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion2;
+    }
+    
+    .seccion-4-explicacion-big-data h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-big-data p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-mercado {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion3;
+    }
+    
+    .seccion-4-explicacion-mercado h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-mercado p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-ecommerce{
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion4;
+    }
+    
+    .seccion-4-explicacion-ecommerce h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-ecommerce p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-optimizacion {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion5;
+    }
+    
+    .seccion-4-explicacion-optimizacion h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-optimizacion p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-riesgo {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion6;
+    }
+    
+    .seccion-4-explicacion-riesgo h3 {
+        font-size: calc(14px + 0.90vw);
+    }
+    
+    .seccion-4-explicacion-riesgo p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-fraude {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion7;
+    }
+    
+    .seccion-4-explicacion-fraude h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-fraude p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-digitalizacion {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion8;
+    }
+    
+    .seccion-4-explicacion-digitalizacion h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-digitalizacion p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-ux-ui {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion9;
+    }
+    
+    .seccion-4-explicacion-ux-ui h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-ux-ui p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .seccion-4-explicacion-sostenibilidad {
+        width: 20vw;
+        height: 200px;
+        grid-area: explicacion10;
+    }
+    
+    .seccion-4-explicacion-sostenibilidad h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .seccion-4-explicacion-sostenibilidad p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+}
+
+  /* --- Footer --- */
+
+footer {
+    width: 100vw;
+    height: 210px;
+    background-color: #404040;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(3, 70px);
+    grid-template-areas: "slogan" "logos" "copyright";
+}
+
+.footer-slogan {
+    width: 100vw;
+    height: 70px;
+    grid-area: slogan;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-slogan p{
+    display: inline-block;
+    font-size: calc(13px + 0.7vw);
+    font-weight: bold;
+    color: white;
+}
+
+.footer-botones{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-area: logos;
+    gap: calc(30px + 0.25vw);
+}
+
+.footer div a {
+    display: block;
+    width:35px;
+    height: 35px;
+}
+
+.footer-icono{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-copyright{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: copyright;
+}
+
+.footer-copyright p {
+    font-size: calc(10px + 0.7vw);
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+
+    .footer{
+        width: 100vw;
+        height: 510px;
+        background-color: #404040;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat(3, 170px);
+        grid-template-areas: "slogan" "logos" "copyright";
+    }
+
+    .footer-botones{
+        width: 100vw;
+        height: 70px;
+        grid-area: logos;
+        gap: calc(30px + 0.25vw);
+    }
+
+    .footer div a {
+        display: block;
+        width:50px;
+        height: 50px;
+    }
+    
+    .footer-icono{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .footer{
+        width: 100vw;
+        height: 800px;
+    }
+
+    .footer-botones{
+        width: 100vw;
+        height: 70px;
+        grid-area: logos;
+        gap: calc(40px + 0.5vw);
+    }
+
+    .footer div a {
+        display: block;
+        width:70px;
+        height: 70px;
+    }
+    
+    .footer-icono{
+        width: 50px;
+        height: 50px;
+    }
 }
