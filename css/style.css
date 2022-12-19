@@ -47,9 +47,9 @@ header img {
 
 header h1 {
     grid-area: "nombre";
-    font-size: calc(10px + 0.3vw);
+    font-size: calc(12px + 0.3vw);
     color: #404040;
-    padding: calc(10px - 0.5vw);
+    padding: calc(12px - 0.5vw);
 }
 
 .boton-header{
@@ -58,7 +58,7 @@ header h1 {
     grid-area: "botón";
     display: flex;
     position: relative;
-  }
+}
 
 header div input {
     opacity: 0;
@@ -67,28 +67,37 @@ header div input {
     display: none;
 }
 
+.logo-menu{
+    width:100%;
+    height: 100%;
+    object-position: cover;
+}
+
 .menu-desplegable{
     background-color: #ffc72c;
-    height: vh;
+    height: 100vh;
+    width: 100vw;
     display: none;
-    top: 50px;
+    top: 10vh;
     position: absolute;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     padding: 15vh;
-    gap: 10vh;
+    gap: 15vh;
     right: 0px;
+    margin-left: 25px;
 }
 
 .menu-desplegable-texto{
-    font-weight: 500;
+    font-weight: 600;
     color: #404040da;
+    margin-left: calc(28px + 1.5vw);
 }
 
 input:checked ~ .menu-desplegable {
     display: flex;
-  }
+}
 
 /* header media screen */
 
@@ -96,39 +105,24 @@ input:checked ~ .menu-desplegable {
 
     .header {
         grid-template-rows: 15vh;
-        /* position:sticky; */
+    }
+
+    .menu-desplegable{
+        top: 15vh;
+        padding: 4vw;
     }
 
     header h1 {
         grid-area: "nombre";
-        font-size: calc(20px + 0.3vw);
+        font-size: calc(18px + 0.25vw);
         color: #404040;
-        padding: calc(10px - 0.5vw);
-    }
-
-    .logo-menu{
-        width:100%;
-        height: 100%;
-        object-position: cover;
-    }
-
-    .menu-desplegable{
-        background-color: #ffc72c;
-        height: 68vh;
-        display: none;
-        top: 50px;
-        position: absolute;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15vh;
-        gap: 1vh;
+        padding: calc(12px - 0.5vw);
     }
 
     .menu-desplegable-texto{
-        font-size: 30px;
-        font-weight: 1000;
-        color: #404040da;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: calc(60px + 1.5vw);
     }
 }
 
@@ -166,21 +160,21 @@ input:checked ~ .menu-desplegable {
 }
 
 .portada-cuadro-texto{
-    width: 80%;
-    max-width: 400px;
+    width: 85%;
+    max-width: 450px;
     border: 4px #404040 solid;
     padding: 20px;
 }
 
 .portada-cuadro-texto h1{
-    font-size: calc(18px + 2vw);
+    font-size: calc(20px + 2.5vw);
     font-weight: bold;
     color: #404040;
     padding-bottom: 10px;
 }
 
 .portada-cuadro-texto p{
-    font-size: calc(12px + 0.5vw);
+    font-size: calc(11px + 0.6vw);
     color: #404040;
     padding: 0 1px 0 0;
 }
@@ -230,20 +224,21 @@ input:checked ~ .menu-desplegable {
 
 @media screen and (min-width: 1200px) {
 
-  
     .portada-cuadro-texto{
-        width: 70%;
+        width: 85%;
+        max-width: 550px;
+        border: 4px #404040 solid;
+        padding: 40px;
     }
     
     .portada-cuadro-texto h1{
         font-size: calc(20px + 2vw);
+        margin: 15px 0px;
     }
     
     .portada-cuadro-texto p{
         font-size: calc(12px + 0.75vw);
-        padding: 0 1px 0 0;
     }
-    
 }
 
   /* ___ Segunda sección ___ */
@@ -312,6 +307,7 @@ input:checked ~ .menu-desplegable {
     height: 50%;
     object-fit: contain;
     padding-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 .seccion-2-btns {
@@ -397,19 +393,10 @@ input:checked ~ .menu-desplegable {
         align-items: center;
         grid-area: fotos;
     }
-
-    .seccion-2-imagenes-ramiro {
-        width: 50%;
-        height: 100%;
-        object-fit: contain;
-        padding: 0;
-    }
     
     .seccion-2-imagenes-luciano {
-        width: 50%;
-        height: 100%;
-        object-fit:contain;
         padding: 0;
+        margin-bottom: 0;
     }
 
     .seccion-2-btns {
@@ -439,10 +426,10 @@ input:checked ~ .menu-desplegable {
     
     .seccion-2 {
         width: 100vw;
-        height: 800px;
+        height: 750px;
         display: grid;
         grid-template-columns: 50vw;
-        grid-template-rows: 600px 200px;
+        grid-template-rows: 600px 150px;
         grid-template-areas: "texto fotos" "botones botones";
         margin-top: 50px;
     }
@@ -483,6 +470,10 @@ input:checked ~ .menu-desplegable {
         justify-content: space-around;
         align-items: center;
         grid-area: fotos;
+    }
+
+    .seccion-2-imagenes-luciano {
+        padding-bottom: 5px;
     }
 
     .seccion-2-btns {
@@ -565,7 +556,6 @@ input:checked ~ .menu-desplegable {
     font-size: calc(14px + 2.5vw);
     font-weight: bold;
     color: #404040;
-    margin-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -631,16 +621,16 @@ input:checked ~ .menu-desplegable {
 
     .seccion-3 {
         width: 100vw;
-        height: 1280px;
+        height: 1230px;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: 380px 300px 300px 300px;
+        grid-template-rows: 330px 300px 300px 300px;
         grid-template-areas: "tituloServicios tituloServicios" "servicio2 servicio1" "servicio3 servicio1" "servicio4 servicio1";
     }
 
     .seccion-3-servicios-titulo {
         width: 100vw;
-        height: 350px;
+        height: 300px;
         grid-area: tituloServicios;
     }
 
@@ -1307,17 +1297,18 @@ input:checked ~ .menu-desplegable {
 
 footer {
     width: 100vw;
-    height: 210px;
+    height: 280px;
     background-color: #404040;
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: repeat(3, 70px);
+    grid-template-rows: repeat(3, 80px);
     grid-template-areas: "slogan" "logos" "copyright";
+    padding: 20px 0px;
 }
 
 .footer-slogan {
     width: 100vw;
-    height: 70px;
+    height: 80px;
     grid-area: slogan;
     text-align: center;
     display: flex;
@@ -1334,13 +1325,13 @@ footer {
 
 .footer-botones{
     width: 100vw;
-    height: 70px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     grid-area: logos;
-    gap: calc(30px + 0.25vw);
+    gap: calc(20px + 0.25vw);
 }
 
 .footer div a {
@@ -1356,7 +1347,7 @@ footer {
 
 .footer-copyright{
     width: 100vw;
-    height: 70px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1371,57 +1362,64 @@ footer {
 
 @media screen and (min-width: 768px){
 
-    .footer{
-        width: 100vw;
-        height: 510px;
-        background-color: #404040;
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: repeat(3, 170px);
-        grid-template-areas: "slogan" "logos" "copyright";
+    footer{
+        height: 360px;
+        grid-template-rows: repeat(3, 100px);
+        padding: 30px 0px;
+    }
+
+    .footer-slogan {
+        height: 100px;
     }
 
     .footer-botones{
-        width: 100vw;
-        height: 70px;
-        grid-area: logos;
+        height: 100px;
         gap: calc(30px + 0.25vw);
     }
 
     .footer div a {
-        display: block;
-        width:50px;
-        height: 50px;
+        width: calc(50px + 0.2vw);
+        height: calc(50px + 0.1vw);
     }
     
     .footer-icono{
-        width: 35px;
-        height: 35px;
+        width: calc(35px + 0.2vw);
+        height: calc(35px + 0.2vw);
+    }
+
+    .footer-copyright {
+        height: 100px;
     }
 }
 
 @media screen and (min-width: 1200px){
 
-    .footer{
-        width: 100vw;
-        height: 800px;
+    footer{
+        height: 420px;
+        grid-template-rows: repeat(3, 120px);
+        padding: 30px 0px;
+    }
+
+    .footer-slogan {
+        height: 120px;
     }
 
     .footer-botones{
-        width: 100vw;
-        height: 70px;
-        grid-area: logos;
-        gap: calc(40px + 0.5vw);
+        height: 120px;
     }
 
     .footer div a {
-        display: block;
-        width:70px;
-        height: 70px;
+        width: calc(80px + 0.2vw);
+        height: calc(80px + 0.1vw);
     }
     
     .footer-icono{
-        width: 50px;
-        height: 50px;
+        width: calc(55px + 0.2vw);
+        height: calc(55px + 0.2vw);
     }
+
+    .footer-copyright {
+        height: 120px;
+    }
+
 }
