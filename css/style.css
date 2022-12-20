@@ -2090,7 +2090,7 @@ footer {
 
 .nosotros-seccion-4 {
     width: 100vw;
-    height: 850px;
+    height: 870px;
     background-color: rgb(216, 216, 216);
 }
 
@@ -2098,6 +2098,7 @@ footer {
     width: 100vw;
     height: 80px;
     padding-top: 50px;
+    margin-bottom: 10px;
 }
 
 .nosotros-seccion-4-linea-amarilla {
@@ -2125,6 +2126,7 @@ footer {
     font-size: calc(14px + 1.5vw);
     color: #404040;
     margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .nosotros-seccion-4-trabajo-parte-1 {
@@ -2276,6 +2278,7 @@ footer {
 
     .nosotros-seccion-4-trabajo-titulo h2 {
         font-size: calc(12px + 1vw);
+        margin-top: 0px;
     }
 
     .nosotros-seccion-4-trabajo-parte-1 {
@@ -2291,11 +2294,12 @@ footer {
     }
     
     .nosotros-seccion-4-trabajo-parte-1 p {
-        font-size: calc(12px + 0.5vw);
+        font-size: calc(12px + 0.25vw);
     }
     
     .nosotros-seccion-4-trabajo-parte-1 a {
         width: 200px;
+        font-style: italic;
         font-size: calc(12px + 0.25vw);
     }
 
@@ -2312,11 +2316,12 @@ footer {
     }
     
     .nosotros-seccion-4-trabajo-parte-2 p {
-        font-size: calc(12px + 0.5vw);
+        font-size: calc(12px + 0.25vw);
     }
     
     .nosotros-seccion-4-trabajo-parte-2 a {
         width: 200px;
+        font-style: italic;
         font-size: calc(12px + 0.25vw);
     }
 
@@ -2333,12 +2338,130 @@ footer {
     }
     
     .nosotros-seccion-4-trabajo-parte-3 p {
-        font-size: calc(12px + 0.5vw);
+        font-size: calc(12px + 0.25vw);
     }
     
     .nosotros-seccion-4-trabajo-parte-3 a {
         width: 200px;
+        font-style: italic;
         font-size: calc(12px + 0.25vw);
     }
 
+}
+
+/* === Servicios === */
+
+  /* --- Main --- */
+
+  /* ___ Primera sección o portada___ */
+
+.servicios-portada{
+    width: 100vw;
+    height: 750px;
+    background-color: #ffc72c;
+}
+
+.servicios-portada-imagen{
+    width:100vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-portada-imagen img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.servicios-portada-cuadro {
+    width:100vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-portada-cuadro-texto{
+    width: 85%;
+    max-width: 450px;
+    border: 4px #404040 solid;
+    padding: 20px;
+}
+
+.servicios-portada-cuadro-texto h1{
+    font-size: calc(20px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+}
+
+.servicios-portada-cuadro-texto p{
+    font-size: calc(11px + 0.6vw);
+    color: #404040;
+    padding: 0 1px 0 0;
+}
+
+/* servicios portada media screen */
+
+@media screen and (min-width: 768px) {
+    .servicios-portada{
+        height: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 700px;
+
+        justify-content: center;
+        align-content: center;
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    .servicios-portada-imagen{
+        width:100%;
+        height: 80%;
+    }
+
+    .servicios-portada-cuadro {
+        width:100%;
+        height: 80%;
+    }
+    
+    .servicios-portada-cuadro-texto{
+        width: 85%;
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    .servicios-portada-cuadro-texto h1{
+        font-size: calc(18px + 2vw);
+    }
+    
+    .servicios-portada-cuadro-texto p{
+        font-size: calc(12px + 0.5vw);
+        padding: 0 1px 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    .servicios-portada-cuadro-texto{
+        width: 85%;
+        max-width: 550px;
+        max-height: 600px;
+        border: 4px #404040 solid;
+        padding: 40px;
+    }
+    
+    .servicios-portada-cuadro-texto h1{
+        font-size: calc(20px + 2vw);
+        margin: 15px 0px;
+    }
+    
+    .servicios-portada-cuadro-texto p{
+        font-size: calc(12px + 0.55vw);
+    }
 }
