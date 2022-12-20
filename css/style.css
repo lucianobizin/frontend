@@ -1545,172 +1545,800 @@ footer {
     }
 }
 
-  /* ___ Segunda sección o portada___ */
+  /* ___ Segunda sección ___ */
 
-.nosotros-seccion-2{
+.nosotros-seccion-2 {
     width: 100vw;
-    height: 5000px;
+    height: 1440px;
 }
 
-.nosotros-seccion-2-luciano-foto{
+.nosotros-seccion-2-titular {
     width: 100vw;
-    height: 100px;
+    height: 70px;
     background-color: rgb(216, 216, 216);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 0px 40px;
 }
 
-.nosotros-seccion-2-luciano-foto span{
+.nosotros-seccion-2-titular h2 {
+    font-size: calc(14px + 1.25vw);
     color: #404040;
-    font-weight: bold;
-    font-size: calc(12px + 1.25vw);
 }
 
-.nosotros-seccion-2-luciano-foto-titular-a {
-    width: 60px;
-    height: 60px;
-    position: absolute;
+.nosotros-seccion-2-titular a {
+    width: 50px;
+    height: 50px;
 }
 
-.nosotros-seccion-2-luciano-foto-titular-a-img {
-    width: 40px;
-    height: 40px;
-    position: relative;
+.nosotros-seccion-2-titular-a-img {
+    width: 50px;
+    height: 50px;
 }
 
-.nosotros-seccion-2-luciano-foto-luciano {
+.nosotros-seccion-2-foto {
     width: 100vw;
+    max-height: 400px;
     background-color: rgb(216, 216, 216);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nosotros-seccion-2-foto-foto {
+    width: 100vw;
+    max-height: 400px;
     object-fit: contain;
+    display: block;
 }
 
-.nosotros-seccion-2-luciano-texto {
+.nosotros-seccion-2-explicacion {
+    width: 100vw;
+    height: 1000px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 25px;
-    gap: 30px;
+    padding: 40px;
 }
 
-.nosotros-seccion-2-luciano-texto-titulos{
+.nosotros-seccion-2-explicacion h2 {
+    width: 50vw;
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+}
+
+.nosotros-seccion-2-explicacion p {
+    font-size: calc(12px + 0.25vw);
+}
+
+.nosotros-seccion-2-explicacion-h3 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 25px 25px 25px 0px;
-    gap: 20px;
-    font-size: calc(12px + 0.4vw);
+    flex-wrap: row wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.nosotros-seccion-2-explicacion h3 {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
 }
 
 /* nosotros sección 2 media screen */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
 
-    .nosotros-seccion-2-luciano-texto-titulos {
+    .nosotros-seccion-2 {
+        width: 100vw;
+        height: 1100px;
+    }
+    
+    /* .nosotros-seccion-2-titular {
+        width: 100vw;
+        height: 70px;
+        background-color: rgb(216, 216, 216);
+    
         display: flex;
-        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 40px;
+    }
+    
+    .nosotros-seccion-2-titular h2 {
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-titular a {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nosotros-seccion-2-titular-a-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nosotros-seccion-2-foto {
+        width: 100vw;
+        max-height: 400px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .nosotros-seccion-2-foto-foto {
+        width: 100vw;
+        max-height: 400px;
+        object-fit: contain;
+        display: block;
+    }
+     */
+    .nosotros-seccion-2-explicacion {
+        width: 100vw;
+        height: 600px;
+    
+        display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
-        padding: 25px 25px 25px 0px;
-        gap: 20px;
-        font-size: calc(12px + 0.4vw);
+        padding: 10px 40px;
+    }
+    
+    /* .nosotros-seccion-2-explicacion h2 {
+        width: 50vw;
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-explicacion p {
+        display: block;
+        font-size: calc(12px + 0.25vw);
+    }
+    
+    .nosotros-seccion-2-explicacion-h3 {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    .nosotros-seccion-2-explicacion h3 {
+        font-size: calc(10px + 0.25vw);
+        color: #404040;
+    } */
+
+    /* .nosotros-seccion-3 {
+        width: 100vw;
+        height: 1100px;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+
+    .nosotros-seccion-2 {
+        width: 100vw;
+        height: 750px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 650px;
+        grid-template-areas: "nosotrosSeccion2titular nosotrosSeccion2texto" "nosotrosSeccion2foto nosotrosSeccion2texto";
+    }
+    
+    .nosotros-seccion-2-titular {
+        width: 50vw;
+        height: 100px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 40px;
+
+        grid-area: nosotrosSeccion2titular;
+    }
+    
+    /* .nosotros-seccion-2-titular h2 {
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-titular a {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nosotros-seccion-2-titular-a-img {
+        width: 50px;
+        height: 50px;
+    } */
+    
+    .nosotros-seccion-2-foto {
+        width: 50vw;
+        max-height: 650px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        grid-area: nosotrosSeccion2foto;
+    }
+    
+    .nosotros-seccion-2-foto-foto {
+        width: 50vw;
+        max-height: 650px;
+        object-fit: contain;
+        display: block;
+    }
+    
+    .nosotros-seccion-2-explicacion {
+        width: 50vw;
+        height: 720px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 40px;
+        margin-top: 5px;
+    }
+    
+    .nosotros-seccion-2-explicacion h2 {
+        width: 50vw;
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-explicacion p {
+        display: block;
+        font-size: calc(12px + 0.25vw);
+    }
+    
+    .nosotros-seccion-2-explicacion-h3 {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    .nosotros-seccion-2-explicacion h3 {
+        font-size: calc(10px + 0.25vw);
+        color: #404040;
+    }
+}
+
+  /* ___ Tercera sección ___ */
+
+.nosotros-seccion-3 {
+    width: 100vw;
+    height: 1450px;
+}
+
+.nosotros-seccion-3-titular {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(216, 216, 216);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.nosotros-seccion-3-titular h2 {
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+}
+
+.nosotros-seccion-3-titular a {
+    width: 50px;
+    height: 50px;
+}
+
+.nosotros-seccion-3-titular-a-img {
+    width: 50px;
+    height: 50px;
+}
+
+.nosotros-seccion-3-foto {
+    width: 100vw;
+    max-height: 400px;
+    background-color: rgb(216, 216, 216);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nosotros-seccion-3-foto-foto {
+    width: 100vw;
+    max-height: 400px;
+    object-fit: contain;
+    display: block;
+}
+
+.nosotros-seccion-3-explicacion {
+    width: 100vw;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.nosotros-seccion-3-explicacion h2 {
+    width: 50vw;
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+}
+
+.nosotros-seccion-3-explicacion p {
+    font-size: calc(12px + 0.25vw);
+}
+
+.nosotros-seccion-3-explicacion-h3 {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.nosotros-seccion-3-explicacion h3 {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
+}
+
+/* nosotros sección 3 media screen */
+
+@media screen and (min-width:768px) {
+
+    .nosotros-seccion-3 {
+        width: 100vw;
+        height: 1100px;
+    }
+    
+    /* .nosotros-seccion-2-titular {
+        width: 100vw;
+        height: 70px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 40px;
+    }
+    
+    .nosotros-seccion-2-titular h2 {
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-titular a {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nosotros-seccion-2-titular-a-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nosotros-seccion-2-foto {
+        width: 100vw;
+        max-height: 400px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .nosotros-seccion-2-foto-foto {
+        width: 100vw;
+        max-height: 400px;
+        object-fit: contain;
+        display: block;
+    }
+     */
+    .nosotros-seccion-3-explicacion {
+        width: 100vw;
+        height: 600px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 40px;
+    }
+    
+    /* .nosotros-seccion-2-explicacion h2 {
+        width: 50vw;
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-explicacion p {
+        display: block;
+        font-size: calc(12px + 0.25vw);
+    }
+    
+    .nosotros-seccion-2-explicacion-h3 {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    .nosotros-seccion-2-explicacion h3 {
+        font-size: calc(10px + 0.25vw);
+        color: #404040;
+    } */
+
+    /* .nosotros-seccion-3 {
+        width: 100vw;
+        height: 1100px;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+
+    .nosotros-seccion-3 {
+        width: 100vw;
+        height: 750px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 650px;
+        grid-template-areas: "nosotrosSeccion3texto nosotrosSeccion3titular" "nosotrosSeccion3texto nosotrosSeccion3foto";
+    }
+    
+    .nosotros-seccion-3-titular {
+        width: 50vw;
+        height: 100px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 40px;
+
+        grid-area: nosotrosSeccion3titular;
+    }
+    
+    /* .nosotros-seccion-2-titular h2 {
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-2-titular a {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nosotros-seccion-2-titular-a-img {
+        width: 50px;
+        height: 50px;
+    } */
+    
+    .nosotros-seccion-3-foto {
+        width: 50vw;
+        max-height: 650px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        grid-area: nosotrosSeccion3foto;
+    }
+    
+    .nosotros-seccion-3-foto-foto {
+        width: 50vw;
+        max-height: 600px;
+        object-fit: contain;
+        display: block;
+
+        grid-area: nosotrosSeccion3foto;
+    }
+    
+    .nosotros-seccion-3-explicacion {
+        width: 50vw;
+        height: 720px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 40px;
+        margin-top: 5px;
+    }
+    
+    .nosotros-seccion-3-explicacion h2 {
+        width: 50vw;
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .nosotros-seccion-3-explicacion p {
+        display: block;
+        font-size: calc(12px + 0.25vw);
+    }
+    
+    .nosotros-seccion-3-explicacion-h3 {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    .nosotros-seccion-3-explicacion h3 {
+        font-size: calc(10px + 0.25vw);
+        color: #404040;
+    }
+
+}
+
+  /* ___ Cuarta sección ___ */
+
+.nosotros-seccion-4 {
+    width: 100vw;
+    height: 850px;
+    background-color: rgb(216, 216, 216);
+}
+
+.nosotros-seccion-4-linea {
+    width: 100vw;
+    height: 80px;
+    padding-top: 50px;
+}
+
+.nosotros-seccion-4-linea-amarilla {
+    width: 25vw;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffc72c;
+    border-style: solid;
+    border-color: #ffc72c;
+}
+
+.nosotros-seccion-4-trabajo {
+    width: 100vw;
+    height: 750px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.nosotros-seccion-4-trabajo-titulo h2 {
+    font-size: calc(14px + 1.5vw);
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.nosotros-seccion-4-trabajo-parte-1 h3 {
+    font-size: calc(12px + 1.10vw);
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-1 p {
+    display: block;
+    font-size: calc(12px + 0.75vw);
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-1 a {
+    width: 200px;
+    font-size: calc(12px + 0.50vw);
+    padding: 10px 10px 10px 10px;
+    color: #404040;
+    font-weight: 500;
+    border-color: #ffc72c;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.nosotros-seccion-4-trabajo-parte-2 h3 {
+    font-size: calc(12px + 1.10vw);
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-2 p {
+    display: block;
+    font-size: calc(12px + 0.75vw);
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-2 a {
+    width: 200px;
+    font-size: calc(12px + 0.50vw);
+    padding: 10px 10px 10px 10px;
+    color: #404040;
+    font-weight: 500;
+    border-color: #ffc72c;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.nosotros-seccion-4-trabajo-parte-3 h3 {
+    font-size: calc(12px + 1.10vw);
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-3 p {
+    display: block;
+    font-size: calc(12px + 0.75vw);
+    margin-bottom: 30px;
+}
+
+.nosotros-seccion-4-trabajo-parte-3 a {
+    width: 200px;
+    font-size: calc(12px + 0.5vw);
+    padding: 10px 10px 10px 10px;
+    color: #404040;
+    font-weight: 500;
+    border-color: #ffc72c;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+/* nosotros sección 3 media screen */
+
+@media screen and (min-width: 768px){
+    .nosotros-seccion-4{
+        width: 100vw;
+        height: 1000px;
+        background-color: rgb(216, 216, 216);
+    }
+
+    .nosotros-seccion-4-trabajo {
+        width: 100vw;
+        height: 850px;
+        background-color: rgb(216, 216, 216);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+        padding: 20px;
+        margin-top: 30px;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
-    .nosotros-seccion-2{
+    .nosotros-seccion-4{
         width: 100vw;
-        height: 3600px;
-    }
-
-    .nosotros-seccion-2-luciano{
-        width: 100vW;
-        height: 700px;
+        height: 450px;
+        background-color: rgb(216, 216, 216);
         display: grid;
-        grid-template-columns: 50vw 50vw;
-        grid-template-rows: 100px 133px 233px 233px;
-        grid-template-areas: "textofoto textoinfo" "fotoLuc textoinfo" "fotoLuc textoinfo" "fotoLuc textoinfo";
+        grid-template-columns: 100vw;
+        grid-template-rows: 80px 350px;
+        grid-template-areas: "amarillo" "texto";
     }
-    
-    .nosotros-seccion-2-luciano-foto{
-        width: 50vw;
-        height: 100px;
-        background-color: rgb(216, 216, 216);
+
+    .nosotros-seccion-4-linea {
+        width: 30vw;
+        height:80px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-        padding: 20px 30px;
-        grid-area: textofoto;
     }
 
-    
-    .nosotros-seccion-2-luciano-foto span{
-        color: #404040;
-        font-weight: bold;
-        font-size: calc(12px + 1.25vw);
-        grid-area: textofoto;
-
-    }
-    
-.nosotros-seccion-2-luciano-foto-titular-a {
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        grid-area: textofoto;
-    }
-    
-    .nosotros-seccion-2-luciano-foto-titular-a-img {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        grid-area: textofoto;
-    }
-    
-    .nosotros-seccion-2-luciano-foto-luciano {
-        width: 50vw;
-        background-color: rgb(216, 216, 216);
-        grid-area: fotoLuc;
-        object-fit: contain;
-    }
-    
-    .nosotros-seccion-2-luciano-texto {
-        width: 50vw;
-        height: 700px;
-        grid-area: textoinfo;
-        display: block;
-
+    .nosotros-seccion-4-linea-amarilla {
+        width: 20vw;
+        height:15px;
     }
 
-    .nosotros-seccion-2-luciano-texto {
+    .nosotros-seccion-4-trabajo {
+        width: 100vw;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 80px;
+        padding: 40px;
+    }
+
+    .nosotros-seccion-4-trabajo-titulo h2 {
+        font-size: calc(12px + 1vw);
+    }
+
+    .nosotros-seccion-4-trabajo-parte-1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-        padding: 25px;
-        gap: 5px;
-        
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .nosotros-seccion-4-trabajo-parte-1 h3 {
+        max-width: 605px;
+        font-size: calc(12px + 1vw);
     }
     
-    .nosotros-seccion-2-luciano-texto h2{
-        font-size: calc(11px + 0.3vw);
+    .nosotros-seccion-4-trabajo-parte-1 p {
+        font-size: calc(12px + 0.5vw);
+    }
+    
+    .nosotros-seccion-4-trabajo-parte-1 a {
+        width: 200px;
+        font-size: calc(12px + 0.25vw);
     }
 
-    .nosotros-seccion-2-luciano-texto p{
-        font-size: calc(10px + 0.2vw);
-    }
-
-
-    .nosotros-seccion-2-luciano-texto-titulos{
+    .nosotros-seccion-4-trabajo-parte-2 {
         display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        padding: 25px 25px 25px 0px;
-        gap: 10px;
-        font-size: calc(9px + 0.2vw);
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .nosotros-seccion-4-trabajo-parte-2 h3 {
+        max-width: 605px;
+        font-size: calc(12px + 1vw);
+    }
+    
+    .nosotros-seccion-4-trabajo-parte-2 p {
+        font-size: calc(12px + 0.5vw);
+    }
+    
+    .nosotros-seccion-4-trabajo-parte-2 a {
+        width: 200px;
+        font-size: calc(12px + 0.25vw);
+    }
+
+    .nosotros-seccion-4-trabajo-parte-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .nosotros-seccion-4-trabajo-parte-3 h3 {
+        max-width: 605px;
+        font-size: calc(12px + 1vw);
+    }
+    
+    .nosotros-seccion-4-trabajo-parte-3 p {
+        font-size: calc(12px + 0.5vw);
+    }
+    
+    .nosotros-seccion-4-trabajo-parte-3 a {
+        width: 200px;
+        font-size: calc(12px + 0.25vw);
     }
 
 }
