@@ -128,7 +128,7 @@ input:checked ~ .menu-desplegable {
 
   /* --- Main --- */
 
-  /* ___ Primera sección ___ */
+  /* ___ Primera sección o portada ___ */
 
 .portada{
     width: 100vw;
@@ -1360,6 +1360,8 @@ footer {
     color: white;
 }
 
+/* index footer media screen */
+
 @media screen and (min-width: 768px){
 
     footer{
@@ -1420,6 +1422,295 @@ footer {
 
     .footer-copyright {
         height: 120px;
+    }
+
+}
+
+/* === Nosotros === */
+
+  /* --- Main --- */
+
+  /* ___ Primera sección o portada___ */
+
+  .nosotros-portada{
+    width: 100vw;
+    height: 800px;
+    background-color: #ffc72c;
+}
+
+.nosotros-portada-cuadro {
+    width:100vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-portada-cuadro-texto{
+    width: 80%;
+    max-width: 380px;
+    border: 4px #404040 solid;
+    padding: 20px;
+}
+
+.nosotros-portada-cuadro-texto h1{
+    font-size: calc(20px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+}
+
+.nosotros-portada-cuadro-texto p{
+    font-size: calc(11px + 0.6vw);
+    color: #404040;
+    padding: 0 1px 0 0;
+}
+
+.nosotros-portada-imagen{
+    width:100vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-portada-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+/* nosotros sección 1 o portada media screen */
+
+@media screen and (min-width: 768px) {
+
+    .nosotros-portada{
+        height: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 700px;
+        grid-template-areas: "cuadro imagen";
+        
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .nosotros-portada-cuadro {
+        width:100%;
+        height: 80%;
+        grid-area: cuadro;
+    }
+    
+    .nosotros-portada-cuadro-texto{
+        width: 80%;
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    .nosotros-portada-cuadro-texto h1{
+        font-size: calc(18px + 2vw);
+        margin: 10px 0px
+    }
+    
+    .nosotros-portada-cuadro-texto p{
+        font-size: calc(12px + 0.5vw);
+        margin: 10px 0px
+    }
+    
+    .nosotros-portada-imagen{
+        width:100%;
+        height: 90%;
+        grid-area: imagen;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .nosotros-portada-cuadro-texto{
+        width: 90%;
+        max-width: 600px;
+        border: 4px #404040 solid;
+        padding: 40px;
+    }
+    
+    .nosotros-portada-cuadro-texto h1{
+        font-size: calc(20px + 2vw);
+        margin: 15px 0px;
+    }
+    
+    .nosotros-portada-cuadro-texto p{
+        font-size: calc(12px + 0.75vw);
+    }
+}
+
+  /* ___ Segunda sección o portada___ */
+
+.nosotros-seccion-2{
+    width: 100vw;
+    height: 5000px;
+}
+
+.nosotros-seccion-2-luciano-foto{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.nosotros-seccion-2-luciano-foto span{
+    color: #404040;
+    font-weight: bold;
+    font-size: calc(12px + 1.25vw);
+}
+
+.nosotros-seccion-2-luciano-foto-titular-a {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.nosotros-seccion-2-luciano-foto-titular-a-img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.nosotros-seccion-2-luciano-foto-luciano {
+    width: 100vw;
+    background-color: rgb(216, 216, 216);
+    object-fit: contain;
+}
+
+.nosotros-seccion-2-luciano-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 25px;
+    gap: 30px;
+}
+
+.nosotros-seccion-2-luciano-texto-titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 25px 25px 25px 0px;
+    gap: 20px;
+    font-size: calc(12px + 0.4vw);
+}
+
+/* nosotros sección 2 media screen */
+
+@media screen and (min-width: 768px) {
+
+    .nosotros-seccion-2-luciano-texto-titulos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 25px 25px 25px 0px;
+        gap: 20px;
+        font-size: calc(12px + 0.4vw);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .nosotros-seccion-2{
+        width: 100vw;
+        height: 3600px;
+    }
+
+    .nosotros-seccion-2-luciano{
+        width: 100vW;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 133px 233px 233px;
+        grid-template-areas: "textofoto textoinfo" "fotoLuc textoinfo" "fotoLuc textoinfo" "fotoLuc textoinfo";
+    }
+    
+    .nosotros-seccion-2-luciano-foto{
+        width: 50vw;
+        height: 100px;
+        background-color: rgb(216, 216, 216);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+        grid-area: textofoto;
+    }
+
+    
+    .nosotros-seccion-2-luciano-foto span{
+        color: #404040;
+        font-weight: bold;
+        font-size: calc(12px + 1.25vw);
+        grid-area: textofoto;
+
+    }
+    
+.nosotros-seccion-2-luciano-foto-titular-a {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        grid-area: textofoto;
+    }
+    
+    .nosotros-seccion-2-luciano-foto-titular-a-img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        grid-area: textofoto;
+    }
+    
+    .nosotros-seccion-2-luciano-foto-luciano {
+        width: 50vw;
+        background-color: rgb(216, 216, 216);
+        grid-area: fotoLuc;
+        object-fit: contain;
+    }
+    
+    .nosotros-seccion-2-luciano-texto {
+        width: 50vw;
+        height: 700px;
+        grid-area: textoinfo;
+        display: block;
+
+    }
+
+    .nosotros-seccion-2-luciano-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 25px;
+        gap: 5px;
+        
+    }
+    
+    .nosotros-seccion-2-luciano-texto h2{
+        font-size: calc(11px + 0.3vw);
+    }
+
+    .nosotros-seccion-2-luciano-texto p{
+        font-size: calc(10px + 0.2vw);
+    }
+
+
+    .nosotros-seccion-2-luciano-texto-titulos{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 25px 25px 25px 0px;
+        gap: 10px;
+        font-size: calc(9px + 0.2vw);
     }
 
 }
