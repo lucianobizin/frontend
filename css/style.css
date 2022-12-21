@@ -2516,13 +2516,14 @@ footer {
     width: 100vw;
     height: 1250px;
     margin-top: 40px;
+    margin-bottom: 60px;
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: repeat (5, 140px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
 }
 
-.servicios-seccion-2-explicacion-marketing {
+.servicios-seccion-2-explicacion-ingenieria {
     width: 50vw;
     height: 140px;
     grid-area: explicacion1;
@@ -2534,21 +2535,21 @@ footer {
     margin-top: 10px;
 }
 
-.servicios-seccion-2-explicacion-marketing h3 {
+.servicios-seccion-2-explicacion-ingenieria h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-marketing p {
+.servicios-seccion-2-explicacion-ingenieria p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-big-data {
+.servicios-seccion-2-explicacion-ml {
     width: 50vw;
     height: 140px;
     grid-area: explicacion2;
@@ -2560,14 +2561,139 @@ footer {
     margin-top: 10px;
 }
 
-.servicios-seccion-2-explicacion-big-data h3 {
+.servicios-seccion-2-explicacion-ml h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-big-data p {
+.servicios-seccion-2-explicacion-ml p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-datos {
+    width: 50vw;
+    height: 140px;
+    grid-area: explicacion3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-2-explicacion-datos h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-datos p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-monitoreo{
+    width: 50vw;
+    height: 140px;
+    grid-area: explicacion4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-2-explicacion-monitoreo h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-monitoreo p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-comites {
+    width: 50vw;
+    height: 140px;
+    grid-area: explicacion5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-2-explicacion-comites h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-comites p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-arquitectura {
+    width: 50vw;
+    height: 140px;
+    grid-area: explicacion6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-2-explicacion-arquitectura h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-arquitectura p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-capacitaciones {
+    width: 50vw;
+    height: 140px;
+    grid-area: explicacion7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-2-explicacion-capacitaciones h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-2-explicacion-capacitaciones p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
@@ -2577,7 +2703,7 @@ footer {
 .servicios-seccion-2-explicacion-mercado {
     width: 50vw;
     height: 140px;
-    grid-area: explicacion3;
+    grid-area: explicacion8;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -2599,132 +2725,7 @@ footer {
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-ecommerce{
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion4;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.servicios-seccion-2-explicacion-ecommerce h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-ecommerce p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-optimizacion {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion5;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.servicios-seccion-2-explicacion-optimizacion h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-optimizacion p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-riesgo {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion6;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.servicios-seccion-2-explicacion-riesgo h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-riesgo p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-fraude {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion7;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.servicios-seccion-2-explicacion-fraude h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-fraude p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-digitalizacion {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion8;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.servicios-seccion-2-explicacion-digitalizacion h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-digitalizacion p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.servicios-seccion-2-explicacion-ux-ui {
+.servicios-seccion-2-explicacion-logistica {
     width: 50vw;
     height: 140px;
     grid-area: explicacion9;
@@ -2735,21 +2736,21 @@ footer {
     padding: 10px;
 }
 
-.servicios-seccion-2-explicacion-ux-ui h3 {
+.servicios-seccion-2-explicacion-logistica h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-ux-ui p {
+.servicios-seccion-2-explicacion-logistica p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-sostenibilidad {
+.servicios-seccion-2-explicacion-productos {
     width: 50vw;
     height: 140px;
     grid-area: explicacion10;
@@ -2760,20 +2761,19 @@ footer {
     padding: 10px;
 }
 
-.servicios-seccion-2-explicacion-sostenibilidad h3 {
+.servicios-seccion-2-explicacion-productos h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.servicios-seccion-2-explicacion-sostenibilidad p {
+.servicios-seccion-2-explicacion-productos p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
-
 
 /* servicios seccion 2 media screen */
 
@@ -2786,21 +2786,61 @@ footer {
         padding-bottom: 40px;
     }
     
-    .servicios-seccion-2-explicacion-marketing {
+    .servicios-seccion-2-explicacion-ingenieria {
         padding:30px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     
-    .servicios-seccion-2-explicacion-marketing p {
+    .servicios-seccion-2-explicacion-ingenieria p {
         font-size: calc(8px + 1vw);
     }
     
-    .servicios-seccion-2-explicacion-big-data {
+    .servicios-seccion-2-explicacion-ml {
         padding: 30px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     
-    .servicios-seccion-2-explicacion-big-data p {
+    .servicios-seccion-2-explicacion-ml p {
+        font-size: calc(8px + 1vw);
+    }
+    
+    .servicios-seccion-2-explicacion-datos {
+        padding: 30px;
+    }
+    
+    .servicios-seccion-2-explicacion-datos p {
+        font-size: calc(8px + 1vw);
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo{
+        padding: 30px;
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo p {
+        font-size: calc(8px + 1vw);
+    }
+    
+    .servicios-seccion-2-explicacion-comites {
+        padding: 30px;
+    }
+    
+    .servicios-seccion-2-explicacion-comites p {
+        font-size: calc(8px + 1vw);
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura {
+        padding: 30px;
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura p {
+        font-size: calc(8px + 1vw);
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones {
+        padding: 30px;
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones p {
         font-size: calc(8px + 1vw);
     }
     
@@ -2812,59 +2852,19 @@ footer {
         font-size: calc(8px + 1vw);
     }
     
-    .servicios-seccion-2-explicacion-ecommerce{
+    .servicios-seccion-2-explicacion-logistica {
         padding: 30px;
     }
     
-    .servicios-seccion-2-explicacion-ecommerce p {
+    .servicios-seccion-2-explicacion-logistica p {
         font-size: calc(8px + 1vw);
     }
     
-    .servicios-seccion-2-explicacion-optimizacion {
-        padding: 30px;
-    }
-    
-    .servicios-seccion-2-explicacion-optimizacion p {
-        font-size: calc(8px + 1vw);
-    }
-    
-    .servicios-seccion-2-explicacion-riesgo {
-        padding: 30px;
-    }
-    
-    .servicios-seccion-2-explicacion-riesgo p {
-        font-size: calc(8px + 1vw);
-    }
-    
-    .servicios-seccion-2-explicacion-fraude {
-        padding: 30px;
-    }
-    
-    .servicios-seccion-2-explicacion-fraude p {
-        font-size: calc(8px + 1vw);
-    }
-    
-    .servicios-seccion-2-explicacion-digitalizacion {
-        padding: 30px;
-    }
-    
-    .servicios-seccion-2-explicacion-digitalizacion p {
-        font-size: calc(8px + 1vw);
-    }
-    
-    .servicios-seccion-2-explicacion-ux-ui {
-        padding: 30px;
-    }
-    
-    .servicios-seccion-2-explicacion-ux-ui p {
-        font-size: calc(8px + 1vw);
-    }
-    
-    .servicios-seccion-2-explicacion-sostenibilidad {
+    .servicios-seccion-2-explicacion-productos {
         padding: 30px;
     }
 
-    .servicios-seccion-2-explicacion-sostenibilidad p {
+    .servicios-seccion-2-explicacion-productos p {
         font-size: calc(8px + 1vw);
     }
 
@@ -2873,7 +2873,7 @@ footer {
 @media screen and (min-width: 1200px) {
 
     .servicios-seccion-2{
-        height: 1000px;
+        height: 900px;
     }
     
     .servicios-seccion-2-introduccion{
@@ -2897,45 +2897,115 @@ footer {
     }
     
     .servicios-seccion-2-explicacion{
-        height: 600px;
+        height: 500px;
         margin-top: 20px;
         grid-template-columns: repeat(5, 20vw);
         grid-template-rows: repeat (2, 200px);
         grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
     }
     
-    .servicios-seccion-2-explicacion-marketing {
+    .servicios-seccion-2-explicacion-ingenieria {
         width: 20vw;
-        height: 200px;
+        height: 250px;
         grid-area: explicacion1;
     }
     
-    .servicios-seccion-2-explicacion-marketing h3 {
+    .servicios-seccion-2-explicacion-ingenieria h3 {
         font-size: calc(14px + 0.9vw);
     }
     
-    .servicios-seccion-2-explicacion-marketing p {
+    .servicios-seccion-2-explicacion-ingenieria p {
         font-size: calc(10px + 0.5vw);
     }
     
-    .servicios-seccion-2-explicacion-big-data {
+    .servicios-seccion-2-explicacion-ml {
         width: 20vw;
-        height: 200px;
+        height: 250px;
         grid-area: explicacion2;
     }
     
-    .servicios-seccion-2-explicacion-big-data h3 {
+    .servicios-seccion-2-explicacion-ml h3 {
         font-size: calc(14px + 0.9vw);
     }
     
-    .servicios-seccion-2-explicacion-big-data p {
+    .servicios-seccion-2-explicacion-ml p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-2-explicacion-datos {
+        width: 20vw;
+        height: 250px;
+        grid-area: explicacion3;
+    }
+    
+    .servicios-seccion-2-explicacion-datos h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-2-explicacion-datos p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo{
+        width: 20vw;
+        height: 250px;
+        grid-area: explicacion4;
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-2-explicacion-comites {
+        width: 20vw;
+        height: 250px;
+        grid-area: explicacion5;
+    }
+    
+    .servicios-seccion-2-explicacion-comites h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-2-explicacion-comites p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura {
+        width: 20vw;
+        height: 250px;
+        grid-area: explicacion6;
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura h3 {
+        font-size: calc(14px + 0.90vw);
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones {
+        width: 20vw;
+        height: 250px;
+        grid-area: explicacion7;
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones p {
         font-size: calc(10px + 0.5vw);
     }
     
     .servicios-seccion-2-explicacion-mercado {
         width: 20vw;
         height: 200px;
-        grid-area: explicacion3;
+        grid-area: explicacion8;
     }
     
     .servicios-seccion-2-explicacion-mercado h3 {
@@ -2946,102 +3016,292 @@ footer {
         font-size: calc(10px + 0.5vw);
     }
     
-    .servicios-seccion-2-explicacion-ecommerce{
+    .servicios-seccion-2-explicacion-logistica {
         width: 20vw;
-        height: 200px;
-        grid-area: explicacion4;
-    }
-    
-    .servicios-seccion-2-explicacion-ecommerce h3 {
-        font-size: calc(14px + 0.9vw);
-    }
-    
-    .servicios-seccion-2-explicacion-ecommerce p {
-        font-size: calc(10px + 0.5vw);
-    }
-    
-    .servicios-seccion-2-explicacion-optimizacion {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion5;
-    }
-    
-    .servicios-seccion-2-explicacion-optimizacion h3 {
-        font-size: calc(14px + 0.9vw);
-    }
-    
-    .servicios-seccion-2-explicacion-optimizacion p {
-        font-size: calc(10px + 0.5vw);
-    }
-    
-    .servicios-seccion-2-explicacion-riesgo {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion6;
-    }
-    
-    .servicios-seccion-2-explicacion-riesgo h3 {
-        font-size: calc(14px + 0.90vw);
-    }
-    
-    .servicios-seccion-2-explicacion-riesgo p {
-        font-size: calc(10px + 0.5vw);
-    }
-    
-    .servicios-seccion-2-explicacion-fraude {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion7;
-    }
-    
-    .servicios-seccion-2-explicacion-fraude h3 {
-        font-size: calc(14px + 0.9vw);
-    }
-    
-    .servicios-seccion-2-explicacion-fraude p {
-        font-size: calc(10px + 0.5vw);
-    }
-    
-    .servicios-seccion-2-explicacion-digitalizacion {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion8;
-    }
-    
-    .servicios-seccion-2-explicacion-digitalizacion h3 {
-        font-size: calc(14px + 0.9vw);
-    }
-    
-    .servicios-seccion-2-explicacion-digitalizacion p {
-        font-size: calc(10px + 0.5vw);
-    }
-    
-    .servicios-seccion-2-explicacion-ux-ui {
-        width: 20vw;
-        height: 200px;
+        height: 250px;
         grid-area: explicacion9;
     }
     
-    .servicios-seccion-2-explicacion-ux-ui h3 {
+    .servicios-seccion-2-explicacion-logistica h3 {
         font-size: calc(14px + 0.9vw);
     }
     
-    .servicios-seccion-2-explicacion-ux-ui p {
+    .servicios-seccion-2-explicacion-logistica p {
         font-size: calc(10px + 0.5vw);
     }
     
-    .servicios-seccion-2-explicacion-sostenibilidad {
+    .servicios-seccion-2-explicacion-productos {
         width: 20vw;
-        height: 200px;
+        height: 250px;
         grid-area: explicacion10;
     }
     
-    .servicios-seccion-2-explicacion-sostenibilidad h3 {
+    .servicios-seccion-2-explicacion-productos h3 {
         font-size: calc(14px + 0.9vw);
     }
     
-    .servicios-seccion-2-explicacion-sostenibilidad p {
+    .servicios-seccion-2-explicacion-productos p {
         font-size: calc(10px + 0.5vw);
     }
     
+}
+
+  /* ___ Tercera sección ___ */
+
+.servicios-seccion-3{
+    width: 100vw;
+    height: 1500px;
+}
+
+.servicios-seccion-3-introduccion{
+    width: 100vw;
+    height: 450px;
+
+    background-color: rgb(216, 216, 216);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.servicios-seccion-3-introduccion-cuadro{
+    width: 85vw;
+    height: 400px;
+    border-color: #404040;
+    border-style: solid;
+    border-width: 4px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.servicios-seccion-3-introduccion-titulo{
+    font-size: calc(14px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 20px;
+}
+
+.servicios-seccion-3-introduccion-parrafo{
+    font-weight: 400;
+    font-size: calc(10px + 1vw);
+    color: #404040;
+}
+
+.servicios-seccion-3-explicacion{
+    width: 100vw;
+    height: 1000px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: repeat (5, 140px);
+    grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
+}
+
+.servicios-seccion-3-explicacion-estrategico {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding:10px;
+}
+
+.servicios-seccion-3-explicacion-estrategico h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-estrategico p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-bi {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-bi h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-bi p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-genero {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-genero h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-genero p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-monitoreo{
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-monitoreo h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-monitoreo p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-seguridad {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-seguridad h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-seguridad p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-accesibilidad {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-accesibilidad h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-accesibilidad p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-innovacion {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-innovacion h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-innovacion p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-informes {
+    width: 50vw;
+    height: 230px;
+    grid-area: explicacion8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-3-explicacion-informes h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-3-explicacion-informes p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
 }
