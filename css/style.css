@@ -2873,7 +2873,7 @@ footer {
 @media screen and (min-width: 1200px) {
 
     .servicios-seccion-2{
-        height: 900px;
+        height: 1000px;
     }
     
     .servicios-seccion-2-introduccion{
@@ -3004,7 +3004,7 @@ footer {
     
     .servicios-seccion-2-explicacion-mercado {
         width: 20vw;
-        height: 200px;
+        height: 250px;
         grid-area: explicacion8;
     }
     
@@ -3062,16 +3062,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     position: relative;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 50px;
+    padding: 10px;
 }
 
 .servicios-seccion-3-introduccion-cuadro{
     width: 85vw;
-    height: 400px;
+    height: 350px;
     border-color: #404040;
     border-style: solid;
     border-width: 4px;
@@ -3079,8 +3077,7 @@ footer {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
 }
 
 .servicios-seccion-3-introduccion-titulo{
@@ -3304,4 +3301,202 @@ footer {
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
+}
+
+/* servicios seccion 3 media screen */
+
+@media screen and (min-width: 768px) {
+
+    .servicios-seccion-3{
+        height: 1250px;
+    }
+    
+    .servicios-seccion-3-explicacion{
+        height: 750px;
+        margin-top: 25px;
+        align-content: space-around;
+    }
+    
+    .servicios-seccion-3-explicacion-estrategico {
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-bi {
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-genero {
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-monitoreo{
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-seguridad {
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-accesibilidad {
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-innovacion {
+        height: 150px;
+    }
+    
+    .servicios-seccion-3-explicacion-informes {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .servicios-seccion-3{
+        width: 100vw;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-auto-rows: 800px;
+        grid-template-areas: "introduccion explicacion";
+    }
+    
+    .servicios-seccion-3-introduccion{
+        width: 50vw;
+        height: 800px;
+    
+        background-color: rgb(216, 216, 216);
+
+        grid-area: introduccion;
+    
+        padding: 10px;
+    }
+    
+    .servicios-seccion-3-introduccion-cuadro{
+        width: 60%;
+        height: 60%;
+        padding: 18px;
+    }
+    
+    .servicios-seccion-3-introduccion-titulo{
+        font-size: calc(14px + 1.5vw);
+    }
+    
+    .servicios-seccion-3-introduccion-parrafo{
+        font-size: calc(10px + 0.55vw);
+    }
+    
+    .servicios-seccion-3-explicacion{
+        width: 50vw;
+        height: 800px;
+        margin-top: 0px;
+
+        grid-area: explicacion;
+        grid-template-columns: 25vw 25vw;
+        grid-template-rows: repeat (5, 160px);
+    }
+    
+    .servicios-seccion-3-explicacion-estrategico {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-estrategico h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-estrategico p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-bi {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-bi h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-bi p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-genero {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-genero h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-genero p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-monitoreo{
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-monitoreo h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-monitoreo p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-seguridad {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-seguridad h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-seguridad p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-accesibilidad {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-accesibilidad h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-accesibilidad p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-innovacion {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-innovacion h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-innovacion p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-3-explicacion-informes {
+        width: 25vw;
+        height: 160px;
+    }
+    
+    .servicios-seccion-3-explicacion-informes h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-3-explicacion-informes p {
+        font-size: calc(10px + 0.5vw);
+    }
 }
