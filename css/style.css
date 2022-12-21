@@ -1397,17 +1397,17 @@ footer {
 @media screen and (min-width: 1200px){
 
     footer{
-        height: 420px;
-        grid-template-rows: repeat(3, 120px);
+        height: 360px;
+        grid-template-rows: repeat(3, 100px);
         padding: 30px 0px;
     }
 
     .footer-slogan {
-        height: 120px;
+        height: 100px;
     }
 
     .footer-botones{
-        height: 120px;
+        height: 100px;
     }
 
     .footer div a {
@@ -1421,7 +1421,7 @@ footer {
     }
 
     .footer-copyright {
-        height: 120px;
+        height: 100px;
     }
 
 }
@@ -3057,7 +3057,7 @@ footer {
     width: 100vw;
     height: 450px;
 
-    background-color: rgb(216, 216, 216);
+    background-color: #ffc72c;
 
     display: flex;
     flex-direction: column;
@@ -3364,8 +3364,6 @@ footer {
     .servicios-seccion-3-introduccion{
         width: 50vw;
         height: 800px;
-    
-        background-color: rgb(216, 216, 216);
 
         grid-area: introduccion;
     
@@ -3499,4 +3497,1194 @@ footer {
     .servicios-seccion-3-explicacion-informes p {
         font-size: calc(10px + 0.5vw);
     }
+}
+
+  /* ___ Cuarta sección ___ */
+
+  .servicios-seccion-4{
+    width: 100vw;
+    height: 1820px;
+}
+
+.servicios-seccion-4-introduccion{
+    width: 100vw;
+    height: 450px;
+
+    background-color: rgb(216, 216, 216);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.servicios-seccion-4-introduccion-cuadro{
+    width: 85vw;
+    height: 350px;
+    border-color: #404040;
+    border-style: solid;
+    border-width: 4px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicios-seccion-4-introduccion-titulo{
+    font-size: calc(14px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 20px;
+}
+
+.servicios-seccion-4-introduccion-parrafo{
+    font-weight: 400;
+    font-size: calc(10px + 1vw);
+    color: #404040;
+}
+
+.servicios-seccion-4-explicacion{
+    width: 100vw;
+    height: 1320px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: repeat (6, 220px);
+    grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10" "explicacion11 explicacion12";
+}
+
+.servicios-seccion-4-explicacion-marca {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding:10px;
+}
+
+.servicios-seccion-4-explicacion-marca h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-marca p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-redes {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-redes h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-redes p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-web {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-web h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-web p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-branding {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-branding h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-branding p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-medios {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-medios h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-medios p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-media {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-media h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-media p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-publicidad {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-publicidad h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-publicidad p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-influencer {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-influencer h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-influencer p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-inbound {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-inbound h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-inbound p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-experiencia {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-experiencia h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-experiencia p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-manual {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion11;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-manual h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-manual p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-eventos {
+    width: 50vw;
+    height: 220px;
+    grid-area: explicacion12;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-4-explicacion-eventos h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-4-explicacion-eventos p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+/* servicios seccion 4 media screen */
+
+@media screen and (min-width: 768px) {
+
+    .servicios-seccion-4{
+        height: 1500px;
+    }
+    
+    .servicios-seccion-4-explicacion{
+        height: 1000px;
+        margin-top: 25px;
+        align-content: space-around;
+    }
+    
+    .servicios-seccion-4-explicacion-marca {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-redes {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-web {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-branding{
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-medios {
+        height: 150px;
+    }
+
+    .servicios-seccion-4-explicacion-media {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-publicidad {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-influencer {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-inbound {
+        height: 150px;
+    }
+
+    .servicios-seccion-4-explicacion-experiencia {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-manual {
+        height: 150px;
+    }
+    
+    .servicios-seccion-4-explicacion-eventos {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .servicios-seccion-4 {
+        height: 1105px;
+    }
+    
+    .servicios-seccion-4-introduccion {
+        height: 425px;
+    }
+    
+    .servicios-seccion-4-introduccion-titulo{
+        font-size: calc(14px + 1.5vw);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .servicios-seccion-4-introduccion-parrafo{
+        font-size: calc(10px + 0.55vw);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .servicios-seccion-4-explicacion{
+        height: 660px;
+        margin-top: 20px;
+        grid-template-columns: repeat(4, 25vw);
+        grid-template-rows: repeat (3, 220px);
+        grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4" "explicacion5 explicacion6 explicacion7 explicacion8" "explicacion9 explicacion10 explicacion11 explicacion12";
+    }
+    
+    .servicios-seccion-4-explicacion-marca {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion1;
+    }
+    
+    .servicios-seccion-4-explicacion-marca h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-marca p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-redes {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion2;
+    }
+    
+    .servicios-seccion-4-explicacion-redes h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-redes p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-web {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion3;
+        background-color:  rgb(216, 216, 216);
+    }
+    
+    .servicios-seccion-4-explicacion-web h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-web p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-branding{
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion4;
+        background-color:  rgb(216, 216, 216);
+    }
+    
+    .servicios-seccion-4-explicacion-branding h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-branding p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-medios {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion5;
+    }
+    
+    .servicios-seccion-4-explicacion-medios h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-medios p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-media {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion6;
+    }
+    
+    .servicios-seccion-4-explicacion-media h3 {
+        font-size: calc(14px + 0.90vw);
+    }
+    
+    .servicios-seccion-4-explicacion-media p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-publicidad {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion7;
+        background-color:  rgb(216, 216, 216);
+    }
+    
+    .servicios-seccion-4-explicacion-publicidad h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-publicidad p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-influencer {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion8;
+        background-color:  rgb(216, 216, 216);
+    }
+    
+    .servicios-seccion-4-explicacion-influencer h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-influencer p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-inbound {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion9;
+    }
+    
+    .servicios-seccion-4-explicacion-inbound h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-inbound p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-experiencia {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion10;
+    }
+    
+    .servicios-seccion-4-explicacion-experiencia h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-experiencia p {
+        font-size: calc(10px + 0.5vw);
+    }
+
+    .servicios-seccion-4-explicacion-manual {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion11;
+        background-color:  rgb(216, 216, 216);
+    }
+    
+    .servicios-seccion-4-explicacion-manual h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-manual p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-4-explicacion-eventos {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion12;
+        background-color:  rgb(216, 216, 216);
+        background-size: cover;
+    }
+    
+    .servicios-seccion-4-explicacion-eventos h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-4-explicacion-eventos p {
+        font-size: calc(10px + 0.5vw);
+    }
+}
+
+  /* ___ Quinta sección ___ */
+
+.servicios-seccion-5 {
+    width: 100vw;
+    height: 1750px;
+}
+
+.servicios-seccion-5-introduccion {
+    width: 100vw;
+    height: 700px;
+
+    background-color: #ffc72c;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    gap: 30px;
+}
+
+.servicios-seccion-5-introduccion-titulo {
+    font-size: calc(14px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.servicios-seccion-5-introduccion-imagen{
+    width: 100vw;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 40px;
+    position: relative;
+    left:-43vw;
+}
+
+.servicios-seccion-5-introduccion-parrafo1 {
+    font-weight: 500;
+    font-size: calc(10px + 1vw);
+    color: #404040;
+}
+
+.servicios-seccion-5-introduccion-parrafo2 {
+    font-weight: 500;
+    font-size: calc(10px + 1vw);
+    color: #404040;
+}
+
+.servicios-seccion-5-explicacion {
+    width: 100vw;
+    height: 1000px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: repeat (5, 200px);
+    grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
+}
+
+.servicios-seccion-5-explicacion-desarrollo {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding:10px;
+}
+
+.servicios-seccion-5-explicacion-desarrollo h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-desarrollo p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-estrategia {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-estrategia h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-estrategia p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-capacitacion {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-capacitacion h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-capacitacion p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-monitoreo {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-monitoreo h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-monitoreo p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-etica {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-etica h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-etica p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-certificaciones {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-certificaciones h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-certificaciones p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-residuos {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-residuos h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-residuos p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-circular {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-circular h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-circular p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-alianzas {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-alianzas h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-alianzas p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-impacto {
+    width: 50vw;
+    height: 200px;
+    grid-area: explicacion10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+
+.servicios-seccion-5-explicacion-impacto h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+.servicios-seccion-5-explicacion-impacto p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+}
+
+/* servicios seccion 5 media screen */
+
+@media screen and (min-width: 768px) {
+
+    .servicios-seccion-5{
+        height: 1750px;
+    }
+    
+    .servicios-seccion-5-explicacion{
+        height: 1000px;
+        margin-top: 40px;
+        align-content: space-around;
+        
+    }
+    
+    .servicios-seccion-5-explicacion-desarrollo {
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-estrategia {
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-capacitacion {
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-monitoreo{
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-etica {
+        height: 150px;
+    }
+
+    .servicios-seccion-5-explicacion-certificaciones {
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-residuos {
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-circular {
+        height: 150px;
+    }
+    
+    .servicios-seccion-5-explicacion-alianzas {
+        height: 150px;
+    }
+
+    .servicios-seccion-5-explicacion-impacto {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .servicios-seccion-5 {
+        height: 1000px;
+    }
+    
+    .servicios-seccion-5-introduccion {
+        width: 100vw;
+        height: 400px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 20vw 80vw;
+        grid-template-rows: 100px 70px 70px;
+        grid-template-areas: "imagen titulo" "imagen texto1" "imagen texto2";
+    }
+    
+    .servicios-seccion-5-introduccion-titulo{
+        width: 30vw;
+        height: 50px;
+        font-size: calc(14px + 1.5vw);
+        margin-left: 50px;
+        margin-right: 50px;
+        align-self: center;
+        grid-area: titulo;
+    }
+
+    .servicios-seccion-5-introduccion-imagen{
+        width: 30vw;
+        left: -8vw;
+        align-self: center;
+        grid-area: imagen;
+    }
+    
+    .servicios-seccion-5-introduccion-parrafo1{
+        font-size: calc(10px + 0.55vw);
+        padding-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        grid-area: texto1;
+        align-self: center;
+    }
+
+    .servicios-seccion-5-introduccion-parrafo2{
+        font-size: calc(10px + 0.55vw);
+        padding-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        grid-area: texto2;
+        align-self: center;
+    }
+    
+    .servicios-seccion-5-explicacion{
+        height: 500px;
+        margin-top: 60px;
+        grid-template-columns: repeat(5, 20vw);
+        grid-template-rows: repeat (2, 220px);
+        grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
+    }
+    
+    .servicios-seccion-5-explicacion-desarrollo {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion1;
+    }
+    
+    .servicios-seccion-5-explicacion-desarrollo h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-desarrollo p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-estrategia {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion2;
+    }
+    
+    .servicios-seccion-5-explicacion-estrategia h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-estrategia p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-capacitacion {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion3;
+    }
+    
+    .servicios-seccion-5-explicacion-capacitacion h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-capacitacion p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-monitoreo{
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion4;
+    }
+    
+    .servicios-seccion-5-explicacion-monitoreo h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-monitoreo p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-etica {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion5;
+    }
+    
+    .servicios-seccion-5-explicacion-etica h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-etica p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-certificaciones {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion6;
+    }
+    
+    .servicios-seccion-5-explicacion-certificaciones h3 {
+        font-size: calc(14px + 0.90vw);
+    }
+    
+    .servicios-seccion-5-explicacion-certificaciones p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-residuos {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion7;
+    }
+    
+    .servicios-seccion-5-explicacion-residuos h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-residuos p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-circular {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion8;
+    }
+    
+    .servicios-seccion-5-explicacion-circular h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-circular p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-alianzas {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion9;
+    }
+    
+    .servicios-seccion-5-explicacion-alianzas h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-alianzas p {
+        font-size: calc(10px + 0.5vw);
+    }
+    
+    .servicios-seccion-5-explicacion-impacto {
+        width: 20vw;
+        height: 220px;
+        grid-area: explicacion10;
+    }
+    
+    .servicios-seccion-5-explicacion-impacto h3 {
+        font-size: calc(14px + 0.9vw);
+    }
+    
+    .servicios-seccion-5-explicacion-impacto p {
+        font-size: calc(10px + 0.5vw);
+    }
+
 }
