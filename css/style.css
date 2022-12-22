@@ -4858,7 +4858,7 @@ footer {
 .innovacion-seccion-2-foto {
     width: 100vw;
     height: 350px;
-    background-color: rgb(216, 216, 216);
+    background-color: white;
     position: absolute;
 
     display: flex;
@@ -4874,7 +4874,7 @@ footer {
     display: block;
 }
 
-/* nosotros sección 2 media screen */
+/* innovacion sección 2 media screen */
 
 @media screen and (min-width:768px) {
 
@@ -4960,3 +4960,246 @@ footer {
     }
     
 }
+
+  /* ___ Tercera sección ___ */
+
+.innovacion-seccion-3 {
+    width: 100vw;
+    height: 1600px;
+}
+
+.innovacion-seccion-3-ml {
+    width: 100vw;
+    height: 600px;
+
+    background-color: #ffc72c;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.innovacion-seccion-3-ml h2 {
+    width: 70vw;
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+    padding: 0 30px 0 0;
+    margin-bottom: 30px;
+}
+
+.innovacion-seccion-3-ml-parrafos {
+    width: 80vw;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.innovacion-seccion-3-ml-parrafos p {
+    font-size: calc(12px + 0.25vw);
+}
+
+.innovacion-seccion-3-foto {
+    width: 100vw;
+    height: 350px;
+    background-color: rgb(216, 216, 216);
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.innovacion-seccion-3-foto-foto {
+    width: 100vw;
+    max-height: 350px;
+    position: relative;
+    object-fit: contain;
+    display: block;
+}
+
+.innovacion-seccion-3-beneficios {
+    width: 100vw;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.innovacion-seccion-3-beneficios h2 {
+    width: 70vw;
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+    margin: 20px 1vw;
+}
+
+.innovacion-seccion-3-beneficios-listado1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    font-size: calc(10px + 0.4vw);
+    color: #404040;
+    list-style:disc;
+    gap: 5px;
+    margin-left: 5vw;
+    margin-bottom: 5px;
+}
+
+.innovacion-seccion-3-beneficios-listado2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    font-size: calc(10px + 0.4vw);
+    color: #404040;
+    margin-bottom: 5px;
+    list-style:disc;
+    gap: 5px;
+    margin-left: 5vw;
+}
+
+.innovacion-seccion-3-beneficios-pregunta {
+    width: 100vw;
+    font-size: calc(12px + 0.50vw);
+    font-weight: 700;
+    color: #404040;
+    margin: 30px 1vw;
+}
+
+.innovacion-seccion-3-beneficios-boton {
+    width: 120px;
+    height: 50px;
+    font-size: calc(12px + 0.50vw);
+    font-weight: 500;
+    font-style: italic;
+    justify-self: left;
+    padding: 12px;
+    color: #404040;
+    border-color: #ffc72c;
+    border-style: solid;
+    margin-left: 1vw;
+}
+
+/* innovacion sección 3 media screen */
+
+@media screen and (min-width:768px) {
+
+    .innovacion-seccion-3 {
+        height: 800px;
+    }
+    
+    .innovacion-seccion-3-ml {
+        justify-content: center;
+        height: calc(440px - 5vw);
+        padding: 10px 30px;
+    }
+
+    .innovacion-seccion-3-ml h2 {
+        padding: 30px 20px;
+        margin-bottom: 0px;
+    }
+
+    .innovacion-seccion-3-ml-parrafos {
+        width: 95vw;
+        height: 270px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px 20px;
+        margin: 0px;
+
+    }
+
+    .innovacion-seccion-3-ml-parrafos p {
+        width: 30vw;
+        font-size: calc(12px + 0.25vw);
+        padding-top: 30px;
+    }
+
+    .innovacion-seccion-3-beneficios {
+        width: 100vw;
+        height: 460px;
+        margin: 0px;
+        padding: 0px;
+    
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 250px 100px;
+        grid-template-areas: "titulo titulo" "listado1 listado2" "pregunta boton";
+    }
+    
+    .innovacion-seccion-3-beneficios h2 {
+        width: 100vw;
+        font-size: calc(14px + 1.25vw);
+        align-self: center;
+        justify-self: left;
+        color: #404040;
+        padding-left: 30px;
+        grid-area: titulo;
+        margin: 0px;
+    }
+    
+    
+    .innovacion-seccion-3-beneficios-listado1 {
+        width: 40vw;
+        height: 250px;
+        grid-area: listado1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+
+    .innovacion-seccion-3-beneficios-listado2 {
+        width: 40vw;
+        height: 250px;
+        grid-area: listado2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+
+    .innovacion-seccion-3-beneficios-pregunta {
+        width: 50vw;
+        font-size: calc(12px + 0.50vw);
+        font-weight: 700;
+        align-self: center;
+        justify-self: left;
+        color: #404040;
+        padding: 0px 30px;
+        grid-area: pregunta;
+        margin-left: 10px;
+    }
+
+    .innovacion-seccion-3-beneficios-boton {
+        width: 150px;
+        height: 50px;
+        font-size: calc(12px + 0.30vw);
+        font-weight: 500;
+        justify-self: left;
+        align-self: center;
+        text-align: center;
+        padding: 12px;
+        color: #404040;
+        border-color: #ffc72c;
+        border-style: solid;
+        margin-left: 3.5vw;
+        grid-area: boton;
+    }
+}
+
+/* @media screen and (min-width: 1200px) {
+} */
