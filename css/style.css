@@ -1345,6 +1345,12 @@ footer {
     height: 30px;
 }
 
+.footer-icono:hover{
+    border-color: #ffc72c;
+    border-style: solid;
+    border-width: 2px;
+}
+
 .footer-copyright{
     width: 100vw;
     height: 80px;
