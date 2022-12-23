@@ -4965,241 +4965,429 @@ footer {
 
 .innovacion-seccion-3 {
     width: 100vw;
-    height: 1600px;
+    height: 1450px;
+    background-color:  rgb(216, 216, 216);   
 }
 
-.innovacion-seccion-3-ml {
+.innovacion-seccion-3-titulo {
     width: 100vw;
-    height: 600px;
-
-    background-color: #ffc72c;
-
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 40px;
+    align-content: flex-start;
 }
 
-.innovacion-seccion-3-ml h2 {
-    width: 70vw;
+.innovacion-seccion-3-titulo h2{
     font-size: calc(14px + 1.25vw);
     color: #404040;
-    padding: 0 30px 0 0;
-    margin-bottom: 30px;
+    padding: 20px;
 }
 
-.innovacion-seccion-3-ml-parrafos {
-    width: 80vw;
-    height: 900px;
+.innovacion-seccion-3-ml{
+    width:100vw;
+    height: 480px;
+    padding: 0px 20px;
+}
+
+.innovacion-seccion-3-ml-titulo {
+    width: 100vw;
+    height: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
 }
 
+.innovacion-seccion-3-ml-titulo h3 {
+    font-size: calc(14px + 0.65vw);
+    color: #404040;
+}
 
-.innovacion-seccion-3-ml-parrafos p {
-    font-size: calc(12px + 0.25vw);
+.innovacion-seccion-3-ml-texto {
+    width: 85vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.innovacion-seccion-3-ml-texto-parrafos {
+    font-size: calc(12px + 0.15vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-ml-texto-parrafos p {
+    max-width: 280px;
+    margin-bottom: 20px;
+}
+
+.innovacion-seccion-3-beneficios {
+    width: 100vw;
+    height: 390px;
+    padding: 0px 20px;
+}
+
+.innovacion-seccion-3-beneficios-titulo {
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+    
+.innovacion-seccion-3-beneficios-titulo h3 {
+    font-size: calc(14px + 0.65vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-beneficios-listado1 {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    list-style:disc;
+}
+
+.innovacion-seccion-3-beneficios-listado1 li {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.innovacion-seccion-3-beneficios-listado2 {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    list-style:disc;
+}
+
+.innovacion-seccion-3-beneficios-listado2 li {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.innovacion-seccion-3-pregunta {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0px 20px;
+}
+
+.innovacion-seccion-3-pregunta-titulo {
+    width: 85vw;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.innovacion-seccion-3-pregunta-titulo h3 {
+    font-size: calc(12px + 0.5vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-pregunta-boton {
+    width: 40vw;
+    height: 40px;
+    background-color: #ffc72c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innovacion-seccion-3-pregunta-boton a{
+    font-size: calc(12px + 0.5vw);
+    font-weight: 500;
+    color: #404040;
 }
 
 .innovacion-seccion-3-foto {
     width: 100vw;
     height: 350px;
-    background-color: rgb(216, 216, 216);
     position: absolute;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
-.innovacion-seccion-3-foto-foto {
-    width: 100vw;
-    max-height: 350px;
+.innovacion-seccion-3-foto img {
+    width: 100%;
+    height: 100%;
     position: relative;
     object-fit: contain;
-    display: block;
 }
 
-.innovacion-seccion-3-beneficios {
-    width: 100vw;
-    height: 600px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-    padding: 20px;
-}
-
-.innovacion-seccion-3-beneficios h2 {
-    width: 70vw;
-    font-size: calc(14px + 1.25vw);
-    color: #404040;
-    margin: 20px 1vw;
-}
-
-.innovacion-seccion-3-beneficios-listado1 {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    font-size: calc(10px + 0.4vw);
-    color: #404040;
-    list-style:disc;
-    gap: 5px;
-    margin-left: 5vw;
-    margin-bottom: 5px;
-}
-
-.innovacion-seccion-3-beneficios-listado2 {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    font-size: calc(10px + 0.4vw);
-    color: #404040;
-    margin-bottom: 5px;
-    list-style:disc;
-    gap: 5px;
-    margin-left: 5vw;
-}
-
-.innovacion-seccion-3-beneficios-pregunta {
-    width: 100vw;
-    font-size: calc(12px + 0.50vw);
-    font-weight: 700;
-    color: #404040;
-    margin: 30px 1vw;
-}
-
-.innovacion-seccion-3-beneficios-boton {
-    width: 120px;
-    height: 50px;
-    font-size: calc(12px + 0.50vw);
-    font-weight: 500;
-    font-style: italic;
-    justify-self: left;
-    padding: 12px;
-    color: #404040;
-    border-color: #ffc72c;
-    border-style: solid;
-    margin-left: 1vw;
-}
-
-/* innovacion sección 3 media screen */
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 400px) {
 
     .innovacion-seccion-3 {
-        height: 800px;
+        height: 1350px;
+    }
+
+    .innovacion-seccion-3-ml{
+        height: 390px;
     }
     
-    .innovacion-seccion-3-ml {
+    .innovacion-seccion-3-ml-texto {
+        width: 90vw;
+        height: 330px;
+    }
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    .innovacion-seccion-3 {
+        height: 1320px;
+    }
+
+    .innovacion-seccion-3-ml{
+        height: 350px;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        width: 90vw;
+        height: 330px;
+    }
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .innovacion-seccion-3 {
+        height: 1300px;
+    }
+
+    .innovacion-seccion-3-ml{
+        height: 310px;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        width: 90vw;
+        height: 330px;
+    }
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 550px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .innovacion-seccion-3 {
+        height: 1300px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 480px 100px 500px;
+        grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
+    }    
+
+    .innovacion-seccion-3-titulo {
+        width: 100vw;
+        height: 100px;
+        /* display: flex; */
+        /* flex-direction: column;
         justify-content: center;
-        height: calc(440px - 5vw);
-        padding: 10px 30px;
+        align-content: flex-start; */
+        grid-area: titulo;
     }
 
-    .innovacion-seccion-3-ml h2 {
-        padding: 30px 20px;
-        margin-bottom: 0px;
+    .innovacion-seccion-3-ml{
+        width:50vw;
+        height: 450px;
+        padding: 0px 5px 0px 20px;
+        grid-area: ml;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        width: 48vw;
+        max-width: 385px;
+        height: 400px;
     }
 
-    .innovacion-seccion-3-ml-parrafos {
-        width: 95vw;
-        height: 270px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0px 20px;
-        margin: 0px;
-
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        font-size: calc(12px + 0.20vw);
     }
 
-    .innovacion-seccion-3-ml-parrafos p {
-        width: 30vw;
-        font-size: calc(12px + 0.25vw);
-        padding-top: 30px;
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 40vw;
     }
 
     .innovacion-seccion-3-beneficios {
-        width: 100vw;
-        height: 460px;
-        margin: 0px;
-        padding: 0px;
-    
-        display: grid;
-        grid-template-columns: 50vw 50vw;
-        grid-template-rows: 100px 250px 100px;
-        grid-template-areas: "titulo titulo" "listado1 listado2" "pregunta boton";
-    }
-    
-    .innovacion-seccion-3-beneficios h2 {
-        width: 100vw;
-        font-size: calc(14px + 1.25vw);
-        align-self: center;
-        justify-self: left;
-        color: #404040;
-        padding-left: 30px;
-        grid-area: titulo;
-        margin: 0px;
-    }
-    
-    
-    .innovacion-seccion-3-beneficios-listado1 {
-        width: 40vw;
-        height: 250px;
-        grid-area: listado1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 20px 0;
-    }
-
-    .innovacion-seccion-3-beneficios-listado2 {
-        width: 40vw;
-        height: 250px;
-        grid-area: listado2;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 20px 0;
-    }
-
-    .innovacion-seccion-3-beneficios-pregunta {
         width: 50vw;
-        font-size: calc(12px + 0.50vw);
-        font-weight: 700;
-        align-self: center;
-        justify-self: left;
-        color: #404040;
-        padding: 0px 30px;
-        grid-area: pregunta;
-        margin-left: 10px;
+        height: 600px;
+        grid-area: beneficios;
     }
 
-    .innovacion-seccion-3-beneficios-boton {
-        width: 150px;
-        height: 50px;
-        font-size: calc(12px + 0.30vw);
-        font-weight: 500;
-        justify-self: left;
-        align-self: center;
-        text-align: center;
-        padding: 12px;
-        color: #404040;
-        border-color: #ffc72c;
-        border-style: solid;
-        margin-left: 3.5vw;
+    .innovacion-seccion-3-pregunta {
+        width: 100vw;
+        height: 100px;
         grid-area: boton;
+    }
+
+    .innovacion-seccion-3-pregunta-boton {
+        width: 20vw;
+    }
+
+    .innovacion-seccion-3-foto {
+        width: 100vw;
+        height: 500px;
+        position: relative;
+        grid: foto;
+    }
+
+    .innovacion-seccion-3-foto-foto {
+        grid: foto;
     }
 }
 
-/* @media screen and (min-width: 1200px) {
-} */
+@media screen and (min-width: 1000px) {
+
+    .innovacion-seccion-3 {
+        height: 1150px;
+        grid-template-rows: 100px 430px 100px 500px;
+    }    
+
+    .innovacion-seccion-3-ml{
+        width:50vw;
+        height: 400px;
+        grid-area: ml;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        max-width: 430px;
+        height: 400px;
+    }
+
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .innovacion-seccion-3 {
+        height: 1250px;
+        grid-template-rows: 100px 480px 100px 500px;
+    }    
+
+    .innovacion-seccion-3-ml{
+        width:50vw;
+        height: 400px;
+        grid-area: ml;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        max-width: 600px;
+        height: 400px;
+    }
+
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        font-size: calc(14px + 0.20vw);
+        max-width: 45vw;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+
+    .innovacion-seccion-3 {
+        height: 1250px;
+        grid-template-rows: 100px 550px 100px 500px;
+    }    
+
+    .innovacion-seccion-3-ml{
+        width:50vw;
+        height: 400px;
+        grid-area: ml;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        max-width: 600px;
+        height: 400px;
+    }
+
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        font-size: calc(14px + 0.20vw);
+        max-width: 45vw;
+    }
+}
+
+/* === Contacto === */
+
+  /* --- Main --- */
+
+  /* ___ Primera sección o portada___ */
+
+
+.contacto-portada{
+    width: 100vw;
+    height: 700px;
+    background-color: #ffc72c;
+}
+
+.contacto-portada-cuadro {
+    width:100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-portada-cuadro-texto{
+    width: 80%;
+    max-width: 380px;
+    border: 4px #404040 solid;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.contacto-portada-cuadro-texto h1{
+    font-size: calc(20px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+}
+
+.contacto-portada-cuadro-texto p{
+    font-size: calc(11px + 0.6vw);
+    color: #404040;
+    padding: 0 1px 0 0;
+}
+
+.contacto-portada-imagen{
+    width:100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-portada-imagen img{
+    width: 90%;
+    height: 90%;
+    object-fit:cover;
+}
