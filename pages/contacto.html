@@ -9,7 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <title>BDG Consulting 4.0</title>
+    <title>Contacto 4.0</title>
 </head>
 
 <body>
@@ -23,10 +23,10 @@
                 <img class="logo-menu" src="../img/header_menu.webp" alt="Logo de de tres líneas gris horizontales con fondo transparente">
             </label>
             <div class="menu-desplegable">
-                <a class="menu-desplegable-texto" href="../index.html">Nosotros</a>
-                <a class="menu-desplegable-texto" href="../pages/nosotros.html">Servicios</a>
-                <a class="menu-desplegable-texto" href="../pages/servicios.html">Innovación</a>
-                <a class="menu-desplegable-texto" href="../pages/innovacion.html">Contacto</a>
+                <a class="menu-desplegable-texto" href="../index.html">inicio</a>
+                <a class="menu-desplegable-texto" href="../pages/nosotros.html">Nosotros</a>
+                <a class="menu-desplegable-texto" href="../pages/servicios.html">Servicios</a>
+                <a class="menu-desplegable-texto" href="../pages/innovacion.html">Innovación</a>
             </div>
         </div>
     </header>
@@ -45,39 +45,116 @@
                 </div>
             </div>
             <div class="contacto-portada-imagen">
-                <img src="../img/contacto.webp" alt="Muñeco de astronauta mirando hacia adelante">
+                <img src="../img/contacto-robot.webp" alt="Muñeco de astronauta mirando hacia adelante">
             </div>
 
         </section>
 
-        <!-- Sección 2 o Portada -->
+        <!-- Sección 3 -->
+
 
         <section class="contacto-seccion-2">
-            
+
             <div class="contacto-seccion-2-titulo">
                 <h2>Comunicate con nosotros</h2>
             </div>
 
             <div class="contacto-seccion-2-linea">
-                <hr class="contacto-seccion-2-linea-amarilla"></hr>
+                <hr>
+            </div>
+                
+            <div class="contacto-seccion-2-trabajo">
+    
+                <div class="contacto-seccion-2-trabajo-parrafo">
+                    <p>Debajo encontrarás un formulario para contarnos tu necesidad. Queremos 
+                        que tengas todas las vías posible de acceso a nuestro mundo. Nos morimos de ganas de ayudarte 
+                        para que seas la mejor empresa en tu rubro, y “why not?”, del mundo.</p>
+                </div>
+    
+                <div class="contacto-seccion-2-trabajo-strong">
+                    <p>La primera charla es 100% gratuita.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3 -->
+
+        <section class="contacto-seccion-3">
+            <div class="contacto-seccion-3-imagen">
+                <img src="../img/contacto-dino.webp" alt="Dinosaurio de juguete intentando invitar a un cafe">
             </div>
 
-            <div class="contacto-seccion-2-explicacion">
-                <div class="contacto-seccion-2-explicacion-titulo">
-                    <h3>ML & DL</h3>
-                </div>
-                <div class="contacto-seccion-2-explicacion-titulo-texto">
-                    <div class="contacto-seccion-2-explicacion-titulo-texto-parrafos">
-                        <p>Debajo encontrarás un formulario para comunicarte con nosotros según tu necesidad. Queremos 
-                            que tengas todas las vías posible de acceso a nuestro mundo. Nos morimos de ganas de ayudarte 
-                            a ser la meor empresa de tu rubro, y “why not?” del mundo.</p>
-                        <p><strong>La primera charla siempre es 100% gratuita.</strong></p>
+            <div class="contacto-seccion-3-formulario">
+
+                <h2>Formulario de contacto</h2>
+
+                <form class="contacto-seccion-3-formulario-partes" action="">
+
+                    <div class="contacto-seccion-3-formulario-texto">
+                        <label class="contacto-seccion-3-formulario-texto-label" for="nombre-usuario">Ingrese su nombre y apellido</label>
+                        <input class="contacto-seccion-3-formulario-texto-input" type="text" id="nombre-usuario">
                     </div>
-                </div>
+
+                    <div class="contacto-seccion-3-formulario-texto">
+                        <label class="contacto-seccion-3-formulario-texto-label" for="email-usuario">Ingrese su email:</label>
+                        <input class="contacto-seccion-3-formulario-texto-input" type="email" id="email-usuario">
+                    </div>
+
+                    <div class="contacto-seccion-3-formulario-texto">
+                        <label class="contacto-seccion-3-formulario-texto-label" for="mensaje-usuario">Ingrese su mensaje:</label>
+                        <textarea name="" id="mensaje-usuario" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="contacto-seccion-3-formulario-texto">
+                        <label class="contacto-seccion-3-formulario-texto-label" for="asunto-usuario">Selecciona un asunto:</label>
+                        <select class="contacto-seccion-3-formulario-texto-select" name="asunto-usuario" id="asunto-usuario">
+                            <option class="contacto-seccion-3-formulario-texto-option" value="mensaje">Consulta</option>
+                            <option class="contacto-seccion-3-formulario-texto-option" value="reclamo">Reclamo</option>
+                            <option class="contacto-seccion-3-formulario-texto-option" value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="contacto-seccion-3-formulario-texto">
+                        <label class="contacto-seccion-3-formulario-texto-label-checkbok" for="novedad-usuario">¿Desea recebir novedades?</label>
+                        <input type="checkbox" id="novedad-usuario" value="acepta-info">
+                    </div>
+
+                    <div class="contacto-seccion-3-formulario-texto">
+                        <input class="contacto-seccion-3-formulario-texto-enviar" type="submit" value="Enviar">
+                        <input class="contacto-seccion-3-formulario-texto-restablecer" type="reset" value="Restablecer formulario">
+                    </div>
+                </form>
             </div>
 
-
+        </section>
     </main>
+
+    <footer>
+        <div class="footer-slogan">
+            <p>CAMBIANDO EL FUTURO CON VOS</p>
+        </div>
+        <div class="footer-botones">
+            <a href="http://wa.me/5491137044982?text=Hola%21+Me+interesan+los+servicios+que+ofrecen" target="_blank">
+                <img class= "footer-icono" src="../img/whatsapp100.png" alt="ícono de WhatsApp">     
+            </a>
+            <a href="bdgconsulting4.0@gmail.com" target="_blank">
+                <img class= "footer-icono" src="../img/correo100.png" alt="ícono de email">     
+            </a>    
+            <a href="https://www.linkedin.com/in/bdg-consulting-4-544b2b24a/" target="_blank">
+                <img class= "footer-icono" src="../img/linkedin100.png" alt="ícono de LinkedIn">     
+            </a>    
+            <a href="https://www.instagram.com/bdgconsulting4.0/?hl=en" target="_blank">
+                <img class= "footer-icono" src="../img/instagram100.png" alt="ícono de Instagram">     
+            </a>    
+            <a href="https://twitter.com/BDGconsulting4" target="_blank">
+                <img class= "footer-icono" src="../img/twitter95.png" alt="ícono de Twitter">     
+            </a>    
+        </div>
+        <div class="footer-copyright">
+            <p>®BDG CONSULTING 4.0 all rights reserved</p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
