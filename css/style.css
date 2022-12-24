@@ -1807,7 +1807,7 @@ footer {
 
 .nosotros-seccion-2-explicacion-h3 {
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row wrap;
     justify-content: flex-start;
     gap: 10px;
 }
@@ -2057,7 +2057,7 @@ footer {
 
 .nosotros-seccion-3-explicacion-h3 {
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row wrap;
     justify-content: flex-start;
     gap: 10px;
 }
