@@ -2069,6 +2069,21 @@ footer {
 
 /* nosotros sección 3 media screen */
 
+@media screen and (min-width: 380px) {
+
+    .nosotros-seccion-3 {
+        height: 1400px;
+    }
+
+    .nosotros-seccion-3-explicacion {
+        height: 930px;
+    }
+
+    .nosotros-seccion-3-explicacion h3 {
+        font-size: calc(10px + 0.8vw);
+    }
+}
+
 @media screen and (min-width: 480px) {
 
     .nosotros-seccion-3 {
@@ -2239,7 +2254,7 @@ footer {
 
 .nosotros-seccion-4-trabajo-parte-1 p {
     display: block;
-    font-size: calc(12px + 0.75vw);
+    font-size: calc(12px + 0.50vw);
     margin-bottom: 30px;
 }
 
@@ -2274,7 +2289,7 @@ footer {
 
 .nosotros-seccion-4-trabajo-parte-2 p {
     display: block;
-    font-size: calc(12px + 0.75vw);
+    font-size: calc(12px + 0.50vw);
     margin-bottom: 30px;
 }
 
@@ -2309,7 +2324,7 @@ footer {
 
 .nosotros-seccion-4-trabajo-parte-3 p {
     display: block;
-    font-size: calc(12px + 0.75vw);
+    font-size: calc(12px + 0.5vw);
     margin-bottom: 30px;
 }
 
@@ -2606,7 +2621,7 @@ footer {
 
 .servicios-seccion-2{
     width: 100vw;
-    height: 1750px;
+    height: 1650px;
 }
 
 .servicios-seccion-2-introduccion{
@@ -2650,18 +2665,18 @@ footer {
 
 .servicios-seccion-2-explicacion{
     width: 100vw;
-    height: 1250px;
+    height: 1100px;
     margin-top: 40px;
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: repeat (5, 140px);
+    grid-template-rows: repeat(5, 220px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
 }
 
 .servicios-seccion-2-explicacion-ingenieria {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion1;
     display: flex;
     flex-direction: column;
@@ -2687,7 +2702,7 @@ footer {
 
 .servicios-seccion-2-explicacion-ml {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion2;
     display: flex;
     flex-direction: column;
@@ -2713,7 +2728,7 @@ footer {
 
 .servicios-seccion-2-explicacion-datos {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion3;
     display: flex;
     flex-direction: column;
@@ -2738,7 +2753,7 @@ footer {
 
 .servicios-seccion-2-explicacion-monitoreo{
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion4;
     display: flex;
     flex-direction: column;
@@ -2763,7 +2778,7 @@ footer {
 
 .servicios-seccion-2-explicacion-comites {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion5;
     display: flex;
     flex-direction: column;
@@ -2788,7 +2803,7 @@ footer {
 
 .servicios-seccion-2-explicacion-arquitectura {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion6;
     display: flex;
     flex-direction: column;
@@ -2813,7 +2828,7 @@ footer {
 
 .servicios-seccion-2-explicacion-capacitaciones {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion7;
     display: flex;
     flex-direction: column;
@@ -2838,7 +2853,7 @@ footer {
 
 .servicios-seccion-2-explicacion-mercado {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion8;
     display: flex;
     flex-direction: column;
@@ -2863,7 +2878,7 @@ footer {
 
 .servicios-seccion-2-explicacion-logistica {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion9;
     display: flex;
     flex-direction: column;
@@ -2888,7 +2903,7 @@ footer {
 
 .servicios-seccion-2-explicacion-productos {
     width: 50vw;
-    height: 140px;
+    height: 220px;
     grid-area: explicacion10;
     display: flex;
     flex-direction: column;
@@ -2912,6 +2927,160 @@ footer {
 }
 
 /* servicios seccion 2 media screen */
+
+@media screen and (min-width: 380px) {
+    .servicios-seccion-2 {
+        height: 1550px;
+    }
+
+    .servicios-seccion-2-explicacion {
+        height: 1000px;
+        grid-template-rows: repeat(5,200px);
+    }
+
+    .servicios-seccion-2-explicacion-ingenieria {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-ml {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-datos {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo{
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-comites {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-mercado {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-logistica {
+        height: 200px;
+    }
+    
+    .servicios-seccion-2-explicacion-productos {
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    .servicios-seccion-2 {
+        height: 1460px;
+    }
+
+    .servicios-seccion-2-explicacion {
+        height: 900px;
+        grid-template-rows: repeat(5,180px);
+    }
+
+    .servicios-seccion-2-explicacion-ingenieria {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-ml {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-datos {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo{
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-comites {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-mercado {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-logistica {
+        height: 180px;
+    }
+    
+    .servicios-seccion-2-explicacion-productos {
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 684px) {
+    .servicios-seccion-2 {
+        height: 1430px;
+    }
+
+    .servicios-seccion-2-explicacion {
+        height: 850px;
+        grid-template-rows: repeat(5,170px);
+    }
+
+    .servicios-seccion-2-explicacion-ingenieria {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-ml {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-datos {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-monitoreo{
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-comites {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-arquitectura {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-capacitaciones {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-mercado {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-logistica {
+        height: 170px;
+    }
+    
+    .servicios-seccion-2-explicacion-productos {
+        height: 170px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     
@@ -3003,7 +3172,6 @@ footer {
     .servicios-seccion-2-explicacion-productos p {
         font-size: calc(8px + 1vw);
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -3033,16 +3201,17 @@ footer {
     }
     
     .servicios-seccion-2-explicacion{
-        height: 500px;
+        height: 550px;
         margin-top: 20px;
+        margin-bottom: 0px;
         grid-template-columns: repeat(5, 20vw);
-        grid-template-rows: repeat (2, 200px);
+        grid-template-rows: repeat(2, 250px);
         grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
     }
     
     .servicios-seccion-2-explicacion-ingenieria {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion1;
     }
     
@@ -3056,7 +3225,7 @@ footer {
     
     .servicios-seccion-2-explicacion-ml {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion2;
     }
     
@@ -3070,7 +3239,7 @@ footer {
     
     .servicios-seccion-2-explicacion-datos {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion3;
     }
     
@@ -3084,7 +3253,7 @@ footer {
     
     .servicios-seccion-2-explicacion-monitoreo{
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion4;
     }
     
@@ -3098,7 +3267,7 @@ footer {
     
     .servicios-seccion-2-explicacion-comites {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion5;
     }
     
@@ -3112,7 +3281,7 @@ footer {
     
     .servicios-seccion-2-explicacion-arquitectura {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion6;
     }
     
@@ -3126,7 +3295,7 @@ footer {
     
     .servicios-seccion-2-explicacion-capacitaciones {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion7;
     }
     
@@ -3140,7 +3309,7 @@ footer {
     
     .servicios-seccion-2-explicacion-mercado {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion8;
     }
     
@@ -3154,7 +3323,7 @@ footer {
     
     .servicios-seccion-2-explicacion-logistica {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion9;
     }
     
@@ -3168,7 +3337,7 @@ footer {
     
     .servicios-seccion-2-explicacion-productos {
         width: 20vw;
-        height: 250px;
+        height: 275px;
         grid-area: explicacion10;
     }
     
@@ -3182,11 +3351,20 @@ footer {
     
 }
 
+@media screen and (min-width: 1715px) {
+
+    .servicios-seccion-2{
+        height: 970px;
+        margin-bottom: 20px;
+    }
+    
+}
+
   /* ___ Tercera sección ___ */
 
 .servicios-seccion-3{
     width: 100vw;
-    height: 1500px;
+    height: 1430px;
 }
 
 .servicios-seccion-3-introduccion{
@@ -3231,11 +3409,11 @@ footer {
 
 .servicios-seccion-3-explicacion{
     width: 100vw;
-    height: 1000px;
+    height: 1150px;
     margin-top: 50px;
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: repeat (5, 140px);
+    grid-template-rows: repeat(5, 230px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
 }
 
@@ -3441,48 +3619,151 @@ footer {
 
 /* servicios seccion 3 media screen */
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 380px) {
     .servicios-seccion-3{
-        height: 1250px;
+        width: 100vw;
+        height: 1350px;
     }
     
     .servicios-seccion-3-explicacion{
-        height: 750px;
-        margin-top: 25px;
-        align-content: space-around;
+        width: 100vw;
+        height: 840px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: repeat(4, 210px);
+        grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
     }
     
     .servicios-seccion-3-explicacion-estrategico {
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-bi {
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-genero {
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-monitoreo{
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-seguridad {
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-accesibilidad {
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-innovacion {
-        height: 150px;
+        height: 200px;
     }
     
     .servicios-seccion-3-explicacion-informes {
-        height: 150px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .servicios-seccion-3{
+        width: 100vw;
+        height: 1280px;
+    }
+    
+    .servicios-seccion-3-explicacion{
+        width: 100vw;
+        height: 760px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: repeat(4, 190px);
+        grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
+    }
+    
+    .servicios-seccion-3-explicacion-estrategico {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-bi {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-genero {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-monitoreo{
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-seguridad {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-accesibilidad {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-innovacion {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-informes {
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .servicios-seccion-3{
+        width: 100vw;
+        height: 1280px;
+    }
+    
+    .servicios-seccion-3-explicacion{
+        width: 100vw;
+        height: 760px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: repeat(4, 190px);
+        grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
+    }
+    
+    .servicios-seccion-3-explicacion-estrategico {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-bi {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-genero {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-monitoreo{
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-seguridad {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-accesibilidad {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-innovacion {
+        height: 180px;
+    }
+    
+    .servicios-seccion-3-explicacion-informes {
+        height: 180px;
     }
 }
 
@@ -3490,10 +3771,10 @@ footer {
 
     .servicios-seccion-3{
         width: 100vw;
-        height: 800px;
+        height: 780px;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-auto-rows: 800px;
+        grid-template-rows: repeat(2, 390px);
         grid-template-areas: "introduccion explicacion";
     }
     
@@ -3507,8 +3788,8 @@ footer {
     }
     
     .servicios-seccion-3-introduccion-cuadro{
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 50%;
         padding: 18px;
     }
     
@@ -3522,7 +3803,7 @@ footer {
     
     .servicios-seccion-3-explicacion{
         width: 50vw;
-        height: 800px;
+        height: 780px;
         margin-top: 0px;
 
         grid-area: explicacion;
@@ -3533,6 +3814,7 @@ footer {
     .servicios-seccion-3-explicacion-estrategico {
         width: 25vw;
         height: 160px;
+        margin-top: 10px;
     }
     
     .servicios-seccion-3-explicacion-estrategico h3 {
@@ -3546,6 +3828,7 @@ footer {
     .servicios-seccion-3-explicacion-bi {
         width: 25vw;
         height: 160px;
+        margin-top: 10px;
     }
     
     .servicios-seccion-3-explicacion-bi h3 {
@@ -3635,9 +3918,28 @@ footer {
     }
 }
 
+@media screen and (min-width: 2000px) {
+
+    .servicios-seccion-3{
+        height: 770px;
+    }
+
+    .servicios-seccion-3-introduccion{
+        height: 770px;
+    }
+
+    .servicios-seccion-3-introduccion-cuadro{
+        padding: 30px;
+    }
+
+    .servicios-seccion-3-explicacion{
+        height: 770px;
+    }
+}
+
   /* ___ Cuarta sección ___ */
 
-  .servicios-seccion-4{
+.servicios-seccion-4{
     width: 100vw;
     height: 1820px;
 }
@@ -3994,6 +4296,67 @@ footer {
 
 /* servicios seccion 4 media screen */
 
+@media screen and (min-width: 480px) {
+    .servicios-seccion-4{
+        height: 1700px;
+    }
+    
+    .servicios-seccion-4-explicacion{
+        height: 1220px;
+        margin-top: 25px;
+        align-content: space-around;
+        grid-template-rows: repeat (6, 220px);
+    }
+    
+    .servicios-seccion-4-explicacion-marca {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-redes {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-web {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-branding{
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-medios {
+        height: 200px;
+    }
+
+    .servicios-seccion-4-explicacion-media {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-publicidad {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-influencer {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-inbound {
+        height: 200px;
+    }
+
+    .servicios-seccion-4-explicacion-experiencia {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-manual {
+        height: 200px;
+    }
+    
+    .servicios-seccion-4-explicacion-eventos {
+        height: 200px;
+    }
+}
+
 @media screen and (min-width: 768px) {
 
     .servicios-seccion-4{
@@ -4264,7 +4627,7 @@ footer {
 
 .servicios-seccion-5 {
     width: 100vw;
-    height: 1750px;
+    height: 1770px;
 }
 
 .servicios-seccion-5-introduccion {
@@ -4315,7 +4678,7 @@ footer {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: repeat (5, 200px);
+    grid-template-rows: repeat(5, 200px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
 }
 
@@ -4571,16 +4934,17 @@ footer {
 
 /* servicios seccion 5 media screen */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
 
     .servicios-seccion-5{
-        height: 1750px;
+        height: 1680px;
     }
     
     .servicios-seccion-5-explicacion{
-        height: 1000px;
+        height: 900px;
         margin-top: 40px;
         align-content: space-around;
+        grid-template-rows: repeat(5, 170px);
         
     }
     
@@ -4625,9 +4989,22 @@ footer {
     }
 }
 
+@media screen and (min-width: 768px) {
+
+    .servicios-seccion-5{
+        height: 1750px;
+    }
+    
+    .servicios-seccion-5-explicacion{
+        height: 1000px;
+        margin-top: 40px;
+        
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .servicios-seccion-5 {
-        height: 1000px;
+        height: 950px;
     }
     
     .servicios-seccion-5-introduccion {
@@ -4677,9 +5054,9 @@ footer {
     
     .servicios-seccion-5-explicacion{
         height: 500px;
-        margin-top: 60px;
+        margin-top: 40px;
         grid-template-columns: repeat(5, 20vw);
-        grid-template-rows: repeat (2, 220px);
+        grid-template-rows: repeat(2, 220px);
         grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
     }
     
