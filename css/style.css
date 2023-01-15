@@ -5500,7 +5500,7 @@ footer {
     }
     
     .innovacion-seccion-2-explicacion h2 {
-        width: 50vw;
+        width: 35vw;
         font-size: calc(14px + 1.25vw);
         color: #404040;
     }
@@ -5726,12 +5726,10 @@ footer {
     }
 }
 
-/* ¡Seguir desde acá! */
-
 @media screen and (min-width: 600px) {
 
     .innovacion-seccion-3 {
-        height: 1300px;
+        height: 1425px;
     }
 
     .innovacion-seccion-3-ml{
@@ -5744,7 +5742,7 @@ footer {
     }
     
     .innovacion-seccion-3-ml-texto-parrafos p {
-        max-width: 550px;
+        max-width: 565px;
     }
 }
 
@@ -5761,18 +5759,18 @@ footer {
     .innovacion-seccion-3-titulo {
         width: 100vw;
         height: 100px;
-        /* display: flex; */
-        /* flex-direction: column;
-        justify-content: center;
-        align-content: flex-start; */
         grid-area: titulo;
     }
 
     .innovacion-seccion-3-ml{
-        width:50vw;
+        width:48vw;
         height: 450px;
         padding: 0px 5px 0px 20px;
         grid-area: ml;
+    }
+
+    .innovacion-seccion-3-ml-titulo{
+        width:30vw;
     }
     
     .innovacion-seccion-3-ml-texto {
@@ -5794,6 +5792,18 @@ footer {
         width: 50vw;
         height: 600px;
         grid-area: beneficios;
+    }
+
+    .innovacion-seccion-3-beneficios-titulo {
+        width: 40vw;
+    }
+
+    .innovacion-seccion-3-beneficios-listado1 {
+        width: 40vw;
+    }
+
+    .innovacion-seccion-3-beneficios-listado2 {
+        width: 40vw;
     }
 
     .innovacion-seccion-3-pregunta {
@@ -5818,11 +5828,13 @@ footer {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 
     .innovacion-seccion-3 {
-        height: 1150px;
-        grid-template-rows: 100px 430px 100px 500px;
+        height: 1250px;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 430px 100px 600px;
+        grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
     }    
 
     .innovacion-seccion-3-ml{
@@ -5836,60 +5848,65 @@ footer {
         height: 400px;
     }
 
-    
     .innovacion-seccion-3-ml-texto-parrafos p {
         max-width: 40vw;
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
 
     .innovacion-seccion-3 {
-        height: 1250px;
-        grid-template-rows: 100px 480px 100px 500px;
+        height: 1350px;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 150px 470px 100px 600px;
+        grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
     }    
+
+    .innovacion-seccion-3-titulo h2 {
+        padding-left: 60px;
+        padding-top: 80px;
+        font-size: MIN(calc(14px + 1.25vw), 35px);
+    }
 
     .innovacion-seccion-3-ml{
         width:50vw;
         height: 400px;
         grid-area: ml;
+        padding-left: 60px;
     }
     
     .innovacion-seccion-3-ml-texto {
-        max-width: 600px;
-        height: 400px;
+        max-width: 450px;
+        height: 300px;
     }
 
+    .innovacion-seccion-3-ml-texto-parrafos {
+        max-width: 450px;
+        font-size: MIN(calc(12px + 0.20vw), 15px);
+    }
     
     .innovacion-seccion-3-ml-texto-parrafos p {
-        font-size: calc(14px + 0.20vw);
-        max-width: 45vw;
-    }
-}
-
-@media screen and (min-width: 2300px) {
-
-    .innovacion-seccion-3 {
-        height: 1250px;
-        grid-template-rows: 100px 550px 100px 500px;
-    }    
-
-    .innovacion-seccion-3-ml{
-        width:50vw;
-        height: 400px;
-        grid-area: ml;
-    }
-    
-    .innovacion-seccion-3-ml-texto {
-        max-width: 600px;
-        height: 400px;
+        max-width: 450px;
+        font-size: MIN(calc(12px + 0.20vw), 15px);
     }
 
-    
-    .innovacion-seccion-3-ml-texto-parrafos p {
-        font-size: calc(14px + 0.20vw);
-        max-width: 45vw;
+    .innovacion-seccion-3-beneficios {
+        height: 470px;
+        padding-left: 90px;
     }
+
+    .innovacion-seccion-3-beneficios-listado1 li {
+        font-size: MIN(calc(12px + 0.20vw), 15px);
+    }
+
+    .innovacion-seccion-3-beneficios-listado2 li{
+        font-size: MIN(calc(12px + 0.20vw), 15px);
+    }
+
+    .innovacion-seccion-3-pregunta{
+        padding-left: 60px;
+    }
+
 }
 
 /* === Contacto === */
