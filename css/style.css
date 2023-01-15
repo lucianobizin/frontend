@@ -23,22 +23,12 @@ header {
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
     grid-template-rows: 10vh;
-
-    justify-content:space-between;
-    align-content: center;
-    
-    justify-items: center;
-    align-items: center;
-
-    grid-template-areas: "imagen nombre botón";
-
+    grid-template-areas: "imagen nombre boton";
     background-color: #ffc72c;
-
-    /* position:sticky; */
 }
 
 header img {
-    grid-area: "imagen" ;
+    grid-area: imagen;
     height: 100%;
     width: 100%;
     object-fit:contain;
@@ -46,18 +36,24 @@ header img {
 }
 
 header h1 {
-    grid-area: "nombre";
+    grid-area: nombre;
     font-size: calc(12px + 0.3vw);
     color: #404040;
     padding: calc(12px - 0.5vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boton-header{
-    width:50%;
-    height: 50%;
-    grid-area: "botón";
+    width:15vw;
+    height: 10vh;
+    grid-area: boton;
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+
 }
 
 header div input {
@@ -68,8 +64,8 @@ header div input {
 }
 
 .logo-menu{
-    width:100%;
-    height: 100%;
+    width:75%;
+    height: 75%;
     object-position: cover;
 }
 
@@ -85,15 +81,13 @@ header div input {
     align-items: center;
     padding: 10vh;
     gap: 15vh;
-    right: 0px;
-    margin-left: 25px;
+    right: -3px;
 }
 
 .menu-desplegable-texto{
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(12px + 0.3vw);
     font-weight: 600;
     color: #404040da;
-    margin-left: calc(28px + 1.5vw);
 }
 
 input:checked ~ .menu-desplegable {
@@ -113,8 +107,9 @@ input:checked ~ .menu-desplegable {
     }
 
     .menu-desplegable{
-        top: 15vh;
+        top: 10vh;
         padding: 4vw;
+        right: -5px;
     }
 
     header h1 {
@@ -125,32 +120,24 @@ input:checked ~ .menu-desplegable {
     }
 
     .menu-desplegable-texto{
-        font-size: 25px;
+        font-size: calc(18px + 0.25vw);
         font-weight: 600;
-        margin-left: calc(60px + 1.5vw);
     }
 }
 
 @media screen and (min-width: 1200px) {
-
-    .menu-desplegable {
-        right: -15px;
-    }
-
-    .menu-desplegable-texto{
-        font-size: 25px;
-        font-weight: 600;
-        margin-left: calc(50px + 3vw);
+    .menu-desplegable{
+        right: 0px;
     }
 }
 
-@media screen and (min-width: 2000px) {
+/* @media screen and (min-width: 2000px) {
 
     .menu-desplegable {
         top: 8vh;
         right: -20px;
     }
-}
+} */
 
   /* --- Main --- */
 
@@ -1477,7 +1464,7 @@ footer {
     height: 280px;
     background-color: #404040;
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 99vw;
     grid-template-rows: repeat(3, 80px);
     grid-template-areas: "slogan" "logos" "copyright";
     padding: 20px 0px;
@@ -5918,7 +5905,7 @@ footer {
 
 .contacto-portada{
     width: 100vw;
-    height: 700px;
+    height: 740px;
     background-color: #ffc72c;
 }
 
@@ -5932,7 +5919,7 @@ footer {
 }
 
 .contacto-portada-cuadro-texto{
-    width: 90%;
+    width: calc(80% + 1vw);
     max-width: 400px;
     border: 4px #404040 solid;
     padding: 20px;
@@ -5970,39 +5957,63 @@ footer {
 @media screen and (min-width: 768px) {
 
     .contacto-portada{
-        height: 860px;
+        height: 880px;
     }
     
     .contacto-portada-cuadro {
-        height: 400px;
+        height: 420px;
+    }
+
+    .contacto-portada-cuadro-texto{
+        width: calc(80% + 1vw);
+        max-width: 450px;
+        border: 4px #404040 solid;
+        padding: 20px;
+    }
+
+    .contacto-portada-imagen img{
+        width: 95%;
+        height: 95%;
+        object-fit:contain;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
     .contacto-portada{
-        height: 550px;
+        height: 650px;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: 800px;
+        grid-template-rows: 650px;
         grid-template-areas: "cuadro imagen";
     }
     
     .contacto-portada-cuadro {
         width: 50vw;
-        height: 500px;
-        padding-top: 50px;
+        height: 650px;
         grid-area: cuadro;
     }
 
     .contacto-portada-cuadro-texto {
         width: 50vw;
-        max-width: 500px;
+        max-width: 450px;
+        height: 330px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacto-portada-cuadro-texto h1{
+        font-size: MIN(calc(20px + 2.5vw), 62px);
+    }
+    
+    .contacto-portada-cuadro-texto p{
+        font-size: MIN(calc(11px + 0.6vw), 18.4px);
     }
 
     .contacto-portada-imagen{
         width: 50vw;
-        height: 550px;
+        height: 650px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -6011,45 +6022,8 @@ footer {
     }
     
     .contacto-portada-imagen img{
-        width: 90%;
-        height: 90%;
-        object-fit:contain;
-        grid-area: imagen;
-    }
-}
-
-
-@media screen and (min-width: 2000px) {
-
-    .contacto-portada{
-        height: 600px;
-    }
-    
-    .contacto-portada-cuadro {
-        height: 600px;
-        padding-top: 50px;
-    }
-
-    .contacto-portada-cuadro-texto {
-        max-width: 600px;
-    }
-
-    .contacto-portada-imagen{
-        width: 50vw;
-        height: 600px;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        grid-area: imagen;
-    }
-    
-    .contacto-portada-imagen img{
-        width: 90%;
-        height: 90%;
-        object-fit:contain;
-        grid-area: imagen;
+        width: 85%;
+        height: 85%;
     }
 }
 
@@ -6057,20 +6031,20 @@ footer {
 
 .contacto-seccion-2{
     width: 100vw;
-    height: 370px;
+    height: calc(370px - 10vw);
     background-color:  rgb(216, 216, 216);
 }
 
 .contacto-seccion-2-titulo {
     width: 100vw;
-    height: 120px;
+    height: 90px;
     margin-bottom: 10px;
 }
 
 .contacto-seccion-2-titulo h2 {
     font-size: calc(14px + 1.75vw);
     color: #404040;
-    padding: 60px 20px 10px 20px;
+    padding: 40px 20px 10px 20px;
 }
 
 .contacto-seccion-2-linea {
@@ -6089,7 +6063,7 @@ footer {
 
 .contacto-seccion-2-trabajo{
     width: 100vw;
-    height: 200px;
+    height: calc(200px - 10vw);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -6097,7 +6071,8 @@ footer {
 }
 
 .contacto-seccion-2-trabajo-parrafo {
-    padding: 20px 30px 0px 20px;
+    height: calc(150px - 10vw);
+    padding: calc(20px - 1vw) 30px 0px 20px;
 }
 
 
@@ -6113,29 +6088,14 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-start;
-}
-
-.contacto-seccion-2-trabajo-strong {
+    font-size: calc(12px + 1vw);
+    color: #404040;
     font-weight: bold;
-    padding: 30px 20px 20px 20px;
+    padding: calc(30px - 1vw) 20px 20px 20px;
 }
 
 /* contacto sección 2 media screen */
 
-@media screen and (min-width: 390px) {
-
-    .contacto-seccion-2{
-    height: 370px;
-    }
-
-    .contacto-seccion-2-linea hr {
-        width: 20vw;
-    }
-
-    .contacto-seccion-2-trabajo-parrafo {
-        padding: 40px 30px 0px 20px;
-    }
-}
 
 @media screen and (min-width: 768px) {
 
@@ -6155,8 +6115,13 @@ footer {
         width: 20vw;
     }
 
+    .contacto-seccion-2-trabajo-parrafo {
+        height: 120px;
+        padding: calc(40px - 1vw) 20px 20px 20px;
+    }
+
     .contacto-seccion-2-trabajo-parrafo p {
-        max-width: 1030px;
+        max-width: 1150px;
         font-size: calc(12px + 0.5vw);
     }
 
@@ -6165,12 +6130,14 @@ footer {
     }
 
     .contacto-seccion-2-trabajo-strong {
-        height: 25px;
+        height: 100px;
+        padding: calc(10px - 1vw) 20px 20px 20px;
     }
 
     .contacto-seccion-2-trabajo-strong p {
         font-size: calc(12px + 0.5vw);
         color: #404040;
+        padding: calc(30px - 1vw) 20px 20px 0px;
     }
 }
 
@@ -6178,23 +6145,26 @@ footer {
 
     .contacto-seccion-2 {
         width:100vw;
-        height: 330px;
+        height: 350px;
         background-color:  rgb(216, 216, 216);
     }
 
     .contacto-seccion-2-titulo{
         width: 50vw;
-        height: 100px;
-        margin-left: 10vw;
+        height: 130px;
+        margin-bottom: 0px;
+        margin-left: 5vw;
     }
 
     .contacto-seccion-2-titulo h2 {
+        font-size: MIN(calc(14px + 1.75vw), 42px);
+        padding-top: 45px;
         padding-left: 0px;
     }
 
     .contacto-seccion-2-linea {
-        width: 2.5vw;
-        margin-left: 10vw;
+        width: 10vw;
+        margin-left: 5vw;
     }
 
     .contacto-seccion-2-linea hr {
@@ -6202,83 +6172,26 @@ footer {
     }
     
     .contacto-seccion-2-trabajo {
-        width: 80vw;
+        width: 95vw;
         height: 190px;
     }
 
     .contacto-seccion-2-trabajo-parrafo {
         width: 90vw;
-        height: 50px;
-        margin-left: 10vw;
+        height: 100px;
+        margin-left: 5vw;
         padding-left: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
 
     .contacto-seccion-2-trabajo-parrafo p {
-        max-width: 1278px;
+        max-width: 1850px;
     }
 
     .contacto-seccion-2-trabajo-strong {
-        width: 50vw;
-        height: 50px;
-        margin-left: 10vw;
-        padding-left: 0px;
-    }
-}
-
-@media screen and (min-width: 2150px) {
-
-    .contacto-seccion-2 {
-        width:100vw;
-        height: 400px;
-        background-color:  rgb(216, 216, 216);
-    }
-
-    .contacto-seccion-2-titulo{
         width: 50vw;
         height: 100px;
-        margin-left: 10vw;
-    }
-
-    .contacto-seccion-2-titulo h2 {
-        padding-top: 50px;
-        padding-left: 0px;
-    }
-
-    .contacto-seccion-2-linea {
-        width: 2.5vw;
-        margin-left: 10vw;
-        position: relative;
-    }
-
-    .contacto-seccion-2-linea hr {
-        width: 10vw;
-        position: relative;
-        margin-top: 40px;
-        
-    }
-    
-    .contacto-seccion-2-trabajo {
-        width: 80vw;
-        height: 190px;
-    }
-
-    .contacto-seccion-2-trabajo-parrafo {
-        width: 95vw;
-        height: 50px;
-        margin-left: 10vw;
-        padding-left: 0px;
-        margin-bottom: 50px;
-    }
-
-    .contacto-seccion-2-trabajo-parrafo p {
-        max-width: 1700px;
-    }
-
-    .contacto-seccion-2-trabajo-strong {
-        width: 50vw;
-        height: 50px;
-        margin-left: 10vw;
+        margin-left: 5vw;
         padding-left: 0px;
     }
 }
@@ -6287,7 +6200,7 @@ footer {
 
 .contacto-seccion-3 {
     width: 100vw;
-    height: 1000px;
+    height: 980px;
 }
 
 .contacto-seccion-3-imagen {
@@ -6304,7 +6217,7 @@ footer {
 
 .contacto-seccion-3-formulario {
     width: 100vw;
-    height: 700px;
+    height: 680px;
     background-color: #ffc72c;
     display: flex;
     flex-direction: column;
@@ -6314,7 +6227,7 @@ footer {
 }
 
 .contacto-seccion-3-formulario h2 {
-    font-size: calc(16px + 1.5vw);
+    font-size: MIN(calc(14px + 1.75vw), 21px);
     color: #404040;
     margin-bottom: 30px;
 }
@@ -6331,7 +6244,7 @@ footer {
 }
 
 .contacto-seccion-3-formulario-texto-label {
-    font-size: calc(12px + 1.5vw);
+    font-size: MIN(calc(12px + 1vw), 16px);
     font-weight: 500;
     color: #404040;
     margin-right: 5px;
@@ -6371,7 +6284,7 @@ footer {
 }
 
 .contacto-seccion-3-formulario-texto-label-checkbok {
-    font-size: calc(12px + 1vw);
+    font-size: MIN(calc(12px + 1vw), 16px);
     font-weight: 500;
     color: #404040;
     margin-right: 5px;
@@ -6401,35 +6314,42 @@ footer {
 
 /* contacto sección 3 media screen */
 
-@media screen and (min-width: 400px){
-    .contacto-seccion-3 {
-        height: 1030px;
-    }
-    
-    .contacto-seccion-3-formulario {
-        height: 730px;
-    }
-}
-
 @media screen and (min-width: 768px){
     .contacto-seccion-3 {
-        height: 1100px;
+        height: 1150px;
     }
     
+    .contacto-seccion-3-imagen {
+        height: 450px;
+    }
+
+    
     .contacto-seccion-3-formulario {
-        height: 800px;
-        justify-content: space-around;
+        height: 700px;
+    }
+    
+    .contacto-seccion-3-formulario h2 {
+        font-size: MIN(calc(14px + 1.75vw), 24px);
     }
 
-
-    .contacto-seccion-3-formulario-texto-enviar {
-        height: 35px;
+    .contacto-seccion-3-formulario-texto {
+        margin-top: 3px;
     }
-
-    .contacto-seccion-3-formulario-texto-restablecer {
-        height: 35px;
+    
+    .contacto-seccion-3-formulario-texto-label {
+        font-size: MIN(calc(12px + 1vw), 18px);
     }
-
+    
+    .contacto-seccion-3-formulario-texto-select{
+        font-size: 14px;
+    }
+    .contacto-seccion-3-formulario-texto-option {
+        font-size: 14px;
+    }
+    
+    .contacto-seccion-3-formulario-texto-label-checkbok {
+        font-size: MIN(calc(12px + 1vw), 17px);
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -6446,12 +6366,6 @@ footer {
         height: 800px;
         grid-area: foto;
     }
-    
-    .contacto-seccion-3-imagen img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
 
     .contacto-seccion-3-formulario {
         width: 50vw;
@@ -6460,9 +6374,18 @@ footer {
         justify-content: space-around;
     }
 
+    .contacto-seccion-3-formulario h2 {
+        font-size: MIN(calc(14px + 1.75vw), 24px);
+        margin-bottom: 0px;
+    }
+
+    .contacto-seccion-3-formulario-texto {
+        margin: 10px 0px;
+    }
+
     .contacto-seccion-3-formulario-texto-label {
         width: 40vw;
-        font-size: 25px;
+        font-size: MIN(calc(12px + 1vw), 20px);
     }
 
     .contacto-seccion-3-formulario-texto-input {
@@ -6472,7 +6395,6 @@ footer {
     .contacto-seccion-3-formulario-texto textarea {
         width: 40vw;
     }
-
 
     .contacto-seccion-3-formulario-texto-select {
         height: 45px;
@@ -6488,19 +6410,19 @@ footer {
     .contacto-seccion-3-formulario-texto-enviar {
         width: 80px;
         height: 45px;
-        font-size: 18px;
+        font-size: MIN(calc(12px + 1vw), 16px);
         font-weight: 500;
     }
 
     .contacto-seccion-3-formulario-texto-restablecer {
         width: 240px;
         height: 45px;
-        font-size: 18px;
+        font-size: MIN(calc(12px + 1vw), 16px);
         font-weight: 500;
     }
 
     .contacto-seccion-3-formulario-texto-label-checkbok {
-        font-size: 25px;
+        font-size: MIN(calc(12px + 1vw), 18px);
     }
 
 }
