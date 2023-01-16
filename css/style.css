@@ -1488,18 +1488,18 @@ input:checked ~ .menu-desplegable {
 
 footer {
     width: 100vw;
-    height: 280px;
+    height: 145px;
     background-color: #404040;
     display: grid;
     grid-template-columns: 99vw;
-    grid-template-rows: repeat(3, 80px);
+    grid-template-rows: repeat(3, 45px);
     grid-template-areas: "slogan" "logos" "copyright";
-    padding: 20px 0px;
+    padding: 5px 0px;
 }
 
 .footer-slogan {
     width: 100vw;
-    height: 80px;
+    height: 45px;
     grid-area: slogan;
     text-align: center;
     display: flex;
@@ -1509,14 +1509,14 @@ footer {
 
 .footer-slogan p{
     display: inline-block;
-    font-size: calc(13px + 0.7vw);
+    font-size: calc(12px + 0.7vw);
     font-weight: bold;
     color: white;
 }
 
 .footer-botones{
     width: 100vw;
-    height: 80px;
+    height: 45px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1542,7 +1542,7 @@ footer {
 
 .footer-copyright{
     width: 100vw;
-    height: 80px;
+    height: 45px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1550,7 +1550,7 @@ footer {
 }
 
 .footer-copyright p {
-    font-size: calc(10px + 0.7vw);
+    font-size: calc(10px + 0.4vw);
     font-weight: bold;
     color: white;
 }
@@ -1560,17 +1560,17 @@ footer {
 @media screen and (min-width: 768px){
 
     footer{
-        height: 360px;
-        grid-template-rows: repeat(3, 100px);
-        padding: 30px 0px;
+        height: 210px;
+        grid-template-rows: repeat(3, 60px);
+        padding: 15px 0px;
     }
 
     .footer-slogan {
-        height: 100px;
+        height: 60px;
     }
 
     .footer-botones{
-        height: 100px;
+        height: 60px;
         gap: calc(30px + 0.25vw);
     }
 
@@ -1585,24 +1585,24 @@ footer {
     }
 
     .footer-copyright {
-        height: 100px;
+        height: 60px;
     }
 }
 
 @media screen and (min-width: 1200px){
 
     footer{
-        height: 360px;
-        grid-template-rows: repeat(3, 100px);
-        padding: 30px 0px;
+        height: 280px;
+        grid-template-rows: repeat(3, 80px);
+        padding: 20px 0px;
     }
 
     .footer-slogan {
-        height: 100px;
+        height: 80px;
     }
 
     .footer-botones{
-        height: 100px;
+        height: 80px;
     }
 
     .footer div a {
@@ -1616,7 +1616,7 @@ footer {
     }
 
     .footer-copyright {
-        height: 100px;
+        height: 80px;
     }
 
 }
@@ -1629,13 +1629,13 @@ footer {
 
 .nosotros-portada{
     width: 100vw;
-    height: 800px;
+    height: 750px;
     background-color: #ffc72c;
 }
 
 .nosotros-portada-cuadro {
     width:100vw;
-    height: 50%;
+    height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1649,21 +1649,21 @@ footer {
 }
 
 .nosotros-portada-cuadro-texto h1{
-    font-size: calc(20px + 2.5vw);
+    font-size: MIN(calc(20px + 2.5vw), 34px);
     font-weight: bold;
     color: #404040;
     padding-bottom: 10px;
 }
 
 .nosotros-portada-cuadro-texto p{
-    font-size: calc(11px + 0.6vw);
+    font-size: MIN(calc(11px + 0.6vw), 14.3px);
     color: #404040;
     padding: 0 1px 0 0;
 }
 
 .nosotros-portada-imagen{
     width:100vw;
-    height: 50%;
+    height: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1680,10 +1680,10 @@ footer {
 @media screen and (min-width: 768px) {
 
     .nosotros-portada{
-        height: 700px;
+        height: 500px;
         display: grid;
         grid-template-columns: repeat(2, 50vw);
-        grid-template-rows: 700px;
+        grid-template-rows: 500px;
         grid-template-areas: "cuadro imagen";
         
         justify-content: center;
@@ -1700,43 +1700,48 @@ footer {
     
     .nosotros-portada-cuadro-texto{
         width: 80%;
-        max-width: 600px;
+        max-width: 375px;
         padding: 20px;
     }
     
     .nosotros-portada-cuadro-texto h1{
-        font-size: calc(18px + 2vw);
+        font-size: MIN(calc(18px + 2vw), 36.35px);
         margin: 10px 0px
     }
     
     .nosotros-portada-cuadro-texto p{
-        font-size: calc(12px + 0.5vw);
+        font-size: MIN(calc(12px + 0.5vw), 16.58px);
         margin: 10px 0px
     }
     
     .nosotros-portada-imagen{
         width:100%;
-        height: 90%;
+        height: 85%;
         grid-area: imagen;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
+    .nosotros-portada{
+        height: 810px;
+        grid-template-rows: 810px;
+    }
+
     .nosotros-portada-cuadro-texto{
-        width: 90%;
+        width: 80%;
         max-width: 600px;
         border: 4px #404040 solid;
         padding: 40px;
     }
     
     .nosotros-portada-cuadro-texto h1{
-        font-size: calc(20px + 2vw);
+        font-size: MIN(calc(18px + 2vw), 50.35px);
         margin: 15px 0px;
     }
     
     .nosotros-portada-cuadro-texto p{
-        font-size: calc(12px + 0.75vw);
+        font-size: MIN(calc(12px + 0.75vw), 25.6px);
     }
 }
 
@@ -1744,7 +1749,7 @@ footer {
 
 .nosotros-seccion-2 {
     width: 100vw;
-    height: 1440px;
+    height: cal(1440px -5vw);
 }
 
 .nosotros-seccion-2-titular {
@@ -1800,23 +1805,23 @@ footer {
 
 .nosotros-seccion-2-explicacion {
     width: 100vw;
-    height: 1000px;
+    height: calc(1000px - 3vw);
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 40px;
+    padding: calc(40px + 0.5vw) 40px;
 }
 
 .nosotros-seccion-2-explicacion h2 {
     width: 50vw;
-    font-size: calc(14px + 1.25vw);
+    font-size: 18.14px;
     color: #404040;
 }
 
 .nosotros-seccion-2-explicacion p {
-    font-size: calc(12px + 0.25vw);
+    font-size: 12.8px;
 }
 
 .nosotros-seccion-2-explicacion-h3 {
@@ -1827,7 +1832,7 @@ footer {
 }
 
 .nosotros-seccion-2-explicacion h3 {
-    font-size: calc(10px + 0.25vw);
+    font-size: 10.8px;
     color: #404040;
 }
 
@@ -1887,7 +1892,7 @@ footer {
     }
 
     .nosotros-seccion-2-explicacion h3 {
-        font-size: calc(10px + 0.8vw);
+        font-size: calc(10px + 0.5vw);
     }
 }
 
@@ -1904,6 +1909,14 @@ footer {
         padding: 30px 40px;
     }
 
+    .nosotros-seccion-2-explicacion h2{
+        font-size: 22px;
+    }
+
+    .nosotros-seccion-2-explicacion p{
+        font-size: 16px;
+    }
+
     .nosotros-seccion-3 {
         width: 100vw;
         height: 1250px;
@@ -1913,6 +1926,10 @@ footer {
         width: 100vw;
         height: 750px;
         padding: 30px 40px;
+    }
+
+    .nosotros-seccion-2-explicacion h3 {
+        font-size: calc(10px + 0.6vw);
     }
 }
 
@@ -1938,6 +1955,11 @@ footer {
         padding: 0px 40px;
 
         grid-area: nosotrosSeccion2titular;
+    }
+
+    .nosotros-seccion-2-titular-a-img {
+        width: 70px;
+        height: 70px;
     }
     
     .nosotros-seccion-2-foto {
@@ -1999,7 +2021,7 @@ footer {
 
 .nosotros-seccion-3 {
     width: 100vw;
-    height: 1440px;
+    height: cal(1440px -5vw);
 }
 
 .nosotros-seccion-3-titular {
@@ -2050,23 +2072,23 @@ footer {
 
 .nosotros-seccion-3-explicacion {
     width: 100vw;
-    height: 1000px;
+    height: calc(1000px - 3vw);
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 40px;
+    padding: calc(40px + 0.5vw) 40px;
 }
 
 .nosotros-seccion-3-explicacion h2 {
     width: 50vw;
-    font-size: calc(14px + 1.25vw);
+    font-size: 18.14px;
     color: #404040;
 }
 
 .nosotros-seccion-3-explicacion p {
-    font-size: calc(12px + 0.25vw);
+    font-size: 12.8px;
 }
 
 .nosotros-seccion-3-explicacion-h3 {
@@ -2077,26 +2099,11 @@ footer {
 }
 
 .nosotros-seccion-3-explicacion h3 {
-    font-size: calc(10px + 0.25vw);
+    font-size: 10.8px;
     color: #404040;
 }
 
 /* nosotros sección 3 media screen */
-
-@media screen and (min-width: 380px) {
-
-    .nosotros-seccion-3 {
-        height: 1400px;
-    }
-
-    .nosotros-seccion-3-explicacion {
-        height: 930px;
-    }
-
-    .nosotros-seccion-3-explicacion h3 {
-        font-size: calc(10px + 0.8vw);
-    }
-}
 
 @media screen and (min-width: 480px) {
 
@@ -2109,11 +2116,12 @@ footer {
     }
 
     .nosotros-seccion-3-explicacion h3 {
-        font-size: calc(10px + 0.8vw);
+        font-size: 12.5px;
     }
 }
 
 @media screen and (min-width:768px) {
+
 
     .nosotros-seccion-3 {
         width: 100vw;
@@ -2125,8 +2133,19 @@ footer {
         height: 750px;
         padding: 30px 40px;
     }
-}
 
+    .nosotros-seccion-3-explicacion h2{
+        font-size: 22px;
+    }
+
+    .nosotros-seccion-3-explicacion p{
+        font-size: 16px;
+    }
+
+    .nosotros-seccion-3-explicacion h3 {
+        font-size: calc(10px + 0.6vw);
+    }
+}
 
 @media screen and (min-width: 1200px) {
 
@@ -2152,6 +2171,11 @@ footer {
         grid-area: nosotrosSeccion3titular;
     }
     
+    .nosotros-seccion-3-titular-a-img {
+        width: 70px;
+        height: 70px;
+    }
+
     .nosotros-seccion-3-foto {
         width: 50vw;
         max-height: 750px;
@@ -2268,14 +2292,14 @@ footer {
 
 .nosotros-seccion-4-trabajo-parte-1 p {
     display: block;
-    font-size: calc(12px + 0.50vw);
+    font-size: MIN(calc(12px + 0.50vw), 14.27px);
     margin-bottom: 30px;
 }
 
 .nosotros-seccion-4-trabajo-parte-1 a {
     width: 200px;
     font-size: calc(12px + 0.50vw);
-    padding: 10px 10px 10px 10px;
+    padding: 8px;
     color: #404040;
     font-weight: 500;
     border-color: #ffc72c;
@@ -2303,14 +2327,14 @@ footer {
 
 .nosotros-seccion-4-trabajo-parte-2 p {
     display: block;
-    font-size: calc(12px + 0.50vw);
+    font-size: MIN(calc(12px + 0.50vw), 14.27px);
     margin-bottom: 30px;
 }
 
 .nosotros-seccion-4-trabajo-parte-2 a {
     width: 200px;
     font-size: calc(12px + 0.50vw);
-    padding: 10px 10px 10px 10px;
+    padding: 8px;
     color: #404040;
     font-weight: 500;
     border-color: #ffc72c;
@@ -2338,14 +2362,14 @@ footer {
 
 .nosotros-seccion-4-trabajo-parte-3 p {
     display: block;
-    font-size: calc(12px + 0.5vw);
+    font-size: MIN(calc(12px + 0.50vw), 14.27px);
     margin-bottom: 30px;
 }
 
 .nosotros-seccion-4-trabajo-parte-3 a {
     width: 200px;
     font-size: calc(12px + 0.5vw);
-    padding: 10px 10px 10px 10px;
+    padding: 8px;
     color: #404040;
     font-weight: 500;
     border-color: #ffc72c;
@@ -2362,15 +2386,15 @@ footer {
 
 @media screen and (min-width: 480px) {
     .nosotros-seccion-4-trabajo-parte-1 p {
-        max-width: 610px;
+        max-width: 620px;
     }
 
     .nosotros-seccion-4-trabajo-parte-2 p {
-        max-width: 610px;
+        max-width: 620px;
     }
 
     .nosotros-seccion-4-trabajo-parte-3 p {
-        max-width: 610px;
+        max-width: 620px;
     }
 }
 
@@ -2395,14 +2419,17 @@ footer {
 
     .nosotros-seccion-4-trabajo-parte-1 p {
         max-width: 1100px;
+        font-size: MIN(calc(12px + 0.50vw), 20px);
     }
 
     .nosotros-seccion-4-trabajo-parte-2 p {
         max-width: 1100px;
+        font-size: MIN(calc(12px + 0.50vw), 20px);
     }
 
     .nosotros-seccion-4-trabajo-parte-3 p {
         max-width: 1100px;
+        font-size: MIN(calc(12px + 0.50vw), 20px);
     }
 }
 
@@ -2454,18 +2481,18 @@ footer {
     }
 
     .nosotros-seccion-4-trabajo-parte-1 h3 {
-        max-width: 605px;
-        font-size: calc(12px + 1vw);
+        max-width: 551px;
+        font-size: MIN(calc(12px + 1vw), 32.82px);
     }
     
     .nosotros-seccion-4-trabajo-parte-1 p {
-        font-size: calc(12px + 0.25vw);
+        font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
     
     .nosotros-seccion-4-trabajo-parte-1 a {
         width: 200px;
         font-style: italic;
-        font-size: calc(12px + 0.25vw);
+        font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
 
     .nosotros-seccion-4-trabajo-parte-2 {
@@ -2481,13 +2508,13 @@ footer {
     }
     
     .nosotros-seccion-4-trabajo-parte-2 p {
-        font-size: calc(12px + 0.25vw);
+        font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
     
     .nosotros-seccion-4-trabajo-parte-2 a {
         width: 200px;
         font-style: italic;
-        font-size: calc(12px + 0.25vw);
+        font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
 
     .nosotros-seccion-4-trabajo-parte-3 {
@@ -2503,13 +2530,13 @@ footer {
     }
     
     .nosotros-seccion-4-trabajo-parte-3 p {
-        font-size: calc(12px + 0.25vw);
+        font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
     
     .nosotros-seccion-4-trabajo-parte-3 a {
         width: 200px;
         font-style: italic;
-        font-size: calc(12px + 0.25vw);
+        font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
 
 }
