@@ -56,6 +56,12 @@ header h1 {
 
 }
 
+.boton-menu-label{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header div input {
     opacity: 0;
     pointer-events: none;
@@ -71,27 +77,31 @@ header div input {
 
 .menu-desplegable{
     background-color: #ffc72c;
-    height: 100vh;
-    width: 100vw;
+    height: 600px;
+    width: 90vw;
     display: none;
     top: 10vh;
     position: absolute;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 10vh;
-    gap: 15vh;
-    right: -3px;
+    padding: MIN(8vh, 100px) 0px;
+    row-gap: 10vh;
+    left: -80vw;
 }
 
 .menu-desplegable-texto{
     font-size: calc(12px + 0.3vw);
     font-weight: 600;
     color: #404040da;
+    width: 200px;
+    text-align: center;
 }
 
 input:checked ~ .menu-desplegable {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menu-desplegable-texto:hover{
@@ -107,14 +117,26 @@ input:checked ~ .menu-desplegable {
     }
 
     .menu-desplegable{
-        top: 10vh;
-        padding: 4vw;
-        right: -5px;
+        height: 600px;
+        width: 95vw;
+        left: -83vw;
+        row-gap: MIN(15vh, 100px);
+        padding: MIN(5vh, 100px);
+    }
+
+    input:checked ~ .menu-desplegable {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header img {
+        padding: 12px;
     }
 
     header h1 {
-        grid-area: "nombre";
-        font-size: calc(18px + 0.25vw);
+        grid-area: nombre;
+        font-size: calc(16px + 0.25vw);
         color: #404040;
         padding: calc(12px - 0.5vw);
     }
@@ -125,19 +147,12 @@ input:checked ~ .menu-desplegable {
     }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .menu-desplegable{
         right: 0px;
     }
-}
-
-/* @media screen and (min-width: 2000px) {
-
-    .menu-desplegable {
-        top: 8vh;
-        right: -20px;
-    }
 } */
+
 
   /* --- Main --- */
 
@@ -2495,13 +2510,13 @@ footer {
 
 .servicios-portada{
     width: 100vw;
-    height: 750px;
+    height: 700px;
     background-color: #ffc72c;
 }
 
 .servicios-portada-imagen{
     width:100vw;
-    height: 50%;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2515,30 +2530,29 @@ footer {
 
 .servicios-portada-cuadro {
     width:100vw;
-    height: 50%;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .servicios-portada-cuadro-texto{
-    width: 85%;
+    width: 90%;
     max-width: 450px;
     border: 4px #404040 solid;
     padding: 20px;
 }
 
 .servicios-portada-cuadro-texto h1{
-    font-size: calc(20px + 2.5vw);
+    font-size: MIN(calc(20px + 2.5vw), 28.5px);
     font-weight: bold;
     color: #404040;
     padding-bottom: 10px;
 }
 
 .servicios-portada-cuadro-texto p{
-    font-size: calc(11px + 0.6vw);
+    font-size: MIN(calc(12px + 0.8vw), 16px);
     color: #404040;
-    padding: 0 1px 0 0;
 }
 
 /* servicios portada media screen */
@@ -2549,10 +2563,8 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 50vw);
         grid-template-rows: 700px;
-
         justify-content: center;
         align-content: center;
-
         justify-items: center;
         align-items: center;
     }
@@ -2574,11 +2586,11 @@ footer {
     }
     
     .servicios-portada-cuadro-texto h1{
-        font-size: calc(18px + 2vw);
+        font-size: MIN(calc(18px + 2vw), 35.5px);
     }
     
     .servicios-portada-cuadro-texto p{
-        font-size: calc(12px + 0.5vw);
+        font-size: MIN(calc(12px + 0.5vw), 16.5px);
         padding: 0 1px 0 0;
     }
     
@@ -2595,12 +2607,12 @@ footer {
     }
     
     .servicios-portada-cuadro-texto h1{
-        font-size: calc(20px + 2vw);
+        font-size: MIN(calc(20px + 1.6vw), 45px);
         margin: 15px 0px;
     }
     
     .servicios-portada-cuadro-texto p{
-        font-size: calc(12px + 0.55vw);
+        font-size: MIN(calc(12px + 0.7vw), 22.6px);
     }
 }
 
