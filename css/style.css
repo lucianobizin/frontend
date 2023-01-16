@@ -72,7 +72,8 @@ header div input {
 .logo-menu{
     width:75%;
     height: 75%;
-    object-position: cover;
+    object-fit: cover;
+    padding: 5px;
 }
 
 .menu-desplegable{
@@ -117,7 +118,7 @@ input:checked ~ .menu-desplegable {
     }
 
     .menu-desplegable{
-        height: 600px;
+        height: 490px;
         width: 95vw;
         left: -83vw;
         row-gap: MIN(15vh, 100px);
@@ -147,11 +148,18 @@ input:checked ~ .menu-desplegable {
     }
 }
 
-/* @media screen and (min-width: 1200px) {
-    .menu-desplegable{
-        right: 0px;
+@media screen and (min-width: 1200px){
+    .logo-menu{
+        width:95%;
+        height: 95%;
+        object-fit: cover;
+        padding: 5px;
     }
-} */
+
+    .menu-desplegable{
+        height: 700px;
+    }
+}
 
 
   /* --- Main --- */
@@ -175,8 +183,8 @@ input:checked ~ .menu-desplegable {
 .portada-imagen img{
     width: 100%;
     height: 100%;
-    object-fit:scale-down;
-    margin-top: 20px;
+    object-fit:contain;
+    margin-top: 40px;
 }
 
 .portada-cuadro {
@@ -195,6 +203,7 @@ input:checked ~ .menu-desplegable {
 }
 
 .portada-cuadro-texto h1{
+    max-width: 271px;
     font-size: calc(20px + 2.5vw);
     font-weight: bold;
     color: #404040;
@@ -202,30 +211,37 @@ input:checked ~ .menu-desplegable {
 }
 
 .portada-cuadro-texto p{
-    font-size: calc(11px + 0.6vw);
+    max-width: 330px;
+    font-size: calc(12px + 0.5vw);
     color: #404040;
     padding: 0 1px 0 0;
 }
 
 /* index portada media screen */
 
-@media screen and (min-width: 470px) {
+@media screen and (min-width: 480px) {
 
     .portada-cuadro-texto h1{
-        font-size: calc(20px + 1.5vw);
+        font-size: calc(20px + 2.5vw);
         font-weight: bold;
         color: #404040;
         padding-bottom: 10px;
     }
     
+    .portada-cuadro-texto p{
+        max-width: 380px;
+        font-size: MIN(calc(11px + 0.6vw), 36px);
+        color: #404040;
+        padding: 0 1px 0 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .portada{
-        height: 700px;
+        height: 500px;
         display: grid;
         grid-template-columns: repeat(2, 50vw);
-        grid-template-rows: 700px;
+        grid-template-rows: 500px;
 
         justify-content: center;
         align-content: center;
@@ -237,6 +253,10 @@ input:checked ~ .menu-desplegable {
     .portada-imagen{
         width:100%;
         height: 80%;
+    }
+
+    .portada-imagen img{
+        margin-top: 20px;
     }
 
     .portada-cuadro {
@@ -251,31 +271,40 @@ input:checked ~ .menu-desplegable {
     }
     
     .portada-cuadro-texto h1{
-        font-size: calc(18px + 2vw);
+        font-size: MIN(calc(18px + 2vw), 41px);
     }
     
     .portada-cuadro-texto p{
-        font-size: calc(12px + 0.5vw);
+        max-width: 450px;
+        font-size: MIN(calc(11px + 0.6vw), 36px);
+        color: #404040;
         padding: 0 1px 0 0;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
+    .portada{
+        height: 810px;
+        grid-template-rows: 800px;
+    }
+
     .portada-cuadro-texto{
         width: 85%;
-        max-width: 550px;
+        max-width: 734px;
         border: 4px #404040 solid;
         padding: 40px;
     }
     
     .portada-cuadro-texto h1{
-        font-size: calc(20px + 2vw);
+        max-width: 550px;
+        font-size: MIN(calc(20px + 2vw), 52.25px);
         margin: 15px 0px;
     }
     
     .portada-cuadro-texto p{
-        font-size: calc(12px + 0.75vw);
+        max-width: 650px;
+        font-size: MIN(calc(12px + 0.75vw), 24px);
     }
 }
 
@@ -337,7 +366,12 @@ input:checked ~ .menu-desplegable {
     width: 100%;
     height: 45%;
     object-fit: contain;
+    padding: 10px;
     margin-bottom: 5px;
+}
+
+.seccion-2-imagenes-ramiro-luciano-768px{
+    display: none;
 }
 
 .seccion-2-imagenes-luciano {
@@ -387,8 +421,9 @@ input:checked ~ .menu-desplegable {
     transition: 0.5s;
 }
 
-.seccion-2-btns-brochure-texto:hover{
+.seccion-2-btns-brochure-texto:hover {
     color: #404040;
+    font-weight: bold;
 }
 
 /* index seccion 2 media screen */
@@ -404,17 +439,10 @@ input:checked ~ .menu-desplegable {
     }
 
     .seccion-2-btns-brochure {
-        width: 250px;
-        height: 60px;
+        width: 200px;
+        height: 45px;
     }    
 
-    .seccion-2-btns-brochure-texto {
-        font-size: 18px;
-        font-weight: 300;
-        color: white;
-    
-        transition: 0.5s;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -469,9 +497,19 @@ input:checked ~ .menu-desplegable {
         grid-area: fotos;
     }
     
+    .seccion-2-imagenes-ramiro {
+        display: none;
+    }
+    
+    .seccion-2-imagenes-ramiro-luciano-768px{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
     .seccion-2-imagenes-luciano {
-        padding: 0;
-        margin-bottom: 0;
+        display: none;
     }
 
     .seccion-2-btns {
@@ -486,15 +524,13 @@ input:checked ~ .menu-desplegable {
 
     .seccion-2-btns-brochure {
         height: 40px;
-        width: 225px;
-        margin-right: 60px;
+        width: 180px;
     }
 
     .seccion-2-btns-brochure-texto{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -518,23 +554,27 @@ input:checked ~ .menu-desplegable {
     }
 
     .seccion-2-texto h2{
-        font-size: calc(30px + 1.5vw);
+        font-size: MIN(calc(30px + 1.5vw), 53px);
         padding-top: 20px;
         margin-bottom: 20px;
+        max-width: 760px;
     }
     
     .seccion-2-texto-titulo{
-        font-size: calc(18px + 1.5vw);
+        font-size: MIN(calc(18px + 1.5vw), 41px);
         margin-bottom: 20px;
+        max-width: 760px;
     }
     
     .seccion-2-texto-copete{
-        font-size: calc(15px + 0.75vw);
+        font-size: MIN(calc(15px + 0.75vw), 26.5px);
         margin-bottom: 20px;
+        max-width: 760px;
     }
     
     .seccion-2-texto-parrafos{
-        font-size: calc(15px + 0.5vw);
+        font-size: MIN(calc(15px + 0.5vw), 22.6px);
+        max-width: 696px;
     }
 
     .seccion-2-imagenes {
@@ -542,13 +582,22 @@ input:checked ~ .menu-desplegable {
         height: 600px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         grid-area: fotos;
     }
 
+    .seccion-2-imagenes-ramiro {
+        width: 47%;
+        height: 63%;
+        object-fit: contain;
+    }
+
     .seccion-2-imagenes-luciano {
-        padding-bottom: 5px;
+        width: 41%;
+        height: 69%;
+        padding-bottom: 20px;
+        object-fit: contain;
     }
 
     .seccion-2-btns {
@@ -572,63 +621,6 @@ input:checked ~ .menu-desplegable {
     }
 }
 
-@media screen and (min-width: 1700px) {
-    
-    .seccion-2 {
-        height: 800px;
-        grid-template-rows: 650px 150px;
-    }
-
-    .seccion-2-texto{
-        width:100%;
-        height: 600px;
-        grid-area: texto;
-        padding-left: 40px;
-        justify-content: flex-start;
-    }
-
-    .seccion-2-texto h2{
-        font-size: calc(30px + 1.3vw);
-        padding-top: 20px;
-        margin-bottom: 20px;
-    }
-    
-    .seccion-2-texto-titulo{
-        font-size: calc(18px + 1.3vw);
-        margin-bottom: 20px;
-    }
-    
-    .seccion-2-texto-copete{
-        font-size: calc(15px + 0.55vw);
-        margin-bottom: 20px;
-    }
-    
-    .seccion-2-texto-parrafos{
-        font-size: calc(15px + 0.3vw);
-    }
-
-    .seccion-2-imagenes {
-        height: 650px;
-    }
-
-    .seccion-2-imagenes-ramiro {
-        height: 60%;
-    }
-
-    .seccion-2-imagenes-luciano {
-        height: 60%;
-    }
-
-    .seccion-2-btns-brochure {
-        height: 65px;
-        width: 270px;
-    }
-
-    .seccion-2-btns-brochure-texto{
-        font-size: 20px;
-    }
-
-}
 
   /* ___ Tercera sección ___ */
 
@@ -639,6 +631,7 @@ input:checked ~ .menu-desplegable {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .seccion-3-servicios-titulo{
@@ -665,7 +658,7 @@ input:checked ~ .menu-desplegable {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
+    padding: calc(20px + 2vw) 20px;
 }
 
 .seccion-3-servicios-2{
@@ -674,7 +667,7 @@ input:checked ~ .menu-desplegable {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
+    padding: calc(20px + 0.5vw) 20px;
 }
 
 .seccion-3-servicios-1 h2{
@@ -709,7 +702,7 @@ input:checked ~ .menu-desplegable {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
+    padding: calc(20px + 2vw) 20px;
 }
 
 .seccion-3-servicios-3 h2{
@@ -731,7 +724,7 @@ input:checked ~ .menu-desplegable {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
+    padding: calc(20px + 2vw) 20px;
 }
 
 .seccion-3-servicios-4 h2{
@@ -749,14 +742,28 @@ input:checked ~ .menu-desplegable {
 
 /* index seccion 3 media screen */
 
-@media screen and (min-width: 472px) {
+@media screen and (min-width: 480px) {
 
     .seccion-3{
         height: 1200px;
+        margin-bottom: 20px;
+    }
+
+    .seccion-3-servicios-1{
+        padding: calc(20px + 0.5vw) 20px;
+        margin-bottom: 30px;
     }
 
     .seccion-3-servicios-2 {
-        padding-right: 5px;
+        padding: calc(20px + 0.5vw) 5px calc(20px + 0.5vw) 20px;
+    }    
+
+    .seccion-3-servicios-3 {
+        padding: calc(20px + 0.5vw) 5px calc(20px + 0.25vw) 20px;
+    }    
+
+    .seccion-3-servicios-4 {
+        padding: calc(20px + 1.25vw) 20px calc(20px + 1.5vw) 20px;
     }    
 }
 
@@ -781,6 +788,7 @@ input:checked ~ .menu-desplegable {
         grid-template-columns: 50vw 50vw;
         grid-template-rows: 330px 280px 280px 280px;
         grid-template-areas: "tituloServicios tituloServicios" "servicio2 servicio1" "servicio3 servicio1" "servicio4 servicio1";
+        margin-bottom: 0px;
     }
 
     .seccion-3-servicios-titulo {
@@ -802,6 +810,7 @@ input:checked ~ .menu-desplegable {
         justify-content: center;
         align-items: center;
         padding: 0%;
+        margin-bottom: 0px;
     }
 
     .seccion-3-servicios-1 h2{
@@ -839,6 +848,7 @@ input:checked ~ .menu-desplegable {
         height: 280px;
         width: 50vw;
         grid-area: servicio3;
+        padding: 15px 5px calc(20px + 0.25vw) 20px;
     }
 
     .seccion-3-servicios-3 h2{
@@ -899,7 +909,7 @@ input:checked ~ .menu-desplegable {
     display: inline-block;
     width:100px;
     height: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: relative;
     left: -30px;
     top: -10px;
@@ -1287,7 +1297,7 @@ input:checked ~ .menu-desplegable {
 @media screen and (min-width: 1200px) {
 
     .seccion-4{
-        height: 780px;
+        height: 890px;
     }
     
     .seccion-4-introduccion{
@@ -1296,6 +1306,7 @@ input:checked ~ .menu-desplegable {
     
     .seccion-4-linea-amarilla-1 {
         width:125px;
+        margin-bottom: 0px;
     }
     
     .seccion-4-introduccion-titulo{
@@ -1311,11 +1322,12 @@ input:checked ~ .menu-desplegable {
     }
     
     .seccion-4-explicacion{
-        height: 330px;
-        margin-top: 20px;
-        grid-template-columns: repeat(5, 20vw);
-        grid-template-rows: repeat(2, 150px);
+        height: 380px;
+        margin-top: 50px;
+        grid-template-columns: repeat(5, 19vw);
+        grid-template-rows: repeat(2, 200px);
         grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
+        margin-bottom: 30px;
     }
     
     .seccion-4-explicacion-marketing {
