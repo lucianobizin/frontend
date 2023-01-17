@@ -84,7 +84,6 @@ header div input {
     top: 10vh;
     position: absolute;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     align-items: center;
     padding: MIN(10vh, 100px) 0px;
     left: -80vw;
@@ -109,8 +108,6 @@ input:checked ~ .menu-desplegable {
 }
 
 /* header media screen */
-
-/* Se detallan diferentes anchos de pantalla para celular */
 
 @media screen and (min-width: 768px) {
 
@@ -155,7 +152,6 @@ input:checked ~ .menu-desplegable {
         height: 615px;
     }
 }
-
 
   /* --- Main --- */
 
@@ -437,7 +433,6 @@ input:checked ~ .menu-desplegable {
         width: 200px;
         height: 45px;
     }    
-
 }
 
 @media screen and (min-width: 768px) {
@@ -656,23 +651,7 @@ input:checked ~ .menu-desplegable {
     padding: calc(20px + 2vw) 20px;
 }
 
-.seccion-3-servicios-2{
-    width: 100vw;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: calc(20px + 0.5vw) 20px;
-}
-
 .seccion-3-servicios-1 h2{
-    font-size: calc(14px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
-
-.seccion-3-servicios-2 h2{
     font-size: calc(14px + 2.5vw);
     font-weight: bold;
     color: #404040;
@@ -683,6 +662,22 @@ input:checked ~ .menu-desplegable {
     font-weight: 400;
     font-size: calc(10px + 1vw);
     color: #404040;
+}
+
+.seccion-3-servicios-2{
+    width: 100vw;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: calc(20px + 0.5vw) 20px;
+}
+
+.seccion-3-servicios-2 h2{
+    font-size: calc(14px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 20px;
 }
 
 .seccion-3-servicios-2 p{
@@ -944,19 +939,47 @@ input:checked ~ .menu-desplegable {
     margin-top: 12px;
 }
 
-.seccion-4-explicacion-marketing h3 {
+.seccion-4-explicacion h3{
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
 
-.seccion-4-explicacion-marketing p {
+/* .seccion-4-explicacion-h3{
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+} */
+
+/* .seccion-4-explicacion-marketing h3 {
+    font-size: calc(12px + 1.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+} */
+
+.seccion-4-explicacion p{
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
+
+/* .seccion-4-explicacion-parrafos{
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+} */
+
+/* .seccion-4-explicacion-marketing p {
+    font-size: calc(10px + 1vw);
+    font-weight: 400;
+    color: #404040;
+    padding: 5px 5px 5px 12px;
+} */
 
 .seccion-4-explicacion-big-data {
     width: 50vw;
@@ -970,19 +993,19 @@ input:checked ~ .menu-desplegable {
     margin-top: 10px;
 }
 
-.seccion-4-explicacion-big-data h3 {
+/* .seccion-4-explicacion-big-data h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-big-data p {
+/* .seccion-4-explicacion-big-data p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-mercado {
     width: 50vw;
@@ -995,19 +1018,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-mercado h3 {
+/* .seccion-4-explicacion-mercado h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-mercado p {
+/* .seccion-4-explicacion-mercado p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-ecommerce{
     width: 50vw;
@@ -1020,19 +1043,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-ecommerce h3 {
+/* .seccion-4-explicacion-ecommerce h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-ecommerce p {
+/* .seccion-4-explicacion-ecommerce p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-optimizacion {
     width: 50vw;
@@ -1045,19 +1068,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-optimizacion h3 {
+/* .seccion-4-explicacion-optimizacion h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-optimizacion p {
+/* .seccion-4-explicacion-optimizacion p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-riesgo {
     width: 50vw;
@@ -1070,19 +1093,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-riesgo h3 {
+/* .seccion-4-explicacion-riesgo h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-riesgo p {
+/* .seccion-4-explicacion-riesgo p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-fraude {
     width: 50vw;
@@ -1095,19 +1118,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-fraude h3 {
+/* .seccion-4-explicacion-fraude h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-fraude p {
+/* .seccion-4-explicacion-fraude p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-digitalizacion {
     width: 50vw;
@@ -1120,19 +1143,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-digitalizacion h3 {
+/* .seccion-4-explicacion-digitalizacion h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-digitalizacion p {
+/* .seccion-4-explicacion-digitalizacion p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-ux-ui {
     width: 50vw;
@@ -1145,19 +1168,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-ux-ui h3 {
+/* .seccion-4-explicacion-ux-ui h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-ux-ui p {
+/* .seccion-4-explicacion-ux-ui p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 .seccion-4-explicacion-sostenibilidad {
     width: 50vw;
@@ -1170,19 +1193,19 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-.seccion-4-explicacion-sostenibilidad h3 {
+/* .seccion-4-explicacion-sostenibilidad h3 {
     font-size: calc(12px + 1.5vw);
     font-weight: bold;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
-.seccion-4-explicacion-sostenibilidad p {
+/* .seccion-4-explicacion-sostenibilidad p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
-}
+} */
 
 /* index seccion 4 media screen */
 
@@ -1207,85 +1230,92 @@ input:checked ~ .menu-desplegable {
         padding:30px;
         margin-top: 10px;
     }
-    
-    .seccion-4-explicacion-marketing p {
+
+    .seccion-4-explicacion p {
         font-size: calc(8px + 1vw);
     }
+    
+    /* .seccion-4-explicacion-parrafos {
+        font-size: calc(8px + 1vw);
+    } */
+
+    /* .seccion-4-explicacion-marketing p {
+        font-size: calc(8px + 1vw);
+    } */
     
     .seccion-4-explicacion-big-data {
         padding: 30px;
         margin-top: 10px;
     }
     
-    .seccion-4-explicacion-big-data p {
+    /* .seccion-4-explicacion-big-data p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-mercado {
         padding: 30px;
     }
     
-    .seccion-4-explicacion-mercado p {
+    /* .seccion-4-explicacion-mercado p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-ecommerce{
         padding: 30px;
     }
     
-    .seccion-4-explicacion-ecommerce p {
+    /* .seccion-4-explicacion-ecommerce p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-optimizacion {
         padding: 30px;
     }
     
-    .seccion-4-explicacion-optimizacion p {
+    /* .seccion-4-explicacion-optimizacion p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-riesgo {
         padding: 30px;
     }
     
-    .seccion-4-explicacion-riesgo p {
+    /* .seccion-4-explicacion-riesgo p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-fraude {
         padding: 30px;
     }
     
-    .seccion-4-explicacion-fraude p {
+    /* .seccion-4-explicacion-fraude p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-digitalizacion {
         padding: 30px;
     }
     
-    .seccion-4-explicacion-digitalizacion p {
+    /* .seccion-4-explicacion-digitalizacion p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-ux-ui {
         padding: 30px;
     }
     
-    .seccion-4-explicacion-ux-ui p {
+    /* .seccion-4-explicacion-ux-ui p {
         font-size: calc(8px + 1vw);
-    }
+    } */
     
     .seccion-4-explicacion-sostenibilidad {
         padding: 30px;
     }
 
     
-    .seccion-4-explicacion-sostenibilidad p {
+    /* .seccion-4-explicacion-sostenibilidad p {
         font-size: calc(8px + 1vw);
-    
-    }
+    } */
 
 }
 
@@ -1332,14 +1362,30 @@ input:checked ~ .menu-desplegable {
         margin-top: 0px;
         padding: 20px 30px;
     }
-    
-    .seccion-4-explicacion-marketing h3 {
+
+    .seccion-4-explicacion h3{
         font-size: calc(14px + 0.9vw);
     }
+
+    /* .seccion-4-explicacion-h3{
+        font-size: calc(14px + 0.9vw);
+    } */
     
-    .seccion-4-explicacion-marketing p {
+    /* .seccion-4-explicacion-marketing h3 {
+        font-size: calc(14px + 0.9vw);
+    } */
+
+    .seccion-4-explicacion p {
         font-size: calc(10px + 0.5vw);
     }
+
+    /* .seccion-4-explicacion-parrafos {
+        font-size: calc(10px + 0.5vw);
+    } */
+    
+    /* .seccion-4-explicacion-marketing p {
+        font-size: calc(10px + 0.5vw);
+    } */
     
     .seccion-4-explicacion-big-data {
         width: 20vw;
@@ -1349,13 +1395,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-big-data h3 {
+    /* .seccion-4-explicacion-big-data h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-big-data p {
+    /* .seccion-4-explicacion-big-data p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-mercado {
         width: 20vw;
@@ -1364,13 +1410,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-mercado h3 {
+    /* .seccion-4-explicacion-mercado h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-mercado p {
+    /* .seccion-4-explicacion-mercado p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-ecommerce{
         width: 20vw;
@@ -1383,9 +1429,9 @@ input:checked ~ .menu-desplegable {
         font-size: calc(14px + 0.9vw);
     }
     
-    .seccion-4-explicacion-ecommerce p {
+    /* .seccion-4-explicacion-ecommerce p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-optimizacion {
         width: 20vw;
@@ -1394,13 +1440,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-optimizacion h3 {
+    /* .seccion-4-explicacion-optimizacion h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-optimizacion p {
+    /* .seccion-4-explicacion-optimizacion p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-riesgo {
         width: 20vw;
@@ -1409,13 +1455,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-riesgo h3 {
+    /* .seccion-4-explicacion-riesgo h3 {
         font-size: calc(14px + 0.90vw);
-    }
+    } */
     
-    .seccion-4-explicacion-riesgo p {
+    /* .seccion-4-explicacion-riesgo p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-fraude {
         width: 20vw;
@@ -1424,13 +1470,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-fraude h3 {
+    /* .seccion-4-explicacion-fraude h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-fraude p {
+    /* .seccion-4-explicacion-fraude p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-digitalizacion {
         width: 20vw;
@@ -1439,13 +1485,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-digitalizacion h3 {
+    /* .seccion-4-explicacion-digitalizacion h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-digitalizacion p {
+    /* .seccion-4-explicacion-digitalizacion p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
     .seccion-4-explicacion-ux-ui {
         width: 20vw;
@@ -1454,14 +1500,14 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-ux-ui h3 {
+    /* .seccion-4-explicacion-ux-ui h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-ux-ui p {
+    /* .seccion-4-explicacion-ux-ui p {
         font-size: calc(10px + 0.5vw);
     }
-    
+     */
     .seccion-4-explicacion-sostenibilidad {
         width: 20vw;
         height: 200px;
@@ -1469,13 +1515,13 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    .seccion-4-explicacion-sostenibilidad h3 {
+    /* .seccion-4-explicacion-sostenibilidad h3 {
         font-size: calc(14px + 0.9vw);
-    }
+    } */
     
-    .seccion-4-explicacion-sostenibilidad p {
+    /* .seccion-4-explicacion-sostenibilidad p {
         font-size: calc(10px + 0.5vw);
-    }
+    } */
     
 }
 
@@ -6611,6 +6657,12 @@ footer {
     margin-right: 10px;
 }
 
+.contacto-seccion-3-formulario-texto-enviar:hover {
+    background-color: #404040;
+    border-color: #404040;
+    color: #ffc72c;
+}
+
 .contacto-seccion-3-formulario-texto-restablecer {
     width: 160px;
     height: 25px;
@@ -6618,6 +6670,12 @@ footer {
     border-style: solid;
     border-color: #404040;
     color: white;
+}
+
+.contacto-seccion-3-formulario-texto-restablecer:hover {
+    background-color: #404040;
+    border-color: #404040;
+    color: #ffc72c;
 }
 
 /* contacto sección 3 media screen */
