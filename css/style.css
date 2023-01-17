@@ -946,40 +946,12 @@ input:checked ~ .menu-desplegable {
     padding: 5px 5px 5px 12px;
 }
 
-/* .seccion-4-explicacion-h3{
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-marketing h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .seccion-4-explicacion p{
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
-
-/* .seccion-4-explicacion-parrafos{
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-marketing p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .seccion-4-explicacion-big-data {
     width: 50vw;
@@ -993,20 +965,6 @@ input:checked ~ .menu-desplegable {
     margin-top: 10px;
 }
 
-/* .seccion-4-explicacion-big-data h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-big-data p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .seccion-4-explicacion-mercado {
     width: 50vw;
     height: 140px;
@@ -1017,20 +975,6 @@ input:checked ~ .menu-desplegable {
     align-content: center;
     padding: 10px;
 }
-
-/* .seccion-4-explicacion-mercado h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-mercado p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .seccion-4-explicacion-ecommerce{
     width: 50vw;
@@ -1043,20 +987,6 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-/* .seccion-4-explicacion-ecommerce h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-ecommerce p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .seccion-4-explicacion-optimizacion {
     width: 50vw;
     height: 140px;
@@ -1067,20 +997,6 @@ input:checked ~ .menu-desplegable {
     align-content: center;
     padding: 10px;
 }
-
-/* .seccion-4-explicacion-optimizacion h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-optimizacion p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .seccion-4-explicacion-riesgo {
     width: 50vw;
@@ -1093,20 +1009,6 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-/* .seccion-4-explicacion-riesgo h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-riesgo p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .seccion-4-explicacion-fraude {
     width: 50vw;
     height: 140px;
@@ -1117,20 +1019,6 @@ input:checked ~ .menu-desplegable {
     align-content: center;
     padding: 10px;
 }
-
-/* .seccion-4-explicacion-fraude h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-fraude p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .seccion-4-explicacion-digitalizacion {
     width: 50vw;
@@ -1143,20 +1031,6 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-/* .seccion-4-explicacion-digitalizacion h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-digitalizacion p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .seccion-4-explicacion-ux-ui {
     width: 50vw;
     height: 140px;
@@ -1168,20 +1042,6 @@ input:checked ~ .menu-desplegable {
     padding: 10px;
 }
 
-/* .seccion-4-explicacion-ux-ui h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-ux-ui p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .seccion-4-explicacion-sostenibilidad {
     width: 50vw;
     height: 140px;
@@ -1192,20 +1052,6 @@ input:checked ~ .menu-desplegable {
     align-content: center;
     padding: 10px;
 }
-
-/* .seccion-4-explicacion-sostenibilidad h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .seccion-4-explicacion-sostenibilidad p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 /* index seccion 4 media screen */
 
@@ -1235,88 +1081,42 @@ input:checked ~ .menu-desplegable {
         font-size: calc(8px + 1vw);
     }
     
-    /* .seccion-4-explicacion-parrafos {
-        font-size: calc(8px + 1vw);
-    } */
-
-    /* .seccion-4-explicacion-marketing p {
-        font-size: calc(8px + 1vw);
-    } */
-    
     .seccion-4-explicacion-big-data {
         padding: 30px;
         margin-top: 10px;
     }
     
-    /* .seccion-4-explicacion-big-data p {
-        font-size: calc(8px + 1vw);
-    } */
-    
     .seccion-4-explicacion-mercado {
         padding: 30px;
     }
-    
-    /* .seccion-4-explicacion-mercado p {
-        font-size: calc(8px + 1vw);
-    } */
     
     .seccion-4-explicacion-ecommerce{
         padding: 30px;
     }
     
-    /* .seccion-4-explicacion-ecommerce p {
-        font-size: calc(8px + 1vw);
-    } */
-    
     .seccion-4-explicacion-optimizacion {
         padding: 30px;
     }
-    
-    /* .seccion-4-explicacion-optimizacion p {
-        font-size: calc(8px + 1vw);
-    } */
     
     .seccion-4-explicacion-riesgo {
         padding: 30px;
     }
     
-    /* .seccion-4-explicacion-riesgo p {
-        font-size: calc(8px + 1vw);
-    } */
-    
     .seccion-4-explicacion-fraude {
         padding: 30px;
     }
-    
-    /* .seccion-4-explicacion-fraude p {
-        font-size: calc(8px + 1vw);
-    } */
     
     .seccion-4-explicacion-digitalizacion {
         padding: 30px;
     }
     
-    /* .seccion-4-explicacion-digitalizacion p {
-        font-size: calc(8px + 1vw);
-    } */
-    
     .seccion-4-explicacion-ux-ui {
         padding: 30px;
     }
     
-    /* .seccion-4-explicacion-ux-ui p {
-        font-size: calc(8px + 1vw);
-    } */
-    
     .seccion-4-explicacion-sostenibilidad {
         padding: 30px;
     }
-
-    
-    /* .seccion-4-explicacion-sostenibilidad p {
-        font-size: calc(8px + 1vw);
-    } */
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -1367,25 +1167,9 @@ input:checked ~ .menu-desplegable {
         font-size: calc(14px + 0.9vw);
     }
 
-    /* .seccion-4-explicacion-h3{
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-marketing h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-
     .seccion-4-explicacion p {
         font-size: calc(10px + 0.5vw);
     }
-
-    /* .seccion-4-explicacion-parrafos {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
-    /* .seccion-4-explicacion-marketing p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .seccion-4-explicacion-big-data {
         width: 20vw;
@@ -1395,28 +1179,12 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    /* .seccion-4-explicacion-big-data h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-big-data p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .seccion-4-explicacion-mercado {
         width: 20vw;
         height: 200px;
         grid-area: explicacion3;
         padding: 20px 30px;
     }
-    
-    /* .seccion-4-explicacion-mercado h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-mercado p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .seccion-4-explicacion-ecommerce{
         width: 20vw;
@@ -1429,24 +1197,12 @@ input:checked ~ .menu-desplegable {
         font-size: calc(14px + 0.9vw);
     }
     
-    /* .seccion-4-explicacion-ecommerce p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .seccion-4-explicacion-optimizacion {
         width: 20vw;
         height: 200px;
         grid-area: explicacion5;
         padding: 20px 30px;
     }
-    
-    /* .seccion-4-explicacion-optimizacion h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-optimizacion p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .seccion-4-explicacion-riesgo {
         width: 20vw;
@@ -1455,28 +1211,12 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    /* .seccion-4-explicacion-riesgo h3 {
-        font-size: calc(14px + 0.90vw);
-    } */
-    
-    /* .seccion-4-explicacion-riesgo p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .seccion-4-explicacion-fraude {
         width: 20vw;
         height: 200px;
         grid-area: explicacion7;
         padding: 20px 30px;
     }
-    
-    /* .seccion-4-explicacion-fraude h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-fraude p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .seccion-4-explicacion-digitalizacion {
         width: 20vw;
@@ -1485,14 +1225,6 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    /* .seccion-4-explicacion-digitalizacion h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-digitalizacion p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .seccion-4-explicacion-ux-ui {
         width: 20vw;
         height: 200px;
@@ -1500,29 +1232,12 @@ input:checked ~ .menu-desplegable {
         padding: 20px 30px;
     }
     
-    /* .seccion-4-explicacion-ux-ui h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-ux-ui p {
-        font-size: calc(10px + 0.5vw);
-    }
-     */
     .seccion-4-explicacion-sostenibilidad {
         width: 20vw;
         height: 200px;
         grid-area: explicacion10;
         padding: 20px 30px;
     }
-    
-    /* .seccion-4-explicacion-sostenibilidad h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .seccion-4-explicacion-sostenibilidad p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
 }
 
   /* --- Footer --- */
@@ -1659,7 +1374,6 @@ footer {
     .footer-copyright {
         height: 80px;
     }
-
 }
 
 /* === Nosotros === */
@@ -1873,11 +1587,6 @@ footer {
     font-size: 10.8px;
     color: #404040;
 }
-
-/* .nosotros-seccion-2-explicacion h3 {
-    font-size: 10.8px;
-    color: #404040;
-} */
 
 /* ----------------------------------------------
  * Generated by Animista on 2022-12-24 0:38:38
@@ -2143,11 +1852,6 @@ footer {
     color: #404040;
 }
 
-/* .nosotros-seccion-3-explicacion h3 {
-    font-size: 10.8px;
-    color: #404040;
-} */
-
 /* nosotros sección 3 media screen */
 
 @media screen and (min-width: 480px) {
@@ -2340,25 +2044,6 @@ footer {
     align-content: flex-start;
 }
 
-/* .nosotros-seccion-4-trabajo-parte-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: flex-start;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-1 h3 {
-    font-size: calc(12px + 1.10vw);
-    color: #404040;
-    margin-bottom: 30px;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-1 p {
-    display: block;
-    font-size: MIN(calc(12px + 0.50vw), 14.27px);
-    margin-bottom: 30px;
-} */
-
 .nosotros-seccion-4-trabajo a {
     width: 200px;
     font-size: calc(12px + 0.50vw);
@@ -2375,92 +2060,6 @@ footer {
     background-color: #ffc72c;
 }
 
-/* .nosotros-seccion-4-trabajo-parte-1 a {
-    width: 200px;
-    font-size: calc(12px + 0.50vw);
-    padding: 8px;
-    color: #404040;
-    font-weight: 500;
-    border-color: #ffc72c;
-    border-style: solid;
-    margin-bottom: 30px;
-    transition: 1s;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-1 a:hover{
-    background-color: #ffc72c;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: flex-start;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-2 h3 {
-    font-size: calc(12px + 1.10vw);
-    color: #404040;
-    margin-bottom: 30px;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-2 p {
-    display: block;
-    font-size: MIN(calc(12px + 0.50vw), 14.27px);
-    margin-bottom: 30px;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-2 a {
-    width: 200px;
-    font-size: calc(12px + 0.50vw);
-    padding: 8px;
-    color: #404040;
-    font-weight: 500;
-    border-color: #ffc72c;
-    border-style: solid;
-    margin-bottom: 30px;
-    transition: 1s;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-2 a:hover{
-    background-color: #ffc72c;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: flex-start;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-3 h3 {
-    font-size: calc(12px + 1.10vw);
-    color: #404040;
-    margin-bottom: 30px;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-3 p {
-    display: block;
-    font-size: MIN(calc(12px + 0.50vw), 14.27px);
-    margin-bottom: 30px;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-3 a {
-    width: 200px;
-    font-size: calc(12px + 0.5vw);
-    padding: 8px;
-    color: #404040;
-    font-weight: 500;
-    border-color: #ffc72c;
-    border-style: solid;
-    margin-bottom: 30px;
-    transition: 1s;
-} */
-
-/* .nosotros-seccion-4-trabajo-parte-3 a:hover{
-    background-color: #ffc72c;
-} */
-
 /* nosotros sección 4 media screen */
 
 @media screen and (min-width: 480px) {
@@ -2468,18 +2067,6 @@ footer {
     .nosotros-seccion-4-trabajo p {
         max-width: 620px;
     }
-
-    /* .nosotros-seccion-4-trabajo-parte-1 p {
-        max-width: 620px;
-    }
-
-    .nosotros-seccion-4-trabajo-parte-2 p {
-        max-width: 620px;
-    }
-
-    .nosotros-seccion-4-trabajo-parte-3 p {
-        max-width: 620px;
-    } */
 }
 
 @media screen and (min-width: 768px) {
@@ -2505,21 +2092,6 @@ footer {
         max-width: 1100px;
         font-size: MIN(calc(12px + 0.50vw), 20px);
     }
-
-    /* .nosotros-seccion-4-trabajo-parte-1 p {
-        max-width: 1100px;
-        font-size: MIN(calc(12px + 0.50vw), 20px);
-    }
-
-    .nosotros-seccion-4-trabajo-parte-2 p {
-        max-width: 1100px;
-        font-size: MIN(calc(12px + 0.50vw), 20px);
-    }
-
-    .nosotros-seccion-4-trabajo-parte-3 p {
-        max-width: 1100px;
-        font-size: MIN(calc(12px + 0.50vw), 20px);
-    } */
 }
 
 @media screen and (min-width: 1200px) {
@@ -2578,77 +2150,11 @@ footer {
         align-content: flex-start;
     }
 
-    /* .nosotros-seccion-4-trabajo-parte-1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: flex-start;
-    } */
-
-    /* .nosotros-seccion-4-trabajo-parte-1 h3 {
-        max-width: 551px;
-        font-size: calc(12px + 1vw);
-    } */
-    
-    /* .nosotros-seccion-4-trabajo-parte-1 p {
-        font-size: MIN(calc(12px + 0.25vw), 17.2px);
-    } */
-
     .nosotros-seccion-4-trabajo a {
         width: 200px;
         font-style: italic;
         font-size: MIN(calc(12px + 0.25vw), 17.2px);
     }
-    
-    /* .nosotros-seccion-4-trabajo-parte-1 a {
-        width: 200px;
-        font-style: italic;
-        font-size: MIN(calc(12px + 0.25vw), 17.2px);
-    } */
-
-    /* .nosotros-seccion-4-trabajo-parte-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: flex-start;
-    } */
-
-    /* .nosotros-seccion-4-trabajo-parte-2 h3 {
-        max-width: 605px;
-        font-size: calc(12px + 1vw);
-    } */
-    
-    /* .nosotros-seccion-4-trabajo-parte-2 p {
-        font-size: MIN(calc(12px + 0.25vw), 17.2px);
-    } */
-    
-    /* .nosotros-seccion-4-trabajo-parte-2 a {
-        width: 200px;
-        font-style: italic;
-        font-size: MIN(calc(12px + 0.25vw), 17.2px);
-    } */
-
-    /* .nosotros-seccion-4-trabajo-parte-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: flex-start;
-    } */
-
-    /* .nosotros-seccion-4-trabajo-parte-3 h3 {
-        max-width: 605px;
-        font-size: calc(12px + 1vw);
-    } */
-    
-    /* .nosotros-seccion-4-trabajo-parte-3 p {
-        font-size: MIN(calc(12px + 0.25vw), 17.2px);
-    } */
-    
-    /* .nosotros-seccion-4-trabajo-parte-3 a {
-        width: 200px;
-        font-style: italic;
-        font-size: MIN(calc(12px + 0.25vw), 17.2px);
-    } */
 }
 
 /* === Servicios === */
@@ -2849,26 +2355,12 @@ footer {
     margin-top: 10px;
 }
 
-/* .servicios-seccion-2-explicacion-ingenieria h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-2-explicacion p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
-
-/* .servicios-seccion-2-explicacion-ingenieria p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-2-explicacion-ml {
     width: 50vw;
@@ -2882,20 +2374,6 @@ footer {
     margin-top: 10px;
 }
 
-/* .servicios-seccion-2-explicacion-ml h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-ml p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-2-explicacion-datos {
     width: 50vw;
     height: calc(220px - 2vw);
@@ -2906,20 +2384,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-2-explicacion-datos h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-datos p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-2-explicacion-monitoreo{
     width: 50vw;
@@ -2932,20 +2396,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-2-explicacion-monitoreo h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-monitoreo p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-2-explicacion-comites {
     width: 50vw;
     height: calc(220px - 2vw);
@@ -2956,20 +2406,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-2-explicacion-comites h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-comites p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-2-explicacion-arquitectura {
     width: 50vw;
@@ -2982,20 +2418,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-2-explicacion-arquitectura h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-arquitectura p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-2-explicacion-capacitaciones {
     width: 50vw;
     height: calc(220px - 2vw);
@@ -3006,20 +2428,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-2-explicacion-capacitaciones h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-capacitaciones p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-2-explicacion-mercado {
     width: 50vw;
@@ -3032,20 +2440,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-2-explicacion-mercado h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-mercado p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-2-explicacion-logistica {
     width: 50vw;
     height: calc(220px - 2vw);
@@ -3057,20 +2451,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-2-explicacion-logistica h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-logistica p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-2-explicacion-productos {
     width: 50vw;
     height: calc(220px - 2vw);
@@ -3081,20 +2461,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-2-explicacion-productos h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-2-explicacion-productos p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 /* servicios seccion 2 media screen */
 
@@ -3206,126 +2572,46 @@ footer {
         font-size: MIN((12px + 1.5vw), 26.3px);
     }
 
-    /* .servicios-seccion-2-explicacion-ingenieria h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
     .servicios-seccion-2-explicacion p {
         font-size: MIN(14.6px + 0.2vw, 20px);
     }
-
-    /* .servicios-seccion-2-explicacion-ingenieria p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-ml {
         padding: 30px;
         margin-top: 0px;
     }
-
-    /* .servicios-seccion-2-explicacion-ml h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-ml p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-datos {
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-datos h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-datos p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-monitoreo{
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-monitoreo h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-monitoreo p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-comites {
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-comites h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-comites p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-arquitectura {
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-arquitectura h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-arquitectura p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-capacitaciones {
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-capacitaciones h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-capacitaciones p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-mercado {
         padding: 30px;
     }
     
-    /* .servicios-seccion-2-explicacion-mercado h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-2-explicacion-mercado p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
-    
     .servicios-seccion-2-explicacion-logistica {
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-logistica h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-logistica p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
     
     .servicios-seccion-2-explicacion-productos {
         padding: 30px;
     }
-
-    /* .servicios-seccion-2-explicacion-productos h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-2-explicacion-productos p {
-        font-size: MIN(14.6px + 0.2vw, 20px);
-    } */
 }
 
 @media screen and (min-width: 1200px) {
@@ -3373,18 +2659,10 @@ footer {
     .servicios-seccion-2-explicacion h3 {
         font-size: calc(14px + 0.9vw);
     }
-    
-    /* .servicios-seccion-2-explicacion-ingenieria h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
 
     .servicios-seccion-2-explicacion p {
         font-size: calc(10px + 0.5vw);
     }
-    
-    /* .servicios-seccion-2-explicacion-ingenieria p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-2-explicacion-ml {
         width: 20vw;
@@ -3392,27 +2670,11 @@ footer {
         grid-area: explicacion2;
     }
     
-    /* .servicios-seccion-2-explicacion-ml h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-ml p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-2-explicacion-datos {
         width: 20vw;
         height: 275px;
         grid-area: explicacion3;
     }
-    
-    /* .servicios-seccion-2-explicacion-datos h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-datos p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-2-explicacion-monitoreo{
         width: 20vw;
@@ -3420,23 +2682,11 @@ footer {
         grid-area: explicacion4;
     }
     
-    /* .servicios-seccion-2-explicacion-monitoreo h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-monitoreo p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-2-explicacion-comites {
         width: 20vw;
         height: 275px;
         grid-area: explicacion5;
     }
-    
-    /* .servicios-seccion-2-explicacion-comites h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
     
     .servicios-seccion-2-explicacion-comites p {
         font-size: calc(10px + 0.5vw);
@@ -3448,27 +2698,11 @@ footer {
         grid-area: explicacion6;
     }
     
-    /* .servicios-seccion-2-explicacion-arquitectura h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-arquitectura p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-2-explicacion-capacitaciones {
         width: 20vw;
         height: 275px;
         grid-area: explicacion7;
     }
-    
-    /* .servicios-seccion-2-explicacion-capacitaciones h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-capacitaciones p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-2-explicacion-mercado {
         width: 20vw;
@@ -3476,41 +2710,17 @@ footer {
         grid-area: explicacion8;
     }
     
-    /* .servicios-seccion-2-explicacion-mercado h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-mercado p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-2-explicacion-logistica {
         width: 20vw;
         height: 275px;
         grid-area: explicacion9;
     }
     
-    /* .servicios-seccion-2-explicacion-logistica h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-logistica p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-2-explicacion-productos {
         width: 20vw;
         height: 275px;
         grid-area: explicacion10;
     }
-    
-    /* .servicios-seccion-2-explicacion-productos h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-2-explicacion-productos p {
-        font-size: calc(10px + 0.5vw);
-    } */
 }
 
   /* ___ Tercera sección ___ */
@@ -3589,26 +2799,12 @@ footer {
     padding: 5px 5px 5px 12px;
 }
 
-/* .servicios-seccion-3-explicacion-estrategico h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-3-explicacion p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
-
-/* .servicios-seccion-3-explicacion-estrategico p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-3-explicacion-bi {
     width: 50vw;
@@ -3621,20 +2817,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-3-explicacion-bi h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-bi p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-3-explicacion-genero {
     width: 50vw;
     height: 230px;
@@ -3645,20 +2827,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-3-explicacion-genero h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-genero p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-3-explicacion-monitoreo{
     width: 50vw;
@@ -3671,20 +2839,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-3-explicacion-monitoreo h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-monitoreo p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-3-explicacion-seguridad {
     width: 50vw;
     height: 230px;
@@ -3695,20 +2849,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-3-explicacion-seguridad h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-seguridad p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-3-explicacion-accesibilidad {
     width: 50vw;
@@ -3721,20 +2861,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-3-explicacion-accesibilidad h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-accesibilidad p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-3-explicacion-innovacion {
     width: 50vw;
     height: 230px;
@@ -3746,20 +2872,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-3-explicacion-innovacion h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-innovacion p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-3-explicacion-informes {
     width: 50vw;
     height: 230px;
@@ -3770,20 +2882,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-3-explicacion-informes h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-3-explicacion-informes p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 /* servicios seccion 3 media screen */
 
@@ -3919,89 +3017,33 @@ footer {
         font-size: MIN((12px + 1.5vw), 26.3px);
     }
 
-    /* .servicios-seccion-3-explicacion-estrategico h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
     .servicios-seccion-3-explicacion p {
         font-size: MIN((14.6px + 0.2vw), 20px);
     }
-
-    /* .servicios-seccion-3-explicacion-estrategico p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-3-explicacion-bi {
         height: 180px;
     }
-
-    /* .servicios-seccion-3-explicacion-bi h3 {
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-3-explicacion-bi p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-3-explicacion-genero {
         height: 180px;
     }
-
-    /* .servicios-seccion-3-explicacion-genero h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-monitoreo p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-3-explicacion-seguridad {
         height: 180px;
     }
-
-    /* .servicios-seccion-3-explicacion-seguridad h3 {
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-3-explicacion-seguridad p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-3-explicacion-accesibilidad {
         height: 180px;
     }
-
-    /* .servicios-seccion-3-explicacion-accesibilidad h3 {
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-3-explicacion-accesibilidad p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-3-explicacion-innovacion {
         height: 180px;
     }
-
-    /* .servicios-seccion-3-explicacion-innovacion h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-3-explicacion-innovacion p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-3-explicacion-informes {
         height: 180px;
     }
-
-    /* .servicios-seccion-3-explicacion-informes h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-3-explicacion-informes p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
 }
 
 @media screen and (min-width: 1200px) {
@@ -4058,18 +3100,10 @@ footer {
     .servicios-seccion-3-explicacion h3 {
         font-size: calc(14px + 0.9vw);
     }
-    
-    /* .servicios-seccion-3-explicacion-estrategico h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
 
     .servicios-seccion-3-explicacion p {
         font-size: calc(10px + 0.5vw);
     }
-    
-    /* .servicios-seccion-3-explicacion-estrategico p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-3-explicacion-bi {
         width: 25vw;
@@ -4077,91 +3111,35 @@ footer {
         margin-top: 10px;
     }
     
-    /* .servicios-seccion-3-explicacion-bi h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-bi p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-3-explicacion-genero {
         width: 25vw;
         height: 190px;
     }
-    
-    /* .servicios-seccion-3-explicacion-genero h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-genero p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-3-explicacion-monitoreo{
         width: 25vw;
         height: 190px;
     }
     
-    /* .servicios-seccion-3-explicacion-monitoreo h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-monitoreo p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-3-explicacion-seguridad {
         width: 25vw;
         height: 190px;
     }
-    
-    /* .servicios-seccion-3-explicacion-seguridad h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-seguridad p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-3-explicacion-accesibilidad {
         width: 25vw;
         height: 190px;
     }
     
-    /* .servicios-seccion-3-explicacion-accesibilidad h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-accesibilidad p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-3-explicacion-innovacion {
         width: 25vw;
         height: 190px;
     }
     
-    /* .servicios-seccion-3-explicacion-innovacion h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-innovacion p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-3-explicacion-informes {
         width: 25vw;
         height: 190px;
     }
-    
-    /* .servicios-seccion-3-explicacion-informes h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-3-explicacion-informes p {
-        font-size: calc(10px + 0.5vw);
-    } */
 }
 
   /* ___ Cuarta sección ___ */
@@ -4239,26 +3217,12 @@ footer {
     padding: 5px 5px 5px 12px;
 }
 
-/* .servicios-seccion-4-explicacion-marca h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
-
-/* .servicios-seccion-4-explicacion-marca p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-4-explicacion-redes {
     width: 50vw;
@@ -4271,20 +3235,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-4-explicacion-redes h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-redes p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion-web {
     width: 50vw;
     height: 220px;
@@ -4295,20 +3245,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-4-explicacion-web h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-web p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-4-explicacion-branding {
     width: 50vw;
@@ -4321,20 +3257,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-4-explicacion-branding h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-branding p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion-medios {
     width: 50vw;
     height: 220px;
@@ -4345,20 +3267,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-4-explicacion-medios h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-medios p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-4-explicacion-media {
     width: 50vw;
@@ -4371,20 +3279,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-4-explicacion-media h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-media p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion-publicidad {
     width: 50vw;
     height: 220px;
@@ -4395,20 +3289,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-4-explicacion-publicidad h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-publicidad p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-4-explicacion-influencer {
     width: 50vw;
@@ -4421,20 +3301,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-4-explicacion-influencer h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-influencer p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion-inbound {
     width: 50vw;
     height: 220px;
@@ -4445,20 +3311,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-4-explicacion-inbound h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-inbound p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-4-explicacion-experiencia {
     width: 50vw;
@@ -4471,20 +3323,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-4-explicacion-experiencia h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-experiencia p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion-manual {
     width: 50vw;
     height: 220px;
@@ -4496,20 +3334,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-4-explicacion-manual h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-manual p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-4-explicacion-eventos {
     width: 50vw;
     height: 220px;
@@ -4520,20 +3344,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-4-explicacion-eventos h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-4-explicacion-eventos p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 /* servicios seccion 4 media screen */
 
@@ -4643,149 +3453,53 @@ footer {
         font-size: MIN((12px + 1.5vw), 26.3px);
     }
 
-    /* .servicios-seccion-4-explicacion-marca h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
     .servicios-seccion-4-explicacion p {
         font-size: MIN((14.6px + 0.2vw), 20px);
     }
-
-    /* .servicios-seccion-4-explicacion-marca p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-redes {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-redes h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-redes p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-web {
         height: 150px;
     }
 
-    /* .servicios-seccion-4-explicacion-web h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-web p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-
     .servicios-seccion-4-explicacion-branding{
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-branding h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-branding p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-medios {
         height: 150px;
     }
 
-    /* .servicios-seccion-4-explicacion-medios h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-medios p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-
     .servicios-seccion-4-explicacion-media {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-media h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-media p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-publicidad {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-publicidad h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-publicidad p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-influencer {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-influencer h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-influencer p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-inbound {
         height: 150px;
     }
 
-    /* .servicios-seccion-4-explicacion-inbound h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-inbound p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-
     .servicios-seccion-4-explicacion-experiencia {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-experiencia h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-experiencia p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-manual {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-manual h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-manual p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
     
     .servicios-seccion-4-explicacion-eventos {
         height: 150px;
     }
-
-    /* .servicios-seccion-4-explicacion-eventos h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-4-explicacion-eventos p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
 }
 
 @media screen and (min-width: 1200px) {
@@ -4831,18 +3545,10 @@ footer {
     .servicios-seccion-4-explicacion h3 {
         font-size: calc(14px + 0.9vw);
     }
-    
-    /* .servicios-seccion-4-explicacion-marca h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
 
     .servicios-seccion-4-explicacion p {
         font-size: calc(10px + 0.5vw);
     }
-    
-    /* .servicios-seccion-4-explicacion-marca p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-4-explicacion-redes {
         width: 20vw;
@@ -4850,29 +3556,13 @@ footer {
         grid-area: explicacion2;
     }
     
-    /* .servicios-seccion-4-explicacion-redes h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-redes p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-web {
         width: 20vw;
         height: 220px;
         grid-area: explicacion3;
         background-color:  rgb(216, 216, 216);
     }
-    
-    /* .servicios-seccion-4-explicacion-web h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-web p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
+
     .servicios-seccion-4-explicacion-branding{
         width: 20vw;
         height: 220px;
@@ -4880,41 +3570,17 @@ footer {
         background-color:  rgb(216, 216, 216);
     }
     
-    /* .servicios-seccion-4-explicacion-branding h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-branding p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-medios {
         width: 20vw;
         height: 220px;
         grid-area: explicacion5;
     }
     
-    /* .servicios-seccion-4-explicacion-medios h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-medios p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-media {
         width: 20vw;
         height: 220px;
         grid-area: explicacion6;
     }
-    
-    /* .servicios-seccion-4-explicacion-media h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-media p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-4-explicacion-publicidad {
         width: 20vw;
@@ -4923,14 +3589,6 @@ footer {
         background-color:  rgb(216, 216, 216);
     }
     
-    /* .servicios-seccion-4-explicacion-publicidad h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-publicidad p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-influencer {
         width: 20vw;
         height: 220px;
@@ -4938,41 +3596,17 @@ footer {
         background-color:  rgb(216, 216, 216);
     }
     
-    /* .servicios-seccion-4-explicacion-influencer h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-influencer p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-inbound {
         width: 20vw;
         height: 220px;
         grid-area: explicacion9;
     }
     
-    /* .servicios-seccion-4-explicacion-inbound h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-inbound p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-experiencia {
         width: 20vw;
         height: 220px;
         grid-area: explicacion10;
     }
-    
-    /* .servicios-seccion-4-explicacion-experiencia h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-experiencia p {
-        font-size: calc(10px + 0.5vw);
-    } */
 
     .servicios-seccion-4-explicacion-manual {
         width: 20vw;
@@ -4981,14 +3615,6 @@ footer {
         background-color:  rgb(216, 216, 216);
     }
     
-    /* .servicios-seccion-4-explicacion-manual h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-manual p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-4-explicacion-eventos {
         width: 20vw;
         height: 220px;
@@ -4996,14 +3622,6 @@ footer {
         background-color:  rgb(216, 216, 216);
         background-size: cover;
     }
-    
-    /* .servicios-seccion-4-explicacion-eventos h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-4-explicacion-eventos p {
-        font-size: calc(10px + 0.5vw);
-    } */
 }
 
   /* ___ Quinta sección ___ */
@@ -5084,26 +3702,12 @@ footer {
     padding: 5px 5px 5px 12px;
 }
 
-/* .servicios-seccion-5-explicacion-desarrollo h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-5-explicacion p {
     font-size: calc(10px + 1vw);
     font-weight: 400;
     color: #404040;
     padding: 5px 5px 5px 12px;
 }
-
-/* .servicios-seccion-5-explicacion-desarrollo p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-5-explicacion-estrategia {
     width: 50vw;
@@ -5116,20 +3720,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-5-explicacion-estrategia h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-estrategia p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-5-explicacion-capacitacion {
     width: 50vw;
     height: 200px;
@@ -5140,20 +3730,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-5-explicacion-capacitacion h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-capacitacion p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-5-explicacion-monitoreo {
     width: 50vw;
@@ -5166,20 +3742,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-5-explicacion-monitoreo h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-monitoreo p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-5-explicacion-etica {
     width: 50vw;
     height: 200px;
@@ -5190,20 +3752,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-5-explicacion-etica h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-etica p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-5-explicacion-certificaciones {
     width: 50vw;
@@ -5216,20 +3764,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-5-explicacion-certificaciones h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-certificaciones p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-5-explicacion-residuos {
     width: 50vw;
     height: 200px;
@@ -5240,20 +3774,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-5-explicacion-residuos h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-residuos p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 .servicios-seccion-5-explicacion-circular {
     width: 50vw;
@@ -5266,20 +3786,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-5-explicacion-circular h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-circular p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-5-explicacion-alianzas {
     width: 50vw;
     height: 200px;
@@ -5291,20 +3797,6 @@ footer {
     padding: 10px;
 }
 
-/* .servicios-seccion-5-explicacion-alianzas h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-alianzas p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
 .servicios-seccion-5-explicacion-impacto {
     width: 50vw;
     height: 200px;
@@ -5315,20 +3807,6 @@ footer {
     align-content: center;
     padding: 10px;
 }
-
-/* .servicios-seccion-5-explicacion-impacto h3 {
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
-
-/* .servicios-seccion-5-explicacion-impacto p {
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-} */
 
 /* servicios seccion 5 media screen */
 
@@ -5414,89 +3892,9 @@ footer {
         font-size: MIN((12px + 1.5vw), 26.3px);
     }
 
-    /* .servicios-seccion-5-explicacion-desarrollo h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
     .servicios-seccion-5-explicacion p{
         font-size: MIN((14.6px + 0.2vw), 20px);
     }
-
-    /* .servicios-seccion-5-explicacion-desarrollo p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-estrategia h3 {
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-estrategia p {
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-capacitacion h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-capacitacion p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-monitoreo h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-monitoreo p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-etica h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-etica p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-certificaciones h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-certificaciones p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-residuos h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-residuos p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-circular h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-circular p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-alianzas h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-alianzas p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-impacto h3{
-        font-size: MIN((12px + 1.5vw), 26.3px);
-    } */
-
-    /* .servicios-seccion-5-explicacion-impacto p{
-        font-size: MIN((14.6px + 0.2vw), 20px);
-    } */
 }
 
 @media screen and (min-width: 1200px) {
@@ -5566,18 +3964,10 @@ footer {
     .servicios-seccion-5-explicacion h3 {
         font-size: calc(14px + 0.9vw);
     }
-    
-    /* .servicios-seccion-5-explicacion-desarrollo h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
 
     .servicios-seccion-5-explicacion p {
         font-size: calc(10px + 0.5vw);
     }
-    
-    /* .servicios-seccion-5-explicacion-desarrollo p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-5-explicacion-estrategia {
         width: 20vw;
@@ -5585,27 +3975,11 @@ footer {
         grid-area: explicacion2;
     }
     
-    /* .servicios-seccion-5-explicacion-estrategia h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-estrategia p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-5-explicacion-capacitacion {
         width: 20vw;
         height: 220px;
         grid-area: explicacion3;
     }
-    
-    /* .servicios-seccion-5-explicacion-capacitacion h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-capacitacion p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-5-explicacion-monitoreo{
         width: 20vw;
@@ -5613,27 +3987,11 @@ footer {
         grid-area: explicacion4;
     }
     
-    /* .servicios-seccion-5-explicacion-monitoreo h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-monitoreo p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-5-explicacion-etica {
         width: 20vw;
         height: 220px;
         grid-area: explicacion5;
     }
-    
-    /* .servicios-seccion-5-explicacion-etica h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-etica p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-5-explicacion-certificaciones {
         width: 20vw;
@@ -5641,27 +3999,11 @@ footer {
         grid-area: explicacion6;
     }
     
-    /* .servicios-seccion-5-explicacion-certificaciones h3 {
-        font-size: calc(14px + 0.90vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-certificaciones p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-5-explicacion-residuos {
         width: 20vw;
         height: 220px;
         grid-area: explicacion7;
     }
-    
-    /* .servicios-seccion-5-explicacion-residuos h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-residuos p {
-        font-size: calc(10px + 0.5vw);
-    } */
     
     .servicios-seccion-5-explicacion-circular {
         width: 20vw;
@@ -5669,41 +4011,17 @@ footer {
         grid-area: explicacion8;
     }
     
-    /* .servicios-seccion-5-explicacion-circular h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-circular p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-5-explicacion-alianzas {
         width: 20vw;
         height: 220px;
         grid-area: explicacion9;
     }
     
-    /* .servicios-seccion-5-explicacion-alianzas h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-alianzas p {
-        font-size: calc(10px + 0.5vw);
-    } */
-    
     .servicios-seccion-5-explicacion-impacto {
         width: 20vw;
         height: 220px;
         grid-area: explicacion10;
     }
-    
-    /* .servicios-seccion-5-explicacion-impacto h3 {
-        font-size: calc(14px + 0.9vw);
-    } */
-    
-    /* .servicios-seccion-5-explicacion-impacto p {
-        font-size: calc(10px + 0.5vw);
-    } */
 }
 
 /* === Innovación === */
