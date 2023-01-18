@@ -1,5 +1,22 @@
 @charset "UTF-8";
-/* === Variables del proyecto ===*/ /* === Header === */
+/* === Variables del proyecto ===*/ /* === STYLE RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* === Header === */
 header {
   width: 100vw;
   display: grid;
