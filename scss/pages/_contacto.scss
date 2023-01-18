@@ -1,0 +1,541 @@
+/* === Contacto === */
+
+  /* --- Main --- */
+
+  /* ___ Primera sección o portada___ */
+
+
+  .contacto-portada{
+    width: 100vw;
+    height: 740px;
+    background-color: #ffc72c;
+}
+
+.contacto-portada-cuadro {
+    width:100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacto-portada-cuadro-texto{
+    width: 85%;
+    max-width: 400px;
+    border: 4px #404040 solid;
+    padding: 20px;
+}
+
+.contacto-portada-cuadro-texto h1{
+    font-size: calc(20px + 2.5vw); 
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+}
+
+.contacto-portada-cuadro-texto p{
+    font-size: calc(11px + 0.6vw);
+    color: #404040;
+    padding: 0 1px 0 0;
+}
+
+.contacto-portada-imagen{
+    width:100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-portada-imagen img{
+    width: 90%;
+    height: 90%;
+    object-fit:contain;
+}
+
+/* contacto sección 1 media screen */
+
+@media screen and (min-width: 768px) {
+
+    .contacto-portada{
+        height: 880px;
+    }
+    
+    .contacto-portada-cuadro {
+        height: 420px;
+    }
+
+    .contacto-portada-cuadro-texto{
+        width: calc(80% + 1vw);
+        max-width: 450px;
+        border: 4px #404040 solid;
+        padding: 20px;
+    }
+
+    .contacto-portada-imagen img{
+        width: 95%;
+        height: 95%;
+        object-fit:contain;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .contacto-portada{
+        height: 810px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 810px;
+        grid-template-areas: "cuadro imagen";
+    }
+    
+    .contacto-portada-cuadro {
+        width: 50vw;
+        height: 810px;
+        grid-area: cuadro;
+    }
+
+    .contacto-portada-cuadro-texto {
+        width: 85%;
+        max-width: 570px;
+        height: 420px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacto-portada-cuadro-texto h1{
+        font-size: MIN(calc(20px + 2.5vw), 62px);
+    }
+    
+    .contacto-portada-cuadro-texto p{
+        font-size: MIN(calc(12px + 0.7vw), 22.6px);
+    }
+
+    .contacto-portada-imagen{
+        width: 50vw;
+        height: 810px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        grid-area: imagen;
+    }
+    
+    .contacto-portada-imagen img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+  /* ___ Segunda sección ___ */
+
+.contacto-seccion-2{
+    width: 100vw;
+    height: calc(370px - 17vw);
+    background-color:  rgb(216, 216, 216);
+}
+
+.contacto-seccion-2-titulo {
+    width: 100vw;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.contacto-seccion-2-titulo h2 {
+    font-size: calc(14px + 1.75vw);
+    color: #404040;
+    padding: 40px 20px 10px 20px;
+}
+
+.contacto-seccion-2-linea {
+    width: 100vw;
+    height: 25px;
+}
+
+.contacto-seccion-2-linea hr {
+    width: 30vw;
+    height: 10px;
+    background-color: #ffc72c;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ffc72c;
+}
+
+.contacto-seccion-2-trabajo{
+    width: 100vw;
+    height: calc(200px - 10vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.contacto-seccion-2-trabajo-parrafo {
+    height: calc(150px - 10vw);
+    padding: calc(20px - 1vw) 30px 0px 20px;
+}
+
+
+.contacto-seccion-2-trabajo-parrafo p {
+    font-size: calc(12px + 0.15vw);
+    color: #404040;
+}
+
+.contacto-seccion-2-trabajo-strong {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    font-size: calc(12px + 1vw);
+    color: #404040;
+    font-weight: bold;
+    padding: calc(30px - 1vw) 20px 20px 20px;
+}
+
+/* contacto sección 2 media screen */
+
+
+@media screen and (min-width: 768px) {
+
+    .contacto-seccion-2{
+        height: 320px;
+    }
+
+    .contacto-seccion-2-titulo {
+        height: 100px;
+    }
+
+    .contacto-seccion-2-titulo h2 {
+        padding: 40px 20px 10px 20px;
+    }
+
+    .contacto-seccion-2-linea hr {
+        width: 20vw;
+    }
+
+    .contacto-seccion-2-trabajo-parrafo {
+        height: 120px;
+        padding: calc(40px - 1vw) 20px 20px 20px;
+    }
+
+    .contacto-seccion-2-trabajo-parrafo p {
+        max-width: 1150px;
+        font-size: calc(12px + 0.5vw);
+    }
+
+    .contacto-seccion-2-trabajo {
+        height: 100px;
+    }
+
+    .contacto-seccion-2-trabajo-strong {
+        height: 100px;
+        padding: calc(10px - 1vw) 20px 20px 20px;
+    }
+
+    .contacto-seccion-2-trabajo-strong p {
+        font-size: calc(12px + 0.5vw);
+        color: #404040;
+        padding: calc(30px - 1vw) 20px 20px 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .contacto-seccion-2 {
+        width:100vw;
+        height: 350px;
+        background-color:  rgb(216, 216, 216);
+    }
+
+    .contacto-seccion-2-titulo{
+        width: 50vw;
+        height: 130px;
+        margin-bottom: 0px;
+        margin-left: 5vw;
+    }
+
+    .contacto-seccion-2-titulo h2 {
+        font-size: MIN(calc(14px + 1.75vw), 42px);
+        padding-top: 45px;
+        padding-left: 0px;
+    }
+
+    .contacto-seccion-2-linea {
+        width: 10vw;
+        margin-left: 5vw;
+    }
+
+    .contacto-seccion-2-linea hr {
+        width: 10vw;
+    }
+    
+    .contacto-seccion-2-trabajo {
+        width: 95vw;
+        height: 190px;
+    }
+
+    .contacto-seccion-2-trabajo-parrafo {
+        width: 90vw;
+        height: 100px;
+        margin-left: 5vw;
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contacto-seccion-2-trabajo-parrafo p {
+        max-width: 1850px;
+    }
+
+    .contacto-seccion-2-trabajo-strong {
+        width: 50vw;
+        height: 100px;
+        margin-left: 5vw;
+        padding-left: 0px;
+    }
+}
+
+  /* ___ Tercera sección ___ */
+
+.contacto-seccion-3 {
+    width: 100vw;
+    height: 980px;
+}
+
+.contacto-seccion-3-imagen {
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(216, 216, 216);
+}
+
+.contacto-seccion-3-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contacto-seccion-3-formulario {
+    width: 100vw;
+    height: 680px;
+    background-color: #ffc72c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.contacto-seccion-3-formulario h2 {
+    font-size: MIN(calc(14px + 1.75vw), 21px);
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.contacto-seccion-3-formulario-partes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contacto-seccion-3-formulario-texto {
+    margin-bottom: 10px;
+}
+
+.contacto-seccion-3-formulario-texto-label {
+    font-size: MIN(calc(12px + 1vw), 16px);
+    font-weight: 500;
+    color: #404040;
+    margin-right: 5px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contacto-seccion-3-formulario-texto-input {
+    width: 80vw;
+    height: 25px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #ffc72c;
+}
+
+.contacto-seccion-3-formulario-texto textarea {
+    width: 80vw;
+    border-style: solid;
+    border-color: #ffc72c;
+}
+
+.contacto-seccion-3-formulario-texto-select {
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #ffc72c;
+}
+
+.contacto-seccion-3-formulario-texto-option {
+    font-size: 12px;
+    font-weight: 500;
+    color: #404040;
+}
+
+.contacto-seccion-3-formulario-texto-label-checkbok {
+    font-size: MIN(calc(12px + 1vw), 16px);
+    font-weight: 500;
+    color: #404040;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contacto-seccion-3-formulario-texto-enviar {
+    width: 70px;
+    height: 25px;
+    background-color: #404040;
+    border-style: solid;
+    border-color: #404040;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.contacto-seccion-3-formulario-texto-enviar:hover {
+    background-color: #404040;
+    border-color: #404040;
+    color: #ffc72c;
+}
+
+.contacto-seccion-3-formulario-texto-restablecer {
+    width: 160px;
+    height: 25px;
+    background-color: #404040;
+    border-style: solid;
+    border-color: #404040;
+    color: white;
+}
+
+.contacto-seccion-3-formulario-texto-restablecer:hover {
+    background-color: #404040;
+    border-color: #404040;
+    color: #ffc72c;
+}
+
+/* contacto sección 3 media screen */
+
+@media screen and (min-width: 768px){
+    .contacto-seccion-3 {
+        height: 1150px;
+    }
+    
+    .contacto-seccion-3-imagen {
+        height: 450px;
+    }
+
+    
+    .contacto-seccion-3-formulario {
+        height: 700px;
+    }
+    
+    .contacto-seccion-3-formulario h2 {
+        font-size: MIN(calc(14px + 1.75vw), 24px);
+    }
+
+    .contacto-seccion-3-formulario-texto {
+        margin-top: 3px;
+    }
+    
+    .contacto-seccion-3-formulario-texto-label {
+        font-size: MIN(calc(12px + 1vw), 18px);
+    }
+    
+    .contacto-seccion-3-formulario-texto-select{
+        font-size: 14px;
+    }
+    .contacto-seccion-3-formulario-texto-option {
+        font-size: 14px;
+    }
+    
+    .contacto-seccion-3-formulario-texto-label-checkbok {
+        font-size: MIN(calc(12px + 1vw), 17px);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .contacto-seccion-3 {
+        height: 800px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 800px;
+        grid-template-areas: "foto formulario";
+    }
+    
+    .contacto-seccion-3-imagen {
+        width: 50vw;
+        height: 800px;
+        grid-area: foto;
+    }
+
+    .contacto-seccion-3-formulario {
+        width: 50vw;
+        height: 800px;
+        grid-area: formulario;
+        justify-content: space-around;
+    }
+
+    .contacto-seccion-3-formulario h2 {
+        font-size: MIN(calc(14px + 1.75vw), 24px);
+        margin-bottom: 0px;
+    }
+
+    .contacto-seccion-3-formulario-texto {
+        margin: 10px 0px;
+    }
+
+    .contacto-seccion-3-formulario-texto-label {
+        width: 40vw;
+        font-size: MIN(calc(12px + 1vw), 20px);
+    }
+
+    .contacto-seccion-3-formulario-texto-input {
+        width: 40vw;
+    }
+
+    .contacto-seccion-3-formulario-texto textarea {
+        width: 40vw;
+    }
+
+    .contacto-seccion-3-formulario-texto-select {
+        height: 45px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #404040;
+    }
+    
+    .contacto-seccion-3-formulario-texto-option {
+        font-size: 14px;
+    }
+
+    .contacto-seccion-3-formulario-texto-enviar {
+        width: 80px;
+        height: 45px;
+        font-size: MIN(calc(12px + 1vw), 16px);
+        font-weight: 500;
+    }
+
+    .contacto-seccion-3-formulario-texto-restablecer {
+        width: 240px;
+        height: 45px;
+        font-size: MIN(calc(12px + 1vw), 16px);
+        font-weight: 500;
+    }
+
+    .contacto-seccion-3-formulario-texto-label-checkbok {
+        font-size: MIN(calc(12px + 1vw), 18px);
+    }
+}
