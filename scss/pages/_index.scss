@@ -251,19 +251,18 @@
                 font-size: 14px;
                 font-weight: 300;
                 color: white;
-            
                 transition: 0.5s;
+
+                &:hover {
+                    color: #404040;
+                    font-weight: bold;
+                }
             }
 
-            .seccion-2-btns-brochure-texto:hover {
-                color: #404040;
-                font-weight: bold;
+            &:hover {
+                border: 2px #ffc72c solid;
+                background-color: #ffc72c;
             }
-        }
-
-        .seccion-2-btns-brochure:hover {
-            border: 2px #ffc72c solid;
-            background-color: #ffc72c;
         }
     }
 }

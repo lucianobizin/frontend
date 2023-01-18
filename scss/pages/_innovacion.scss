@@ -468,18 +468,20 @@
                 font-weight: 500;
                 color: #404040;
             }
-        }
 
-        .innovacion-seccion-3-pregunta-boton:hover{
-            background-color: #404040;
-            transition: 0.5s;
-            color: #ffc72c;
-
-            & a:hover{
+            &:hover{
+                background-color: #404040;
                 transition: 0.5s;
                 color: #ffc72c;
+    
+                & a:hover{
+                    transition: 0.5s;
+                    color: #ffc72c;
+                    }
                 }
-            }
+        }
+
+
         }
 
     .innovacion-seccion-3-foto {
