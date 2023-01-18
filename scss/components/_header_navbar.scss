@@ -3,20 +3,27 @@
 header {
     width: 100vw;
     display: grid;
-    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-columns: 20vw 60vw 20vw;
     grid-template-rows: 10vh;
     grid-template-areas: "imagen nombre boton";
     background-color: #ffc72c;
 
-    & img {
-        grid-area: imagen;
-        height: 100%;
-        width: 100%;
-        object-fit:contain;
-        padding: 5px;
+    .header-logo{
+
+        .header-logo-img {
+            display: grid;
+            grid-area: imagen;
+            height: 95%;
+            width: 95%;
+            // max-width: 100px;
+            // max-height: 86px;
+            object-fit:contain;
+            padding: 12px;
+        }
     }
 
     & h1 {
+        width: 60vw;
         grid-area: nombre;
         font-size: calc(12px + 0.3vw);
         color: #404040;
@@ -27,7 +34,7 @@ header {
     }
 
     .boton-header{
-        width:15vw;
+        width:20vw;
         height: 10vh;
         grid-area: boton;
         display: flex;
@@ -42,14 +49,14 @@ header {
             display: none;
         }
     
-        .boton-menu-label{
+        & label{
             display: inline-flex;
             justify-content: center;
             align-items: center;
 
             .logo-menu{
-                width:75%;
-                height: 75%;
+                width:80%;
+                height: 80%;
                 object-fit: cover;
                 padding: 5px;
             }
@@ -65,7 +72,7 @@ header {
             flex-direction: column;
             align-items: center;
             padding: MIN(10vh, 100px) 0px;
-            left: -80vw;
+            left: -75vw;
 
             .menu-desplegable-texto{
                 font-size: calc(12px + 0.3vw);
@@ -91,47 +98,82 @@ header {
 
 /* header media screen */
 
+@media screen and (min-width: 480px) {
+
+    header {
+
+        & h1 {
+            font-size: calc(12px + 0.6vw);
+        }
+
+        .boton-header{
+
+            input:checked ~ .menu-desplegable {
+                gap: 20px;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 768px) {
 
     header {
-        grid-template-rows: 15vh;
-
-        & img {
-            padding: 12px;
-        }
+        grid-template-rows: 10vh;
 
         & h1 {
-            grid-area: nombre;
             font-size: calc(16px + 0.25vw);
             color: #404040;
             padding: calc(12px - 0.5vw);
         }
 
-        .menu-desplegable{
-            height: 480px;
-            width: 95vw;
-            left: -83vw;
-            row-gap: MIN(15vh, 100px);
-            padding: MIN(5vh, 100px);
-        }
-    
-        .menu-desplegable-texto{
-            font-size: calc(18px + 0.25vw);
-            font-weight: 600;
+        .boton-header{
+            height: 10vh;
+
+            .menu-desplegable{
+                height: 440px;
+                width: 95vw;
+                left: -78vw;
+                row-gap: MIN(15vh, 100px);
+                padding: MIN(5vh, 100px);
+                top: 15vh;
+
+                .menu-desplegable-texto{
+                    font-size: calc(18px + 0.25vw);
+                    font-weight: 600;
+                }
+            }
         }
     }
 }
 
 @media screen and (min-width: 1200px){
-    .logo-menu{
-        width:95%;
-        height: 95%;
-        object-fit: cover;
-        padding: 5px;
-    }
+    header{
 
-    .menu-desplegable{
-        height: 615px;
+        grid-template-rows: 15vh;
+
+        .header-logo{
+
+            .header-logo-img{
+                width: 85%;
+                height: 91%;
+                justify-items: center;
+            }
+        }
+
+        .boton-header{
+            height: 15vh;
+
+            .logo-menu{
+                width:95%;
+                height: 95%;
+                object-fit: cover;
+                padding: 5px;
+            }
+        
+            .menu-desplegable{
+                height: 615px;
+            }
+        }
     }
 }
 

@@ -20,19 +20,21 @@ ol {
 header {
   width: 100vw;
   display: grid;
-  grid-template-columns: 15vw 70vw 15vw;
+  grid-template-columns: 20vw 60vw 20vw;
   grid-template-rows: 10vh;
   grid-template-areas: "imagen nombre boton";
   background-color: #ffc72c;
 }
-header img {
+header .header-logo .header-logo-img {
+  display: grid;
   grid-area: imagen;
-  height: 100%;
-  width: 100%;
+  height: 95%;
+  width: 95%;
   object-fit: contain;
-  padding: 5px;
+  padding: 12px;
 }
 header h1 {
+  width: 60vw;
   grid-area: nombre;
   font-size: calc(12px + 0.3vw);
   color: #404040;
@@ -42,7 +44,7 @@ header h1 {
   align-items: center;
 }
 header .boton-header {
-  width: 15vw;
+  width: 20vw;
   height: 10vh;
   grid-area: boton;
   display: flex;
@@ -56,14 +58,14 @@ header .boton-header input {
   touch-action: none;
   display: none;
 }
-header .boton-header .boton-menu-label {
+header .boton-header label {
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
-header .boton-header .boton-menu-label .logo-menu {
-  width: 75%;
-  height: 75%;
+header .boton-header label .logo-menu {
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   padding: 5px;
 }
@@ -77,7 +79,7 @@ header .boton-header .menu-desplegable {
   flex-direction: column;
   align-items: center;
   padding: min(10vh, 100px) 0px;
-  left: -80vw;
+  left: -75vw;
 }
 header .boton-header .menu-desplegable .menu-desplegable-texto {
   font-size: calc(12px + 0.3vw);
@@ -96,39 +98,58 @@ header .boton-header .menu-desplegable-texto:hover {
 }
 
 /* header media screen */
+@media screen and (min-width: 480px) {
+  header h1 {
+    font-size: calc(12px + 0.6vw);
+  }
+  header .boton-header input:checked ~ .menu-desplegable {
+    gap: 20px;
+  }
+}
 @media screen and (min-width: 768px) {
   header {
-    grid-template-rows: 15vh;
-  }
-  header img {
-    padding: 12px;
+    grid-template-rows: 10vh;
   }
   header h1 {
-    grid-area: nombre;
     font-size: calc(16px + 0.25vw);
     color: #404040;
     padding: calc(12px - 0.5vw);
   }
-  header .menu-desplegable {
-    height: 480px;
+  header .boton-header {
+    height: 10vh;
+  }
+  header .boton-header .menu-desplegable {
+    height: 440px;
     width: 95vw;
-    left: -83vw;
+    left: -78vw;
     row-gap: min(15vh, 100px);
     padding: min(5vh, 100px);
+    top: 15vh;
   }
-  header .menu-desplegable-texto {
+  header .boton-header .menu-desplegable .menu-desplegable-texto {
     font-size: calc(18px + 0.25vw);
     font-weight: 600;
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo-menu {
+  header {
+    grid-template-rows: 15vh;
+  }
+  header .header-logo .header-logo-img {
+    width: 85%;
+    height: 91%;
+    justify-items: center;
+  }
+  header .boton-header {
+    height: 15vh;
+  }
+  header .boton-header .logo-menu {
     width: 95%;
     height: 95%;
     object-fit: cover;
     padding: 5px;
   }
-  .menu-desplegable {
+  header .boton-header .menu-desplegable {
     height: 615px;
   }
 }
