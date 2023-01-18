@@ -6,51 +6,51 @@
     width: 100vw;
     height: 750px;
     background-color: #ffc72c;
-}
 
-.portada-imagen{
-    width:100vw;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .portada-imagen{
+        width:100vw;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.portada-imagen img{
-    width: 100%;
-    height: 100%;
-    object-fit:contain;
-    padding-top: 30px;
-}
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit:contain;
+            padding-top: 30px;
+        }
+    }
 
-.portada-cuadro {
-    width:100vw;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .portada-cuadro {
+        width:100vw;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.portada-cuadro-texto{
-    width: 85%;
-    max-width: 450px;
-    border: 4px #404040 solid;
-    padding: 20px;
-}
+        .portada-cuadro-texto{
+            width: 85%;
+            max-width: 450px;
+            border: 4px #404040 solid;
+            padding: 20px;
 
-.portada-cuadro-texto h1{
-    max-width: 271px;
-    font-size: calc(20px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 10px;
-}
+            & h1{
+                max-width: 271px;
+                font-size: calc(20px + 2.5vw);
+                font-weight: bold;
+                color: #404040;
+                padding-bottom: 10px;
+            }
 
-.portada-cuadro-texto p{
-    max-width: 330px;
-    font-size: calc(12px + 0.5vw);
-    color: #404040;
-    padding: 0 1px 0 0;
+            & p{
+                max-width: 330px;
+                font-size: calc(12px + 0.5vw);
+                color: #404040;
+                padding: 0 1px 0 0;
+            }
+        }
+    }
 }
 
 /* index portada media screen */
@@ -84,37 +84,37 @@
 
         justify-items: center;
         align-items: center;
-    }
 
-    .portada-imagen{
-        width:100%;
-        height: 80%;
-    }
+        .portada-imagen{
+            width:100%;
+            height: 80%;
 
-    .portada-imagen img{
-        padding-top: 20px;
-    }
+            & img{
+                padding-top: 20px;
+            }
+        }
 
-    .portada-cuadro {
-        width:100%;
-        height: 80%;
-    }
-    
-    .portada-cuadro-texto{
-        width: 85%;
-        max-width: 600px;
-        padding: 20px;
-    }
-    
-    .portada-cuadro-texto h1{
-        font-size: MIN(calc(18px + 2vw), 41px);
-    }
-    
-    .portada-cuadro-texto p{
-        max-width: 450px;
-        font-size: MIN(calc(11px + 0.6vw), 36px);
-        color: #404040;
-        padding: 0 1px 0 0;
+        .portada-cuadro {
+            width:100%;
+            height: 80%;
+
+            .portada-cuadro-texto{
+                width: 85%;
+                max-width: 600px;
+                padding: 20px;
+
+                & h1{
+                    font-size: MIN(calc(18px + 2vw), 41px);
+                }
+
+                & p{
+                    max-width: 450px;
+                    font-size: MIN(calc(11px + 0.6vw), 36px);
+                    color: #404040;
+                    padding: 0 1px 0 0;
+                }
+            }
+        }
     }
 }
 
@@ -123,143 +123,149 @@
     .portada{
         height: 810px;
         grid-template-rows: 800px;
-    }
 
-    .portada-cuadro-texto{
-        width: 85%;
-        max-width: 734px;
-        border: 4px #404040 solid;
-        padding: 40px;
-    }
-    
-    .portada-cuadro-texto h1{
-        max-width: 550px;
-        font-size: MIN(calc(20px + 2vw), 52.25px);
-        margin: 15px 0px;
-    }
-    
-    .portada-cuadro-texto p{
-        max-width: 650px;
-        font-size: MIN(calc(12px + 0.75vw), 24px);
+        .portada-cuadro .portada-cuadro-texto{
+            width: 85%;
+            max-width: 734px;
+            border: 4px #404040 solid;
+            padding: 40px;
+
+            & h1{
+                max-width: 550px;
+                font-size: MIN(calc(20px + 2vw), 52.25px);
+                margin: 15px 0px;
+            }
+
+            & p{
+                max-width: 650px;
+                font-size: MIN(calc(12px + 0.75vw), 24px);
+            }
+        }
     }
 }
 
   /* ___ Segunda sección ___ */
-
 .seccion-2{
     width: 100vw;
     height: 1450px;
-}
 
-.seccion-2-texto{
-    width:100vw;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    padding: 15px 5px 15px 30px;
-}
+    .seccion-2-texto{
+        width:100vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        padding: 15px 5px 15px 30px;
 
-.seccion-2-texto h2{
-    font-size: calc(20px + 3vw);
-    font-weight: bold;
-    color: #404040;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+        & h2{
+            font-size: calc(20px + 3vw);
+            font-weight: bold;
+            color: #404040;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
 
-.seccion-2-texto-titulo{
-    font-size: calc(12px + 3vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
+        .seccion-2-texto-titulo{
+            font-size: calc(12px + 3vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
 
-.seccion-2-texto-copete{
-    font-weight: bold;
-    font-size: calc(10px + 1.5vw);
-    color: #404040;
-    padding: 0 0 20px 0;
-}
+        .seccion-2-texto-titulo{
+            font-size: calc(12px + 3vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
+        
+        .seccion-2-texto-copete{
+            font-weight: bold;
+            font-size: calc(10px + 1.5vw);
+            color: #404040;
+            padding: 0 0 20px 0;
+        }
+        
+        .seccion-2-texto-parrafos{
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+            color: #404040;
+            padding: 0 0 20px 0;
+        }
+    }
 
-.seccion-2-texto-parrafos{
-    font-weight: 400;
-    font-size: calc(10px + 1vw);
-    color: #404040;
-    padding: 0 0 20px 0;
-}
+    .seccion-2-imagenes{
+        width: 100vw;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
 
-.seccion-2-imagenes{
-    width: 100vw;
-    height: 750px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+        .seccion-2-imagenes-ramiro {
+            width: 100%;
+            height: 45%;
+            object-fit: contain;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
 
-.seccion-2-imagenes-ramiro {
-    width: 100%;
-    height: 45%;
-    object-fit: contain;
-    padding: 10px;
-    margin-bottom: 5px;
-}
+        .seccion-2-imagenes-luciano {
+            width: 100%;
+            height: 45%;
+            object-fit: contain;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
 
-.seccion-2-imagenes-ramiro-luciano-768px{
-    display: none;
-}
+        .seccion-2-imagenes-ramiro-luciano-768px{
+            display: none;
+        }
+    }
 
-.seccion-2-imagenes-luciano {
-    width: 100%;
-    height: 45%;
-    object-fit: contain;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-}
+    .seccion-2-btns {
+        width: 100vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 5px 10px 10px 10px;
 
-.seccion-2-btns {
-    width: 100vw;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 5px 10px 10px 10px;
-}
+        .seccion-2-btns-brochure {
+            width: 190px;
+            height: 40px;
+            border: 2px #404040 solid;
+            background-color: #404040;
+            border-radius: 10px;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            transition: 0.5s;
 
-.seccion-2-btns-brochure {
-    width: 190px;
-    height: 40px;
-    border: 2px #404040 solid;
-    background-color: #404040;
-    border-radius: 10px;
+            .seccion-2-btns-brochure-texto {
+                font-size: 14px;
+                font-weight: 300;
+                color: white;
+            
+                transition: 0.5s;
+            }
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+            .seccion-2-btns-brochure-texto:hover {
+                color: #404040;
+                font-weight: bold;
+            }
+        }
 
-    transition: 0.5s;
-}
-
-.seccion-2-btns-brochure:hover {
-    border: 2px #ffc72c solid;
-    background-color: #ffc72c;
-}
-
-.seccion-2-btns-brochure-texto {
-    font-size: 14px;
-    font-weight: 300;
-    color: white;
-
-    transition: 0.5s;
-}
-
-.seccion-2-btns-brochure-texto:hover {
-    color: #404040;
-    font-weight: bold;
+        .seccion-2-btns-brochure:hover {
+            border: 2px #ffc72c solid;
+            background-color: #ffc72c;
+        }
+    }
 }
 
 /* index seccion 2 media screen */
@@ -289,82 +295,82 @@
         grid-template-columns: 50vw;
         grid-template-rows: 400px 100px;
         grid-template-areas: "texto fotos" "botones botones";
-    }
 
-    .seccion-2-texto{
-        width:100%;
-        height: 400px;
-        grid-area: texto;
-        padding-left: 40px;
-        justify-content: flex-start;
-        padding-bottom: 20px;
-    }
+        .seccion-2-texto{
+            width:100%;
+            height: 400px;
+            grid-area: texto;
+            padding-left: 40px;
+            justify-content: flex-start;
+            padding-bottom: 20px;
 
-    .seccion-2-texto h2{
-        font-size: calc(20px + 1.5vw);
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .seccion-2-texto-titulo{
-        font-size: calc(12px + 1.5vw);
-        padding-bottom: 20px;
-    }
-    
-    .seccion-2-texto-copete{
-        font-size: calc(10px + 0.75vw);
-        padding: 0 0 20px 0;
-    }
-    
-    .seccion-2-texto-parrafos{
-        font-weight: 400;
-        font-size: calc(10px + 0.5vw);
-        padding: 0 0 20px 0;
-    }
+            & h2{
+                font-size: calc(20px + 1.5vw);
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
 
-    .seccion-2-imagenes{
-        width: 100%;
-        height: 400px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        grid-area: fotos;
-    }
-    
-    .seccion-2-imagenes-ramiro {
-        display: none;
-    }
-    
-    .seccion-2-imagenes-ramiro-luciano-768px{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
-    
-    .seccion-2-imagenes-luciano {
-        display: none;
-    }
+            .seccion-2-texto-titulo{
+                font-size: calc(12px + 1.5vw);
+                padding-bottom: 20px;
+            }
+            
+            .seccion-2-texto-copete{
+                font-size: calc(10px + 0.75vw);
+                padding: 0 0 20px 0;
+            }
+            
+            .seccion-2-texto-parrafos{
+                font-weight: 400;
+                font-size: calc(10px + 0.5vw);
+                padding: 0 0 20px 0;
+            }
+        }
 
-    .seccion-2-btns {
-        grid-area: botones;
-        height: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: center;
-        padding: 40px;
-    }
+        .seccion-2-imagenes{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            grid-area: fotos;
 
-    .seccion-2-btns-brochure {
-        height: 40px;
-        width: 180px;
-    }
+            .seccion-2-imagenes-ramiro {
+                display: none;
+            }
 
-    .seccion-2-btns-brochure-texto{
-        font-size: 12px;
-        font-weight: 400;
+            .seccion-2-imagenes-luciano {
+                display: none;
+            }
+
+            .seccion-2-imagenes-ramiro-luciano-768px{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .seccion-2-btns {
+            grid-area: botones;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            padding: 40px;
+
+            .seccion-2-btns-brochure {
+                height: 40px;
+                width: 180px;
+
+                .seccion-2-btns-brochure-texto{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
     }
 }
 
@@ -378,81 +384,81 @@
         grid-template-rows: 600px 150px;
         grid-template-areas: "texto fotos" "botones botones";
         margin-top: 50px;
-    }
 
-    .seccion-2-texto{
-        width:100%;
-        height: 600px;
-        grid-area: texto;
-        padding-left: 40px;
-        justify-content: flex-start;
-    }
+        .seccion-2-texto{
+            width:100%;
+            height: 600px;
+            grid-area: texto;
+            padding-left: 40px;
+            justify-content: flex-start;
 
-    .seccion-2-texto h2{
-        font-size: MIN(calc(30px + 1.5vw), 53px);
-        padding-top: 20px;
-        margin-bottom: 20px;
-        max-width: 760px;
-    }
-    
-    .seccion-2-texto-titulo{
-        font-size: MIN(calc(18px + 1.5vw), 41px);
-        margin-bottom: 20px;
-        max-width: 760px;
-    }
-    
-    .seccion-2-texto-copete{
-        font-size: MIN(calc(15px + 0.75vw), 26.5px);
-        margin-bottom: 20px;
-        max-width: 760px;
-    }
-    
-    .seccion-2-texto-parrafos{
-        font-size: MIN(calc(15px + 0.5vw), 22.6px);
-        max-width: 696px;
-    }
+            & h2{
+                font-size: MIN(calc(30px + 1.5vw), 53px);
+                padding-top: 20px;
+                margin-bottom: 20px;
+                max-width: 760px;
+            }
 
-    .seccion-2-imagenes {
-        width: 100%;
-        height: 600px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        grid-area: fotos;
-    }
+            .seccion-2-texto-titulo{
+                font-size: MIN(calc(18px + 1.5vw), 41px);
+                margin-bottom: 20px;
+                max-width: 760px;
+            }
+            
+            .seccion-2-texto-copete{
+                font-size: MIN(calc(15px + 0.75vw), 26.5px);
+                margin-bottom: 20px;
+                max-width: 760px;
+            }
+            
+            .seccion-2-texto-parrafos{
+                font-size: MIN(calc(15px + 0.5vw), 22.6px);
+                max-width: 696px;
+            }
+        }
 
-    .seccion-2-imagenes-ramiro {
-        width: 47%;
-        height: 63%;
-        object-fit: contain;
-    }
+        .seccion-2-imagenes {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            grid-area: fotos;
 
-    .seccion-2-imagenes-luciano {
-        width: 41%;
-        height: 69%;
-        padding-bottom: 20px;
-        object-fit: contain;
-    }
+            .seccion-2-imagenes-ramiro {
+                width: 47%;
+                height: 63%;
+                object-fit: contain;
+            }
+        
+            .seccion-2-imagenes-luciano {
+                width: 41%;
+                height: 69%;
+                padding-bottom: 20px;
+                object-fit: contain;
+            }
+        }
 
-    .seccion-2-btns {
-        height: 100px;
-        grid-area: botones;
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: center;
-        padding: 0px 40px;
-    }
+        .seccion-2-btns {
+            height: 100px;
+            grid-area: botones;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            padding: 0px 40px;
 
-    .seccion-2-btns-brochure {
-        height: 55px;
-        width: 250px;
-    }
+            .seccion-2-btns-brochure {
+                height: 55px;
+                width: 250px;
 
-    .seccion-2-btns-brochure-texto{
-        font-size: 16px;
-        font-weight: 400;
+                .seccion-2-btns-brochure-texto{
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
     }
 }
 
@@ -466,112 +472,112 @@
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 10px;
-}
 
-.seccion-3-servicios-titulo{
-    width: 100vw;
-    height: 300px;
-    background-color: #ffc72c;
-    color: #404040;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-}
+    .seccion-3-servicios-titulo{
+        width: 100vw;
+        height: 300px;
+        background-color: #ffc72c;
+        color: #404040;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
 
-.seccion-3-servicios-titulo h2{
-    font-size: calc(20px + 3vw);
-    font-weight: bold;
-    color: #404040;
-}
+        & h2{
+            font-size: calc(20px + 3vw);
+            font-weight: bold;
+            color: #404040;
+        }
+    }
 
-.seccion-3-servicios-1{
-    width: 100vw;
-    height: 300px;
-    background-color: rgb(216, 216, 216);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: calc(20px + 2vw) 20px;
-}
+    .seccion-3-servicios-1{
+        width: 100vw;
+        height: 300px;
+        background-color: rgb(216, 216, 216);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: calc(20px + 2vw) 20px;
 
-.seccion-3-servicios-1 h2{
-    font-size: calc(14px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
+        & h2{
+            font-size: calc(14px + 2.5vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
 
-.seccion-3-servicios-1 p{
-    font-weight: 400;
-    font-size: calc(10px + 1vw);
-    color: #404040;
-}
+        & p{
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+            color: #404040;
+        }
+    }
 
-.seccion-3-servicios-2{
-    width: 100vw;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: calc(20px + 0.5vw) 20px;
-}
+    .seccion-3-servicios-2{
+        width: 100vw;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: calc(20px + 0.5vw) 20px;
 
-.seccion-3-servicios-2 h2{
-    font-size: calc(14px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
+        & h2{
+            font-size: calc(14px + 2.5vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
 
-.seccion-3-servicios-2 p{
-    font-weight: 400;
-    font-size: calc(10px + 1vw);
-    color: #404040;
-}
+        & p{
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+            color: #404040;
+        }
+    }
 
-.seccion-3-servicios-3{
-    width: 100vw;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: calc(20px + 2vw) 20px;
-}
+    .seccion-3-servicios-3{
+        width: 100vw;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: calc(20px + 2vw) 20px;
 
-.seccion-3-servicios-3 h2{
-    font-size: calc(14px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
+        & h2{
+            font-size: calc(14px + 2.5vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
 
-.seccion-3-servicios-3 p{
-    font-weight: 400;
-    font-size: calc(10px + 1vw);
-    color: #404040;
-}
+        & p{
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+            color: #404040;
+        }
+    }
 
-.seccion-3-servicios-4 {
-    width: 100vw;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: calc(20px + 2vw) 20px;
-}
+    .seccion-3-servicios-4 {
+        width: 100vw;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: calc(20px + 2vw) 20px;
 
-.seccion-3-servicios-4 h2{
-    font-size: calc(14px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
+        & h2{
+            font-size: calc(14px + 2.5vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
 
-.seccion-3-servicios-4 p{
-    font-weight: 400;
-    font-size: calc(10px + 1vw);
-    color: #404040;
+        & p{
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+            color: #404040;
+        }
+    }
 }
 
 /* index seccion 3 media screen */
@@ -581,36 +587,36 @@
     .seccion-3{
         height: 1200px;
         margin-bottom: 20px;
+
+        .seccion-3-servicios-1{
+            padding: calc(20px + 0.5vw) 20px;
+            margin-bottom: 30px;
+        }
+
+        .seccion-3-servicios-2 {
+            padding: calc(20px + 0.5vw) 5px calc(20px + 0.5vw) 20px;
+        }   
+
+        .seccion-3-servicios-3 {
+            padding: calc(20px + 0.5vw) 5px calc(20px + 0.25vw) 20px;
+        } 
+
+        .seccion-3-servicios-4 {
+            padding: calc(20px + 1.25vw) 20px calc(20px + 1.5vw) 20px;
+        }   
     }
-
-    .seccion-3-servicios-1{
-        padding: calc(20px + 0.5vw) 20px;
-        margin-bottom: 30px;
-    }
-
-    .seccion-3-servicios-2 {
-        padding: calc(20px + 0.5vw) 5px calc(20px + 0.5vw) 20px;
-    }    
-
-    .seccion-3-servicios-3 {
-        padding: calc(20px + 0.5vw) 5px calc(20px + 0.25vw) 20px;
-    }    
-
-    .seccion-3-servicios-4 {
-        padding: calc(20px + 1.25vw) 20px calc(20px + 1.5vw) 20px;
-    }    
 }
 
 @media screen and (min-width: 768px) {
 
     .seccion-3{
         height: 1250px;
-    }
 
-    .seccion-3-servicios-4 {
-        padding-right: 5px;
-        margin-bottom: 20px;
-    }    
+        .seccion-3-servicios-4 {
+            padding-right: 5px;
+            margin-bottom: 20px;
+        }   
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -623,96 +629,96 @@
         grid-template-rows: 330px 280px 280px 280px;
         grid-template-areas: "tituloServicios tituloServicios" "servicio2 servicio1" "servicio3 servicio1" "servicio4 servicio1";
         margin-bottom: 0px;
-    }
 
-    .seccion-3-servicios-titulo {
-        width: 100vw;
-        height: 300px;
-        grid-area: tituloServicios;
-    }
+        .seccion-3-servicios-titulo {
+            width: 100vw;
+            height: 300px;
+            grid-area: tituloServicios;
 
-    .seccion-3-servicios-titulo h2 {
-        font-size: calc(18px + 2vw);
-    }
+            & h2 {
+                font-size: calc(18px + 2vw);
+            }
+        }
 
-    .seccion-3-servicios-1 {
-        height: 840px;
-        width: 50vw;
-        grid-area: servicio1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0%;
-        margin-bottom: 0px;
-    }
+        .seccion-3-servicios-1 {
+            height: 840px;
+            width: 50vw;
+            grid-area: servicio1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0%;
+            margin-bottom: 0px;
 
-    .seccion-3-servicios-1 h2{
-        width: 80%;
-        font-size: calc(14px + 1.5vw);
-    }
+            & h2{
+                width: 80%;
+                font-size: calc(14px + 1.5vw);
+            }
 
-    .seccion-3-servicios-1 p{
-        width: 80%;
-        font-weight: 400;
-        font-size: calc(9px + 0.75vw);
-        color: #404040;
-    }
+            & p{
+                width: 80%;
+                font-weight: 400;
+                font-size: calc(9px + 0.75vw);
+                color: #404040;
+            }
+        }
 
-    .seccion-3-servicios-2 {
-        height: 280px;
-        width: 50vw;
-        grid-area: servicio2;
-        padding-right: 0px;
-        padding-top: 40px;
-    }
+        .seccion-3-servicios-2 {
+            height: 280px;
+            width: 50vw;
+            grid-area: servicio2;
+            padding-right: 0px;
+            padding-top: 40px;
 
-    .seccion-3-servicios-2 h2{
-        font-size: calc(14px + 1.25vw);
-    }
+            & h2{
+                font-size: calc(14px + 1.25vw);
+            }
 
-    .seccion-3-servicios-2 p{
-        width: 88%;
-        font-weight: 400;
-        font-size: calc(12px + 0.5vw);
-        color: #404040;
-    }
+            & p{
+                width: 88%;
+                font-weight: 400;
+                font-size: calc(12px + 0.5vw);
+                color: #404040;
+            }
+        }
 
-    .seccion-3-servicios-3 {
-        height: 280px;
-        width: 50vw;
-        grid-area: servicio3;
-        padding: 15px 5px calc(20px + 0.25vw) 20px;
-    }
+        .seccion-3-servicios-3 {
+            height: 280px;
+            width: 50vw;
+            grid-area: servicio3;
+            padding: 15px 5px calc(20px + 0.25vw) 20px;
 
-    .seccion-3-servicios-3 h2{
-        font-size: calc(14px + 1.25vw);
-    }
+            & h2{
+                font-size: calc(14px + 1.25vw);
+            }
 
-    .seccion-3-servicios-3 p{
-        width: 88%;
-        font-weight: 400;
-        font-size: calc(12px + 0.5vw);
-        color: #404040;
-    }
+            & p{
+                width: 88%;
+                font-weight: 400;
+                font-size: calc(12px + 0.5vw);
+                color: #404040;
+            }
+        }
 
-    .seccion-3-servicios-4 {
-        height: 280px;
-        width: 50vw;
-        grid-area: servicio4;
-        margin-bottom: 0px;
-    }
+        .seccion-3-servicios-4 {
+            height: 280px;
+            width: 50vw;
+            grid-area: servicio4;
+            margin-bottom: 0px;
 
-    .seccion-3-servicios-4 h2{
-        font-size: calc(14px + 1.25vw);
-    }
+            & h2{
+                font-size: calc(14px + 1.25vw);
+            }
 
-    .seccion-3-servicios-4 p{
-        width: 88%;
-        font-weight: 400;
-        font-size: calc(12px + 0.5vw);
-        color: #404040;
-        padding-bottom: 20px;
+            & p{
+                width: 88%;
+                font-weight: 400;
+                font-size: calc(12px + 0.5vw);
+                color: #404040;
+                padding-bottom: 20px;
+            }
+        }
     }
 }
 
@@ -721,181 +727,182 @@
 .seccion-4{
     width: 100vw;
     height: 1220px;
+
+    .seccion-4-introduccion{
+        width: 100vw;
+        height: 500px;
+    
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+
+        .seccion-4-linea-amarilla-1 {
+            display: inline-block;
+            width:100px;
+            height: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            left: -30px;
+            top: -10px;
+        }
+
+        .seccion-4-introduccion-titulo{
+            font-size: calc(14px + 2.5vw);
+            font-weight: bold;
+            color: #404040;
+            padding-bottom: 20px;
+        }
+        
+        .seccion-4-introduccion-parrafo{
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+            color: #404040;
+        }
+    }
+
+    .seccion-4-explicacion{
+        width: 100vw;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: repeat (5, 140px);
+        grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
+
+        .seccion-4-explicacion-marketing {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding:10px;
+            margin-top: 12px;
+        }
+
+        & h3{
+            font-size: calc(12px + 1.5vw);
+            font-weight: bold;
+            color: #404040;
+            padding: 5px 5px 5px 12px;
+        }
+
+        & p{
+            font-size: calc(10px + 1vw);
+            font-weight: 400;
+            color: #404040;
+            padding: 5px 5px 5px 12px;
+        }
+
+        .seccion-4-explicacion-big-data {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion2;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .seccion-4-explicacion-mercado {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion3;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-ecommerce{
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion4;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-optimizacion {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion5;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-riesgo {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion6;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-fraude {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion7;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-digitalizacion {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion8;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-ux-ui {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion9;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+        
+        .seccion-4-explicacion-sostenibilidad {
+            width: 50vw;
+            height: 140px;
+            grid-area: explicacion10;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 10px;
+        }
+    }
 }
 
-.seccion-4-introduccion{
-    width: 100vw;
-    height: 500px;
-
-    background-color: rgb(216, 216, 216);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: relative;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 50px;
-}
-
-.seccion-4-linea-amarilla-1 {
-    display: inline-block;
-    width:100px;
-    height: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    left: -30px;
-    top: -10px;
-}
-
-.seccion-4-introduccion-titulo{
-    font-size: calc(14px + 2.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding-bottom: 20px;
-}
-
-.seccion-4-introduccion-parrafo{
-    font-weight: 400;
-    font-size: calc(10px + 1vw);
-    color: #404040;
-}
-
-.seccion-4-explicacion{
-    width: 100vw;
-    height: 700px;
-    display: grid;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: repeat (5, 140px);
-    grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
-}
-
-.seccion-4-explicacion-marketing {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding:10px;
-    margin-top: 12px;
-}
-
-.seccion-4-explicacion h3{
-    font-size: calc(12px + 1.5vw);
-    font-weight: bold;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.seccion-4-explicacion p{
-    font-size: calc(10px + 1vw);
-    font-weight: 400;
-    color: #404040;
-    padding: 5px 5px 5px 12px;
-}
-
-.seccion-4-explicacion-big-data {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion2;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.seccion-4-explicacion-mercado {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion3;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-ecommerce{
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion4;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-optimizacion {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion5;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-riesgo {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion6;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-fraude {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion7;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-digitalizacion {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion8;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-ux-ui {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion9;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
-
-.seccion-4-explicacion-sostenibilidad {
-    width: 50vw;
-    height: 140px;
-    grid-area: explicacion10;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 10px;
-}
 
 /* index seccion 4 media screen */
 
@@ -903,63 +910,63 @@
     
     .seccion-4 {
         height: 1250px;
-    }
 
-    .seccion-4-explcacion {
-        margin-top: 18px;
-    }
-    
-    .seccion-4-introduccion{
-        padding-top: 50px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 40px;
-    }
-    
-    .seccion-4-explicacion-marketing {
-        padding:30px;
-        margin-top: 10px;
-    }
+        .seccion-4-introduccion{
+            padding-top: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 40px;
+        }
 
-    .seccion-4-explicacion p {
-        font-size: calc(8px + 1vw);
-    }
-    
-    .seccion-4-explicacion-big-data {
-        padding: 30px;
-        margin-top: 10px;
-    }
-    
-    .seccion-4-explicacion-mercado {
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-ecommerce{
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-optimizacion {
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-riesgo {
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-fraude {
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-digitalizacion {
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-ux-ui {
-        padding: 30px;
-    }
-    
-    .seccion-4-explicacion-sostenibilidad {
-        padding: 30px;
+        .seccion-4-explicacion {
+            margin-top: 18px;
+
+            .seccion-4-explicacion-marketing {
+                padding:30px;
+                margin-top: 10px;
+            }
+        
+            .seccion-4-explicacion p {
+                font-size: calc(8px + 1vw);
+            }
+            
+            .seccion-4-explicacion-big-data {
+                padding: 30px;
+                margin-top: 10px;
+            }
+            
+            .seccion-4-explicacion-mercado {
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-ecommerce{
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-optimizacion {
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-riesgo {
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-fraude {
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-digitalizacion {
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-ux-ui {
+                padding: 30px;
+            }
+            
+            .seccion-4-explicacion-sostenibilidad {
+                padding: 30px;
+            }
+        }
     }
 }
 
@@ -967,119 +974,119 @@
 
     .seccion-4{
         height: 890px;
-    }
-    
-    .seccion-4-introduccion{
-        height: 425px;
-    }
-    
-    .seccion-4-linea-amarilla-1 {
-        width:125px;
-        margin-bottom: 0px;
-    }
-    
-    .seccion-4-introduccion-titulo{
-        font-size: calc(14px + 1.5vw);
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .seccion-4-introduccion-parrafo{
-        font-size: calc(10px + 0.55vw);
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-    .seccion-4-explicacion{
-        height: 380px;
-        margin-top: 50px;
-        grid-template-columns: repeat(5, 19vw);
-        grid-template-rows: repeat(2, 200px);
-        grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
-        margin-bottom: 30px;
-    }
-    
-    .seccion-4-explicacion-marketing {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion1;
-        margin-top: 0px;
-        padding: 20px 30px;
-    }
 
-    .seccion-4-explicacion h3{
-        font-size: calc(14px + 0.9vw);
-    }
+        .seccion-4-introduccion{
+            height: 425px;
 
-    .seccion-4-explicacion p {
-        font-size: calc(10px + 0.5vw);
-    }
-    
-    .seccion-4-explicacion-big-data {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion2;
-        margin-top: 0px;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-mercado {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion3;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-ecommerce{
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion4;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-ecommerce h3 {
-        font-size: calc(14px + 0.9vw);
-    }
-    
-    .seccion-4-explicacion-optimizacion {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion5;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-riesgo {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion6;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-fraude {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion7;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-digitalizacion {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion8;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-ux-ui {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion9;
-        padding: 20px 30px;
-    }
-    
-    .seccion-4-explicacion-sostenibilidad {
-        width: 20vw;
-        height: 200px;
-        grid-area: explicacion10;
-        padding: 20px 30px;
+            .seccion-4-linea-amarilla-1 {
+                width:125px;
+                margin-bottom: 0px;
+            }
+
+            .seccion-4-introduccion-titulo{
+                font-size: calc(14px + 1.5vw);
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            
+            .seccion-4-introduccion-parrafo{
+                font-size: calc(10px + 0.55vw);
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        }
+
+        .seccion-4-explicacion{
+            height: 380px;
+            margin-top: 50px;
+            grid-template-columns: repeat(5, 19vw);
+            grid-template-rows: repeat(2, 200px);
+            grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
+            margin-bottom: 30px;
+
+            & h3{
+                font-size: calc(14px + 0.9vw);
+            }
+
+            & p {
+                font-size: calc(10px + 0.5vw);
+            }
+
+            .seccion-4-explicacion-marketing {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion1;
+                margin-top: 0px;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-big-data {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion2;
+                margin-top: 0px;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-mercado {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion3;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-ecommerce{
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion4;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-ecommerce h3 {
+                font-size: calc(14px + 0.9vw);
+            }
+            
+            .seccion-4-explicacion-optimizacion {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion5;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-riesgo {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion6;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-fraude {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion7;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-digitalizacion {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion8;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-ux-ui {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion9;
+                padding: 20px 30px;
+            }
+            
+            .seccion-4-explicacion-sostenibilidad {
+                width: 20vw;
+                height: 200px;
+                grid-area: explicacion10;
+                padding: 20px 30px;
+            }
+        }
     }
 }
