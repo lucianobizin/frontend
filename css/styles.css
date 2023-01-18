@@ -126,8 +126,7 @@ footer {
   grid-template-areas: "slogan" "logos" "copyright";
   padding: 5px 0px;
 }
-
-.footer-slogan {
+footer .footer-slogan {
   width: 100vw;
   height: 45px;
   grid-area: slogan;
@@ -136,15 +135,13 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
-.footer-slogan p {
+footer .footer-slogan p {
   display: inline-block;
   font-size: calc(12px + 0.7vw);
   font-weight: bold;
   color: white;
 }
-
-.footer-botones {
+footer .footer-botones {
   width: 100vw;
   height: 45px;
   display: flex;
@@ -154,23 +151,19 @@ footer {
   grid-area: logos;
   gap: calc(20px + 0.25vw);
 }
-
-.footer div a {
+footer .footer-botones a {
   display: block;
   width: 35px;
   height: 35px;
 }
-
-.footer-icono {
+footer .footer-botones a .footer-icono {
   width: 30px;
   height: 30px;
 }
-
-.footer-icono:hover {
+footer .footer-botones a .footer-icono:hover {
   filter: blur(15px);
 }
-
-.footer-copyright {
+footer .footer-copyright {
   width: 100vw;
   height: 45px;
   display: flex;
@@ -178,36 +171,35 @@ footer {
   align-items: center;
   grid-area: copyright;
 }
-
-.footer-copyright p {
+footer .footer-copyright p {
   font-size: calc(10px + 0.4vw);
   font-weight: bold;
   color: white;
 }
 
-/* index footer media screen */
+/* Footer media screen */
 @media screen and (min-width: 768px) {
   footer {
     height: 210px;
     grid-template-rows: repeat(3, 60px);
     padding: 15px 0px;
   }
-  .footer-slogan {
+  footer .footer-slogan {
     height: 60px;
   }
-  .footer-botones {
+  footer .footer-botones {
     height: 60px;
     gap: calc(30px + 0.25vw);
   }
-  .footer div a {
+  footer .footer-botones a {
     width: calc(50px + 0.2vw);
     height: calc(50px + 0.1vw);
   }
-  .footer-icono {
+  footer .footer-botones a .footer-icono {
     width: calc(35px + 0.2vw);
     height: calc(35px + 0.2vw);
   }
-  .footer-copyright {
+  footer .footer-copyright {
     height: 60px;
   }
 }
@@ -217,21 +209,21 @@ footer {
     grid-template-rows: repeat(3, 80px);
     padding: 20px 0px;
   }
-  .footer-slogan {
+  footer .footer-slogan {
     height: 80px;
   }
-  .footer-botones {
+  footer .footer-botones {
     height: 80px;
   }
-  .footer div a {
+  footer .footer-botones a {
     width: calc(80px + 0.2vw);
     height: calc(80px + 0.1vw);
   }
-  .footer-icono {
+  footer .footer-botones a .footer-icono {
     width: calc(55px + 0.2vw);
     height: calc(55px + 0.2vw);
   }
-  .footer-copyright {
+  footer .footer-copyright {
     height: 80px;
   }
 }

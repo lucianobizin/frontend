@@ -9,9 +9,8 @@ footer {
     grid-template-rows: repeat(3, 45px);
     grid-template-areas: "slogan" "logos" "copyright";
     padding: 5px 0px;
-}
 
-.footer-slogan {
+    .footer-slogan {
     width: 100vw;
     height: 45px;
     grid-area: slogan;
@@ -19,57 +18,58 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    & p{
+        display: inline-block;
+        font-size: calc(12px + 0.7vw);
+        font-weight: bold;
+        color: white;
+      }
+    }
+
+    .footer-botones{
+        width: 100vw;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        grid-area: logos;
+        gap: calc(20px + 0.25vw);
+
+        & a {
+            display: block;
+            width:35px;
+            height: 35px;
+
+            .footer-icono{
+                width: 30px;
+                height: 30px;
+            }
+
+            .footer-icono:hover{
+                filter:blur(15px);
+            }
+        }
+    }
+
+    .footer-copyright{
+        width: 100vw;
+        height: 45px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        grid-area: copyright;
+
+        & p {
+            font-size: calc(10px + 0.4vw);
+            font-weight: bold;
+            color: white;
+        }
+    }
 }
 
-.footer-slogan p{
-    display: inline-block;
-    font-size: calc(12px + 0.7vw);
-    font-weight: bold;
-    color: white;
-}
-
-.footer-botones{
-    width: 100vw;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    grid-area: logos;
-    gap: calc(20px + 0.25vw);
-}
-
-.footer div a {
-    display: block;
-    width:35px;
-    height: 35px;
-}
-
-.footer-icono{
-    width: 30px;
-    height: 30px;
-}
-
-.footer-icono:hover{
-    filter:blur(15px);
-}
-
-.footer-copyright{
-    width: 100vw;
-    height: 45px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    grid-area: copyright;
-}
-
-.footer-copyright p {
-    font-size: calc(10px + 0.4vw);
-    font-weight: bold;
-    color: white;
-}
-
-/* index footer media screen */
+/* Footer media screen */
 
 @media screen and (min-width: 768px){
 
@@ -77,29 +77,29 @@ footer {
         height: 210px;
         grid-template-rows: repeat(3, 60px);
         padding: 15px 0px;
-    }
 
-    .footer-slogan {
-        height: 60px;
-    }
+        .footer-slogan {
+            height: 60px;
+        }
 
-    .footer-botones{
-        height: 60px;
-        gap: calc(30px + 0.25vw);
-    }
+        .footer-botones{
+            height: 60px;
+            gap: calc(30px + 0.25vw);
 
-    .footer div a {
-        width: calc(50px + 0.2vw);
-        height: calc(50px + 0.1vw);
-    }
-    
-    .footer-icono{
-        width: calc(35px + 0.2vw);
-        height: calc(35px + 0.2vw);
-    }
+            & a {
+                width: calc(50px + 0.2vw);
+                height: calc(50px + 0.1vw);
 
-    .footer-copyright {
-        height: 60px;
+                .footer-icono{
+                    width: calc(35px + 0.2vw);
+                    height: calc(35px + 0.2vw);
+                }
+            }
+        }
+
+        .footer-copyright {
+            height: 60px;
+        }
     }
 }
 
@@ -109,27 +109,27 @@ footer {
         height: 280px;
         grid-template-rows: repeat(3, 80px);
         padding: 20px 0px;
-    }
 
-    .footer-slogan {
-        height: 80px;
-    }
+        .footer-slogan {
+            height: 80px;
+        }
 
-    .footer-botones{
-        height: 80px;
-    }
+        .footer-botones{
+            height: 80px;
 
-    .footer div a {
-        width: calc(80px + 0.2vw);
-        height: calc(80px + 0.1vw);
-    }
-    
-    .footer-icono{
-        width: calc(55px + 0.2vw);
-        height: calc(55px + 0.2vw);
-    }
+            & a {
+                width: calc(80px + 0.2vw);
+                height: calc(80px + 0.1vw);
 
-    .footer-copyright {
-        height: 80px;
+                .footer-icono{
+                    width: calc(55px + 0.2vw);
+                    height: calc(55px + 0.2vw);
+                }
+            }
+        }
+
+        .footer-copyright {
+            height: 80px;
+        }
     }
 }
