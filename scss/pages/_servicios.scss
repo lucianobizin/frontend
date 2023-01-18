@@ -29,8 +29,8 @@
         align-items: center;
 
         .servicios-portada-cuadro-texto{
-            width: 90%;
-            max-width: 450px;
+            width: 92%;
+            max-width: 430px;
             border: 4px #404040 solid;
             padding: 20px;
 
@@ -56,7 +56,7 @@
         height: 500px;
         display: grid;
         grid-template-columns: repeat(2, 50vw);
-        grid-template-rows: 750px;
+        grid-template-rows: 500px;
         justify-content: center;
         align-content: center;
         justify-items: center;
@@ -94,27 +94,31 @@
 
     .servicios-portada{
         height: 810px;
+        grid-template-rows: 810px;
 
         .servicios-portada-imagen{
-            width:85%;
+            width: 85%;
             height: 85%;
             object-fit: contain;
         }
 
-        .servicios-portada-cuadro-texto{
-            width: 85%;
-            max-width: 550px;
-            max-height: 600px;
-            border: 4px #404040 solid;
-            padding: 40px;
+        .servicios-portada-cuadro{
 
-            & h1{
-                font-size: MIN(calc(20px + 1.6vw), 45px);
-                margin: 15px 0px;
-            }
-
-            & p{
-                font-size: MIN(calc(12px + 0.7vw), 22.6px);
+            .servicios-portada-cuadro-texto{
+                width: 85%;
+                max-width: 550px;
+                max-height: 600px;
+                border: 4px #404040 solid;
+                padding: 40px;
+    
+                & h1{
+                    font-size: MIN(calc(20px + 1.6vw), 45px);
+                    margin: 15px 0px;
+                }
+    
+                & p{
+                    font-size: MIN(calc(12px + 0.7vw), 22.6px);
+                }
             }
         }
     }
@@ -160,7 +164,7 @@
             font-weight: 400;
             font-size: 14.6px;
             color: #404040;
-            max-width: 388.4px;
+            max-width: 680px;
         }
     }
 
@@ -1649,16 +1653,19 @@
     .servicios-seccion-5{
         height: 1680px;
 
-        .servicios-seccion-5-introduccion-titulo {
-            font-size: MIN(calc(14px + 2vw), 30px);
-        }
-    
-        .servicios-seccion-5-introduccion-parrafo1{
-            font-size: MIN((14.6px + 0.2vw), 20px);
-        }
+        .servicios-seccion-5-introduccion {
+
+            .servicios-seccion-5-introduccion-titulo {
+                font-size: MIN(calc(14px + 2vw), 30px);
+            }
         
-        .servicios-seccion-5-introduccion-parrafo2{
-            font-size: MIN((14.6px + 0.2vw), 20px);
+            .servicios-seccion-5-introduccion-parrafo1{
+                font-size: MIN((14.6px + 0.2vw), 20px);
+            }
+            
+            .servicios-seccion-5-introduccion-parrafo2{
+                font-size: MIN((14.6px + 0.2vw), 20px);
+            }
         }
 
         .servicios-seccion-5-explicacion{
@@ -1715,6 +1722,21 @@
     .servicios-seccion-5{
         height: 1750px;
 
+        .servicios-seccion-5-introduccion {
+
+            .servicios-seccion-5-introduccion-titulo {
+                font-size: MIN(calc(14px + 2vw), 30px);
+            }
+        
+            .servicios-seccion-5-introduccion-parrafo1{
+                font-size: MIN((14.6px + 0.3vw), 20px);
+            }
+            
+            .servicios-seccion-5-introduccion-parrafo2{
+                font-size: MIN((14.6px + 0.3vw), 20px);
+            }
+        }
+
         .servicios-seccion-5-explicacion{
             height: 1000px;
             margin-top: 40px;
@@ -1761,7 +1783,7 @@
             }
             
             .servicios-seccion-5-introduccion-parrafo1{
-                font-size: calc(10px + 0.55vw);
+                font-size: calc(14px + 0.4vw);
                 padding-right: 20px;
                 margin-left: 50px;
                 margin-right: 50px;
@@ -1770,7 +1792,7 @@
             }
         
             .servicios-seccion-5-introduccion-parrafo2{
-                font-size: calc(10px + 0.55vw);
+                font-size: calc(14px + 0.4vw);
                 padding-right: 20px;
                 margin-left: 50px;
                 margin-right: 50px;

@@ -64,8 +64,8 @@
         padding-bottom: 10px;
     }
     
-    .portada-cuadro-texto p{
-        max-width: 380px;
+    .portada .portada-cuadro .portada-cuadro-texto p{
+        max-width: 400px;
         font-size: MIN(calc(11px + 0.6vw), 36px);
         color: #404040;
         padding: 0 1px 0 0;
@@ -111,7 +111,7 @@
                     max-width: 450px;
                     font-size: MIN(calc(11px + 0.6vw), 36px);
                     color: #404040;
-                    padding: 0 1px 0 0;
+                    padding: 0px;
                 }
             }
         }
@@ -138,7 +138,7 @@
 
             & p{
                 max-width: 650px;
-                font-size: MIN(calc(12px + 0.75vw), 24px);
+                font-size: MIN(calc(12px + 0.75vw), 22px);
             }
         }
     }
@@ -661,6 +661,7 @@
                 font-weight: 400;
                 font-size: calc(9px + 0.75vw);
                 color: #404040;
+                padding-right: 20px;
             }
         }
 

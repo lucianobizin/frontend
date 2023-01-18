@@ -547,10 +547,10 @@
 @media screen and (min-width: 768px) {
 
     .innovacion-seccion-3 {
-        height: 1300px;
+        height: 1350px;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: 100px 480px 100px 500px;
+        grid-template-rows: 100px 480px 150px 500px;
         grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
 
         .innovacion-seccion-3-titulo {
@@ -583,7 +583,7 @@
 
         .innovacion-seccion-3-beneficios {
             width: 50vw;
-            height: 600px;
+            height: calc(600px - 14vw);
             grid-area: beneficios;
             margin-top: 4px;
 
@@ -602,8 +602,10 @@
 
         .innovacion-seccion-3-pregunta {
             width: 100vw;
-            height: 100px;
+            height: 150px;
             grid-area: boton;
+            margin-top: 20px;
+            padding: 20px;
 
             .innovacion-seccion-3-pregunta-titulo h3 {
                 font-size: calc(14px + 0.65vw);
@@ -708,6 +710,8 @@
 
         .innovacion-seccion-3-pregunta{
             padding-left: 60px;
+            height: 100px;
+            margin-top: 0px;
 
             .innovacion-seccion-3-pregunta-boton {
                 height: 50px;

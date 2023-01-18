@@ -299,8 +299,8 @@ footer .footer-copyright p {
     color: #404040;
     padding-bottom: 10px;
   }
-  .portada-cuadro-texto p {
-    max-width: 380px;
+  .portada .portada-cuadro .portada-cuadro-texto p {
+    max-width: 400px;
     font-size: min(11px + 0.6vw, 36px);
     color: #404040;
     padding: 0 1px 0 0;
@@ -340,7 +340,7 @@ footer .footer-copyright p {
     max-width: 450px;
     font-size: min(11px + 0.6vw, 36px);
     color: #404040;
-    padding: 0 1px 0 0;
+    padding: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -361,7 +361,7 @@ footer .footer-copyright p {
   }
   .portada .portada-cuadro .portada-cuadro-texto p {
     max-width: 650px;
-    font-size: min(12px + 0.75vw, 24px);
+    font-size: min(12px + 0.75vw, 22px);
   }
 }
 /* ___ Segunda sección ___ */
@@ -802,6 +802,7 @@ footer .footer-copyright p {
     font-weight: 400;
     font-size: calc(9px + 0.75vw);
     color: #404040;
+    padding-right: 20px;
   }
   .seccion-3 .seccion-3-servicios-2 {
     height: 280px;
@@ -1180,7 +1181,7 @@ footer .footer-copyright p {
 }
 .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto {
   width: 80%;
-  max-width: 380px;
+  max-width: 400px;
   border: 4px #404040 solid;
   padding: 20px;
 }
@@ -1228,7 +1229,7 @@ footer .footer-copyright p {
   }
   .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto {
     width: 80%;
-    max-width: 375px;
+    max-width: 400px;
     padding: 20px;
   }
   .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto h1 {
@@ -1250,17 +1251,20 @@ footer .footer-copyright p {
     height: 810px;
     grid-template-rows: 810px;
   }
-  .nosotros-portada .nosotros-portada-cuadro-texto {
+  .nosotros-portada .nosotros-portada-cuadro {
+    height: 100%;
+  }
+  .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto {
     width: 80%;
-    max-width: 600px;
+    max-width: 500px;
     border: 4px #404040 solid;
     padding: 40px;
   }
-  .nosotros-portada .nosotros-portada-cuadro-texto h1 {
+  .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto h1 {
     font-size: min(18px + 2vw, 50.35px);
     margin: 15px 0px;
   }
-  .nosotros-portada .nosotros-portada-cuadro-texto p {
+  .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto p {
     font-size: min(12px + 0.75vw, 25.6px);
   }
 }
@@ -1384,8 +1388,8 @@ footer .footer-copyright p {
   .nosotros-seccion-2 .nosotros-seccion-2-explicacion {
     height: 900px;
   }
-  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion h3 {
-    font-size: calc(10px + 0.5vw);
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion-h3 {
+    font-size: calc(10px + 0.25vw);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1404,7 +1408,7 @@ footer .footer-copyright p {
   .nosotros-seccion-2 .nosotros-seccion-2-explicacion p {
     font-size: 16px;
   }
-  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion h3 {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion-h3 {
     font-size: calc(10px + 0.6vw);
   }
 }
@@ -1470,7 +1474,7 @@ footer .footer-copyright p {
     flex-wrap: row wrap;
     justify-content: flex-start;
     gap: 10px;
-    font-size: calc(10px + 0.4vw);
+    font-size: calc(10px + 0.55vw);
     color: #404040;
   }
 }
@@ -1539,7 +1543,7 @@ footer .footer-copyright p {
   flex-flow: row wrap;
   justify-content: flex-start;
   gap: 10px;
-  font-size: 10.8px;
+  font-size: calc(10px + 0.4vw);
   color: #404040;
 }
 
@@ -1551,8 +1555,8 @@ footer .footer-copyright p {
   .nosotros-seccion-3 .nosotros-seccion-3-explicacion {
     height: 900px;
   }
-  .nosotros-seccion-3 .nosotros-seccion-3-explicacion h3 {
-    font-size: 12.5px;
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion .nosotros-seccion-3-explicacion-h3 {
+    font-size: calc(10px + 0.25vw);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1571,7 +1575,7 @@ footer .footer-copyright p {
   .nosotros-seccion-3 .nosotros-seccion-3-explicacion p {
     font-size: 16px;
   }
-  .nosotros-seccion-3 .nosotros-seccion-3-explicacion .nosotros-seccion-3-explicacion h3 {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion .nosotros-seccion-3-explicacion-h3 {
     font-size: calc(10px + 0.6vw);
   }
 }
@@ -1638,7 +1642,7 @@ footer .footer-copyright p {
     flex-wrap: row wrap;
     justify-content: flex-start;
     gap: 10px;
-    font-size: calc(10px + 0.4vw);
+    font-size: calc(10px + 0.55vw);
     color: #404040;
   }
 }
@@ -1818,8 +1822,8 @@ footer .footer-copyright p {
   align-items: center;
 }
 .servicios-portada .servicios-portada-cuadro .servicios-portada-cuadro-texto {
-  width: 90%;
-  max-width: 450px;
+  width: 92%;
+  max-width: 430px;
   border: 4px #404040 solid;
   padding: 20px;
 }
@@ -1840,7 +1844,7 @@ footer .footer-copyright p {
     height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 50vw);
-    grid-template-rows: 750px;
+    grid-template-rows: 500px;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -1871,24 +1875,25 @@ footer .footer-copyright p {
 @media screen and (min-width: 1200px) {
   .servicios-portada {
     height: 810px;
+    grid-template-rows: 810px;
   }
   .servicios-portada .servicios-portada-imagen {
     width: 85%;
     height: 85%;
     object-fit: contain;
   }
-  .servicios-portada .servicios-portada-cuadro-texto {
+  .servicios-portada .servicios-portada-cuadro .servicios-portada-cuadro-texto {
     width: 85%;
     max-width: 550px;
     max-height: 600px;
     border: 4px #404040 solid;
     padding: 40px;
   }
-  .servicios-portada .servicios-portada-cuadro-texto h1 {
+  .servicios-portada .servicios-portada-cuadro .servicios-portada-cuadro-texto h1 {
     font-size: min(20px + 1.6vw, 45px);
     margin: 15px 0px;
   }
-  .servicios-portada .servicios-portada-cuadro-texto p {
+  .servicios-portada .servicios-portada-cuadro .servicios-portada-cuadro-texto p {
     font-size: min(12px + 0.7vw, 22.6px);
   }
 }
@@ -1927,7 +1932,7 @@ footer .footer-copyright p {
   font-weight: 400;
   font-size: 14.6px;
   color: #404040;
-  max-width: 388.4px;
+  max-width: 680px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion {
   width: 100vw;
@@ -3166,13 +3171,13 @@ footer .footer-copyright p {
   .servicios-seccion-5 {
     height: 1680px;
   }
-  .servicios-seccion-5 .servicios-seccion-5-introduccion-titulo {
+  .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-titulo {
     font-size: min(14px + 2vw, 30px);
   }
-  .servicios-seccion-5 .servicios-seccion-5-introduccion-parrafo1 {
+  .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo1 {
     font-size: min(14.6px + 0.2vw, 20px);
   }
-  .servicios-seccion-5 .servicios-seccion-5-introduccion-parrafo2 {
+  .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo2 {
     font-size: min(14.6px + 0.2vw, 20px);
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion {
@@ -3216,6 +3221,15 @@ footer .footer-copyright p {
   .servicios-seccion-5 {
     height: 1750px;
   }
+  .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-titulo {
+    font-size: min(14px + 2vw, 30px);
+  }
+  .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo1 {
+    font-size: min(14.6px + 0.3vw, 20px);
+  }
+  .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo2 {
+    font-size: min(14.6px + 0.3vw, 20px);
+  }
   .servicios-seccion-5 .servicios-seccion-5-explicacion {
     height: 1000px;
     margin-top: 40px;
@@ -3256,7 +3270,7 @@ footer .footer-copyright p {
     grid-area: imagen;
   }
   .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo1 {
-    font-size: calc(10px + 0.55vw);
+    font-size: calc(14px + 0.4vw);
     padding-right: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -3264,7 +3278,7 @@ footer .footer-copyright p {
     align-self: center;
   }
   .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo2 {
-    font-size: calc(10px + 0.55vw);
+    font-size: calc(14px + 0.4vw);
     padding-right: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -3786,10 +3800,10 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 768px) {
   .innovacion-seccion-3 {
-    height: 1300px;
+    height: 1350px;
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 100px 480px 100px 500px;
+    grid-template-rows: 100px 480px 150px 500px;
     grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
   }
   .innovacion-seccion-3 .innovacion-seccion-3-titulo {
@@ -3817,7 +3831,7 @@ footer .footer-copyright p {
   }
   .innovacion-seccion-3 .innovacion-seccion-3-beneficios {
     width: 50vw;
-    height: 600px;
+    height: calc(600px - 14vw);
     grid-area: beneficios;
     margin-top: 4px;
   }
@@ -3832,8 +3846,10 @@ footer .footer-copyright p {
   }
   .innovacion-seccion-3 .innovacion-seccion-3-pregunta {
     width: 100vw;
-    height: 100px;
+    height: 150px;
     grid-area: boton;
+    margin-top: 20px;
+    padding: 20px;
   }
   .innovacion-seccion-3 .innovacion-seccion-3-pregunta .innovacion-seccion-3-pregunta-titulo h3 {
     font-size: calc(14px + 0.65vw);
@@ -3917,6 +3933,8 @@ footer .footer-copyright p {
   }
   .innovacion-seccion-3 .innovacion-seccion-3-pregunta {
     padding-left: 60px;
+    height: 100px;
+    margin-top: 0px;
   }
   .innovacion-seccion-3 .innovacion-seccion-3-pregunta .innovacion-seccion-3-pregunta-boton {
     height: 50px;
@@ -4117,8 +4135,9 @@ footer .footer-copyright p {
     padding: calc(40px - 1vw) 20px 20px 20px;
   }
   .contacto-seccion-2 .contacto-seccion-2-trabajo .contacto-seccion-2-trabajo-parrafo p {
-    max-width: 1150px;
+    max-width: 1100px;
     font-size: calc(12px + 0.5vw);
+    padding-right: 50px;
   }
   .contacto-seccion-2 .contacto-seccion-2-trabajo .contacto-seccion-2-trabajo-strong {
     height: 100px;
@@ -4283,7 +4302,7 @@ footer .footer-copyright p {
     height: 1150px;
   }
   .contacto-seccion-3 .contacto-seccion-3-imagen {
-    height: 450px;
+    height: calc(450px - 10vw);
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario {
     height: 700px;

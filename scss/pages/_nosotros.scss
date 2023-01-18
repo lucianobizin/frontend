@@ -18,7 +18,7 @@
 
         .nosotros-portada-cuadro-texto{
             width: 80%;
-            max-width: 380px;
+            max-width: 400px;
             border: 4px #404040 solid;
             padding: 20px;
 
@@ -75,7 +75,7 @@
 
             .nosotros-portada-cuadro-texto{
                 width: 80%;
-                max-width: 375px;
+                max-width: 400px;
                 padding: 20px;
 
                 & h1{
@@ -104,19 +104,23 @@
         height: 810px;
         grid-template-rows: 810px;
 
-        .nosotros-portada-cuadro-texto{
-            width: 80%;
-            max-width: 600px;
-            border: 4px #404040 solid;
-            padding: 40px;
+        .nosotros-portada-cuadro{
+            height:100%;
 
-            & h1{
-                font-size: MIN(calc(18px + 2vw), 50.35px);
-                margin: 15px 0px;
-            }
-
-            & p{
-                font-size: MIN(calc(12px + 0.75vw), 25.6px);
+            .nosotros-portada-cuadro-texto{
+                width: 80%;
+                max-width: 500px;
+                border: 4px #404040 solid;
+                padding: 40px;
+    
+                & h1{
+                    font-size: MIN(calc(18px + 2vw), 50.35px);
+                    margin: 15px 0px;
+                }
+    
+                & p{
+                    font-size: MIN(calc(12px + 0.75vw), 25.6px);
+                }
             }
         }
     }
@@ -263,8 +267,8 @@
         .nosotros-seccion-2-explicacion {
             height: 900px;
 
-            .nosotros-seccion-2-explicacion h3 {
-                font-size: calc(10px + 0.5vw);
+            .nosotros-seccion-2-explicacion-h3 {
+                font-size: calc(10px + 0.25vw);
             }
         }
     }
@@ -289,7 +293,7 @@
                 font-size: 16px;
             }
 
-            .nosotros-seccion-2-explicacion h3 {
+            .nosotros-seccion-2-explicacion-h3 {
                 font-size: calc(10px + 0.6vw);
             }
         }
@@ -381,7 +385,7 @@
                 flex-wrap: row wrap;
                 justify-content: flex-start;
                 gap: 10px;
-                font-size: calc(10px + 0.4vw);
+                font-size: calc(10px + 0.55vw);
                 color: #404040;
             }
         }
@@ -466,7 +470,7 @@
             flex-flow: row wrap;
             justify-content: flex-start;
             gap: 10px;
-            font-size: 10.8px;
+            font-size: calc(10px + 0.4vw);
             color: #404040;
         }
     }
@@ -484,8 +488,8 @@
         .nosotros-seccion-3-explicacion {
             height: 900px;
 
-            & h3 {
-                font-size: 12.5px;
+            .nosotros-seccion-3-explicacion-h3 {
+                font-size: calc(10px + 0.25vw);
             }
         }
     }
@@ -511,7 +515,7 @@
                 font-size: 16px;
             }
 
-            .nosotros-seccion-3-explicacion h3 {
+            .nosotros-seccion-3-explicacion-h3 {
                 font-size: calc(10px + 0.6vw);
             }
         }
@@ -594,7 +598,7 @@
                 flex-wrap: row wrap;
                 justify-content: flex-start;
                 gap: 10px;
-                font-size: calc(10px + 0.4vw);
+                font-size: calc(10px + 0.55vw);
                 color: #404040;
             }
         }
