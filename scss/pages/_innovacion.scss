@@ -1,0 +1,731 @@
+/* === Innovación === */
+
+  /* ___ Primera sección o portada___ */
+
+  .innovacion-portada{
+    width: 100vw;
+    height: 700px;
+    background-color: #ffc72c;
+}
+
+.innovacion-portada-cuadro {
+    width:100vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innovacion-portada-cuadro-texto{
+    width: 85%;
+    max-width: 430px;
+    border: 4px #404040 solid;
+    padding: 20px;
+}
+
+.innovacion-portada-cuadro-texto h1{
+    font-size: calc(20px + 2.5vw);
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 10px;
+}
+
+.innovacion-portada-cuadro-texto p{
+    font-size: calc(11px + 0.6vw);
+    color: #404040;
+    padding: 0 1px 0 0;
+}
+
+.innovacion-portada-imagen{
+    width:100vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innovacion-portada-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+/* innovación sección 1 o portada media screen */
+
+@media screen and (min-width: 768px) {
+
+    .innovacion-portada{
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 500px;
+        grid-template-areas: "cuadro imagen";
+        
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .innovacion-portada-cuadro {
+        width:100%;
+        height: 80%;
+        grid-area: cuadro;
+        max-width: 408px;
+        }
+    
+    .innovacion-portada-cuadro-texto{
+        width: 85%;
+        max-width: 600px;
+        padding: 20px;
+    }
+    
+    .innovacion-portada-cuadro-texto h1{
+        font-size: MIN(calc(18px + 2vw), 38.6px);
+        margin: 10px 0px
+    }
+    
+    .innovacion-portada-cuadro-texto p{
+        font-size: MIN(calc(12px + 0.5vw), 17.09px);
+        margin: 10px 0px
+    }
+    
+    .innovacion-portada-imagen{
+        width:100%;
+        height: 100%;
+        grid-area: imagen;
+    }
+
+    .innovacion-portada-imagen img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .innovacion-portada{
+        height: 810px;
+        grid-template-rows: 810px;
+        grid-template-areas: "cuadro imagen";
+    }
+
+    .innovacion-portada-cuadro{
+        width: 80%;
+        height: 100%;
+        max-width: 1200px;
+        padding: 20px;
+    }
+
+
+    .innovacion-portada-cuadro-texto{
+        width: 90%;
+        max-width: 650px;
+        border: 4px #404040 solid;
+        padding: 40px;
+    }
+    
+    .innovacion-portada-cuadro-texto h1{
+        font-size: calc(20px + 2vw);
+        margin: 15px 0px;
+    }
+    
+    .innovacion-portada-cuadro-texto p{
+        font-size: calc(12px + 0.75vw);
+    }
+
+    .innovacion-portada-imagen img{
+        height: 90%;
+        width: 90%;
+        object-fit: contain;
+    }
+}
+
+  /* ___ Segunda sección ___ */
+
+.innovacion-seccion-2 {
+    width: 100vw;
+    height: calc(1200px - 15vw);
+}
+
+.innovacion-seccion-2-explicacion {
+    width: 100vw;
+    height: calc(750px - 5.5vw);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.innovacion-seccion-2-explicacion h2 {
+    width: 50vw;
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+}
+
+.innovacion-seccion-2-explicacion p {
+    font-size: calc(12px + 0.25vw);
+}
+
+.innovacion-seccion-2-explicacion-h3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.innovacion-seccion-2-explicacion h3 {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
+}
+
+.innovacion-seccion-2-foto {
+    width: 100vw;
+    height: 280px;
+    background-color: white;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.innovacion-seccion-2-foto-foto {
+    width: 100vw;
+    max-height: 270px;
+    position: relative;
+    object-fit: contain;
+    display: block;
+    margin-top: 40px;
+}
+
+/* innovacion sección 2 media screen */
+
+@media screen and (min-width:480px) {
+
+    .innovacion-seccion-2 {
+        height: calc(1170px - 15vw);
+    }
+
+    .innovacion-seccion-2-explicacion {
+        height: calc(650px - 1.25px);
+    }
+
+    .innovacion-seccion-2-explicacion h3 {
+        font-size: calc(10px + 0.4vw);
+    }
+
+    .innovacion-seccion-2-foto {
+        height: 350px;
+    }
+
+    .innovacion-seccion-2-foto-foto {
+        max-height: 300px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .innovacion-seccion-2 {
+        width: 100vw;
+        height: calc(1100px - 25vw);
+    }
+    
+    .innovacion-seccion-2-explicacion {
+        width: 100vw;
+        height: calc(600px - 15vw);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 40px;
+    }
+
+    .innovacion-seccion-2-foto {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .innovacion-seccion-2 {
+        width: 100vw;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 650px;
+        grid-template-areas: "innovacionSeccion2foto innovacionSeccion2texto" "innovacionSeccion2foto innovacionSeccion2texto";
+    }
+    
+    .innovacion-seccion-2-foto {
+        width: 50vw;
+        height: 800px;
+        background-color: rgb(216, 216, 216);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        grid-area: innovacionSeccion2foto;
+
+        margin-top: 0px;
+    }
+    
+    .innovacion-seccion-2-foto-foto {
+        width: 90%;
+        height: 90%;
+        max-height: 470px;
+        object-fit: contain;
+        display: block;
+    }
+    
+    .innovacion-seccion-2-explicacion {
+        width: 50vw;
+        height: 800px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 45px 40px 60px 40px;
+
+        grid-area: innovacionSeccion2texto;
+    }
+    
+    .innovacion-seccion-2-explicacion h2 {
+        width: 35vw;
+        font-size: calc(14px + 1.25vw);
+        color: #404040;
+    }
+    
+    .innovacion-seccion-2-explicacion p {
+        display: block;
+        font-size: MIN(16px + 0.5vw, 20px);
+    }
+    
+    .innovacion-seccion-2-explicacion-h3 {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+        font-size: MIN(16px + 0.5vw, 20px);
+        color: #404040;
+        gap: 10px;
+    }
+}
+
+  /* ___ Tercera sección ___ */
+
+.innovacion-seccion-3 {
+    width: 100vw;
+    height: calc(1550px - 15vw);
+    background-color:  rgb(216, 216, 216);   
+}
+
+.innovacion-seccion-3-titulo {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.innovacion-seccion-3-titulo h2{
+    font-size: calc(14px + 1.25vw);
+    color: #404040;
+    padding: 30px 20px 10px 20px;
+}
+
+.innovacion-seccion-3-ml{
+    width:100vw;
+    height: calc(480px - 1vw);
+    padding: 0px 20px;
+}
+
+.innovacion-seccion-3-ml-titulo {
+    width: 50vw;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.innovacion-seccion-3-ml-titulo h3 {
+    font-size: calc(14px + 0.65vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-ml-texto {
+    width: 85vw;
+    height: calc(450px - 0.3vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.innovacion-seccion-3-ml-texto-parrafos {
+    font-size: calc(12px + 0.15vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-ml-texto-parrafos p {
+    margin-bottom: 20px;
+}
+
+.innovacion-seccion-3-beneficios {
+    width: 100vw;
+    height: 410px;
+    padding: 0px 20px;
+}
+
+.innovacion-seccion-3-beneficios-titulo {
+    width: 70vw;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+    
+.innovacion-seccion-3-beneficios-titulo h3 {
+    font-size: calc(14px + 0.65vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-beneficios-listado1 {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style:disc;
+    margin-left: 4px;
+}
+
+.innovacion-seccion-3-beneficios-listado1 li {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.innovacion-seccion-3-beneficios-listado2 {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    list-style:disc;
+    margin-left: 4px;
+}
+
+.innovacion-seccion-3-beneficios-listado2 li {
+    font-size: calc(10px + 0.25vw);
+    color: #404040;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.innovacion-seccion-3-pregunta {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.innovacion-seccion-3-pregunta-titulo {
+    width: 85vw;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.innovacion-seccion-3-pregunta-titulo h3 {
+    font-size: calc(12px + 0.5vw);
+    color: #404040;
+}
+
+.innovacion-seccion-3-pregunta-boton {
+    width: 40vw;
+    height: 40px;
+    background-color: #ffc72c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.innovacion-seccion-3-pregunta-boton:hover{
+    background-color: #404040;
+    transition: 0.5s;
+    color: #ffc72c;
+}
+
+.innovacion-seccion-3-pregunta-boton a{
+    font-size: calc(12px + 0.5vw);
+    font-weight: 500;
+    color: #404040;
+}
+
+.innovacion-seccion-3-pregunta-boton a:hover{
+    transition: 0.5s;
+    color: #ffc72c;
+}
+
+.innovacion-seccion-3-foto {
+    width: 100vw;
+    height: 350px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.innovacion-seccion-3-foto img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: contain;
+}
+
+/* innovacion sección 3 media screen */
+
+@media screen and (min-width: 480px) {
+
+    .innovacion-seccion-3 {
+        height: calc(1550px - 20vw);
+    }
+
+    .innovacion-seccion-3-beneficios{
+        margin-top: 25px;
+    }
+
+    .innovacion-seccion-3-ml{
+        height: calc(410px - 12vw);
+        padding: 0px 20px;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        width: 90vw;
+        height: calc(330px - 10vw);
+    }
+
+    .innovacion-seccion-3-ml-texto-parrafos p{
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .innovacion-seccion-3 {
+        height: 1425px;
+    }
+
+    .innovacion-seccion-3-ml{
+        height: 310px;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        width: 90vw;
+        height: 330px;
+    }
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 565px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .innovacion-seccion-3 {
+        height: 1300px;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 480px 100px 500px;
+        grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
+    }    
+
+    .innovacion-seccion-3-titulo {
+        width: 100vw;
+        height: 100px;
+        grid-area: titulo;
+    }
+
+    .innovacion-seccion-3-ml{
+        width:48vw;
+        height: 450px;
+        padding: 0px 5px 0px 20px;
+        grid-area: ml;
+    }
+
+    .innovacion-seccion-3-ml-titulo{
+        width:30vw;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        width: 48vw;
+        max-width: 385px;
+        height: 400px;
+    }
+
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        font-size: calc(12px + 0.20vw);
+    }
+
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 40vw;
+    }
+
+    .innovacion-seccion-3-beneficios {
+        width: 50vw;
+        height: 600px;
+        grid-area: beneficios;
+        margin-top: 4px;
+    }
+
+    .innovacion-seccion-3-beneficios-titulo {
+        width: 40vw;
+    }
+
+    .innovacion-seccion-3-beneficios-listado1 {
+        width: 40vw;
+    }
+
+    .innovacion-seccion-3-beneficios-listado2 {
+        width: 40vw;
+    }
+
+    .innovacion-seccion-3-pregunta {
+        width: 100vw;
+        height: 100px;
+        grid-area: boton;
+    }
+
+    .innovacion-seccion-3-pregunta-titulo h3 {
+        font-size: calc(14px + 0.65vw);
+    }
+
+    .innovacion-seccion-3-pregunta-boton {
+        width: 20vw;
+    }
+
+    .innovacion-seccion-3-foto {
+        width: 100vw;
+        height: 500px;
+        position: relative;
+        grid: foto;
+    }
+
+    .innovacion-seccion-3-foto-foto {
+        grid: foto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .innovacion-seccion-3 {
+        height: 1250px;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 100px 430px 100px 600px;
+        grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
+    }    
+
+    .innovacion-seccion-3-ml{
+        width:50vw;
+        height: 400px;
+        grid-area: ml;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        max-width: 430px;
+        height: 400px;
+    }
+
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .innovacion-seccion-3 {
+        height: 1600px;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 160px calc(700px - 1vw) 100px 600px;
+        grid-template-areas: "titulo titulo" "ml beneficios" "boton boton" "foto foto";
+    }    
+
+    .innovacion-seccion-3-titulo {
+        margin-top: 10px;
+    }
+
+    .innovacion-seccion-3-titulo h2 {
+        padding-left: 60px;
+        padding-top: 60px;
+        font-size: MIN(calc(14px + 1.25vw), 35px);
+    }
+
+    .innovacion-seccion-3-ml{
+        width:50vw;
+        height: calc(700px - 1vw);
+        grid-area: ml;
+        padding-left: 60px;
+    }
+    
+    .innovacion-seccion-3-ml-texto {
+        max-width: calc(350px + 15vw);
+        height: 700px;
+    }
+
+    .innovacion-seccion-3-ml-texto-parrafos {
+        max-width: calc(350px + 15vw);
+        font-size: MIN(calc(16px + 0.5vw), 20px);
+    }
+    
+    .innovacion-seccion-3-ml-texto-parrafos p {
+        max-width: calc(350px + 15vw);
+        font-size: MIN(calc(16px + 0.5vw), 20px);
+    }
+
+    .innovacion-seccion-3-beneficios {
+        height: 650px;
+        padding-left: 90px;
+        margin-top: 0px;
+    }
+
+    .innovacion-seccion-3-beneficios-listado1 li {
+        font-size: MIN(calc(14px + 0.25vw), 18px);
+    }
+
+    .innovacion-seccion-3-beneficios-listado2 li{
+        font-size: MIN(calc(14px + 0.25vw), 18px);
+    }
+
+    .innovacion-seccion-3-pregunta{
+        padding-left: 60px;
+    }
+
+    .innovacion-seccion-3-pregunta-boton {
+        height: 50px;
+    }
+
+    .innovacion-seccion-3-pregunta-boton a{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

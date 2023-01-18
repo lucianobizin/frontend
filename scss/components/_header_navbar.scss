@@ -7,118 +7,118 @@ header {
     grid-template-rows: 10vh;
     grid-template-areas: "imagen nombre boton";
     background-color: #ffc72c;
-}
 
-header img {
-    grid-area: imagen;
-    height: 100%;
-    width: 100%;
-    object-fit:contain;
-    padding: 5px;
-}
+    & img {
+        grid-area: imagen;
+        height: 100%;
+        width: 100%;
+        object-fit:contain;
+        padding: 5px;
+    }
 
-header h1 {
-    grid-area: nombre;
-    font-size: calc(12px + 0.3vw);
-    color: #404040;
-    padding: calc(12px - 0.5vw);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    & h1 {
+        grid-area: nombre;
+        font-size: calc(12px + 0.3vw);
+        color: #404040;
+        padding: calc(12px - 0.5vw);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.boton-header{
-    width:15vw;
-    height: 10vh;
-    grid-area: boton;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    .boton-header{
+        width:15vw;
+        height: 10vh;
+        grid-area: boton;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
 
-}
+        & input {
+            opacity: 0;
+            pointer-events: none;
+            touch-action: none;
+            display: none;
+        }
+    
+        .boton-menu-label{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
 
-.boton-menu-label{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
+            .logo-menu{
+                width:75%;
+                height: 75%;
+                object-fit: cover;
+                padding: 5px;
+            }
+        }
 
-header div input {
-    opacity: 0;
-    pointer-events: none;
-    touch-action: none;
-    display: none;
-}
+        .menu-desplegable{
+            background-color: #ffc72c;
+            height: 500px;
+            width: 90vw;
+            display: none;
+            top: 10vh;
+            position: absolute;
+            flex-direction: column;
+            align-items: center;
+            padding: MIN(10vh, 100px) 0px;
+            left: -80vw;
 
-.logo-menu{
-    width:75%;
-    height: 75%;
-    object-fit: cover;
-    padding: 5px;
-}
+            .menu-desplegable-texto{
+                font-size: calc(12px + 0.3vw);
+                font-weight: 600;
+                color: #404040da;
+                width: 200px;
+                text-align: center;
+            }
+        }
+        
+        input:checked ~ .menu-desplegable {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+            
+        .menu-desplegable-texto:hover{
+            font-weight: bold;
+        }    
 
-.menu-desplegable{
-    background-color: #ffc72c;
-    height: 500px;
-    width: 90vw;
-    display: none;
-    top: 10vh;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    padding: MIN(10vh, 100px) 0px;
-    left: -80vw;
-}
-
-.menu-desplegable-texto{
-    font-size: calc(12px + 0.3vw);
-    font-weight: 600;
-    color: #404040da;
-    width: 200px;
-    text-align: center;
-}
-
-input:checked ~ .menu-desplegable {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.menu-desplegable-texto:hover{
-    font-weight: bold;
+    }
 }
 
 /* header media screen */
 
 @media screen and (min-width: 768px) {
 
-    .header {
+    header {
         grid-template-rows: 15vh;
-    }
 
-    .menu-desplegable{
-        height: 480px;
-        width: 95vw;
-        left: -83vw;
-        row-gap: MIN(15vh, 100px);
-        padding: MIN(5vh, 100px);
-    }
+        & img {
+            padding: 12px;
+        }
 
-    header img {
-        padding: 12px;
-    }
+        & h1 {
+            grid-area: nombre;
+            font-size: calc(16px + 0.25vw);
+            color: #404040;
+            padding: calc(12px - 0.5vw);
+        }
 
-    header h1 {
-        grid-area: nombre;
-        font-size: calc(16px + 0.25vw);
-        color: #404040;
-        padding: calc(12px - 0.5vw);
-    }
-
-    .menu-desplegable-texto{
-        font-size: calc(18px + 0.25vw);
-        font-weight: 600;
+        .menu-desplegable{
+            height: 480px;
+            width: 95vw;
+            left: -83vw;
+            row-gap: MIN(15vh, 100px);
+            padding: MIN(5vh, 100px);
+        }
+    
+        .menu-desplegable-texto{
+            font-size: calc(18px + 0.25vw);
+            font-weight: 600;
+        }
     }
 }
 
@@ -134,3 +134,4 @@ input:checked ~ .menu-desplegable {
         height: 615px;
     }
 }
+
