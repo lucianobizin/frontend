@@ -1171,44 +1171,38 @@ footer .footer-copyright p {
   height: 750px;
   background-color: #ffc72c;
 }
-
-.nosotros-portada-cuadro {
+.nosotros-portada .nosotros-portada-cuadro {
   width: 100vw;
   height: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.nosotros-portada-cuadro-texto {
+.nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto {
   width: 80%;
   max-width: 380px;
   border: 4px #404040 solid;
   padding: 20px;
 }
-
-.nosotros-portada-cuadro-texto h1 {
+.nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto h1 {
   font-size: min(20px + 2.5vw, 34px);
   font-weight: bold;
   color: #404040;
   padding-bottom: 10px;
 }
-
-.nosotros-portada-cuadro-texto p {
+.nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto p {
   font-size: min(11px + 0.6vw, 14.3px);
   color: #404040;
   padding: 0 1px 0 0;
 }
-
-.nosotros-portada-imagen {
+.nosotros-portada .nosotros-portada-imagen {
   width: 100vw;
   height: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.nosotros-portada-imagen img {
+.nosotros-portada .nosotros-portada-imagen img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -1227,25 +1221,25 @@ footer .footer-copyright p {
     justify-items: center;
     align-items: center;
   }
-  .nosotros-portada-cuadro {
+  .nosotros-portada .nosotros-portada-cuadro {
     width: 100%;
     height: 80%;
     grid-area: cuadro;
   }
-  .nosotros-portada-cuadro-texto {
+  .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto {
     width: 80%;
     max-width: 375px;
     padding: 20px;
   }
-  .nosotros-portada-cuadro-texto h1 {
+  .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto h1 {
     font-size: min(18px + 2vw, 36.35px);
     margin: 10px 0px;
   }
-  .nosotros-portada-cuadro-texto p {
+  .nosotros-portada .nosotros-portada-cuadro .nosotros-portada-cuadro-texto p {
     font-size: min(12px + 0.5vw, 16.58px);
     margin: 10px 0px;
   }
-  .nosotros-portada-imagen {
+  .nosotros-portada .nosotros-portada-imagen {
     width: 100%;
     height: 85%;
     grid-area: imagen;
@@ -1256,17 +1250,17 @@ footer .footer-copyright p {
     height: 810px;
     grid-template-rows: 810px;
   }
-  .nosotros-portada-cuadro-texto {
+  .nosotros-portada .nosotros-portada-cuadro-texto {
     width: 80%;
     max-width: 600px;
     border: 4px #404040 solid;
     padding: 40px;
   }
-  .nosotros-portada-cuadro-texto h1 {
+  .nosotros-portada .nosotros-portada-cuadro-texto h1 {
     font-size: min(18px + 2vw, 50.35px);
     margin: 15px 0px;
   }
-  .nosotros-portada-cuadro-texto p {
+  .nosotros-portada .nosotros-portada-cuadro-texto p {
     font-size: min(12px + 0.75vw, 25.6px);
   }
 }
@@ -1275,8 +1269,7 @@ footer .footer-copyright p {
   width: 100vw;
   height: cal(1440px -5vw);
 }
-
-.nosotros-seccion-2-titular {
+.nosotros-seccion-2 .nosotros-seccion-2-titular {
   width: 100vw;
   height: 70px;
   background-color: rgb(216, 216, 216);
@@ -1285,31 +1278,26 @@ footer .footer-copyright p {
   align-items: center;
   padding: 0px 40px;
 }
-
-.nosotros-seccion-2-titular h2 {
+.nosotros-seccion-2 .nosotros-seccion-2-titular h2 {
   font-size: calc(14px + 1.25vw);
   color: #404040;
 }
-
-.nosotros-seccion-2-titular a {
+.nosotros-seccion-2 .nosotros-seccion-2-titular a {
   width: 50px;
   height: 50px;
 }
-
-.pulsate-bck {
-  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
-  animation: pulsate-bck 0.5s ease-in-out infinite both;
-}
-
-.nosotros-seccion-2-titular-a-img {
+.nosotros-seccion-2 .nosotros-seccion-2-titular a .nosotros-seccion-2-titular-a-img {
   width: 50px;
   height: 50px;
   animation-name: pulsate-bck;
   animation-iteration-count: infinite;
   animation-duration: 1s;
 }
-
-.nosotros-seccion-2-foto {
+.nosotros-seccion-2 .nosotros-seccion-2-titular .pulsate-bck {
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+.nosotros-seccion-2 .nosotros-seccion-2-foto {
   width: 100vw;
   max-height: 400px;
   background-color: rgb(216, 216, 216);
@@ -1317,15 +1305,13 @@ footer .footer-copyright p {
   flex-direction: column;
   justify-content: flex-end;
 }
-
-.nosotros-seccion-2-foto-foto {
+.nosotros-seccion-2 .nosotros-seccion-2-foto .nosotros-seccion-2-foto-foto {
   width: 100vw;
   max-height: 400px;
   object-fit: contain;
   display: block;
 }
-
-.nosotros-seccion-2-explicacion {
+.nosotros-seccion-2 .nosotros-seccion-2-explicacion {
   width: 100vw;
   height: calc(1000px - 3vw);
   display: flex;
@@ -1334,18 +1320,15 @@ footer .footer-copyright p {
   align-items: flex-start;
   padding: calc(40px + 0.5vw) 40px;
 }
-
-.nosotros-seccion-2-explicacion h2 {
+.nosotros-seccion-2 .nosotros-seccion-2-explicacion h2 {
   width: 50vw;
   font-size: 18.14px;
   color: #404040;
 }
-
-.nosotros-seccion-2-explicacion p {
+.nosotros-seccion-2 .nosotros-seccion-2-explicacion p {
   font-size: 12.8px;
 }
-
-.nosotros-seccion-2-explicacion-h3 {
+.nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion-h3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -1398,10 +1381,10 @@ footer .footer-copyright p {
   .nosotros-seccion-2 {
     height: 1380px;
   }
-  .nosotros-seccion-2-explicacion {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion {
     height: 900px;
   }
-  .nosotros-seccion-2-explicacion h3 {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion h3 {
     font-size: calc(10px + 0.5vw);
   }
 }
@@ -1410,27 +1393,18 @@ footer .footer-copyright p {
     width: 100vw;
     height: 1250px;
   }
-  .nosotros-seccion-2-explicacion {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion {
     width: 100vw;
     height: 750px;
     padding: 30px 40px;
   }
-  .nosotros-seccion-2-explicacion h2 {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion h2 {
     font-size: 22px;
   }
-  .nosotros-seccion-2-explicacion p {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion p {
     font-size: 16px;
   }
-  .nosotros-seccion-3 {
-    width: 100vw;
-    height: 1250px;
-  }
-  .nosotros-seccion-3-explicacion {
-    width: 100vw;
-    height: 750px;
-    padding: 30px 40px;
-  }
-  .nosotros-seccion-2-explicacion h3 {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion h3 {
     font-size: calc(10px + 0.6vw);
   }
 }
@@ -1443,7 +1417,7 @@ footer .footer-copyright p {
     grid-template-rows: 100px 750px;
     grid-template-areas: "nosotrosSeccion2titular nosotrosSeccion2texto" "nosotrosSeccion2foto nosotrosSeccion2texto";
   }
-  .nosotros-seccion-2-titular {
+  .nosotros-seccion-2 .nosotros-seccion-2-titular {
     width: 50vw;
     height: 100px;
     background-color: rgb(216, 216, 216);
@@ -1453,11 +1427,11 @@ footer .footer-copyright p {
     padding: 0px 40px;
     grid-area: nosotrosSeccion2titular;
   }
-  .nosotros-seccion-2-titular-a-img {
+  .nosotros-seccion-2 .nosotros-seccion-2-titular .nosotros-seccion-2-titular-a-img {
     width: 70px;
     height: 70px;
   }
-  .nosotros-seccion-2-foto {
+  .nosotros-seccion-2 .nosotros-seccion-2-foto {
     width: 50vw;
     max-height: 750px;
     background-color: rgb(216, 216, 216);
@@ -1466,13 +1440,13 @@ footer .footer-copyright p {
     justify-content: flex-end;
     grid-area: nosotrosSeccion2foto;
   }
-  .nosotros-seccion-2-foto-foto {
+  .nosotros-seccion-2 .nosotros-seccion-2-foto .nosotros-seccion-2-foto-foto {
     width: 50vw;
     max-height: 750px;
     object-fit: contain;
     display: block;
   }
-  .nosotros-seccion-2-explicacion {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion {
     width: 50vw;
     height: 800px;
     display: flex;
@@ -1482,22 +1456,20 @@ footer .footer-copyright p {
     padding: 10px 40px;
     margin-top: 15px;
   }
-  .nosotros-seccion-2-explicacion h2 {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion h2 {
     width: 45vw;
     font-size: calc(14px + 1.25vw);
     color: #404040;
   }
-  .nosotros-seccion-2-explicacion p {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion p {
     display: block;
     font-size: calc(12px + 0.25vw);
   }
-  .nosotros-seccion-2-explicacion-h3 {
+  .nosotros-seccion-2 .nosotros-seccion-2-explicacion .nosotros-seccion-2-explicacion-h3 {
     display: flex;
     flex-wrap: row wrap;
     justify-content: flex-start;
     gap: 10px;
-  }
-  .nosotros-seccion-2-explicacion h3 {
     font-size: calc(10px + 0.4vw);
     color: #404040;
   }
@@ -1507,8 +1479,7 @@ footer .footer-copyright p {
   width: 100vw;
   height: cal(1440px -5vw);
 }
-
-.nosotros-seccion-3-titular {
+.nosotros-seccion-3 .nosotros-seccion-3-titular {
   width: 100vw;
   height: 70px;
   background-color: rgb(216, 216, 216);
@@ -1517,26 +1488,22 @@ footer .footer-copyright p {
   align-items: center;
   padding: 0px 40px;
 }
-
-.nosotros-seccion-3-titular h2 {
+.nosotros-seccion-3 .nosotros-seccion-3-titular h2 {
   font-size: calc(14px + 1.25vw);
   color: #404040;
 }
-
-.nosotros-seccion-3-titular a {
+.nosotros-seccion-3 .nosotros-seccion-3-titular a {
   width: 50px;
   height: 50px;
 }
-
-.nosotros-seccion-3-titular-a-img {
+.nosotros-seccion-3 .nosotros-seccion-3-titular a .nosotros-seccion-3-titular-a-img {
   width: 50px;
   height: 50px;
   animation-name: pulsate-bck;
   animation-iteration-count: infinite;
   animation-duration: 1s;
 }
-
-.nosotros-seccion-3-foto {
+.nosotros-seccion-3 .nosotros-seccion-3-foto {
   width: 100vw;
   max-height: 400px;
   background-color: rgb(216, 216, 216);
@@ -1544,15 +1511,13 @@ footer .footer-copyright p {
   flex-direction: column;
   justify-content: flex-end;
 }
-
-.nosotros-seccion-3-foto-foto {
+.nosotros-seccion-3 .nosotros-seccion-3-foto .nosotros-seccion-3-foto-foto {
   width: 100vw;
   max-height: 400px;
   object-fit: contain;
   display: block;
 }
-
-.nosotros-seccion-3-explicacion {
+.nosotros-seccion-3 .nosotros-seccion-3-explicacion {
   width: 100vw;
   height: calc(1000px - 3vw);
   display: flex;
@@ -1561,18 +1526,15 @@ footer .footer-copyright p {
   align-items: flex-start;
   padding: calc(40px + 0.5vw) 40px;
 }
-
-.nosotros-seccion-3-explicacion h2 {
+.nosotros-seccion-3 .nosotros-seccion-3-explicacion h2 {
   width: 50vw;
   font-size: 18.14px;
   color: #404040;
 }
-
-.nosotros-seccion-3-explicacion p {
+.nosotros-seccion-3 .nosotros-seccion-3-explicacion p {
   font-size: 12.8px;
 }
-
-.nosotros-seccion-3-explicacion-h3 {
+.nosotros-seccion-3 .nosotros-seccion-3-explicacion .nosotros-seccion-3-explicacion-h3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -1586,10 +1548,10 @@ footer .footer-copyright p {
   .nosotros-seccion-3 {
     height: 1380px;
   }
-  .nosotros-seccion-3-explicacion {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion {
     height: 900px;
   }
-  .nosotros-seccion-3-explicacion h3 {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion h3 {
     font-size: 12.5px;
   }
 }
@@ -1598,18 +1560,18 @@ footer .footer-copyright p {
     width: 100vw;
     height: 1235px;
   }
-  .nosotros-seccion-3-explicacion {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion {
     width: 100vw;
     height: 750px;
     padding: 30px 40px;
   }
-  .nosotros-seccion-3-explicacion h2 {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion h2 {
     font-size: 22px;
   }
-  .nosotros-seccion-3-explicacion p {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion p {
     font-size: 16px;
   }
-  .nosotros-seccion-3-explicacion h3 {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion .nosotros-seccion-3-explicacion h3 {
     font-size: calc(10px + 0.6vw);
   }
 }
@@ -1622,7 +1584,7 @@ footer .footer-copyright p {
     grid-template-rows: 100px 750px;
     grid-template-areas: "nosotrosSeccion3texto nosotrosSeccion3titular" "nosotrosSeccion3texto nosotrosSeccion3foto";
   }
-  .nosotros-seccion-3-titular {
+  .nosotros-seccion-3 .nosotros-seccion-3-titular {
     width: 50vw;
     height: 100px;
     background-color: rgb(216, 216, 216);
@@ -1632,11 +1594,11 @@ footer .footer-copyright p {
     padding: 0px 40px;
     grid-area: nosotrosSeccion3titular;
   }
-  .nosotros-seccion-3-titular-a-img {
+  .nosotros-seccion-3 .nosotros-seccion-3-titular .nosotros-seccion-3-titular-a-img {
     width: 70px;
     height: 70px;
   }
-  .nosotros-seccion-3-foto {
+  .nosotros-seccion-3 .nosotros-seccion-3-foto {
     width: 50vw;
     max-height: 750px;
     background-color: rgb(216, 216, 216);
@@ -1645,14 +1607,14 @@ footer .footer-copyright p {
     justify-content: flex-end;
     grid-area: nosotrosSeccion3foto;
   }
-  .nosotros-seccion-3-foto-foto {
+  .nosotros-seccion-3 .nosotros-seccion-3-foto .nosotros-seccion-3-foto-foto {
     width: 50vw;
     max-height: 700px;
     object-fit: contain;
     display: block;
     grid-area: nosotrosSeccion3foto;
   }
-  .nosotros-seccion-3-explicacion {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion {
     width: 50vw;
     height: 800px;
     display: flex;
@@ -1662,22 +1624,20 @@ footer .footer-copyright p {
     padding: 10px 40px;
     margin-top: 15px;
   }
-  .nosotros-seccion-3-explicacion h2 {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion h2 {
     width: 50vw;
     font-size: calc(14px + 1.25vw);
     color: #404040;
   }
-  .nosotros-seccion-3-explicacion p {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion p {
     display: block;
     font-size: calc(12px + 0.25vw);
   }
-  .nosotros-seccion-3-explicacion-h3 {
+  .nosotros-seccion-3 .nosotros-seccion-3-explicacion .nosotros-seccion-3-explicacion-h3 {
     display: flex;
     flex-wrap: row wrap;
     justify-content: flex-start;
     gap: 10px;
-  }
-  .nosotros-seccion-3-explicacion h3 {
     font-size: calc(10px + 0.4vw);
     color: #404040;
   }
@@ -1688,15 +1648,13 @@ footer .footer-copyright p {
   height: 850px;
   background-color: rgb(216, 216, 216);
 }
-
-.nosotros-seccion-4-linea {
+.nosotros-seccion-4 .nosotros-seccion-4-linea {
   width: 100vw;
   height: 80px;
   padding-top: 50px;
   margin-bottom: 10px;
 }
-
-.nosotros-seccion-4-linea-amarilla {
+.nosotros-seccion-4 .nosotros-seccion-4-linea .nosotros-seccion-4-linea-amarilla {
   width: 25vw;
   height: 15px;
   display: inline-block;
@@ -1705,8 +1663,7 @@ footer .footer-copyright p {
   border-style: solid;
   border-color: #ffc72c;
 }
-
-.nosotros-seccion-4-trabajo {
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo {
   width: 100vw;
   height: 750px;
   background-color: rgb(216, 216, 216);
@@ -1716,34 +1673,29 @@ footer .footer-copyright p {
   align-content: flex-start;
   padding: 20px;
 }
-
-.nosotros-seccion-4-trabajo-titulo h2 {
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
   font-size: calc(14px + 1.5vw);
   color: #404040;
   margin-bottom: 30px;
   margin-top: 15px;
 }
-
-.nosotros-seccion-4-trabajo h3 {
-  font-size: calc(12px + 1.1vw);
-  color: #404040;
-  margin-bottom: 30px;
-}
-
-.nosotros-seccion-4-trabajo p {
-  display: block;
-  font-size: min(12px + 0.5vw, 14.27px);
-  margin-bottom: 30px;
-}
-
-.nosotros-seccion-4-trabajo-partes {
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-partes {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: flex-start;
 }
-
-.nosotros-seccion-4-trabajo a {
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo h3 {
+  font-size: calc(12px + 1.1vw);
+  color: #404040;
+  margin-bottom: 30px;
+}
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
+  display: block;
+  font-size: min(12px + 0.5vw, 14.27px);
+  margin-bottom: 30px;
+}
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo a {
   width: 200px;
   font-size: calc(12px + 0.5vw);
   padding: 8px;
@@ -1754,8 +1706,7 @@ footer .footer-copyright p {
   margin-bottom: 30px;
   transition: 1s;
 }
-
-.nosotros-seccion-4-trabajo a:hover {
+.nosotros-seccion-4 .nosotros-seccion-4-trabajo a:hover {
   background-color: #ffc72c;
 }
 
@@ -1771,7 +1722,7 @@ footer .footer-copyright p {
     height: 1000px;
     background-color: rgb(216, 216, 216);
   }
-  .nosotros-seccion-4-trabajo {
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
     width: 100vw;
     height: 850px;
     background-color: rgb(216, 216, 216);
@@ -1782,7 +1733,7 @@ footer .footer-copyright p {
     padding: 20px;
     margin-top: 30px;
   }
-  .nosotros-seccion-4-trabajo p {
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
     max-width: 1100px;
     font-size: min(12px + 0.5vw, 20px);
   }
@@ -1797,18 +1748,18 @@ footer .footer-copyright p {
     grid-template-rows: 80px 350px;
     grid-template-areas: "amarillo" "texto";
   }
-  .nosotros-seccion-4-linea {
+  .nosotros-seccion-4 .nosotros-seccion-4-linea {
     width: 30vw;
     height: 80px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-  .nosotros-seccion-4-linea-amarilla {
+  .nosotros-seccion-4 .nosotros-seccion-4-linea .nosotros-seccion-4-linea-amarilla {
     width: 20vw;
     height: 15px;
   }
-  .nosotros-seccion-4-trabajo {
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
     width: 100vw;
     height: 350px;
     display: flex;
@@ -1817,24 +1768,24 @@ footer .footer-copyright p {
     gap: 80px;
     padding: 40px;
   }
-  .nosotros-seccion-4-trabajo-titulo h2 {
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
     font-size: calc(12px + 1vw);
     margin-top: 0px;
   }
-  .nosotros-seccion-4-trabajo-titulo h3 {
-    max-width: 551px;
-    font-size: calc(12px + 1vw);
-  }
-  .nosotros-seccion-4-trabajo p {
-    font-size: min(12px + 0.25vw, 17.2px);
-  }
-  .nosotros-seccion-4-trabajo-partes {
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-partes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-start;
   }
-  .nosotros-seccion-4-trabajo a {
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h3 {
+    max-width: 551px;
+    font-size: calc(12px + 1vw);
+  }
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
+    font-size: min(12px + 0.25vw, 17.2px);
+  }
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo a {
     width: 200px;
     font-style: italic;
     font-size: min(12px + 0.25vw, 17.2px);
