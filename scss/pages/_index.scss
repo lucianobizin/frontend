@@ -5,7 +5,7 @@
   .portada{
     width: 100vw;
     height: 750px;
-    background-color: #ffc72c;
+    background-color: $color-amarillo;
 
     .portada-imagen{
         width:100vw;
@@ -32,21 +32,21 @@
         .portada-cuadro-texto{
             width: 85%;
             max-width: 450px;
-            border: 4px #404040 solid;
+            border: 4px $color-gris solid;
             padding: 20px;
 
             & h1{
                 max-width: 271px;
                 font-size: calc(20px + 2.5vw);
                 font-weight: bold;
-                color: #404040;
+                color: $color-gris;
                 padding-bottom: 10px;
             }
 
             & p{
                 max-width: 330px;
                 font-size: calc(12px + 0.5vw);
-                color: #404040;
+                color: $color-gris;
                 padding: 0 1px 0 0;
             }
         }
@@ -60,14 +60,14 @@
     .portada-cuadro-texto h1{
         font-size: calc(20px + 2.5vw);
         font-weight: bold;
-        color: #404040;
+        color: $color-gris;
         padding-bottom: 10px;
     }
     
     .portada .portada-cuadro .portada-cuadro-texto p{
         max-width: 400px;
         font-size: MIN(calc(11px + 0.6vw), 36px);
-        color: #404040;
+        color: $color-gris;
         padding: 0 1px 0 0;
     }
 }
@@ -110,7 +110,7 @@
                 & p{
                     max-width: 450px;
                     font-size: MIN(calc(11px + 0.6vw), 36px);
-                    color: #404040;
+                    color: $color-gris;
                     padding: 0px;
                 }
             }
@@ -127,7 +127,7 @@
         .portada-cuadro .portada-cuadro-texto{
             width: 85%;
             max-width: 734px;
-            border: 4px #404040 solid;
+            border: 4px $color-gris solid;
             padding: 40px;
 
             & h1{
@@ -160,7 +160,7 @@
         & h2{
             font-size: calc(20px + 3vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-top: 20px;
             padding-bottom: 20px;
         }
@@ -168,28 +168,28 @@
         .seccion-2-texto-titulo{
             font-size: calc(12px + 3vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
 
         .seccion-2-texto-titulo{
             font-size: calc(12px + 3vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
         
         .seccion-2-texto-copete{
             font-weight: bold;
             font-size: calc(10px + 1.5vw);
-            color: #404040;
+            color: $color-gris;
             padding: 0 0 20px 0;
         }
         
         .seccion-2-texto-parrafos{
             font-weight: 400;
             font-size: calc(10px + 1vw);
-            color: #404040;
+            color: $color-gris;
             padding: 0 0 20px 0;
         }
     }
@@ -236,8 +236,8 @@
         .seccion-2-btns-brochure {
             width: 190px;
             height: 40px;
-            border: 2px #404040 solid;
-            background-color: #404040;
+            border: 2px $color-gris solid;
+            background-color: $color-gris;
             border-radius: 10px;
         
             display: flex;
@@ -254,14 +254,14 @@
                 transition: 0.5s;
 
                 &:hover {
-                    color: #404040;
+                    color: $color-gris;
                     font-weight: bold;
                 }
             }
 
             &:hover {
-                border: 2px #ffc72c solid;
-                background-color: #ffc72c;
+                border: 2px $color-amarillo solid;
+                background-color: $color-amarillo;
             }
         }
     }
@@ -475,8 +475,8 @@
     .seccion-3-servicios-titulo{
         width: 100vw;
         height: 300px;
-        background-color: #ffc72c;
-        color: #404040;
+        background-color: $color-amarillo;
+        color: $color-gris;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -485,14 +485,14 @@
         & h2{
             font-size: calc(20px + 3vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
         }
     }
 
     .seccion-3-servicios-1{
         width: 100vw;
         height: 300px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -501,14 +501,14 @@
         & h2{
             font-size: calc(14px + 2.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
 
         & p{
             font-weight: 400;
             font-size: calc(10px + 1vw);
-            color: #404040;
+            color: $color-gris;
         }
     }
 
@@ -523,14 +523,14 @@
         & h2{
             font-size: calc(14px + 2.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
 
         & p{
             font-weight: 400;
             font-size: calc(10px + 1vw);
-            color: #404040;
+            color: $color-gris;
         }
     }
 
@@ -545,14 +545,14 @@
         & h2{
             font-size: calc(14px + 2.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
 
         & p{
             font-weight: 400;
             font-size: calc(10px + 1vw);
-            color: #404040;
+            color: $color-gris;
         }
     }
 
@@ -567,14 +567,14 @@
         & h2{
             font-size: calc(14px + 2.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
 
         & p{
             font-weight: 400;
             font-size: calc(10px + 1vw);
-            color: #404040;
+            color: $color-gris;
         }
     }
 }
@@ -659,7 +659,7 @@
                 width: 80%;
                 font-weight: 400;
                 font-size: calc(9px + 0.75vw);
-                color: #404040;
+                color: $color-gris;
                 padding-right: 20px;
             }
         }
@@ -679,7 +679,7 @@
                 width: 88%;
                 font-weight: 400;
                 font-size: calc(12px + 0.5vw);
-                color: #404040;
+                color: $color-gris;
             }
         }
 
@@ -697,7 +697,7 @@
                 width: 88%;
                 font-weight: 400;
                 font-size: calc(12px + 0.5vw);
-                color: #404040;
+                color: $color-gris;
             }
         }
 
@@ -715,7 +715,7 @@
                 width: 88%;
                 font-weight: 400;
                 font-size: calc(12px + 0.5vw);
-                color: #404040;
+                color: $color-gris;
                 padding-bottom: 20px;
             }
         }
@@ -732,7 +732,7 @@
         width: 100vw;
         height: 500px;
     
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         flex-direction: column;
@@ -756,14 +756,14 @@
         .seccion-4-introduccion-titulo{
             font-size: calc(14px + 2.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 20px;
         }
         
         .seccion-4-introduccion-parrafo{
             font-weight: 400;
             font-size: calc(10px + 1vw);
-            color: #404040;
+            color: $color-gris;
         }
     }
 
@@ -784,20 +784,20 @@
             justify-content: flex-start;
             align-content: center;
             padding:10px;
-            margin-top: 12px;
+            margin-top: 10px;
         }
 
         & h3{
             font-size: calc(12px + 1.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
         & p{
             font-size: calc(10px + 1vw);
             font-weight: 400;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
@@ -922,7 +922,7 @@
             margin-top: 18px;
 
             .seccion-4-explicacion-marketing {
-                padding:30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
                 margin-top: 10px;
             }
         
@@ -931,40 +931,40 @@
             }
             
             .seccion-4-explicacion-big-data {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
                 margin-top: 10px;
             }
             
             .seccion-4-explicacion-mercado {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-ecommerce{
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-optimizacion {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-riesgo {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-fraude {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-digitalizacion {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-ux-ui {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
             
             .seccion-4-explicacion-sostenibilidad {
-                padding: 30px;
+                padding: $padding-index-seccion-4-explicacion-760px;
             }
         }
     }

@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* === Variables del proyecto ===*/ /* === STYLE RESET === */
+/* === Variables del proyecto ===*/
+/* === STYLE RESET === */
 * {
   margin: 0;
   padding: 0;
@@ -928,7 +929,7 @@ footer .footer-copyright p {
   justify-content: flex-start;
   align-content: center;
   padding: 10px;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .seccion-4 .seccion-4-explicacion h3 {
   font-size: calc(12px + 1.5vw);
@@ -2124,7 +2125,7 @@ footer .footer-copyright p {
     height: calc(180px - 2vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-productos {
-    height: calc(180px - 2vw);
+    height: s calc(180px - 2vw);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2191,7 +2192,7 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .servicios-seccion-2 {
-    height: 1000px;
+    height: calc(1030px - 2vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-introduccion {
     height: 425px;
@@ -2218,35 +2219,35 @@ footer .footer-copyright p {
     grid-template-rows: repeat(2, 250px);
     grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
   }
-  .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion h3 {
+  .servicios-seccion-2 .servicios-seccion-2-explicacion h3 {
     font-size: calc(14px + 0.9vw);
   }
-  .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion p {
+  .servicios-seccion-2 .servicios-seccion-2-explicacion p {
     font-size: calc(10px + 0.5vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-ingenieria {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion1;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-ml {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion2;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-datos {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion3;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-monitoreo {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion4;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-comites {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion5;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-comites p {
@@ -2254,27 +2255,27 @@ footer .footer-copyright p {
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-arquitectura {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion6;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-capacitaciones {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion7;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-mercado {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion8;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-logistica {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion9;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-productos {
     width: 20vw;
-    height: 275px;
+    height: 250px;
     grid-area: explicacion10;
   }
 }

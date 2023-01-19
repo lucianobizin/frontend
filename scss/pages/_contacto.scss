@@ -8,7 +8,7 @@
   .contacto-portada{
     width: 100vw;
     height: 740px;
-    background-color: #ffc72c;
+    background-color: $color-amarillo;
 
     .contacto-portada-cuadro {
         width:100vw;
@@ -21,19 +21,19 @@
         .contacto-portada-cuadro-texto{
             width: 85%;
             max-width: 400px;
-            border: 4px #404040 solid;
+            border: 4px $color-gris solid;
             padding: 20px;
 
             & h1{
                 font-size: calc(20px + 2.5vw); 
                 font-weight: bold;
-                color: #404040;
+                color: $color-gris;
                 padding-bottom: 10px;
             }
 
             & p{
                 font-size: calc(11px + 0.6vw);
-                color: #404040;
+                color: $color-gris;
                 padding: 0 1px 0 0;
             }
         }
@@ -68,7 +68,7 @@
             .contacto-portada-cuadro-texto{
                 width: calc(80% + 1vw);
                 max-width: 450px;
-                border: 4px #404040 solid;
+                border: 4px $color-gris solid;
                 padding: 20px;
             }
         }
@@ -135,7 +135,7 @@
 .contacto-seccion-2{
     width: 100vw;
     height: calc(370px - 17vw);
-    background-color:  rgb(216, 216, 216);
+    background-color: $color-gris-claro;
     
     .contacto-seccion-2-titulo {
         width: 100vw;
@@ -144,7 +144,7 @@
 
         & h2 {
             font-size: calc(14px + 1.75vw);
-            color: #404040;
+            color: $color-gris;
             padding: 40px 20px 10px 20px;
         }
     }
@@ -156,10 +156,10 @@
         & hr {
             width: 30vw;
             height: 10px;
-            background-color: #ffc72c;
+            background-color: $color-amarillo;
             border-style: solid;
             border-width: 4px;
-            border-color: #ffc72c;
+            border-color: $color-amarillo;
         }
     }
 
@@ -177,7 +177,7 @@
 
             & p {
                 font-size: calc(12px + 0.15vw);
-                color: #404040;
+                color: $color-gris;
             }
         }
 
@@ -189,7 +189,7 @@
             justify-content: flex-start;
             align-content: flex-start;
             font-size: calc(12px + 1vw);
-            color: #404040;
+            color: $color-gris;
             font-weight: bold;
             padding: calc(30px - 1vw) 20px 20px 20px;
         }
@@ -236,7 +236,7 @@
 
                 & p {
                     font-size: calc(12px + 0.5vw);
-                    color: #404040;
+                    color: $color-gris;
                     padding: calc(30px - 1vw) 20px 20px 0px;
                 }
             }
@@ -249,7 +249,7 @@
     .contacto-seccion-2 {
         width:100vw;
         height: 350px;
-        background-color:  rgb(216, 216, 216);
+        background-color: $color-gris-claro;
 
         .contacto-seccion-2-titulo{
             width: 50vw;
@@ -308,7 +308,7 @@
     .contacto-seccion-3-imagen {
         width: 100vw;
         height: 300px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
 
         & img {
             width: 100%;
@@ -320,7 +320,7 @@
     .contacto-seccion-3-formulario {
         width: 100vw;
         height: 680px;
-        background-color: #ffc72c;
+        background-color: $color-amarillo;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -329,7 +329,7 @@
 
         & h2 {
             font-size: MIN(calc(14px + 1.75vw), 21px);
-            color: #404040;
+            color: $color-gris;
             margin-bottom: 30px;
         }
 
@@ -340,7 +340,7 @@
                 .contacto-seccion-3-formulario-texto-label {
                     font-size: MIN(calc(12px + 1vw), 16px);
                     font-weight: 500;
-                    color: #404040;
+                    color: $color-gris;
                     margin-right: 5px;
                     display: block;
                     margin-bottom: 10px;
@@ -352,13 +352,13 @@
                     height: 25px;
                     margin-top: 10px;
                     border-style: solid;
-                    border-color: #ffc72c;
+                    border-color: $color-amarillo;
                 }
 
                 & textarea {
                     width: 80vw;
                     border-style: solid;
-                    border-color: #ffc72c;
+                    border-color: $color-amarillo;
                 }
 
                 .contacto-seccion-3-formulario-texto-select {
@@ -368,19 +368,19 @@
                     margin-bottom: 10px;
                     text-align: center;
                     border-style: solid;
-                    border-color: #ffc72c;
+                    border-color: $color-amarillo;
 
                     .contacto-seccion-3-formulario-texto-option {
                         font-size: 12px;
                         font-weight: 500;
-                        color: #404040;
+                        color: $color-gris;
                     }
                 }
 
                 .contacto-seccion-3-formulario-texto-label-checkbok {
                     font-size: MIN(calc(12px + 1vw), 16px);
                     font-weight: 500;
-                    color: #404040;
+                    color: $color-gris;
                     margin-right: 5px;
                     margin-bottom: 10px;
                     text-align: center;
@@ -389,32 +389,32 @@
                 .contacto-seccion-3-formulario-texto-enviar {
                     width: 70px;
                     height: 25px;
-                    background-color: #404040;
+                    background-color: $color-gris;
                     border-style: solid;
-                    border-color: #404040;
+                    border-color: $color-gris;
                     color: white;
                     margin-top: 10px;
                     margin-right: 10px;
 
                     &:hover {
-                        background-color: #404040;
-                        border-color: #404040;
-                        color: #ffc72c;
+                        background-color: $color-gris;
+                        border-color: $color-gris;
+                        color: $color-amarillo;
                     }
                 }
                 
                 .contacto-seccion-3-formulario-texto-restablecer {
                     width: 160px;
                     height: 25px;
-                    background-color: #404040;
+                    background-color: $color-gris;
                     border-style: solid;
-                    border-color: #404040;
+                    border-color: $color-gris;
                     color: white;
 
                     &:hover {
-                        background-color: #404040;
-                        border-color: #404040;
-                        color: #ffc72c;
+                        background-color: $color-gris;
+                        border-color: $color-gris;
+                        color: $color-amarillo;
                     }
                 }
                 
@@ -514,7 +514,7 @@
                         height: 45px;
                         font-size: 16px;
                         font-weight: 500;
-                        color: #404040;
+                        color: $color-gris;
 
                         .contacto-seccion-3-formulario-texto-option {
                             font-size: 14px;

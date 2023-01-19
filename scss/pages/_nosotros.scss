@@ -7,7 +7,7 @@
   .nosotros-portada{
     width: 100vw;
     height: 750px;
-    background-color: #ffc72c;
+    background-color: $color-amarillo;
 
     .nosotros-portada-cuadro {
         width:100vw;
@@ -110,7 +110,7 @@
             .nosotros-portada-cuadro-texto{
                 width: 80%;
                 max-width: 500px;
-                border: 4px #404040 solid;
+                border: 4px $color-gris solid;
                 padding: 40px;
     
                 & h1{
@@ -135,7 +135,7 @@
     .nosotros-seccion-2-titular {
         width: 100vw;
         height: 70px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         justify-content: space-between;
@@ -144,7 +144,7 @@
 
         & h2 {
             font-size: calc(14px + 1.25vw);
-            color: #404040;
+            color: $color-gris;
         }
         
         & a {
@@ -169,7 +169,7 @@
     .nosotros-seccion-2-foto {
         width: 100vw;
         max-height: 400px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         flex-direction: column;
@@ -196,7 +196,7 @@
         & h2 {
             width: 50vw;
             font-size: 18.14px;
-            color: #404040;
+            color: $color-gris;
         }
 
         & p {
@@ -209,7 +209,7 @@
             justify-content: flex-start;
             gap: 10px;
             font-size: 10.8px;
-            color: #404040;
+            color: $color-gris;
         }
     }
 }
@@ -324,7 +324,7 @@
         .nosotros-seccion-2-titular {
             width: 50vw;
             height: 100px;
-            background-color: rgb(216, 216, 216);
+            background-color: $color-gris-claro;
         
             display: flex;
             justify-content: space-between;
@@ -342,7 +342,7 @@
         .nosotros-seccion-2-foto {
             width: 50vw;
             max-height: 750px;
-            background-color: rgb(216, 216, 216);
+            background-color: $color-gris-claro;
         
             display: flex;
             flex-direction: column;
@@ -372,7 +372,7 @@
             & h2 {
                 width: 45vw;
                 font-size: calc(14px + 1.25vw);
-                color: #404040;
+                color: $color-gris;
             }
 
             & p {
@@ -386,7 +386,7 @@
                 justify-content: flex-start;
                 gap: 10px;
                 font-size: calc(10px + 0.55vw);
-                color: #404040;
+                color: $color-gris;
             }
         }
 
@@ -402,7 +402,7 @@
     .nosotros-seccion-3-titular {
         width: 100vw;
         height: 70px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         justify-content: space-between;
@@ -411,7 +411,7 @@
 
         & h2 {
             font-size: calc(14px + 1.25vw);
-            color: #404040;
+            color: $color-gris;
         }
 
         & a {
@@ -431,7 +431,7 @@
     .nosotros-seccion-3-foto {
         width: 100vw;
         max-height: 400px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         flex-direction: column;
@@ -458,7 +458,7 @@
         & h2 {
             width: 50vw;
             font-size: 18.14px;
-            color: #404040;
+            color: $color-gris;
         }
         
         & p {
@@ -471,7 +471,7 @@
             justify-content: flex-start;
             gap: 10px;
             font-size: calc(10px + 0.4vw);
-            color: #404040;
+            color: $color-gris;
         }
     }
 }
@@ -535,7 +535,7 @@
         .nosotros-seccion-3-titular {
             width: 50vw;
             height: 100px;
-            background-color: rgb(216, 216, 216);
+            background-color: $color-gris-claro;
         
             display: flex;
             justify-content: space-between;
@@ -553,7 +553,7 @@
         .nosotros-seccion-3-foto {
             width: 50vw;
             max-height: 750px;
-            background-color: rgb(216, 216, 216);
+            background-color: $color-gris-claro;
         
             display: flex;
             flex-direction: column;
@@ -585,7 +585,7 @@
             & h2 {
                 width: 50vw;
                 font-size: calc(14px + 1.25vw);
-                color: #404040;
+                color: $color-gris;
             }
             
             & p {
@@ -599,7 +599,7 @@
                 justify-content: flex-start;
                 gap: 10px;
                 font-size: calc(10px + 0.55vw);
-                color: #404040;
+                color: $color-gris;
             }
         }
     }
@@ -610,7 +610,7 @@
 .nosotros-seccion-4 {
     width: 100vw;
     height: 850px;
-    background-color: rgb(216, 216, 216);
+    background-color: $color-gris-claro;
 
     .nosotros-seccion-4-linea {
         width: 100vw;
@@ -623,16 +623,16 @@
             height: 15px;
             display: inline-block;
             position: relative;
-            background-color: #ffc72c;
+            background-color: $color-amarillo;
             border-style: solid;
-            border-color: #ffc72c;
+            border-color: $color-amarillo;
         }
     }
 
     .nosotros-seccion-4-trabajo {
         width: 100vw;
         height: 750px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -671,14 +671,14 @@
             padding: 8px;
             color: #404040;
             font-weight: 500;
-            border-color: #ffc72c;
+            border-color: $color-amarillo;
             border-style: solid;
             margin-bottom: 30px;
             transition: 1s;
         }
 
         & a:hover{
-            background-color: #ffc72c;
+            background-color: $color-amarillo;
         }
     }
 }
@@ -696,12 +696,12 @@
     .nosotros-seccion-4{
         width: 100vw;
         height: 1000px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
 
         .nosotros-seccion-4-trabajo {
             width: 100vw;
             height: 850px;
-            background-color: rgb(216, 216, 216);
+            background-color: $color-gris-claro;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -722,7 +722,7 @@
     .nosotros-seccion-4{
         width: 100vw;
         height: 450px;
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
         display: grid;
         grid-template-columns: 100vw;
         grid-template-rows: 80px 350px;

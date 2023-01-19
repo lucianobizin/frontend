@@ -6,7 +6,7 @@ header {
     grid-template-columns: 20vw 60vw 20vw;
     grid-template-rows: 10vh;
     grid-template-areas: "imagen nombre boton";
-    background-color: #ffc72c;
+    background-color: $color-amarillo;
 
     .header-logo{
 
@@ -15,8 +15,6 @@ header {
             grid-area: imagen;
             height: 95%;
             width: 95%;
-            // max-width: 100px;
-            // max-height: 86px;
             object-fit:contain;
             padding: 12px;
         }
@@ -63,7 +61,7 @@ header {
         }
 
         .menu-desplegable{
-            background-color: #ffc72c;
+            background-color: $color-amarillo;
             height: 500px;
             width: 90vw;
             display: none;

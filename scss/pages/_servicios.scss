@@ -5,7 +5,7 @@
   .servicios-portada{
     width: 100vw;
     height: 750px;
-    background-color: #ffc72c;
+    background-color: $color-amarillo;
 
     .servicios-portada-imagen{
         width:100vw;
@@ -31,19 +31,19 @@
         .servicios-portada-cuadro-texto{
             width: 92%;
             max-width: 430px;
-            border: 4px #404040 solid;
+            border: 4px $color-gris solid;
             padding: 20px;
 
             & h1{
                 font-size: MIN(calc(20px + 2.5vw), 28.5px);
                 font-weight: bold;
-                color: #404040;
+                color: $color-gris;
                 padding-bottom: 10px;
             }
 
             & p{
                 font-size: MIN(calc(12px + 0.8vw), 16px);
-                color: #404040;
+                color: $color-gris;
             }
         }
     }
@@ -108,7 +108,7 @@
                 width: 85%;
                 max-width: 550px;
                 max-height: 600px;
-                border: 4px #404040 solid;
+                border: 4px $color-gris solid;
                 padding: 40px;
     
                 & h1{
@@ -134,7 +134,7 @@
         width: 100vw;
         height: calc(520px - 2.5vw);
     
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         flex-direction: column;
@@ -155,7 +155,7 @@
         .servicios-seccion-2-introduccion-titulo{
             font-size: MIN(calc(14px + 2.5vw), 24.6px);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             max-width: 374px;
             padding-bottom: 20px;
         }
@@ -163,7 +163,7 @@
         .servicios-seccion-2-introduccion-parrafo{
             font-weight: 400;
             font-size: 14.6px;
-            color: #404040;
+            color: $color-gris;
             max-width: 680px;
         }
     }
@@ -174,12 +174,12 @@
         margin-top: 40px;
         display: grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: repeat(5, calc(220px - 2vw));
+        grid-template-rows: repeat(5, $height-servicios-seccion-2-explicaciones);
         grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
 
         .servicios-seccion-2-explicacion-ingenieria {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion1;
             display: flex;
             flex-direction: column;
@@ -191,7 +191,7 @@
         
         .servicios-seccion-2-explicacion-ml {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion2;
             display: flex;
             flex-direction: column;
@@ -203,7 +203,7 @@
         
         .servicios-seccion-2-explicacion-datos {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion3;
             display: flex;
             flex-direction: column;
@@ -214,7 +214,7 @@
         
         .servicios-seccion-2-explicacion-monitoreo{
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion4;
             display: flex;
             flex-direction: column;
@@ -225,7 +225,7 @@
         
         .servicios-seccion-2-explicacion-comites {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion5;
             display: flex;
             flex-direction: column;
@@ -236,7 +236,7 @@
         
         .servicios-seccion-2-explicacion-arquitectura {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion6;
             display: flex;
             flex-direction: column;
@@ -247,7 +247,7 @@
         
         .servicios-seccion-2-explicacion-capacitaciones {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion7;
             display: flex;
             flex-direction: column;
@@ -258,7 +258,7 @@
         
         .servicios-seccion-2-explicacion-mercado {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion8;
             display: flex;
             flex-direction: column;
@@ -269,7 +269,7 @@
         
         .servicios-seccion-2-explicacion-logistica {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion9;
             display: flex;
             flex-direction: column;
@@ -280,7 +280,7 @@
         
         .servicios-seccion-2-explicacion-productos {
             width: 50vw;
-            height: calc(220px - 2vw);
+            height: $height-servicios-seccion-2-explicaciones;
             grid-area: explicacion10;
             display: flex;
             flex-direction: column;
@@ -292,14 +292,14 @@
         & h3{
             font-size: calc(12px + 1.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
         & p {
             font-size: calc(10px + 1vw);
             font-weight: 400;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
     }
@@ -324,46 +324,46 @@
 
         .servicios-seccion-2-explicacion {
             height: 900px;
-            grid-template-rows: repeat(5, calc(180px - 2vw));
+            grid-template-rows: repeat(5, $height-servicios-seccion-2-explicaciones-480px);
 
             .servicios-seccion-2-explicacion-ingenieria {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-ml {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-datos {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-monitoreo{
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-comites {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-arquitectura {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-capacitaciones {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-mercado {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-logistica {
-                height: calc(180px - 2vw);
+                height: $height-servicios-seccion-2-explicaciones-480px;
             }
             
             .servicios-seccion-2-explicacion-productos {
-                height: calc(180px - 2vw);
+                height: s$height-servicios-seccion-2-explicaciones-480px;
             }
         }
     }
@@ -453,7 +453,7 @@
 @media screen and (min-width: 1200px) {
 
     .servicios-seccion-2{
-        height: 1000px;
+        height: calc(1030px - 2vw);
 
         .servicios-seccion-2-introduccion{
             height: 425px;
@@ -481,44 +481,44 @@
             margin-top: 30px;
             margin-bottom: 0px;
             grid-template-columns: repeat(5, 20vw);
-            grid-template-rows: repeat(2, 250px);
+            grid-template-rows: repeat(2, $height-servicios-seccion-2-explicaciones-1200px);
             grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
             
-            .servicios-seccion-2-explicacion h3 {
+            & h3 {
                 font-size: calc(14px + 0.9vw);
             }
         
-            .servicios-seccion-2-explicacion p {
+            & p {
                 font-size: calc(10px + 0.5vw);
             }
 
             .servicios-seccion-2-explicacion-ingenieria {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion1;
             }
             
             .servicios-seccion-2-explicacion-ml {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion2;
             }
             
             .servicios-seccion-2-explicacion-datos {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion3;
             }
             
             .servicios-seccion-2-explicacion-monitoreo{
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion4;
             }
             
             .servicios-seccion-2-explicacion-comites {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion5;
             }
             
@@ -528,31 +528,31 @@
             
             .servicios-seccion-2-explicacion-arquitectura {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion6;
             }
             
             .servicios-seccion-2-explicacion-capacitaciones {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion7;
             }
             
             .servicios-seccion-2-explicacion-mercado {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion8;
             }
             
             .servicios-seccion-2-explicacion-logistica {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion9;
             }
             
             .servicios-seccion-2-explicacion-productos {
                 width: 20vw;
-                height: 275px;
+                height: $height-servicios-seccion-2-explicaciones-1200px;
                 grid-area: explicacion10;
             }
         }
@@ -569,7 +569,7 @@
         width: 100vw;
         height: 450px;
     
-        background-color: #ffc72c;
+        background-color: $color-amarillo;
     
         display: flex;
         flex-direction: column;
@@ -582,7 +582,7 @@
             width: 90vw;
             max-width: 345px;
             height: 350px;
-            border-color: #404040;
+            border-color: $color-gris;
             border-style: solid;
             border-width: 4px;
             padding: 20px;
@@ -595,13 +595,13 @@
             .servicios-seccion-3-introduccion-titulo{
                 font-size: MIN(calc(14px + 2.5vw), 22.6px);
                 font-weight: bold;
-                color: #404040;
+                color: $color-gris;
             }
 
             .servicios-seccion-3-introduccion-parrafo{
                 font-weight: 400;
                 font-size: 14px;
-                color: #404040;
+                color: $color-gris;
             }
         }
         
@@ -619,14 +619,14 @@
         & h3 {
             font-size: calc(12px + 1.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
         & p {
             font-size: calc(10px + 1vw);
             font-weight: 400;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
@@ -733,13 +733,13 @@
             .servicios-seccion-3-introduccion-titulo{
                 font-size: MIN(calc(14px + 2vw), 30px);
                 font-weight: bold;
-                color: #404040;
+                color: $color-gris;
             }
 
             .servicios-seccion-3-introduccion-parrafo{
                 font-weight: 400;
                 font-size: MIN((14.6px + 0.2vw), 20px);
-                color: #404040;
+                color: $color-gris;
             }
         }
 
@@ -797,7 +797,7 @@
             width: 100vw;
             height: 450px;
         
-            background-color: #ffc72c;
+            background-color: $color-amarillo;
         
             display: flex;
             flex-direction: column;
@@ -810,7 +810,7 @@
                 width: 90vw;
                 max-width: 500px;
                 height: 350px;
-                border-color: #404040;
+                border-color: $color-gris;
                 border-style: solid;
                 border-width: 4px;
                 padding: 20px;
@@ -823,14 +823,14 @@
                 .servicios-seccion-3-introduccion-titulo{
                     font-size: MIN(calc(14px + 2vw), 30px);
                     font-weight: bold;
-                    color: #404040;
+                    color: $color-gris;
                     padding-bottom: 20px;
                 }
 
                 .servicios-seccion-3-introduccion-parrafo{
                     font-weight: 400;
                     font-size: MIN((14.6px + 0.2vw), 20px);
-                    color: #404040;
+                    color: $color-gris;
                 }
             }
         }
@@ -991,7 +991,7 @@
         width: 100vw;
         height: 450px;
     
-        background-color: rgb(216, 216, 216);
+        background-color: $color-gris-claro;
     
         display: flex;
         flex-direction: column;
@@ -1003,7 +1003,7 @@
         .servicios-seccion-4-introduccion-cuadro{
             width: 90vw;
             height: 350px;
-            border-color: #404040;
+            border-color: $color-gris;
             border-style: solid;
             border-width: 4px;
             padding: 20px;
@@ -1015,14 +1015,14 @@
             .servicios-seccion-4-introduccion-titulo{
                 font-size: MIN(calc(14px + 2.5vw), 22.6px);
                 font-weight: bold;
-                color: #404040;
+                color: $color-gris;
                 padding-bottom: 20px;
             }
 
             .servicios-seccion-4-introduccion-parrafo{
                 font-weight: 400;
                 font-size: 14px;
-                color: #404040;
+                color: $color-gris;
             }
         }
     }
@@ -1039,14 +1039,14 @@
         & h3 {
             font-size: calc(12px + 1.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
         & p {
             font-size: calc(10px + 1vw);
             font-weight: 400;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
@@ -1395,14 +1395,14 @@
                 width: 20vw;
                 height: 220px;
                 grid-area: explicacion3;
-                background-color:  rgb(216, 216, 216);
+                background-color: $color-gris-claro;
             }
         
             .servicios-seccion-4-explicacion-branding{
                 width: 20vw;
                 height: 220px;
                 grid-area: explicacion4;
-                background-color:  rgb(216, 216, 216);
+                background-color: $color-gris-claro;
             }
             
             .servicios-seccion-4-explicacion-medios {
@@ -1421,14 +1421,14 @@
                 width: 20vw;
                 height: 220px;
                 grid-area: explicacion7;
-                background-color:  rgb(216, 216, 216);
+                background-color: $color-gris-claro;
             }
             
             .servicios-seccion-4-explicacion-influencer {
                 width: 20vw;
                 height: 220px;
                 grid-area: explicacion8;
-                background-color:  rgb(216, 216, 216);
+                background-color: $color-gris-claro;
             }
             
             .servicios-seccion-4-explicacion-inbound {
@@ -1447,14 +1447,14 @@
                 width: 20vw;
                 height: 220px;
                 grid-area: explicacion11;
-                background-color:  rgb(216, 216, 216);
+                background-color: $color-gris-claro;
             }
             
             .servicios-seccion-4-explicacion-eventos {
                 width: 20vw;
                 height: 220px;
                 grid-area: explicacion12;
-                background-color:  rgb(216, 216, 216);
+                background-color: $color-gris-claro;
                 background-size: cover;
             }
         }
@@ -1472,7 +1472,7 @@
         width: 100vw;
         height: 700px;
     
-        background-color: #ffc72c;
+        background-color: $color-amarillo;
     
         display: flex;
         flex-direction: column;
@@ -1483,7 +1483,7 @@
         .servicios-seccion-5-introduccion-titulo {
             font-size: MIN(calc(14px + 2.5vw), 22.6px);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding-bottom: 10px;
             margin-top: 30px;
         }
@@ -1500,13 +1500,13 @@
         .servicios-seccion-5-introduccion-parrafo1 {
             font-weight: 500;
             font-size: 14px;
-            color: #404040;
+            color: $color-gris;
         }
         
         .servicios-seccion-5-introduccion-parrafo2 {
             font-weight: 500;
             font-size: 14px;
-            color: #404040;
+            color: $color-gris;
         }
     }
 
@@ -1522,14 +1522,14 @@
         & h3 {
             font-size: calc(12px + 1.5vw);
             font-weight: bold;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 
         & p {
             font-size: calc(10px + 1vw);
             font-weight: 400;
-            color: #404040;
+            color: $color-gris;
             padding: 5px 5px 5px 12px;
         }
 

@@ -3,7 +3,7 @@
 footer {
     width: 100vw;
     height: 145px;
-    background-color: #404040;
+    background-color: $color-gris;
     display: grid;
     grid-template-columns: 99vw;
     grid-template-rows: repeat(3, 45px);
