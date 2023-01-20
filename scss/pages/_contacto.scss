@@ -6,12 +6,12 @@
 
 
   .contacto-portada{
-    width: 100vw;
+    width: 100%;
     height: 740px;
     background-color: $color-amarillo;
 
     .contacto-portada-cuadro {
-        width:100vw;
+        width: 100%;
         height: 300px;
         display: flex;
         flex-direction: column;
@@ -41,7 +41,7 @@
     }
 
     .contacto-portada-imagen{
-        width:100vw;
+        width: 100%;
         height: 400px;
         display: flex;
         justify-content: center;
@@ -86,12 +86,12 @@
     .contacto-portada{
         height: 810px;
         display: grid;
-        grid-template-columns: 50vw 50vw;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 810px;
         grid-template-areas: "cuadro imagen";
 
         .contacto-portada-cuadro {
-            width: 50vw;
+            width: 100%;
             height: 810px;
             grid-area: cuadro;
 
@@ -114,7 +114,7 @@
         }
 
         .contacto-portada-imagen{
-            width: 50vw;
+            width: 100%;
             height: 810px;
             display: flex;
             flex-direction: column;
@@ -133,12 +133,12 @@
   /* ___ Segunda sección ___ */
 
 .contacto-seccion-2{
-    width: 100vw;
+    width: 100%;
     height: calc(370px - 17vw);
     background-color: $color-gris-claro;
     
     .contacto-seccion-2-titulo {
-        width: 100vw;
+        width: 100%;
         height: 90px;
         margin-bottom: 10px;
 
@@ -150,11 +150,11 @@
     }
 
     .contacto-seccion-2-linea {
-        width: 100vw;
+        width: 100%;
         height: 25px;
 
         & hr {
-            width: 30vw;
+            width: 30%;
             height: 10px;
             background-color: $color-amarillo;
             border-style: solid;
@@ -164,7 +164,7 @@
     }
 
     .contacto-seccion-2-trabajo{
-        width: 100vw;
+        width: 100%;
         height: calc(200px - 10vw);
         display: flex;
         flex-direction: column;
@@ -182,7 +182,7 @@
         }
 
         .contacto-seccion-2-trabajo-strong {
-            width: 100vw;
+            width: 100%;
             height: 100px;
             display: flex;
             flex-direction: column;
@@ -213,7 +213,7 @@
         }
 
         .contacto-seccion-2-linea hr {
-            width: 20vw;
+            width: 20%;
         }
 
         .contacto-seccion-2-trabajo {
@@ -247,12 +247,12 @@
 @media screen and (min-width: 1200px) {
 
     .contacto-seccion-2 {
-        width:100vw;
+        width:100%;
         height: 350px;
         background-color: $color-gris-claro;
 
         .contacto-seccion-2-titulo{
-            width: 50vw;
+            width: 50%;
             height: 130px;
             margin-bottom: 0px;
             margin-left: 5vw;
@@ -265,7 +265,7 @@
         }
 
         .contacto-seccion-2-linea {
-            width: 10vw;
+            width: 10%;
             margin-left: 5vw;
 
             & hr {
@@ -274,11 +274,11 @@
         }
 
         .contacto-seccion-2-trabajo {
-            width: 95vw;
+            width: 95%;
             height: 190px;
 
             .contacto-seccion-2-trabajo-parrafo {
-                width: 90vw;
+                width: 95%;
                 height: 100px;
                 margin-left: 5vw;
                 padding-left: 0px;
@@ -290,7 +290,7 @@
             }
 
             .contacto-seccion-2-trabajo-strong {
-                width: 50vw;
+                width: 55%;
                 height: 100px;
                 margin-left: 5vw;
                 padding-left: 0px;
@@ -302,11 +302,11 @@
   /* ___ Tercera sección ___ */
 
 .contacto-seccion-3 {
-    width: 100vw;
+    width: 100%;
     height: 980px;
 
     .contacto-seccion-3-imagen {
-        width: 100vw;
+        width: 100%;
         height: 300px;
         background-color: $color-gris-claro;
 
@@ -318,7 +318,7 @@
     }
 
     .contacto-seccion-3-formulario {
-        width: 100vw;
+        width: 100%;
         height: 680px;
         background-color: $color-amarillo;
         display: flex;
@@ -469,20 +469,21 @@
 
 @media screen and (min-width: 1200px){
     .contacto-seccion-3 {
+        width: 100%;
         height: 800px;
         display: grid;
-        grid-template-columns: 50vw 50vw;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 800px;
         grid-template-areas: "foto formulario";
 
         .contacto-seccion-3-imagen {
-            width: 50vw;
+            width: 100%;
             height: 800px;
             grid-area: foto;
         }
 
         .contacto-seccion-3-formulario {
-            width: 50vw;
+            width: 100%;
             height: 800px;
             grid-area: formulario;
             justify-content: space-around;
@@ -493,21 +494,22 @@
             }
 
             .contacto-seccion-3-formulario-partes{
+                width: 100%;
                 
                 .contacto-seccion-3-formulario-texto {
                     margin: 10px 0px;
 
                     .contacto-seccion-3-formulario-texto-label {
-                        width: 40vw;
+                        width: 80%;
                         font-size: MIN(calc(12px + 1vw), 20px);
                     }
 
                     .contacto-seccion-3-formulario-texto-input {
-                        width: 40vw;
+                        width: 80%;
                     }
 
                     & textarea {
-                        width: 40vw;
+                        width: 80%;
                     }
 
                     .contacto-seccion-3-formulario-texto-select {

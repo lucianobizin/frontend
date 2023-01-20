@@ -3980,12 +3980,12 @@ footer .footer-copyright p {
 /* --- Main --- */
 /* ___ Primera sección o portada___ */
 .contacto-portada {
-  width: 100vw;
+  width: 100%;
   height: 740px;
   background-color: #ffc72c;
 }
 .contacto-portada .contacto-portada-cuadro {
-  width: 100vw;
+  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -4010,7 +4010,7 @@ footer .footer-copyright p {
   padding: 0 1px 0 0;
 }
 .contacto-portada .contacto-portada-imagen {
-  width: 100vw;
+  width: 100%;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -4046,12 +4046,12 @@ footer .footer-copyright p {
   .contacto-portada {
     height: 810px;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 810px;
     grid-template-areas: "cuadro imagen";
   }
   .contacto-portada .contacto-portada-cuadro {
-    width: 50vw;
+    width: 100%;
     height: 810px;
     grid-area: cuadro;
   }
@@ -4070,7 +4070,7 @@ footer .footer-copyright p {
     font-size: min(12px + 0.7vw, 22.6px);
   }
   .contacto-portada .contacto-portada-imagen {
-    width: 50vw;
+    width: 100%;
     height: 810px;
     display: flex;
     flex-direction: column;
@@ -4085,12 +4085,12 @@ footer .footer-copyright p {
 }
 /* ___ Segunda sección ___ */
 .contacto-seccion-2 {
-  width: 100vw;
+  width: 100%;
   height: calc(370px - 17vw);
   background-color: rgb(216, 216, 216);
 }
 .contacto-seccion-2 .contacto-seccion-2-titulo {
-  width: 100vw;
+  width: 100%;
   height: 90px;
   margin-bottom: 10px;
 }
@@ -4100,11 +4100,11 @@ footer .footer-copyright p {
   padding: 40px 20px 10px 20px;
 }
 .contacto-seccion-2 .contacto-seccion-2-linea {
-  width: 100vw;
+  width: 100%;
   height: 25px;
 }
 .contacto-seccion-2 .contacto-seccion-2-linea hr {
-  width: 30vw;
+  width: 30%;
   height: 10px;
   background-color: #ffc72c;
   border-style: solid;
@@ -4112,7 +4112,7 @@ footer .footer-copyright p {
   border-color: #ffc72c;
 }
 .contacto-seccion-2 .contacto-seccion-2-trabajo {
-  width: 100vw;
+  width: 100%;
   height: calc(200px - 10vw);
   display: flex;
   flex-direction: column;
@@ -4128,7 +4128,7 @@ footer .footer-copyright p {
   color: #404040;
 }
 .contacto-seccion-2 .contacto-seccion-2-trabajo .contacto-seccion-2-trabajo-strong {
-  width: 100vw;
+  width: 100%;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -4152,7 +4152,7 @@ footer .footer-copyright p {
     padding: 40px 20px 10px 20px;
   }
   .contacto-seccion-2 .contacto-seccion-2-linea hr {
-    width: 20vw;
+    width: 20%;
   }
   .contacto-seccion-2 .contacto-seccion-2-trabajo {
     height: 100px;
@@ -4178,12 +4178,12 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .contacto-seccion-2 {
-    width: 100vw;
+    width: 100%;
     height: 350px;
     background-color: rgb(216, 216, 216);
   }
   .contacto-seccion-2 .contacto-seccion-2-titulo {
-    width: 50vw;
+    width: 50%;
     height: 130px;
     margin-bottom: 0px;
     margin-left: 5vw;
@@ -4194,18 +4194,18 @@ footer .footer-copyright p {
     padding-left: 0px;
   }
   .contacto-seccion-2 .contacto-seccion-2-linea {
-    width: 10vw;
+    width: 10%;
     margin-left: 5vw;
   }
   .contacto-seccion-2 .contacto-seccion-2-linea hr {
     width: 10vw;
   }
   .contacto-seccion-2 .contacto-seccion-2-trabajo {
-    width: 95vw;
+    width: 95%;
     height: 190px;
   }
   .contacto-seccion-2 .contacto-seccion-2-trabajo .contacto-seccion-2-trabajo-parrafo {
-    width: 90vw;
+    width: 95%;
     height: 100px;
     margin-left: 5vw;
     padding-left: 0px;
@@ -4215,7 +4215,7 @@ footer .footer-copyright p {
     max-width: 1850px;
   }
   .contacto-seccion-2 .contacto-seccion-2-trabajo .contacto-seccion-2-trabajo-strong {
-    width: 50vw;
+    width: 55%;
     height: 100px;
     margin-left: 5vw;
     padding-left: 0px;
@@ -4223,11 +4223,11 @@ footer .footer-copyright p {
 }
 /* ___ Tercera sección ___ */
 .contacto-seccion-3 {
-  width: 100vw;
+  width: 100%;
   height: 980px;
 }
 .contacto-seccion-3 .contacto-seccion-3-imagen {
-  width: 100vw;
+  width: 100%;
   height: 300px;
   background-color: rgb(216, 216, 216);
 }
@@ -4237,7 +4237,7 @@ footer .footer-copyright p {
   object-fit: contain;
 }
 .contacto-seccion-3 .contacto-seccion-3-formulario {
-  width: 100vw;
+  width: 100%;
   height: 680px;
   background-color: #ffc72c;
   display: flex;
@@ -4355,19 +4355,20 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .contacto-seccion-3 {
+    width: 100%;
     height: 800px;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 800px;
     grid-template-areas: "foto formulario";
   }
   .contacto-seccion-3 .contacto-seccion-3-imagen {
-    width: 50vw;
+    width: 100%;
     height: 800px;
     grid-area: foto;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario {
-    width: 50vw;
+    width: 100%;
     height: 800px;
     grid-area: formulario;
     justify-content: space-around;
@@ -4376,18 +4377,21 @@ footer .footer-copyright p {
     font-size: min(14px + 1.75vw, 24px);
     margin-bottom: 0px;
   }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes {
+    width: 100%;
+  }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto {
     margin: 10px 0px;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-label {
-    width: 40vw;
+    width: 80%;
     font-size: min(12px + 1vw, 20px);
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-input {
-    width: 40vw;
+    width: 80%;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto textarea {
-    width: 40vw;
+    width: 80%;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-select {
     height: 45px;
