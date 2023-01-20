@@ -5,12 +5,12 @@
   /* ___ Primera sección o portada___ */
 
   .nosotros-portada{
-    width: 100vw;
+    width: 100%;
     height: 750px;
     background-color: $color-amarillo;
 
     .nosotros-portada-cuadro {
-        width:100vw;
+        width:100%;
         height: 45%;
         display: flex;
         justify-content: center;
@@ -38,7 +38,7 @@
     }
 
     .nosotros-portada-imagen{
-        width:100vw;
+        width:100%;
         height: 55%;
         display: flex;
         justify-content: center;
@@ -59,7 +59,7 @@
     .nosotros-portada{
         height: 500px;
         display: grid;
-        grid-template-columns: repeat(2, 50vw);
+        grid-template-columns: repeat(2, 50%);
         grid-template-rows: 500px;
         grid-template-areas: "cuadro imagen";
         
@@ -129,11 +129,11 @@
   /* ___ Segunda sección ___ */
 
 .nosotros-seccion-2 {
-    width: 100vw;
+    width: 100%;
     height: cal(1440px -5vw);
 
     .nosotros-seccion-2-titular {
-        width: 100vw;
+        width: 100%;
         height: 70px;
         background-color: $color-gris-claro;
     
@@ -167,7 +167,7 @@
     }
 
     .nosotros-seccion-2-foto {
-        width: 100vw;
+        width: 100%;
         max-height: 400px;
         background-color: $color-gris-claro;
     
@@ -176,7 +176,7 @@
         justify-content: flex-end;
 
         .nosotros-seccion-2-foto-foto {
-            width: 100vw;
+            width: 100%;
             max-height: 400px;
             object-fit: contain;
             display: block;
@@ -184,7 +184,7 @@
     }
 
     .nosotros-seccion-2-explicacion {
-        width: 100vw;
+        width: 100%;
         height: calc(1000px - 3vw);
     
         display: flex;
@@ -194,7 +194,7 @@
         padding: calc(40px + 0.5vw) 40px;
 
         & h2 {
-            width: 50vw;
+            width: 50%;
             font-size: 18.14px;
             color: $color-gris;
         }
@@ -277,11 +277,11 @@
 @media screen and (min-width:768px) {
 
     .nosotros-seccion-2 {
-        width: 100vw;
+        width: 100%;
         height: 1250px;
 
         .nosotros-seccion-2-explicacion {
-            width: 100vw;
+            width: 100%;
             height: 750px;
             padding: 30px 40px;
 
@@ -298,31 +298,20 @@
             }
         }
     }
-
-    // .nosotros-seccion-3 {
-    //     width: 100vw;
-    //     height: 1250px;
-    // }
-    
-    // .nosotros-seccion-3-explicacion {
-    //     width: 100vw;
-    //     height: 750px;
-    //     padding: 30px 40px;
-    // }
 }
 
 @media screen and (min-width: 1200px) {
 
     .nosotros-seccion-2 {
-        width: 100vw;
+        width: 100%;
         height: 850px;
         display: grid;
-        grid-template-columns: 50vw 50vw;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 100px 750px;
         grid-template-areas: "nosotrosSeccion2titular nosotrosSeccion2texto" "nosotrosSeccion2foto nosotrosSeccion2texto";
 
         .nosotros-seccion-2-titular {
-            width: 50vw;
+            width: 100%;
             height: 100px;
             background-color: $color-gris-claro;
         
@@ -340,7 +329,7 @@
         }
 
         .nosotros-seccion-2-foto {
-            width: 50vw;
+            width: 100%;
             max-height: 750px;
             background-color: $color-gris-claro;
         
@@ -351,7 +340,7 @@
             grid-area: nosotrosSeccion2foto;
 
             .nosotros-seccion-2-foto-foto {
-                width: 50vw;
+                width: 100%;
                 max-height: 750px;
                 object-fit: contain;
                 display: block;
@@ -359,7 +348,7 @@
         }
 
         .nosotros-seccion-2-explicacion {
-            width: 50vw;
+            width: 100%;
             height: 800px;
         
             display: flex;
@@ -370,7 +359,7 @@
             margin-top: 15px;
 
             & h2 {
-                width: 45vw;
+                width: 50%;
                 font-size: calc(14px + 1.25vw);
                 color: $color-gris;
             }
@@ -396,11 +385,11 @@
   /* ___ Tercera sección ___ */
 
 .nosotros-seccion-3 {
-    width: 100vw;
+    width: 100%;
     height: cal(1440px -5vw);
 
     .nosotros-seccion-3-titular {
-        width: 100vw;
+        width: 100%;
         height: 70px;
         background-color: $color-gris-claro;
     
@@ -429,7 +418,7 @@
     }
 
     .nosotros-seccion-3-foto {
-        width: 100vw;
+        width: 100%;
         max-height: 400px;
         background-color: $color-gris-claro;
     
@@ -438,7 +427,7 @@
         justify-content: flex-end;
 
         .nosotros-seccion-3-foto-foto {
-            width: 100vw;
+            width: 100%;
             max-height: 400px;
             object-fit: contain;
             display: block;
@@ -446,7 +435,7 @@
     }
 
     .nosotros-seccion-3-explicacion {
-        width: 100vw;
+        width: 100%;
         height: calc(1000px - 3vw);
     
         display: flex;
@@ -456,7 +445,7 @@
         padding: calc(40px + 0.5vw) 40px;
 
         & h2 {
-            width: 50vw;
+            width: 50%;
             font-size: 18.14px;
             color: $color-gris;
         }
@@ -499,11 +488,11 @@
 
 
     .nosotros-seccion-3 {
-        width: 100vw;
+        width: 100%;
         height: 1235px;
 
         .nosotros-seccion-3-explicacion {
-            width: 100vw;
+            width: 100%;
             height: 750px;
             padding: 30px 40px;
 
@@ -525,15 +514,15 @@
 @media screen and (min-width: 1200px) {
 
     .nosotros-seccion-3 {
-        width: 100vw;
+        width: 100%;
         height: 850px;
         display: grid;
-        grid-template-columns: 50vw 50vw;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 100px 750px;
         grid-template-areas: "nosotrosSeccion3texto nosotrosSeccion3titular" "nosotrosSeccion3texto nosotrosSeccion3foto";
 
         .nosotros-seccion-3-titular {
-            width: 50vw;
+            width: 100%;
             height: 100px;
             background-color: $color-gris-claro;
         
@@ -551,7 +540,7 @@
         }
 
         .nosotros-seccion-3-foto {
-            width: 50vw;
+            width: 100%;
             max-height: 750px;
             background-color: $color-gris-claro;
         
@@ -562,7 +551,7 @@
             grid-area: nosotrosSeccion3foto;
 
             .nosotros-seccion-3-foto-foto {
-                width: 50vw;
+                width: 100%;
                 max-height: 700px;
                 object-fit: contain;
                 display: block;
@@ -572,7 +561,7 @@
         }
 
         .nosotros-seccion-3-explicacion {
-            width: 50vw;
+            width: 100%;
             height: 800px;
         
             display: flex;
@@ -583,7 +572,7 @@
             margin-top: 15px;
 
             & h2 {
-                width: 50vw;
+                width: 50%;
                 font-size: calc(14px + 1.25vw);
                 color: $color-gris;
             }
@@ -608,12 +597,12 @@
   /* ___ Cuarta sección ___ */
 
 .nosotros-seccion-4 {
-    width: 100vw;
+    width: 100%;
     height: 850px;
     background-color: $color-gris-claro;
 
     .nosotros-seccion-4-linea {
-        width: 100vw;
+        width: 100%;
         height: 80px;
         padding-top: 50px;
         margin-bottom: 10px;
@@ -630,7 +619,7 @@
     }
 
     .nosotros-seccion-4-trabajo {
-        width: 100vw;
+        width: 100%;
         height: 750px;
         background-color: $color-gris-claro;
         display: flex;
@@ -694,12 +683,12 @@
 
 @media screen and (min-width: 768px) {
     .nosotros-seccion-4{
-        width: 100vw;
+        width: 100%;
         height: 1000px;
         background-color: $color-gris-claro;
 
         .nosotros-seccion-4-trabajo {
-            width: 100vw;
+            width: 100%;
             height: 850px;
             background-color: $color-gris-claro;
             display: flex;
@@ -720,29 +709,29 @@
 @media screen and (min-width: 1200px) {
 
     .nosotros-seccion-4{
-        width: 100vw;
+        width: 100%;
         height: 450px;
         background-color: $color-gris-claro;
         display: grid;
-        grid-template-columns: 100vw;
+        grid-template-columns: 100%;
         grid-template-rows: 80px 350px;
         grid-template-areas: "amarillo" "texto";
 
         .nosotros-seccion-4-linea {
-            width: 30vw;
+            width: 30%;
             height:80px;
             display: flex;
             justify-content: flex-start;
             align-items: center;
 
             .nosotros-seccion-4-linea-amarilla {
-                width: 20vw;
+                width: 20%;
                 height:15px;
             }
         }
 
         .nosotros-seccion-4-trabajo {
-            width: 100vw;
+            width: 100%;
             height: 350px;
             display: flex;
             flex-direction: row;
