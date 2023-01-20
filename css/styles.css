@@ -159,17 +159,17 @@ header .boton-header .menu-desplegable-texto:hover {
 /* === Footer === */
 footer {
   width: 100%;
-  height: 145px;
+  height: 160px;
   background-color: #404040;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(3, 45px);
+  grid-template-rows: repeat(3, 40px);
   grid-template-areas: "slogan" "logos" "copyright";
-  padding: 5px 0px;
+  padding: 20px 0px;
 }
 footer .footer-slogan {
   width: 100%;
-  height: 45px;
+  height: 40px;
   grid-area: slogan;
   text-align: center;
   display: flex;
@@ -184,7 +184,7 @@ footer .footer-slogan p {
 }
 footer .footer-botones {
   width: 100%;
-  height: 45px;
+  height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -193,20 +193,23 @@ footer .footer-botones {
   gap: calc(20px + 0.25vw);
 }
 footer .footer-botones a {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 35px;
   height: 35px;
 }
 footer .footer-botones a .footer-icono {
   width: 30px;
   height: 30px;
+  opacity: 0.5;
 }
 footer .footer-botones a .footer-icono:hover {
-  filter: blur(15px);
+  opacity: 1;
 }
 footer .footer-copyright {
   width: 100%;
-  height: 45px;
+  height: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -221,15 +224,15 @@ footer .footer-copyright p {
 /* Footer media screen */
 @media screen and (min-width: 768px) {
   footer {
-    height: 210px;
+    height: 220px;
     grid-template-rows: repeat(3, 60px);
-    padding: 15px 0px;
+    padding: 20px 0px;
   }
   footer .footer-slogan {
-    height: 60px;
+    height: 70px;
   }
   footer .footer-botones {
-    height: 60px;
+    height: 70px;
     gap: calc(30px + 0.25vw);
   }
   footer .footer-botones a {
@@ -241,7 +244,7 @@ footer .footer-copyright p {
     height: calc(35px + 0.2vw);
   }
   footer .footer-copyright {
-    height: 60px;
+    height: 70px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1822,24 +1825,24 @@ footer .footer-copyright p {
 /* === Servicios === */
 /* ___ Primera sección o portada___ */
 .servicios-portada {
-  width: 100vw;
+  width: 100%;
   height: 750px;
   background-color: #ffc72c;
 }
 .servicios-portada .servicios-portada-imagen {
-  width: 100vw;
+  width: 100%;
   height: 370px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .servicios-portada .servicios-portada-imagen img {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   object-fit: contain;
 }
 .servicios-portada .servicios-portada-cuadro {
-  width: 100vw;
+  width: 100%;
   height: 320px;
   display: flex;
   justify-content: center;
@@ -1865,9 +1868,10 @@ footer .footer-copyright p {
 /* servicios portada media screen */
 @media screen and (min-width: 768px) {
   .servicios-portada {
+    width: 100%;
     height: 500px;
     display: grid;
-    grid-template-columns: repeat(2, 50vw);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: 500px;
     justify-content: center;
     align-content: center;
@@ -1923,11 +1927,11 @@ footer .footer-copyright p {
 }
 /* ___ Segunda sección ___ */
 .servicios-seccion-2 {
-  width: 100vw;
+  width: 100%;
   height: 1650px;
 }
 .servicios-seccion-2 .servicios-seccion-2-introduccion {
-  width: 100vw;
+  width: 100%;
   height: calc(520px - 2.5vw);
   background-color: rgb(216, 216, 216);
   display: flex;
@@ -1959,16 +1963,16 @@ footer .footer-copyright p {
   max-width: 680px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion {
-  width: 100vw;
+  width: 100%;
   height: calc(1100px - 7.5vw);
   margin-top: 40px;
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50% 50%;
   grid-template-rows: repeat(5, calc(220px - 2vw));
   grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-ingenieria {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion1;
   display: flex;
@@ -1979,7 +1983,7 @@ footer .footer-copyright p {
   margin-top: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-ml {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion2;
   display: flex;
@@ -1990,7 +1994,7 @@ footer .footer-copyright p {
   margin-top: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-datos {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion3;
   display: flex;
@@ -2000,7 +2004,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-monitoreo {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion4;
   display: flex;
@@ -2010,7 +2014,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-comites {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion5;
   display: flex;
@@ -2020,7 +2024,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-arquitectura {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion6;
   display: flex;
@@ -2030,7 +2034,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-capacitaciones {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion7;
   display: flex;
@@ -2040,7 +2044,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-mercado {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion8;
   display: flex;
@@ -2050,7 +2054,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-logistica {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion9;
   display: flex;
@@ -2060,7 +2064,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-productos {
-  width: 50vw;
+  width: 100%;
   height: calc(220px - 2vw);
   grid-area: explicacion10;
   display: flex;
@@ -2135,7 +2139,7 @@ footer .footer-copyright p {
     height: calc(1460px - 15vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-introduccion {
-    width: 100vw;
+    width: 100%;
     height: calc(500px - 7.5vw);
     justify-content: center;
     gap: 30px;
@@ -2217,7 +2221,7 @@ footer .footer-copyright p {
     height: 550px;
     margin-top: 30px;
     margin-bottom: 0px;
-    grid-template-columns: repeat(5, 20vw);
+    grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(2, 250px);
     grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
   }
@@ -2228,27 +2232,27 @@ footer .footer-copyright p {
     font-size: calc(10px + 0.5vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-ingenieria {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion1;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-ml {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion2;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-datos {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion3;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-monitoreo {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion4;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-comites {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion5;
   }
@@ -2256,38 +2260,38 @@ footer .footer-copyright p {
     font-size: calc(10px + 0.5vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-arquitectura {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion6;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-capacitaciones {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion7;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-mercado {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion8;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-logistica {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion9;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-productos {
-    width: 20vw;
+    width: 100%;
     height: 250px;
     grid-area: explicacion10;
   }
 }
 /* ___ Tercera sección ___ */
 .servicios-seccion-3 {
-  width: 100vw;
+  width: 100%;
   height: calc(1430px - 30vw);
 }
 .servicios-seccion-3 .servicios-seccion-3-introduccion {
-  width: 100vw;
+  width: 100%;
   height: 450px;
   background-color: #ffc72c;
   display: flex;
@@ -2298,7 +2302,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-introduccion .servicios-seccion-3-introduccion-cuadro {
-  width: 90vw;
+  width: 90%;
   max-width: 345px;
   height: 350px;
   border-color: #404040;
@@ -2321,11 +2325,11 @@ footer .footer-copyright p {
   color: #404040;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion {
-  width: 100vw;
+  width: 100%;
   height: calc(920px - 30vw);
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50% 50%;
   grid-template-rows: repeat(4, calc(230px - 7.5vw));
   grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
 }
@@ -2342,7 +2346,7 @@ footer .footer-copyright p {
   padding: 5px 5px 5px 12px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-estrategico {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion1;
   display: flex;
@@ -2352,7 +2356,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-bi {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion2;
   display: flex;
@@ -2362,7 +2366,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-genero {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion3;
   display: flex;
@@ -2372,7 +2376,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-monitoreo {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion4;
   display: flex;
@@ -2382,7 +2386,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-seguridad {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion5;
   display: flex;
@@ -2392,7 +2396,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-accesibilidad {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion6;
   display: flex;
@@ -2402,7 +2406,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-innovacion {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion7;
   display: flex;
@@ -2412,7 +2416,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-informes {
-  width: 50vw;
+  width: 100%;
   height: 230px;
   grid-area: explicacion8;
   display: flex;
@@ -2425,7 +2429,7 @@ footer .footer-copyright p {
 /* servicios seccion 3 media screen */
 @media screen and (min-width: 480px) {
   .servicios-seccion-3 {
-    width: 100vw;
+    width: 100%;
     height: 1280px;
   }
   .servicios-seccion-3 .servicios-seccion-3-introduccion-cuadro {
@@ -2442,11 +2446,11 @@ footer .footer-copyright p {
     color: #404040;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion {
-    width: 100vw;
+    width: 100%;
     height: 760px;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(4, 190px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
   }
@@ -2477,11 +2481,11 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 768px) {
   .servicios-seccion-3 {
-    width: 100vw;
+    width: 100%;
     height: 1280px;
   }
   .servicios-seccion-3 .servicios-seccion-3-introduccion {
-    width: 100vw;
+    width: 100%;
     height: 450px;
     background-color: #ffc72c;
     display: flex;
@@ -2492,7 +2496,7 @@ footer .footer-copyright p {
     padding: 10px;
   }
   .servicios-seccion-3 .servicios-seccion-3-introduccion .servicios-seccion-3-introduccion-cuadro {
-    width: 90vw;
+    width: 90%;
     max-width: 500px;
     height: 350px;
     border-color: #404040;
@@ -2516,11 +2520,11 @@ footer .footer-copyright p {
     color: #404040;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion {
-    width: 100vw;
+    width: 100%;
     height: 760px;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(4, 190px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
   }
@@ -2554,15 +2558,15 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .servicios-seccion-3 {
-    width: 100vw;
+    width: 100%;
     height: 760px;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(2, 380px);
     grid-template-areas: "introduccion explicacion";
   }
   .servicios-seccion-3 .servicios-seccion-3-introduccion {
-    width: 50vw;
+    width: 100%;
     height: 760px;
     grid-area: introduccion;
     padding: 10px;
@@ -2580,11 +2584,11 @@ footer .footer-copyright p {
     font-size: min(10px + 0.55vw, 20.49px);
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion {
-    width: 50vw;
+    width: 100%;
     height: 760px;
     margin-top: 10px;
     grid-area: explicacion;
-    grid-template-columns: 25vw 25vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat 4, 190px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion h3 {
@@ -2594,12 +2598,12 @@ footer .footer-copyright p {
     font-size: calc(10px + 0.5vw);
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-estrategico {
-    width: 25vw;
+    width: 100%;
     height: 190px;
     margin-top: 10px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-bi {
-    width: 25vw;
+    width: 100%;
     height: 190px;
     margin-top: 10px;
   }
@@ -2608,33 +2612,33 @@ footer .footer-copyright p {
     height: 190px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-monitoreo {
-    width: 25vw;
+    width: 100%;
     height: 190px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-seguridad {
-    width: 25vw;
+    width: 100%;
     height: 190px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-accesibilidad {
-    width: 25vw;
+    width: 100%;
     height: 190px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-innovacion {
-    width: 25vw;
+    width: 100%;
     height: 190px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-informes {
-    width: 25vw;
+    width: 100%;
     height: 190px;
   }
 }
 /* ___ Cuarta sección ___ */
 .servicios-seccion-4 {
-  width: 100vw;
+  width: 100%;
   height: calc(1820px - 7.5vw);
 }
 .servicios-seccion-4 .servicios-seccion-4-introduccion {
-  width: 100vw;
+  width: 100%;
   height: 450px;
   background-color: rgb(216, 216, 216);
   display: flex;
@@ -2645,7 +2649,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro {
-  width: 90vw;
+  width: 90%;
   height: 350px;
   border-color: #404040;
   border-style: solid;
@@ -2667,11 +2671,11 @@ footer .footer-copyright p {
   color: #404040;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion {
-  width: 100vw;
+  width: 100%;
   height: calc(1320px - 30vw);
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50% 50%;
   grid-template-rows: repeat 6, calc(220px - 2vw);
   grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10" "explicacion11 explicacion12";
 }
@@ -2688,7 +2692,7 @@ footer .footer-copyright p {
   padding: 5px 5px 5px 12px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-marca {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion1;
   display: flex;
@@ -2698,7 +2702,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-redes {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion2;
   display: flex;
@@ -2708,7 +2712,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-web {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion3;
   display: flex;
@@ -2718,7 +2722,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-branding {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion4;
   display: flex;
@@ -2728,7 +2732,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-medios {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion5;
   display: flex;
@@ -2738,7 +2742,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-media {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion6;
   display: flex;
@@ -2748,7 +2752,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-publicidad {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion7;
   display: flex;
@@ -2758,7 +2762,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-influencer {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion8;
   display: flex;
@@ -2768,7 +2772,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-inbound {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion9;
   display: flex;
@@ -2778,7 +2782,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-experiencia {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion10;
   display: flex;
@@ -2788,7 +2792,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-manual {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion11;
   display: flex;
@@ -2798,7 +2802,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-eventos {
-  width: 50vw;
+  width: 100%;
   height: 220px;
   grid-area: explicacion12;
   display: flex;
@@ -2947,9 +2951,10 @@ footer .footer-copyright p {
     margin-right: 50px;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion {
+    width: 100%;
     height: 660px;
     margin-top: 20px;
-    grid-template-columns: repeat(4, 25vw);
+    grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat 3, 220px;
     grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4" "explicacion5 explicacion6 explicacion7 explicacion8" "explicacion9 explicacion10 explicacion11 explicacion12";
   }
@@ -2960,67 +2965,67 @@ footer .footer-copyright p {
     font-size: calc(10px + 0.5vw);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-marca {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion1;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-redes {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion2;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-web {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion3;
     background-color: rgb(216, 216, 216);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-branding {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion4;
     background-color: rgb(216, 216, 216);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-medios {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion5;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-media {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion6;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-publicidad {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion7;
     background-color: rgb(216, 216, 216);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-influencer {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion8;
     background-color: rgb(216, 216, 216);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-inbound {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion9;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-experiencia {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion10;
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-manual {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion11;
     background-color: rgb(216, 216, 216);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion .servicios-seccion-4-explicacion-eventos {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion12;
     background-color: rgb(216, 216, 216);
@@ -3029,12 +3034,12 @@ footer .footer-copyright p {
 }
 /* ___ Quinta sección ___ */
 .servicios-seccion-5 {
-  width: 100vw;
+  width: 100%;
   height: calc(1770px - 7.5vw);
   margin-top: 25px;
 }
 .servicios-seccion-5 .servicios-seccion-5-introduccion {
-  width: 100vw;
+  width: 100%;
   height: 700px;
   background-color: #ffc72c;
   display: flex;
@@ -3051,7 +3056,7 @@ footer .footer-copyright p {
   margin-top: 30px;
 }
 .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-imagen {
-  width: 100vw;
+  width: 100%;
   height: 200px;
   object-fit: contain;
   margin-bottom: 40px;
@@ -3069,11 +3074,11 @@ footer .footer-copyright p {
   color: #404040;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion {
-  width: 100vw;
+  width: 100%;
   height: calc(1000px - 7.5vw);
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50% 50%;
   grid-template-rows: repeat(5, calc(200px - 2vw));
   grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8" "explicacion9 explicacion10";
 }
@@ -3090,7 +3095,7 @@ footer .footer-copyright p {
   padding: 5px 5px 5px 12px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-desarrollo {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion1;
   display: flex;
@@ -3100,7 +3105,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-estrategia {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion2;
   display: flex;
@@ -3110,7 +3115,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-capacitacion {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion3;
   display: flex;
@@ -3120,7 +3125,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-monitoreo {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion4;
   display: flex;
@@ -3130,7 +3135,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-etica {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion5;
   display: flex;
@@ -3140,7 +3145,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-certificaciones {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion6;
   display: flex;
@@ -3150,7 +3155,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-residuos {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion7;
   display: flex;
@@ -3160,7 +3165,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-circular {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion8;
   display: flex;
@@ -3170,7 +3175,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-alianzas {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion9;
   display: flex;
@@ -3180,7 +3185,7 @@ footer .footer-copyright p {
   padding: 10px;
 }
 .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-impacto {
-  width: 50vw;
+  width: 100%;
   height: 200px;
   grid-area: explicacion10;
   display: flex;
@@ -3270,11 +3275,11 @@ footer .footer-copyright p {
     height: 950px;
   }
   .servicios-seccion-5 .servicios-seccion-5-introduccion {
-    width: 100vw;
+    width: 100%;
     height: 400px;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 20vw 80vw;
+    grid-template-columns: 20% 80%;
     grid-template-rows: 100px 70px 70px;
     grid-template-areas: "imagen titulo" "imagen texto1" "imagen texto2";
   }
@@ -3310,9 +3315,10 @@ footer .footer-copyright p {
     align-self: center;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion {
+    width: 100%;
     height: 500px;
     margin-top: 40px;
-    grid-template-columns: repeat(5, 20vw);
+    grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(2, 220px);
     grid-template-areas: "explicacion1 explicacion2 explicacion3 explicacion4 explicacion5" "explicacion6 explicacion7 explicacion8 explicacion9 explicacion10";
   }
@@ -3323,52 +3329,52 @@ footer .footer-copyright p {
     font-size: calc(10px + 0.5vw);
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-desarrollo {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion1;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-estrategia {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion2;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-capacitacion {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion3;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-monitoreo {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion4;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-etica {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion5;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-certificaciones {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion6;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-residuos {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion7;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-circular {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion8;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-alianzas {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion9;
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion .servicios-seccion-5-explicacion-impacto {
-    width: 20vw;
+    width: 100%;
     height: 220px;
     grid-area: explicacion10;
   }

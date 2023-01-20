@@ -2,17 +2,17 @@
 
 footer {
     width: 100%;
-    height: 145px;
+    height: 160px;
     background-color: $color-gris;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, 45px);
+    grid-template-rows: repeat(3, 40px);
     grid-template-areas: "slogan" "logos" "copyright";
-    padding: 5px 0px;
+    padding: 20px 0px;
 
     .footer-slogan {
     width: 100%;
-    height: 45px;
+    height: 40px;
     grid-area: slogan;
     text-align: center;
     display: flex;
@@ -24,12 +24,12 @@ footer {
         font-size: calc(12px + 0.7vw);
         font-weight: bold;
         color: white;
-      }
+    }
     }
 
     .footer-botones{
         width: 100%;
-        height: 45px;
+        height: 40px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -38,24 +38,27 @@ footer {
         gap: calc(20px + 0.25vw);
 
         & a {
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width:35px;
             height: 35px;
 
             .footer-icono{
                 width: 30px;
                 height: 30px;
+                opacity: 0.5;
             }
 
             .footer-icono:hover{
-                filter:blur(15px);
+                opacity: 1;
             }
         }
     }
 
     .footer-copyright{
         width: 100%;
-        height: 45px;
+        height: 40px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -74,16 +77,16 @@ footer {
 @media screen and (min-width: 768px){
 
     footer{
-        height: 210px;
+        height: 220px;
         grid-template-rows: repeat(3, 60px);
-        padding: 15px 0px;
+        padding: 20px 0px;
 
         .footer-slogan {
-            height: 60px;
+            height: 70px;
         }
 
         .footer-botones{
-            height: 60px;
+            height: 70px;
             gap: calc(30px + 0.25vw);
 
             & a {
@@ -98,7 +101,7 @@ footer {
         }
 
         .footer-copyright {
-            height: 60px;
+            height: 70px;
         }
     }
 }
