@@ -262,10 +262,6 @@
             width: 50%;
             height: 800px;
             background-color: $color-gris-claro;
-        
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: space-around;
     
             grid-area: innovacionSeccion2foto;
     
@@ -319,7 +315,7 @@
 
 .innovacion-seccion-3 {
     width: 100%;
-    height: calc(1550px - 15vw);
+    height: calc(1650px - 15vw);
     background-color: $color-gris-claro;   
 
     .innovacion-seccion-3-titulo {
@@ -339,7 +335,7 @@
 
     .innovacion-seccion-3-ml{
         width:100%;
-        height: calc(480px - 1vw);
+        height: calc(570px - 1vw);
         padding: 0px 20px;
 
         .innovacion-seccion-3-ml-titulo {

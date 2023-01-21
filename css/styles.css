@@ -1958,7 +1958,7 @@ footer .footer-copyright p {
 }
 .servicios-seccion-2 .servicios-seccion-2-introduccion .servicios-seccion-2-introduccion-parrafo {
   font-weight: 400;
-  font-size: 14.6px;
+  font-size: 14.8px;
   color: #404040;
   max-width: 680px;
 }
@@ -2091,12 +2091,12 @@ footer .footer-copyright p {
   .servicios-seccion-2 {
     height: calc(1460px - 5vw);
   }
-  .servicios-seccion-2 .servicios-seccion-2-introduccion-titulo {
+  .servicios-seccion-2 .servicios-seccion-2-introduccion .servicios-seccion-2-introduccion-titulo {
     font-size: min(14px + 2vw, 30px);
     max-width: 700px;
   }
-  .servicios-seccion-2 .servicios-seccion-2-introduccion-parrafo {
-    font-size: min(14.6px + 0.2vw, 20px);
+  .servicios-seccion-2 .servicios-seccion-2-introduccion .servicios-seccion-2-introduccion-parrafo {
+    font-size: calc(10px + 1vw);
     max-width: 700px;
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion {
@@ -2321,7 +2321,7 @@ footer .footer-copyright p {
 }
 .servicios-seccion-3 .servicios-seccion-3-introduccion .servicios-seccion-3-introduccion-cuadro .servicios-seccion-3-introduccion-parrafo {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 14.8px;
   color: #404040;
 }
 .servicios-seccion-3 .servicios-seccion-3-explicacion {
@@ -2432,17 +2432,17 @@ footer .footer-copyright p {
     width: 100%;
     height: 1280px;
   }
-  .servicios-seccion-3 .servicios-seccion-3-introduccion-cuadro {
+  .servicios-seccion-3 .servicios-seccion-3-introduccion .servicios-seccion-3-introduccion-cuadro {
     max-width: 450px;
   }
-  .servicios-seccion-3 .servicios-seccion-3-introduccion-cuadro .servicios-seccion-3-introduccion-titulo {
+  .servicios-seccion-3 .servicios-seccion-3-introduccion .servicios-seccion-3-introduccion-cuadro .servicios-seccion-3-introduccion-titulo {
     font-size: min(14px + 2vw, 30px);
     font-weight: bold;
     color: #404040;
   }
-  .servicios-seccion-3 .servicios-seccion-3-introduccion-cuadro .servicios-seccion-3-introduccion-parrafo {
+  .servicios-seccion-3 .servicios-seccion-3-introduccion .servicios-seccion-3-introduccion-cuadro .servicios-seccion-3-introduccion-parrafo {
     font-weight: 400;
-    font-size: min(14.6px + 0.2vw, 20px);
+    font-size: calc(10px + 1vw);
     color: #404040;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion {
@@ -2528,14 +2528,14 @@ footer .footer-copyright p {
     grid-template-rows: repeat(4, 190px);
     grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
   }
-  .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-estrategico {
-    height: 180px;
-  }
-  .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion h3 {
+  .servicios-seccion-3 .servicios-seccion-3-explicacion h3 {
     font-size: min(12px + 1.5vw, 26.3px);
   }
-  .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion p {
+  .servicios-seccion-3 .servicios-seccion-3-explicacion p {
     font-size: min(14.6px + 0.2vw, 20px);
+  }
+  .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-estrategico {
+    height: 180px;
   }
   .servicios-seccion-3 .servicios-seccion-3-explicacion .servicios-seccion-3-explicacion-bi {
     height: 180px;
@@ -2667,7 +2667,7 @@ footer .footer-copyright p {
 }
 .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-parrafo {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 14.8px;
   color: #404040;
 }
 .servicios-seccion-4 .servicios-seccion-4-explicacion {
@@ -2817,14 +2817,14 @@ footer .footer-copyright p {
   .servicios-seccion-4 {
     height: 1720px;
   }
-  .servicios-seccion-4 .servicios-seccion-4-introduccion-cuadro {
+  .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro {
     max-width: 450px;
   }
-  .servicios-seccion-4 .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-titulo {
+  .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-titulo {
     font-size: min(14px + 2vw, 30px);
   }
-  .servicios-seccion-4 .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-parrafo {
-    font-size: min(14.6px + 0.2vw, 20px);
+  .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-parrafo {
+    font-size: calc(10px + 1vw);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion {
     height: 1220px;
@@ -2873,13 +2873,13 @@ footer .footer-copyright p {
   .servicios-seccion-4 {
     height: 1500px;
   }
-  .servicios-seccion-4 .servicios-seccion-4-introduccion-cuadro {
+  .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro {
     max-width: 500px;
   }
-  .servicios-seccion-4 .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-titulo {
+  .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-titulo {
     font-size: min(14px + 2vw, 30px);
   }
-  .servicios-seccion-4 .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-parrafo {
+  .servicios-seccion-4 .servicios-seccion-4-introduccion .servicios-seccion-4-introduccion-cuadro .servicios-seccion-4-introduccion-parrafo {
     font-size: min(14.6px + 0.2vw, 20px);
   }
   .servicios-seccion-4 .servicios-seccion-4-explicacion {
@@ -3065,7 +3065,7 @@ footer .footer-copyright p {
 }
 .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo1 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 14.8px;
   color: #404040;
 }
 .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo2 {
@@ -3204,10 +3204,10 @@ footer .footer-copyright p {
     font-size: min(14px + 2vw, 30px);
   }
   .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo1 {
-    font-size: min(14.6px + 0.2vw, 20px);
+    font-size: calc(10px + 1vw);
   }
   .servicios-seccion-5 .servicios-seccion-5-introduccion .servicios-seccion-5-introduccion-parrafo2 {
-    font-size: min(14.6px + 0.2vw, 20px);
+    font-size: calc(10px + 1vw);
   }
   .servicios-seccion-5 .servicios-seccion-5-explicacion {
     height: 900px;
@@ -3636,7 +3636,7 @@ footer .footer-copyright p {
 /* ___ Tercera sección ___ */
 .innovacion-seccion-3 {
   width: 100%;
-  height: calc(1550px - 15vw);
+  height: calc(1650px - 15vw);
   background-color: rgb(216, 216, 216);
 }
 .innovacion-seccion-3 .innovacion-seccion-3-titulo {
@@ -3654,7 +3654,7 @@ footer .footer-copyright p {
 }
 .innovacion-seccion-3 .innovacion-seccion-3-ml {
   width: 100%;
-  height: calc(480px - 1vw);
+  height: calc(570px - 1vw);
   padding: 0px 20px;
 }
 .innovacion-seccion-3 .innovacion-seccion-3-ml .innovacion-seccion-3-ml-titulo {
@@ -4224,7 +4224,7 @@ footer .footer-copyright p {
 /* ___ Tercera sección ___ */
 .contacto-seccion-3 {
   width: 100%;
-  height: 980px;
+  height: 940px;
 }
 .contacto-seccion-3 .contacto-seccion-3-imagen {
   width: 100%;
@@ -4238,7 +4238,7 @@ footer .footer-copyright p {
 }
 .contacto-seccion-3 .contacto-seccion-3-formulario {
   width: 100%;
-  height: 680px;
+  height: 640px;
   background-color: #ffc72c;
   display: flex;
   flex-direction: column;
@@ -4326,13 +4326,13 @@ footer .footer-copyright p {
 /* contacto sección 3 media screen */
 @media screen and (min-width: 768px) {
   .contacto-seccion-3 {
-    height: 1150px;
+    height: calc(1030px - 2vw);
   }
   .contacto-seccion-3 .contacto-seccion-3-imagen {
     height: calc(450px - 10vw);
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario {
-    height: 700px;
+    height: calc(720px - 2vw);
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario h2 {
     font-size: min(14px + 1.75vw, 24px);

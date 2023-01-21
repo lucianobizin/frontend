@@ -2,7 +2,7 @@
 
   /* ___ Primera sección o portada___ */
 
-  .servicios-portada{
+.servicios-portada{
     width: 100%;
     height: 750px;
     background-color: $color-amarillo;
@@ -21,7 +21,7 @@
         }
     }
 
-    .servicios-portada-cuadro {
+    .servicios-portada-cuadro{
         width:100%;
         height: 320px;
         display: flex;
@@ -52,6 +52,7 @@
 /* servicios portada media screen */
 
 @media screen and (min-width: 768px) {
+
     .servicios-portada{
         width: 100%;
         height: 500px;
@@ -163,7 +164,7 @@
         
         .servicios-seccion-2-introduccion-parrafo{
             font-weight: 400;
-            font-size: 14.6px;
+            font-size: 14.8px;
             color: $color-gris;
             max-width: 680px;
         }
@@ -313,15 +314,21 @@
     .servicios-seccion-2 {
         height: calc(1460px - 5vw);
 
-        .servicios-seccion-2-introduccion-titulo{
-            font-size: MIN(calc(14px + 2vw), 30px);
-            max-width: 700px;
+        .servicios-seccion-2-introduccion{
+
+            .servicios-seccion-2-introduccion-titulo{
+                font-size: MIN(calc(14px + 2vw), 30px);
+                max-width: 700px;
+            }
+            
+            .servicios-seccion-2-introduccion-parrafo{
+                font-size: calc(10px + 1vw);
+                max-width: 700px;
+            }
+
         }
-        
-        .servicios-seccion-2-introduccion-parrafo{
-            font-size: MIN((14.6px + 0.2vw), 20px);
-            max-width: 700px;
-        }
+
+
 
         .servicios-seccion-2-explicacion {
             height: 900px;
@@ -601,7 +608,7 @@
 
             .servicios-seccion-3-introduccion-parrafo{
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 14.8px;
                 color: $color-gris;
             }
         }
@@ -724,23 +731,27 @@
 /* servicios seccion 3 media screen */
 
 @media screen and (min-width: 480px) {
+
     .servicios-seccion-3{
         width: 100%;
         height: 1280px;
 
-        .servicios-seccion-3-introduccion-cuadro{
-            max-width: 450px;
+        .servicios-seccion-3-introduccion{
 
-            .servicios-seccion-3-introduccion-titulo{
-                font-size: MIN(calc(14px + 2vw), 30px);
-                font-weight: bold;
-                color: $color-gris;
-            }
-
-            .servicios-seccion-3-introduccion-parrafo{
-                font-weight: 400;
-                font-size: MIN((14.6px + 0.2vw), 20px);
-                color: $color-gris;
+            .servicios-seccion-3-introduccion-cuadro{
+                max-width: 450px;
+    
+                .servicios-seccion-3-introduccion-titulo{
+                    font-size: MIN(calc(14px + 2vw), 30px);
+                    font-weight: bold;
+                    color: $color-gris;
+                }
+    
+                .servicios-seccion-3-introduccion-parrafo{
+                    font-weight: 400;
+                    font-size: calc(10px + 1vw);
+                    color: $color-gris;
+                }
             }
         }
 
@@ -845,16 +856,16 @@
             grid-template-rows: repeat(4, 190px);
             grid-template-areas: "explicacion1 explicacion2" "explicacion3 explicacion4" "explicacion5 explicacion6" "explicacion7 explicacion8";
 
-            .servicios-seccion-3-explicacion-estrategico {
-                height: 180px;
-            }
-        
-            .servicios-seccion-3-explicacion h3{
+            & h3{
                 font-size: MIN((12px + 1.5vw), 26.3px);
             }
         
-            .servicios-seccion-3-explicacion p {
+            & p {
                 font-size: MIN((14.6px + 0.2vw), 20px);
+            }
+
+            .servicios-seccion-3-explicacion-estrategico {
+                height: 180px;
             }
             
             .servicios-seccion-3-explicacion-bi {
@@ -1022,7 +1033,7 @@
 
             .servicios-seccion-4-introduccion-parrafo{
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 14.8px;
                 color: $color-gris;
             }
         }
@@ -1191,16 +1202,20 @@
     .servicios-seccion-4{
         height: 1720px;
 
-        .servicios-seccion-4-introduccion-cuadro{
-            max-width: 450px;
+        .servicios-seccion-4-introduccion{
 
-            .servicios-seccion-4-introduccion-titulo{
-                font-size: MIN(calc(14px + 2vw), 30px);
-            }
-        
-            .servicios-seccion-4-introduccion-parrafo{
-                font-size: MIN((14.6px + 0.2vw), 20px);
-            }
+            .servicios-seccion-4-introduccion-cuadro{
+                max-width: 450px;
+    
+                .servicios-seccion-4-introduccion-titulo{
+                    font-size: MIN(calc(14px + 2vw), 30px);
+                }
+            
+                .servicios-seccion-4-introduccion-parrafo{
+                    font-size: calc(10px + 1vw);
+                }
+        }
+
         }
 
         .servicios-seccion-4-explicacion{
@@ -1265,16 +1280,21 @@
     .servicios-seccion-4{
         height: 1500px;
 
-        .servicios-seccion-4-introduccion-cuadro{
-            max-width: 500px;
+        .servicios-seccion-4-introduccion{
 
-            .servicios-seccion-4-introduccion-titulo{
-                font-size: MIN(calc(14px + 2vw), 30px);
+            .servicios-seccion-4-introduccion-cuadro{
+                max-width: 500px;
+    
+                .servicios-seccion-4-introduccion-titulo{
+                    font-size: MIN(calc(14px + 2vw), 30px);
+                }
+            
+                .servicios-seccion-4-introduccion-parrafo{
+                    font-size: MIN((14.6px + 0.2vw), 20px)
+                }
             }
-        
-            .servicios-seccion-4-introduccion-parrafo{
-                font-size: MIN((14.6px + 0.2vw), 20px)
-            }
+
+
         }
 
         .servicios-seccion-4-explicacion{
@@ -1283,11 +1303,11 @@
             align-content: space-around;
 
             & h3{
-                font-size: MIN((12px + 1.5vw), 26.3px);
+                font-size: min(12px + 1.5vw, 26.3px);
             }
         
             & p {
-                font-size: MIN((14.6px + 0.2vw), 20px);
+                font-size: min(14.6px + 0.2vw, 20px);
             }
 
             .servicios-seccion-4-explicacion-marca {
@@ -1501,7 +1521,7 @@
         
         .servicios-seccion-5-introduccion-parrafo1 {
             font-weight: 500;
-            font-size: 14px;
+            font-size: 14.8px;
             color: $color-gris;
         }
         
@@ -1662,11 +1682,11 @@
             }
         
             .servicios-seccion-5-introduccion-parrafo1{
-                font-size: MIN((14.6px + 0.2vw), 20px);
+                font-size: calc(10px + 1vw);
             }
             
             .servicios-seccion-5-introduccion-parrafo2{
-                font-size: MIN((14.6px + 0.2vw), 20px);
+                font-size: calc(10px + 1vw);
             }
         }
 
@@ -1744,11 +1764,11 @@
             margin-top: 40px;
             
             & h3{
-                font-size: MIN((12px + 1.5vw), 26.3px);
+                font-size: MIN(12px + 1.5vw, 26.3px);
             }
         
             & p{
-                font-size: MIN((14.6px + 0.2vw), 20px);
+                font-size: MIN(14.6px + 0.2vw, 20px);
             }
         }
     }
