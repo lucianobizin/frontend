@@ -4266,11 +4266,15 @@ footer .footer-copyright p {
   margin-top: 10px;
   border-style: solid;
   border-color: #ffc72c;
+  padding: 5px;
+  font-size: 12px;
 }
 .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto textarea {
   width: 80vw;
   border-style: solid;
   border-color: #ffc72c;
+  padding: 5px;
+  font-size: 12px;
 }
 .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-select {
   width: 100px;
@@ -4343,6 +4347,12 @@ footer .footer-copyright p {
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-label {
     font-size: min(12px + 1vw, 18px);
   }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-input {
+    font-size: 14px;
+  }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto textarea {
+    font-size: 14px;
+  }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-select {
     font-size: 14px;
   }
@@ -4382,6 +4392,12 @@ footer .footer-copyright p {
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto {
     margin: 10px 0px;
+  }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-input {
+    font-size: 16px;
+  }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto textarea {
+    font-size: 16px;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-label {
     width: 80%;
