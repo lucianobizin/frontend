@@ -247,6 +247,11 @@
         
             transition: 0.5s;
 
+            &:hover {
+                border: 2px $color-amarillo solid;
+                background-color: $color-amarillo;
+            }
+
             .seccion-2-btns-brochure-texto {
                 font-size: 14px;
                 font-weight: 300;
@@ -257,11 +262,6 @@
                     color: $color-gris;
                     font-weight: bold;
                 }
-            }
-
-            &:hover {
-                border: 2px $color-amarillo solid;
-                background-color: $color-amarillo;
             }
         }
     }

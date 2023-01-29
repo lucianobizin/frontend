@@ -482,6 +482,10 @@ footer .footer-copyright p {
   align-items: center;
   transition: 0.5s;
 }
+.seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover {
+  border: 2px #ffc72c solid;
+  background-color: #ffc72c;
+}
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure .seccion-2-btns-brochure-texto {
   font-size: 14px;
   font-weight: 300;
@@ -491,10 +495,6 @@ footer .footer-copyright p {
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure .seccion-2-btns-brochure-texto:hover {
   color: #404040;
   font-weight: bold;
-}
-.seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover {
-  border: 2px #ffc72c solid;
-  background-color: #ffc72c;
 }
 
 /* index seccion 2 media screen */
@@ -3773,7 +3773,7 @@ footer .footer-copyright p {
   transition: 0.5s;
   color: #ffc72c;
 }
-.innovacion-seccion-3 .innovacion-seccion-3-pregunta .innovacion-seccion-3-pregunta-boton:hover a:hover {
+.innovacion-seccion-3 .innovacion-seccion-3-pregunta .innovacion-seccion-3-pregunta-boton:hover a {
   transition: 0.5s;
   color: #ffc72c;
 }
