@@ -4428,9 +4428,17 @@ footer .footer-copyright p {
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-input {
     width: 80%;
+    height: 40px;
+  }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-input::placeholder {
+    font-size: 14px;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto textarea {
     width: 80%;
+    padding-top: 10px;
+  }
+  .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto textarea::placeholder {
+    font-size: 14px;
   }
   .contacto-seccion-3 .contacto-seccion-3-formulario .contacto-seccion-3-formulario-partes .contacto-seccion-3-formulario-texto .contacto-seccion-3-formulario-texto-select {
     height: 45px;

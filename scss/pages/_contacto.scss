@@ -531,10 +531,20 @@
 
                     .contacto-seccion-3-formulario-texto-input {
                         width: 80%;
+                        height: 40px;
+
+                        &::placeholder{
+                            font-size: 14px;
+                        }
                     }
 
                     & textarea {
                         width: 80%;
+                        padding-top: 10px;
+
+                        &::placeholder{
+                            font-size: 14px;
+                        }
                     }
 
                     .contacto-seccion-3-formulario-texto-select {
