@@ -121,25 +121,29 @@
 @media screen and (min-width: 1200px) {
 
     .portada{
-        height: 810px;
-        grid-template-rows: 800px;
+        height: 615px;
+        grid-template-rows: 615px;
 
-        .portada-cuadro .portada-cuadro-texto{
-            width: 85%;
-            max-width: 734px;
+        .portada-cuadro{
+            padding-right: 30px;
+
+            .portada-cuadro-texto{
+            width: 72%;
+            max-width: 680px;
             border: 4px $color-gris solid;
             padding: 40px;
 
-            & h1{
-                max-width: 550px;
-                font-size: MIN(calc(20px + 2vw), 52.25px);
-                margin: 15px 0px;
-            }
+                & h1{
+                    max-width: 550px;
+                    font-size: MIN(calc(20px + 2vw), 52.25px);
+                    margin: 15px 0px;
+                }
 
-            & p{
-                max-width: 650px;
-                font-size: MIN(calc(12px + 0.75vw), 22px);
-            }
+                & p{
+                    max-width: 650px;
+                    font-size: MIN(calc(12px + 0.75vw), 22px);
+                }
+            } 
         }
     }
 }
@@ -247,18 +251,18 @@
         
             transition: 0.5s;
 
-            &:hover {
-                border: 2px $color-amarillo solid;
-                background-color: $color-amarillo;
-            }
-
             .seccion-2-btns-brochure-texto {
                 font-size: 14px;
                 font-weight: 300;
                 color: white;
                 transition: 0.5s;
+            }
 
-                &:hover {
+            &:hover {
+                border: 2px $color-amarillo solid;
+                background-color: $color-amarillo;
+
+                .seccion-2-btns-brochure-texto{
                     color: $color-gris;
                     font-weight: bold;
                 }
@@ -389,17 +393,17 @@
             height: 600px;
             grid-area: texto;
             padding-left: 40px;
-            justify-content: flex-start;
+            justify-content: space-evenly;
 
             & h2{
-                font-size: MIN(calc(30px + 1.5vw), 53px);
+                font-size: MIN(calc(18px + 2vw), 58px);
                 padding-top: 20px;
                 margin-bottom: 20px;
                 max-width: 760px;
             }
 
             .seccion-2-texto-titulo{
-                font-size: MIN(calc(18px + 1.5vw), 41px);
+                font-size: MIN(calc(16px + 1.40vw), 44px);
                 margin-bottom: 20px;
                 max-width: 760px;
             }
@@ -411,7 +415,7 @@
             }
             
             .seccion-2-texto-parrafos{
-                font-size: MIN(calc(15px + 0.5vw), 22.6px);
+                font-size: MIN(calc(12px + 0.5vw), 22px);
                 max-width: 696px;
             }
         }

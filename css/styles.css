@@ -96,7 +96,7 @@ header .boton-header input:checked ~ .menu-desplegable {
   flex-direction: column;
   justify-content: space-evenly;
 }
-header .boton-header .menu-desplegable-texto:hover {
+header .boton-header input:checked ~ .menu-desplegable .menu-desplegable-texto:hover {
   font-weight: bold;
 }
 
@@ -107,6 +107,7 @@ header .boton-header .menu-desplegable-texto:hover {
   }
   header .boton-header input:checked ~ .menu-desplegable {
     gap: 20px;
+    z-index: 2;
   }
 }
 @media screen and (min-width: 768px) {
@@ -142,15 +143,18 @@ header .boton-header .menu-desplegable-texto:hover {
     width: 100%;
     height: 100%;
     justify-items: center;
+    padding: 15px 10px 22px 10px;
   }
   header .boton-header {
     height: 15vh;
   }
-  header .boton-header .logo-menu {
-    width: 95%;
-    height: 95%;
+  header .boton-header label .logo-menu {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    padding: 5px;
+    position: relative;
+    bottom: 2.5px;
+    padding: 10px;
   }
   header .boton-header .menu-desplegable {
     height: 615px;
@@ -372,12 +376,15 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .portada {
-    height: 810px;
-    grid-template-rows: 800px;
+    height: 615px;
+    grid-template-rows: 615px;
+  }
+  .portada .portada-cuadro {
+    padding-right: 30px;
   }
   .portada .portada-cuadro .portada-cuadro-texto {
-    width: 85%;
-    max-width: 734px;
+    width: 72%;
+    max-width: 680px;
     border: 4px #404040 solid;
     padding: 40px;
   }
@@ -482,17 +489,17 @@ footer .footer-copyright p {
   align-items: center;
   transition: 0.5s;
 }
-.seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover {
-  border: 2px #ffc72c solid;
-  background-color: #ffc72c;
-}
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure .seccion-2-btns-brochure-texto {
   font-size: 14px;
   font-weight: 300;
   color: white;
   transition: 0.5s;
 }
-.seccion-2 .seccion-2-btns .seccion-2-btns-brochure .seccion-2-btns-brochure-texto:hover {
+.seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover {
+  border: 2px #ffc72c solid;
+  background-color: #ffc72c;
+}
+.seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover .seccion-2-btns-brochure-texto {
   color: #404040;
   font-weight: bold;
 }
@@ -599,16 +606,16 @@ footer .footer-copyright p {
     height: 600px;
     grid-area: texto;
     padding-left: 40px;
-    justify-content: flex-start;
+    justify-content: space-evenly;
   }
   .seccion-2 .seccion-2-texto h2 {
-    font-size: min(30px + 1.5vw, 53px);
+    font-size: min(18px + 2vw, 58px);
     padding-top: 20px;
     margin-bottom: 20px;
     max-width: 760px;
   }
   .seccion-2 .seccion-2-texto .seccion-2-texto-titulo {
-    font-size: min(18px + 1.5vw, 41px);
+    font-size: min(16px + 1.4vw, 44px);
     margin-bottom: 20px;
     max-width: 760px;
   }
@@ -618,7 +625,7 @@ footer .footer-copyright p {
     max-width: 760px;
   }
   .seccion-2 .seccion-2-texto .seccion-2-texto-parrafos {
-    font-size: min(15px + 0.5vw, 22.6px);
+    font-size: min(12px + 0.5vw, 22px);
     max-width: 696px;
   }
   .seccion-2 .seccion-2-imagenes {
@@ -1275,8 +1282,8 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .nosotros-portada {
-    height: 810px;
-    grid-template-rows: 810px;
+    height: 615px;
+    grid-template-rows: 615px;
   }
   .nosotros-portada .nosotros-portada-cuadro {
     height: 100%;
@@ -1902,17 +1909,24 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .servicios-portada {
-    height: 810px;
-    grid-template-rows: 810px;
+    height: 615px;
+    grid-template-rows: 615px;
   }
   .servicios-portada .servicios-portada-imagen {
     width: 85%;
     height: 85%;
     object-fit: contain;
+    position: relative;
+    bottom: 20px;
+  }
+  .servicios-portada .servicios-portada-cuadro {
+    padding-right: 40px;
+    position: relative;
+    bottom: 20px;
   }
   .servicios-portada .servicios-portada-cuadro .servicios-portada-cuadro-texto {
-    width: 85%;
-    max-width: 550px;
+    width: 78%;
+    max-width: 700px;
     max-height: 600px;
     border: 4px #404040 solid;
     padding: 40px;
@@ -2131,7 +2145,7 @@ footer .footer-copyright p {
     height: calc(180px - 2vw);
   }
   .servicios-seccion-2 .servicios-seccion-2-explicacion .servicios-seccion-2-explicacion-productos {
-    height: s calc(180px - 2vw);
+    height: calc(180px - 2vw);
   }
 }
 @media screen and (min-width: 768px) {
@@ -3468,8 +3482,8 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .innovacion-portada {
-    height: 810px;
-    grid-template-rows: 810px;
+    height: 615px;
+    grid-template-rows: 615px;
     grid-template-areas: "cuadro imagen";
   }
   .innovacion-portada .innovacion-portada-cuadro {
@@ -3477,6 +3491,8 @@ footer .footer-copyright p {
     height: 100%;
     max-width: 1200px;
     padding: 20px;
+    position: relative;
+    bottom: 15px;
   }
   .innovacion-portada .innovacion-portada-cuadro .innovacion-portada-cuadro-texto {
     width: 90%;
@@ -3495,6 +3511,8 @@ footer .footer-copyright p {
     height: 90%;
     width: 90%;
     object-fit: contain;
+    position: relative;
+    bottom: 15px;
   }
 }
 /* ___ Segunda sección ___ */
@@ -4044,15 +4062,18 @@ footer .footer-copyright p {
 }
 @media screen and (min-width: 1200px) {
   .contacto-portada {
-    height: 810px;
+    height: 615px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 810px;
+    grid-template-rows: 615px;
     grid-template-areas: "cuadro imagen";
   }
   .contacto-portada .contacto-portada-cuadro {
     width: 100%;
-    height: 810px;
+    height: 615px;
+    position: relative;
+    left: 30px;
+    bottom: 15px;
     grid-area: cuadro;
   }
   .contacto-portada .contacto-portada-cuadro .contacto-portada-cuadro-texto {
@@ -4071,11 +4092,13 @@ footer .footer-copyright p {
   }
   .contacto-portada .contacto-portada-imagen {
     width: 100%;
-    height: 810px;
+    height: 615px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    bottom: 15px;
     grid-area: imagen;
   }
   .contacto-portada .contacto-portada-imagen img {

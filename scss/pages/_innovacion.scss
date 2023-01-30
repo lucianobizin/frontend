@@ -106,8 +106,8 @@
 @media screen and (min-width: 1200px) {
 
     .innovacion-portada{
-        height: 810px;
-        grid-template-rows: 810px;
+        height: 615px;
+        grid-template-rows: 615px;
         grid-template-areas: "cuadro imagen";
 
         .innovacion-portada-cuadro{
@@ -115,6 +115,8 @@
             height: 100%;
             max-width: 1200px;
             padding: 20px;
+            position: relative;
+            bottom: 15px;
 
             .innovacion-portada-cuadro-texto{
                 width: 90%;
@@ -137,6 +139,8 @@
             height: 90%;
             width: 90%;
             object-fit: contain;
+            position: relative;
+            bottom: 15px;
         }
     }
 }
