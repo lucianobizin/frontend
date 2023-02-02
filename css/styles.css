@@ -1683,14 +1683,14 @@ footer .footer-copyright p {
 /* ___ Cuarta sección ___ */
 .nosotros-seccion-4 {
   width: 100%;
-  height: calc(880px - 10vw);
+  height: calc(990px - 10vw);
   background-color: rgb(216, 216, 216);
 }
 .nosotros-seccion-4 .nosotros-seccion-4-linea {
   width: 100%;
   height: 52px;
   padding-top: 50px;
-  margin-bottom: 36px;
+  margin-bottom: 52px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-linea .nosotros-seccion-4-linea-amarilla {
   width: 25vw;
@@ -1703,15 +1703,13 @@ footer .footer-copyright p {
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
   width: 100%;
-  height: 654px;
+  height: 800px;
   background-color: rgb(216, 216, 216);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: flex-start;
-  gap: 25px;
   padding: 20px;
-  margin-top: 37px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
   font-size: calc(14px + 1.5vw);
@@ -1733,7 +1731,7 @@ footer .footer-copyright p {
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
   display: block;
-  font-size: min(12px + 0.5vw, 14.27px);
+  font-size: min(12px + 0.5vw, 20px);
   margin-bottom: 30px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo a {
@@ -1762,12 +1760,15 @@ footer .footer-copyright p {
 @media screen and (min-width: 768px) {
   .nosotros-seccion-4 {
     width: 100%;
-    height: 828px;
+    height: calc(990px - 10vw);
     background-color: rgb(216, 216, 216);
+  }
+  .nosotros-seccion-4 .nosotros-seccion-4-linea {
+    margin-bottom: 20px;
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
     width: 100%;
-    height: 850px;
+    height: 800px;
     background-color: rgb(216, 216, 216);
     display: flex;
     flex-direction: column;
@@ -1777,24 +1778,25 @@ footer .footer-copyright p {
     margin-top: 30px;
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo h3 {
-    font-size: min(12px + 1.1vw, 20.65px);
+    font-size: min(12px + 1.1vw, 25.65px);
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
-    font-size: min(14px + 1.5vw, 16.6px);
+    font-size: min(14px + 1.5vw, 30px);
+    margin-bottom: 20px;
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
     max-width: 1100px;
-    font-size: min(12px + 0.5vw, 15.95px);
+    font-size: min(12px + 0.5vw, 20px);
   }
 }
 @media screen and (min-width: 1200px) {
   .nosotros-seccion-4 {
     width: 100%;
-    height: 450px;
+    height: 480px;
     background-color: rgb(216, 216, 216);
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 350px;
+    grid-template-rows: 80px 380px;
     grid-template-areas: "amarillo" "texto";
   }
   .nosotros-seccion-4 .nosotros-seccion-4-linea {
@@ -1810,12 +1812,15 @@ footer .footer-copyright p {
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
     width: 100%;
-    height: 350px;
+    height: 320px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 80px;
-    padding: 40px;
+    padding: 30px 40px;
+  }
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo h3 {
+    margin-top: 0px;
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
     font-size: calc(12px + 1vw);
@@ -1832,12 +1837,12 @@ footer .footer-copyright p {
     font-size: calc(12px + 1vw);
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
-    font-size: min(12px + 0.25vw, 17.2px);
+    font-size: min(12px + 0.25vw, 20px);
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo a {
     width: 200px;
     font-style: italic;
-    font-size: min(12px + 0.25vw, 17.2px);
+    font-size: min(12px + 0.25vw, 20px);
   }
 }
 /* === Servicios === */
