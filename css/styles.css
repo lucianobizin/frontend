@@ -1683,14 +1683,14 @@ footer .footer-copyright p {
 /* ___ Cuarta sección ___ */
 .nosotros-seccion-4 {
   width: 100%;
-  height: 850px;
+  height: calc(880px - 10vw);
   background-color: rgb(216, 216, 216);
 }
 .nosotros-seccion-4 .nosotros-seccion-4-linea {
   width: 100%;
-  height: 80px;
+  height: 52px;
   padding-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 36px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-linea .nosotros-seccion-4-linea-amarilla {
   width: 25vw;
@@ -1703,18 +1703,20 @@ footer .footer-copyright p {
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
   width: 100%;
-  height: 750px;
+  height: 654px;
   background-color: rgb(216, 216, 216);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-content: flex-start;
+  gap: 25px;
   padding: 20px;
+  margin-top: 37px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
   font-size: calc(14px + 1.5vw);
   color: #404040;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   margin-top: 15px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-partes {
@@ -1726,7 +1728,8 @@ footer .footer-copyright p {
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo h3 {
   font-size: calc(12px + 1.1vw);
   color: #404040;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: calc(80px - 10vw);
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
   display: block;
@@ -1743,6 +1746,8 @@ footer .footer-copyright p {
   border-style: solid;
   margin-bottom: 30px;
   transition: 1s;
+  display: inline-block;
+  margin-top: 0px;
 }
 .nosotros-seccion-4 .nosotros-seccion-4-trabajo a:hover {
   background-color: #ffc72c;
@@ -1757,7 +1762,7 @@ footer .footer-copyright p {
 @media screen and (min-width: 768px) {
   .nosotros-seccion-4 {
     width: 100%;
-    height: 1000px;
+    height: 828px;
     background-color: rgb(216, 216, 216);
   }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo {
@@ -1771,9 +1776,15 @@ footer .footer-copyright p {
     padding: 20px;
     margin-top: 30px;
   }
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo h3 {
+    font-size: min(12px + 1.1vw, 20.65px);
+  }
+  .nosotros-seccion-4 .nosotros-seccion-4-trabajo .nosotros-seccion-4-trabajo-titulo h2 {
+    font-size: min(14px + 1.5vw, 16.6px);
+  }
   .nosotros-seccion-4 .nosotros-seccion-4-trabajo p {
     max-width: 1100px;
-    font-size: min(12px + 0.5vw, 20px);
+    font-size: min(12px + 0.5vw, 15.95px);
   }
 }
 @media screen and (min-width: 1200px) {
