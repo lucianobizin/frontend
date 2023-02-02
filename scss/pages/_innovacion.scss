@@ -162,7 +162,7 @@
         padding: 40px;
 
         & h2 {
-            width: 50%;
+            width: 100%;
             font-size: calc(14px + 1.25vw);
             color: $color-gris;
         }
@@ -243,7 +243,8 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
-            padding: 10px 40px;
+            padding: 30px 40px;
+            margin-top: 10px;
         }
 
         .innovacion-seccion-2-foto {
@@ -289,6 +290,7 @@
             justify-content: space-around;
             align-items: flex-start;
             padding: 45px 40px 60px 40px;
+            margin-top: 0px;
     
             grid-area: innovacionSeccion2texto;
 

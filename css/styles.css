@@ -3546,7 +3546,7 @@ footer .footer-copyright p {
   padding: 40px;
 }
 .innovacion-seccion-2 .innovacion-seccion-2-explicacion h2 {
-  width: 50%;
+  width: 100%;
   font-size: calc(14px + 1.25vw);
   color: #404040;
 }
@@ -3610,7 +3610,8 @@ footer .footer-copyright p {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 10px 40px;
+    padding: 30px 40px;
+    margin-top: 10px;
   }
   .innovacion-seccion-2 .innovacion-seccion-2-foto {
     margin-top: 20px;
@@ -3647,6 +3648,7 @@ footer .footer-copyright p {
     justify-content: space-around;
     align-items: flex-start;
     padding: 45px 40px 60px 40px;
+    margin-top: 0px;
     grid-area: innovacionSeccion2texto;
   }
   .innovacion-seccion-2 .innovacion-seccion-2-explicacion h2 {
